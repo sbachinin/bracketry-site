@@ -1,4 +1,4 @@
-import { create_element_from_Html, is_object } from '../lib/utils/utils.mjs'
+import { create_element_from_Html, is_object } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
 import { escape_Html } from '../pages/escape_html.mjs'
 import * as elements from './elements.mjs'
 

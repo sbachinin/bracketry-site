@@ -1,4 +1,4 @@
-import { create_element_from_Html } from '../lib/utils/utils.mjs'
+import { create_element_from_Html } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
 
 export const create_tooltip = () => {
     const tooltip = create_element_from_Html(`

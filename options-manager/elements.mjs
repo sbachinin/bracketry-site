@@ -1,4 +1,4 @@
-import { create_element_from_Html } from '../lib/utils/utils.mjs'
+import { create_element_from_Html } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
 import { escape_Html } from '../pages/escape_html.mjs'
 export { create_tooltip } from './tooltip.mjs'
 export { option_explanation_button } from './option_explanation_button.mjs'

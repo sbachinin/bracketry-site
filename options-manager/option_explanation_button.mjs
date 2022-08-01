@@ -1,4 +1,4 @@
-import { create_element_from_Html } from '../lib/utils/utils.mjs'
+import { create_element_from_Html } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
 
 export const option_explanation_button = (explanation) => {
     const el = create_element_from_Html(`

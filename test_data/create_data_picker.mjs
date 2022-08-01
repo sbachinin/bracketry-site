@@ -1,5 +1,5 @@
 import { datas, INITIAL_TEST_DATA_INDEX } from './get_some_data.mjs'
-import { create_element_from_Html } from '../lib/utils/utils.mjs'
+import { create_element_from_Html } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
 import { get_root_folder } from '../utils.mjs'
 
 const icons = {
