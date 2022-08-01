@@ -1,5 +1,6 @@
 import { datas, INITIAL_TEST_DATA_INDEX } from './get_some_data.mjs'
-import { create_element_from_Html, get_root_folder, user_agent_is_mobile } from '../lib/utils/utils.mjs'
+import { create_element_from_Html } from '../lib/utils/utils.mjs'
+import { get_root_folder } from '../utils.mjs'
 
 const icons = {
     empty: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 2v5h5v15h-16v-20h11zm1-2h-14v24h20v-18l-6-6z"/></svg>',
@@ -7,7 +8,7 @@ const icons = {
 }
 
 const create_data_button = (data, cb) => {
-    const is_mobile = user_agent_is_mobile()
+    const is_mobile = /Mobi|Android/i.test(navigator.userAgent)
 
     const button = create_element_from_Html(`
         <div class="data-picker-button ${datas.indexOf(data) === INITIAL_TEST_DATA_INDEX ? 'selected' : ''}">

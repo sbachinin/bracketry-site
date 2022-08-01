@@ -3,7 +3,7 @@ import { get_default_options } from '../lib/options/options_meta_getter.mjs'
 import { get_option_input } from './get-option-input.mjs'
 import * as elements from './elements.mjs'
 import { get_options_group_heading } from './get_options_group_heading.mjs'
-import { throttle_with_trailing } from '../lib/utils/utils.mjs'
+import { throttle_with_trailing } from '../utils.mjs'
 import { create_user_options_text } from './user_options_text.mjs'
 
 const names_of_expanded_groups = []

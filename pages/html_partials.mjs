@@ -1,4 +1,4 @@
-import { get_root_folder } from '../lib/utils/utils.mjs'
+import { get_root_folder } from '../utils.mjs'
 
 export const home_link = `
     <a class="home-link" href="/${get_root_folder()}index.html">
