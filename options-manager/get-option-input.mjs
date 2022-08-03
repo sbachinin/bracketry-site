@@ -1,4 +1,4 @@
-import { utils } from 'easy-playoffs'
+import { create_element_from_Html, is_object } from '../pages/utils.mjs'
 import { escape_Html } from '../pages/escape_html.mjs'
 import * as elements from './elements.mjs'
 
@@ -7,7 +7,7 @@ export const get_option_input = (name, info, value, onchange) => {
 
     switch (info.type) {
         case 'number':
-            input = utils.create_element_from_Html(`
+            input = create_element_from_Html(`
                     <input type='number' value='${value}'></input>
             `)
             input.addEventListener('input', e => {
@@ -15,7 +15,7 @@ export const get_option_input = (name, info, value, onchange) => {
             })
             break
         case 'pixels':
-            input = utils.create_element_from_Html(`
+            input = create_element_from_Html(`
                 <div style="display:flex">
                     <input style="margin-right: 10px" type='number' value='${value}'></input>
                     <span style="font-weight: bold;">pixels</span>
@@ -26,7 +26,7 @@ export const get_option_input = (name, info, value, onchange) => {
             })
             break
         case 'string':
-            input = utils.create_element_from_Html(`
+            input = create_element_from_Html(`
                 <input type='text' value='${escape_Html(value)}'></input>
             `)
             input.addEventListener('input', e => {
@@ -34,12 +34,12 @@ export const get_option_input = (name, info, value, onchange) => {
             })
             break
         case 'function_or_null':
-            input = utils.create_element_from_Html(
+            input = create_element_from_Html(
                 `<i style="color: #929292">Sorry, no input</i>`
             )
             break
         case 'multiline_string':
-            input = utils.create_element_from_Html(`
+            input = create_element_from_Html(`
                 <textarea style="width: 100%; height: 100px;">${value}</textarea>
             `)
             input.addEventListener('input', e => {
@@ -47,11 +47,11 @@ export const get_option_input = (name, info, value, onchange) => {
             })
             break
         case 'select':
-            input = utils.create_element_from_Html(`
+            input = create_element_from_Html(`
                 <select>
                     ${info.options.map(option => {
-                        const v = utils.is_object(option) ? option.value : option
-                        const title = utils.is_object(option) ? option.title : option
+                        const v = is_object(option) ? option.value : option
+                        const title = is_object(option) ? option.title : option
                         return `<option value="${v}" ${v === value ? 'selected' : ''}>
                             ${title}
                         </option>`
@@ -64,7 +64,7 @@ export const get_option_input = (name, info, value, onchange) => {
             break
         case 'boolean':
             let checked = value
-            input = utils.create_element_from_Html(`
+            input = create_element_from_Html(`
                 <div class="checkbox ${checked ? 'checked' : ''}">V</div>
             `)
             input.addEventListener('click', () => { checked = !checked; onchange(name, checked ) })

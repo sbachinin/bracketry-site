@@ -1,4 +1,4 @@
-import { utils } from 'easy-playoffs'
+import { create_element_from_Html } from '../pages/utils.mjs'
 
 import { datas, INITIAL_TEST_DATA_INDEX } from './get_some_data.mjs'
 import { get_root_folder } from '../utils.mjs'
@@ -11,7 +11,7 @@ const icons = {
 const create_data_button = (data, cb) => {
     const is_mobile = /Mobi|Android/i.test(navigator.userAgent)
 
-    const button = utils.create_element_from_Html(`
+    const button = create_element_from_Html(`
         <div class="data-picker-button ${datas.indexOf(data) === INITIAL_TEST_DATA_INDEX ? 'selected' : ''}">
             ${icons[data.type]}
             <div class="data-picker-button-tooltip">${data.title}</div>
