@@ -1,4 +1,4 @@
-import { create_element_from_Html } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
+import { utils } from 'easy-playoffs'
 import { get_default_options } from '../node_modules/easy-playoffs/lib/options/options_meta_getter.mjs'
 
 const get_text = (options_to_values) => {
@@ -12,7 +12,7 @@ const get_text = (options_to_values) => {
 }
 
 export const create_user_options_text = (initial_options_to_values) => {
-    const text_el = create_element_from_Html(
+    const text_el = utils.create_element_from_Html(
         `<div style='
             border: 1px solid #ccc;
             white-space: pre;
@@ -25,7 +25,7 @@ export const create_user_options_text = (initial_options_to_values) => {
     )
 
 
-    const button = create_element_from_Html(`
+    const button = utils.create_element_from_Html(`
         <div style='
             border: 2px solid #ccc;
             display: inline-block;
@@ -52,7 +52,7 @@ export const create_user_options_text = (initial_options_to_values) => {
         text_el.innerHTML = get_text(options_to_values)
     }
 
-    const wrapper = create_element_from_Html(`
+    const wrapper = utils.create_element_from_Html(`
         <div style='
             margin: 70px 10px 0;
             background: #cfffe9;

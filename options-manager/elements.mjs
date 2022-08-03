@@ -1,9 +1,9 @@
-import { create_element_from_Html } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
+import { utils } from 'easy-playoffs'
 import { escape_Html } from '../pages/escape_html.mjs'
 export { create_tooltip } from './tooltip.mjs'
 export { option_explanation_button } from './option_explanation_button.mjs'
 
-export const inputs_root_wrapper = () => create_element_from_Html(
+export const inputs_root_wrapper = () => utils.create_element_from_Html(
     `<div
         class="options-manager-wrapper"
         style='
@@ -25,7 +25,7 @@ export const inputs_root_wrapper = () => create_element_from_Html(
 )
 
 export const sidebar_close_button = () => {
-    const button = create_element_from_Html(
+    const button = utils.create_element_from_Html(
         `<div
             class="sidebar-close-button"
             style='
@@ -56,7 +56,7 @@ export const options_group_heading = (
     text,
     options_type_name,
     names_of_expanded_groups
-) => create_element_from_Html(`
+) => utils.create_element_from_Html(`
     <div class="options-group-heading">
         ${text}
         <span class='${options_type_name}-arrow' style='
@@ -70,7 +70,7 @@ export const options_group_heading = (
     </div>
 `)
 
-export const option_wrapper_el = (option_name, option_info) => create_element_from_Html(
+export const option_wrapper_el = (option_name, option_info) => utils.create_element_from_Html(
     `<div class="single-option-wrapper">
         <span class="option-name">${option_name}</span>
             
@@ -84,7 +84,7 @@ export const option_wrapper_el = (option_name, option_info) => create_element_fr
     </div>`
 )
 
-export const grouped_inputs_wrapper = (options_type_name, names_of_expanded_groups) => create_element_from_Html(`
+export const grouped_inputs_wrapper = (options_type_name, names_of_expanded_groups) => utils.create_element_from_Html(`
     <div class='group-of-options ${options_type_name}' style='overflow: hidden; height: ${
         names_of_expanded_groups.includes(options_type_name)
         ? 'auto'

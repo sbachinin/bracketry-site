@@ -13,17 +13,15 @@
 
 <body>
     <script type="module">
-        import * as html_partials from './html_partials.mjs'
+        import { createPlayoffs, utils } from 'easy-playoffs'
 
-        import { createPlayoffs } from '../node_modules/easy-playoffs/lib/lib.mjs'
-        import { insert_styles } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
-        
+        import * as html_partials from './html_partials.mjs'
         import { examples_common_styles } from './examples_common_styles.mjs'
         import { get_some_data } from '../test_data/get_some_data.mjs'
         import { add_options_manager } from '../options-manager/options-manager.mjs'
         import { create_data_picker } from '../test_data/create_data_picker.mjs'
 
-        insert_styles('', 'common-styles', examples_common_styles)
+        utils.insert_styles('', 'common-styles', examples_common_styles)
 
         document.body.innerHTML = `
 

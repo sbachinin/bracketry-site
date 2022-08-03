@@ -1,7 +1,7 @@
-import { create_element_from_Html } from '../node_modules/easy-playoffs/lib/utils/utils.mjs'
+import { utils } from 'easy-playoffs'
 
 export const create_tooltip = () => {
-    const tooltip = create_element_from_Html(`
+    const tooltip = utils.create_element_from_Html(`
         <div
             id="option-input-tooltip"
             style="

@@ -2,7 +2,6 @@
   "name": "easy-playoffs-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +15,5 @@
     "url": "https://github.com/sbachinin/easy-playoffs-site/issues"
   },
   "homepage": "https://github.com/sbachinin/easy-playoffs-site#readme",
-  "dependencies": {
-    "easy-playoffs": "^1.0.0"
-  }
+  "dependencies": {}
 }
