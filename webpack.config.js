@@ -9,8 +9,8 @@ module.exports = {
         ['basic-stuff']: Path.resolve(__dirname, './pages/basic-stuff.js'),
     },
     output: {
-        path: Path.join(__dirname, './pages'),
-        filename: '[name]-bundle.js',
+        path: Path.join(__dirname, './pages/js_bundles'),
+        filename: '[name].js',
     },
     // optimization: {
     //     splitChunks: {

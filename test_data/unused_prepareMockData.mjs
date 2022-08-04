@@ -22,7 +22,6 @@ const get_contestants = all_data => {
                     .find(team_meta => team_meta.uuid === side.team_id)
 
                 contestants[side.team_id] = {
-                    ...contestant_orig_meta,
                     entry_status: contestant_orig_meta.seed ? String(contestant_orig_meta.seed) : contestant_orig_meta.entry_status?.abbr,
                     players: contestant_orig_meta.players
                         .map(player_id => prepare_single_player(all_data, player_id))
@@ -61,7 +60,8 @@ export const prepareMockData = orig_data => {
         ),
 
         matches: orig_data.matches.map((match) => ({
-            ...match,
+            match_id: match.match_id,
+            round_id: match.round_id,
             sides: get_sides_data(match.teams),
             order: match.order - 1,
             is_live: match.match_status !== null && match.match_status.name === 'Live',

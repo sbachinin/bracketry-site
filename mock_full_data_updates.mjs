@@ -1,6 +1,4 @@
-import data2 from './test_data/ausopen-dot-com-data-2021.mjs'
-import { prepareMockData } from './test_data/prepareMockData.mjs'
-
+import data from './test_data/finished-singles-2021.js'
 
 export const start_mock_full_data_updates = (applyFullDataUpdate) => {
     if (true) return
@@ -8,7 +6,7 @@ export const start_mock_full_data_updates = (applyFullDataUpdate) => {
 
     setInterval(() => {
         counter += 1
-        prepareMockData(data2).then(data => {
+        Promise.resolve(data).then(data => {
             data.matches = data.matches.map(m => {
                 return {
                     ...m,
