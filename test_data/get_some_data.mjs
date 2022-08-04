@@ -4,6 +4,7 @@ import unfinished_singles from './unfinished-singles.js'
 import finished_singles_2021 from './finished-singles-2021.js'
 import finished_singles_2022 from './finished-singles-2022.js'
 import unfinished_tennis_doubles from './unfinished-tennis-doubles.js'
+import finished_ucl from './ucl-finished.js'
 
 export const INITIAL_TEST_DATA_INDEX = 4
 
@@ -37,6 +38,12 @@ export const datas = [
         type: 'tennis',
         title: 'Tennis DOUBLES unfinished tournament',
         resolver: () => Promise.resolve(unfinished_tennis_doubles)
+    },
+    
+    {
+        type: 'football',
+        title: 'Champions League (football)',
+        resolver: () => Promise.resolve(finished_ucl)
     },
 ]
 
