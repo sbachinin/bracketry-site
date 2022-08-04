@@ -27,12 +27,3 @@ export const throttle_with_trailing = (callback, delay) => {
         }
     };
 }
-
-
-
-export const get_root_folder = () => {
-    if (location.hostname === 'sbachinin.github.io') {
-        return 'easy-playoffs/'
-    }
-    return ''
-}
