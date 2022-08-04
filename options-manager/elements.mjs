@@ -1,5 +1,5 @@
 import { create_element_from_Html } from '../pages/utils.mjs'
-import { escape_Html } from '../pages/escape_html.mjs'
+import { escape_Html } from '../pages/utils.mjs'
 export { create_tooltip } from './tooltip.mjs'
 export { option_explanation_button } from './option_explanation_button.mjs'
 

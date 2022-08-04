@@ -1,5 +1,5 @@
 import { create_element_from_Html, is_object } from '../pages/utils.mjs'
-import { escape_Html } from '../pages/escape_html.mjs'
+import { escape_Html } from '../pages/utils.mjs'
 import * as elements from './elements.mjs'
 
 export const get_option_input = (name, info, value, onchange) => {

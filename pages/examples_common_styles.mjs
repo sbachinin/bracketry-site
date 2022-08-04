@@ -1,4 +1,4 @@
-import { almost_black } from './constants.mjs'
+export const almost_black = '#373737'
 
 export const examples_common_styles = `
     html {

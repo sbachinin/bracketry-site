@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/sbachinin/easy-playoffs-site#readme",
   "dependencies": {
-    "easy-playoffs": "file:../easy-playoffs"
+    "easy-playoffs": "^1.0.0"
   }
 }

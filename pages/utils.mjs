@@ -17,3 +17,12 @@ export const insert_styles = (root_id, styles_id, styles) => {
         `<style id='${root_id}-${styles_id}'>${styles}</style>`
     )
 }
+
+export const escape_Html = unsafe => {
+    return String(unsafe)
+        ?.replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
