@@ -1,27 +1,23 @@
 export default {
     "rounds": [
         {
-            "id": "1",
             "name": "Round of 16"
         },
         {
-            "id": "2",
             "name": "Quarter-finals"
         },
         {
-            "id": "3",
             "name": "Semi-finals"
         },
         {
-            "id": "4",
             "name": "Final"
         }
     ],
     "matches": [
         
         {
-            "match_id": "0",
-            "round_id": "1",
+            "id": "0",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "benfica",
@@ -35,7 +31,7 @@ export default {
                             "is_winner": true
                         },
                     ],
-                    "is_winner": true
+                    "is_winner": true,
                 },
                 {
                     "contestant_id": "ajax",
@@ -60,8 +56,8 @@ export default {
 
 
         {
-            "match_id": "1",
-            "round_id": "1",
+            "id": "1",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "inter",
@@ -99,8 +95,8 @@ export default {
 
 
         {
-            "match_id": "2",
-            "round_id": "1",
+            "id": "2",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "villarreal",
@@ -138,8 +134,8 @@ export default {
 
 
         {
-            "match_id": "3",
-            "round_id": "1",
+            "id": "3",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "salzburg",
@@ -177,8 +173,8 @@ export default {
 
 
         {
-            "match_id": "4",
-            "round_id": "1",
+            "id": "4",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "sporting",
@@ -217,8 +213,8 @@ export default {
 
 
         {
-            "match_id": "5",
-            "round_id": "1",
+            "id": "5",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "atletico",
@@ -257,8 +253,8 @@ export default {
 
 
         {
-            "match_id": "6",
-            "round_id": "1",
+            "id": "6",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "chelsea",
@@ -296,8 +292,8 @@ export default {
 
 
         {
-            "match_id": "7",
-            "round_id": "1",
+            "id": "7",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "psg",
@@ -338,8 +334,8 @@ export default {
 
 
         {
-            "match_id": "8",
-            "round_id": "2",
+            "id": "8",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "benfica",
@@ -376,8 +372,8 @@ export default {
         },
 
         {
-            "match_id": "9",
-            "round_id": "2",
+            "id": "9",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "villarreal",
@@ -415,8 +411,8 @@ export default {
 
 
         {
-            "match_id": "10",
-            "round_id": "2",
+            "id": "10",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "city",
@@ -455,8 +451,8 @@ export default {
 
 
         {
-            "match_id": "11",
-            "round_id": "2",
+            "id": "11",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "chelsea",
@@ -494,8 +490,8 @@ export default {
 
 
         {
-            "match_id": "12",
-            "round_id": "3",
+            "id": "12",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "liverpool",
@@ -532,8 +528,8 @@ export default {
         },
 
         {
-            "match_id": "13",
-            "round_id": "3",
+            "id": "13",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "city",
@@ -570,8 +566,8 @@ export default {
         },
 
         {
-            "match_id": "14",
-            "round_id": "4",
+            "id": "14",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "liverpool",
@@ -604,7 +600,8 @@ export default {
             "players": [
                 {
                     "title": "Liverpool",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/liverpool.png",
+                    "nationality_code": 'EN'
                 }
             ]
         },
@@ -612,7 +609,8 @@ export default {
             "players": [
                 {
                     "title": "Real Madrid",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/real.png",
+                    "nationality_code": 'ESP'
                 }
             ]
         },
@@ -620,7 +618,8 @@ export default {
             "players": [
                 {
                     "title": "Villarreal",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/villarreal.png",
+                    "nationality_code": 'ESP'
                 }
             ]
         },
@@ -628,7 +627,8 @@ export default {
             "players": [
                 {
                     "title": "Manchester City",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CRO.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/city.png",
+                    "nationality_code": 'EN'
                 }
             ]
         },
@@ -636,7 +636,8 @@ export default {
             "players": [
                 {
                     "title": "Benfica",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/benfica.png",
+                    "nationality_code": 'POR'
                 }
             ]
         },
@@ -644,7 +645,8 @@ export default {
             "players": [
                 {
                     "title": "Bayern Munich",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/bayern.png",
+                    "nationality_code": 'GER'
                 }
             ]
         },
@@ -652,7 +654,8 @@ export default {
             "players": [
                 {
                     "title": "Atletico",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/atletico.png",
+                    "nationality_code": 'ESP'
                 }
             ]
         },
@@ -660,7 +663,8 @@ export default {
             "players": [
                 {
                     "title": "Chelsea",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/chelsea.png",
+                    "nationality_code": 'EN'
                 }
             ]
         },
@@ -668,7 +672,8 @@ export default {
             "players": [
                 {
                     "title": "Ajax",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/ajax.png",
+                    "nationality_code": 'NED'
                 }
             ]
         },
@@ -676,7 +681,8 @@ export default {
             "players": [
                 {
                     "title": "Inter",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/inter.png",
+                    "nationality_code": 'IT'
                 }
             ]
         },
@@ -684,7 +690,8 @@ export default {
             "players": [
                 {
                     "title": "Juventus",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/juventus.png",
+                    "nationality_code": 'IT'
                 }
             ]
         },
@@ -692,7 +699,8 @@ export default {
             "players": [
                 {
                     "title": "Salzburg",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/salzburg.png",
+                    "nationality_code": 'AUT'
                 }
             ]
         },
@@ -700,7 +708,8 @@ export default {
             "players": [
                 {
                     "title": "Sporting",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/sporting.png",
+                    "nationality_code": 'POR'
                 }
             ]
         },
@@ -708,7 +717,8 @@ export default {
             "players": [
                 {
                     "title": "Manchester United",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/TPE.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/mu.png",
+                    "nationality_code": 'EN'
                 }
             ]
         },
@@ -716,7 +726,8 @@ export default {
             "players": [
                 {
                     "title": "Lille",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SUI.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/lille.png",
+                    "nationality_code": 'FR'
                 }
             ]
         },
@@ -724,7 +735,8 @@ export default {
             "players": [
                 {
                     "title": "PSG",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/POR.svg"
+                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/psg.png",
+                    "nationality_code": 'FR'
                 }
             ]
         }

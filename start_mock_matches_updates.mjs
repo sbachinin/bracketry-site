@@ -1,8 +1,8 @@
 const live_match = {
     is_live: true,
-    match_id: "MS219",
+    id: "MS219",
     order: 18,
-    round_id: "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+    round_index: 0, // ???????
     sides: [{
         contestant_id: "163976",
         is_serving: false,
@@ -19,9 +19,9 @@ const live_match = {
 }
 
 const live_match2 = {
-    match_id: "MS220",
+    id: "MS220",
     order: 19,
-    round_id: "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+    round_index: 1, // ???????
     sides: [{
         contestant_id: "164341",
         score: [ {
@@ -39,9 +39,9 @@ const live_match2 = {
 
 
 const live_match3 = {
-    match_id: "MS288uhoih20",
+    id: "MS288uhoih20",
     order: 0,
-    round_id: "249f66ca-6969-4757-b271-1fa812e183da",
+    round_index: 3, // ???????
     sides: [{
         contestant_id: "199971",
         score: [ {
@@ -59,13 +59,13 @@ const live_match3 = {
 
 const items = ['15', '30', '40', 'A']
 
-export const start_mock_matches_updates = (applyMatchUpdates) => {
+export const start_mock_matches_updates = (applyMatchesUpdates) => {
     if (true) return
     setInterval(() => {
         live_match.sides[1].subscore = live_match.sides[1].subscore === '40' ? 'A' : '40'
         live_match2.sides[0].score[0].main_score = items[Math.floor(Math.random()*items.length)]
         live_match2.sides[1].score[0].main_score = items[Math.floor(Math.random()*items.length)]
-        applyMatchUpdates([ live_match, live_match2, live_match3 ])
+        applyMatchesUpdates([ live_match, live_match2, live_match3 ])
     }, 3000)
 }
 

@@ -1,34 +1,28 @@
 export default {
     "rounds": [
         {
-            "id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
             "name": "1st Round"
         },
         {
-            "id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
             "name": "2nd Round"
         },
         {
-            "id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
             "name": "3rd Round"
         },
         {
-            "id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
             "name": "Quarterfinals"
         },
         {
-            "id": "f8982c74-da2b-43bd-8227-1c224738ef1d",
             "name": "Semifinals"
         },
         {
-            "id": "4a5ad6a6-9b47-4ff0-b560-e2950a8eff57",
             "name": "Final"
         }
     ],
     "matches": [
         {
-            "match_id": "MD104",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD104",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200776",
@@ -64,8 +58,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD106",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD106",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200846",
@@ -103,8 +97,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MD112",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD112",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200906",
@@ -154,8 +148,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD119",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD119",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "204781",
@@ -201,8 +195,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD205",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD205",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200886",
@@ -238,8 +232,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD301",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD301",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200771",
@@ -287,8 +281,8 @@ export default {
             "match_status": "Live"
         },
         {
-            "match_id": "MD214",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD214",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200931",
@@ -326,8 +320,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD130",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD130",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200916",
@@ -373,8 +367,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD118",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD118",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200806",
@@ -410,8 +404,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD126",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD126",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200716",
@@ -447,8 +441,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD127",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD127",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200926",
@@ -484,8 +478,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD204",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD204",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200671",
@@ -521,8 +515,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD115",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD115",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200816",
@@ -566,8 +560,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD124",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD124",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200706",
@@ -605,8 +599,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD302",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD302",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200846",
@@ -624,8 +618,8 @@ export default {
             "match_status": "Walk-Over"
         },
         {
-            "match_id": "MD303",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD303",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200886",
@@ -661,8 +655,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD305",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD305",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200806",
@@ -684,8 +678,8 @@ export default {
             "match_status": "Scheduled"
         },
         {
-            "match_id": "MD206",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD206",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200796",
@@ -723,8 +717,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD210",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD210",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "204781",
@@ -760,8 +754,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD215",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD215",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200731",
@@ -799,8 +793,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD128",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD128",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200936",
@@ -844,8 +838,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD131",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD131",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200676",
@@ -881,8 +875,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MD201",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD201",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200686",
@@ -920,8 +914,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD101",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD101",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200686",
@@ -967,8 +961,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD109",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD109",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200886",
@@ -1004,8 +998,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD110",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD110",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200896",
@@ -1041,8 +1035,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD307",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD307",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200876",
@@ -1088,8 +1082,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD402",
-            "round_id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
+            "id": "MD402",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "200886",
@@ -1111,8 +1105,8 @@ export default {
             "match_status": "05.04.2020"
         },
         {
-            "match_id": "MD308",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD308",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200731",
@@ -1134,8 +1128,8 @@ export default {
             "match_status": "Scheduled"
         },
         {
-            "match_id": "MD208",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD208",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200821",
@@ -1179,8 +1173,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD401",
-            "round_id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
+            "id": "MD401",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "200741",
@@ -1195,8 +1189,8 @@ export default {
             "match_status": "05.04.2020"
         },
         {
-            "match_id": "MD304",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD304",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200826",
@@ -1232,8 +1226,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD212",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD212",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200661",
@@ -1277,8 +1271,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD113",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD113",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200826",
@@ -1316,8 +1310,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD117",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD117",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200626",
@@ -1363,8 +1357,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD203",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD203",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "204776",
@@ -1410,8 +1404,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD105",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD105",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200636",
@@ -1449,8 +1443,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD102",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD102",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200766",
@@ -1486,8 +1480,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD103",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD103",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200866",
@@ -1523,8 +1517,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD107",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD107",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200666",
@@ -1560,8 +1554,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD108",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD108",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200736",
@@ -1599,8 +1593,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD111",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD111",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200796",
@@ -1636,8 +1630,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD123",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD123",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200656",
@@ -1675,8 +1669,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD404",
-            "round_id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
+            "id": "MD404",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "200931",
@@ -1691,8 +1685,8 @@ export default {
             "match_status": "05.04.2020"
         },
         {
-            "match_id": "MD120",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD120",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200786",
@@ -1728,8 +1722,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD207",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD207",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200826",
@@ -1775,8 +1769,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD122",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD122",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200696",
@@ -1820,8 +1814,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD121",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD121",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200646",
@@ -1867,8 +1861,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD209",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD209",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200631",
@@ -1914,8 +1908,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD213",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD213",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200876",
@@ -1963,8 +1957,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD129",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD129",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200726",
@@ -1992,8 +1986,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MD125",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD125",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200876",
@@ -2029,8 +2023,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD132",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD132",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200746",
@@ -2066,8 +2060,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD216",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD216",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200676",
@@ -2103,8 +2097,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD114",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD114",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200836",
@@ -2144,8 +2138,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD306",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MD306",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "200646",
@@ -2167,8 +2161,8 @@ export default {
             "match_status": "Scheduled"
         },
         {
-            "match_id": "MD211",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD211",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200646",
@@ -2204,8 +2198,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD202",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MD202",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "200866",
@@ -2251,8 +2245,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MD116",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MD116",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "200756",

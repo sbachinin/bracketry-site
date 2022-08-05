@@ -1,38 +1,31 @@
 export default {
     "rounds": [
         {
-            "id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
             "name": "1st Round"
         },
         {
-            "id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
             "name": "2nd Round"
         },
         {
-            "id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
             "name": "3rd Round"
         },
         {
-            "id": "249f66ca-6969-4757-b271-1fa812e183da",
             "name": "4th Round"
         },
         {
-            "id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
             "name": "Quarterfinals"
         },
         {
-            "id": "f8982c74-da2b-43bd-8227-1c224738ef1d",
             "name": "Semifinals"
         },
         {
-            "id": "4a5ad6a6-9b47-4ff0-b560-e2950a8eff57",
             "name": "Final"
         }
     ],
     "matches": [
         {
-            "match_id": "MS701",
-            "round_id": "4a5ad6a6-9b47-4ff0-b560-e2950a8eff57",
+            "id": "MS701",
+            "round_index": 6,
             "sides": [
                 {
                     "contestant_id": "163911",
@@ -76,8 +69,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS502",
-            "round_id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
+            "id": "MS502",
+            "round_index": 4,
             "sides": [
                 {
                     "contestant_id": "164351",
@@ -129,8 +122,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS115",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS115",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164111",
@@ -178,8 +171,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS146",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS146",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163791",
@@ -223,8 +216,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS161",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS161",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164151",
@@ -276,8 +269,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS215",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS215",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164236",
@@ -321,8 +314,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS216",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS216",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "167131",
@@ -366,8 +359,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS104",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS104",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163921",
@@ -423,8 +416,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS402",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS402",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "164266",
@@ -470,8 +463,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS116",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS116",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163891",
@@ -527,8 +520,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS144",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS144",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163781",
@@ -574,8 +567,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS209",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS209",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163901",
@@ -619,8 +612,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS602",
-            "round_id": "f8982c74-da2b-43bd-8227-1c224738ef1d",
+            "id": "MS602",
+            "round_index": 5,
             "sides": [
                 {
                     "contestant_id": "163806",
@@ -664,8 +657,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS212",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS212",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164066",
@@ -719,8 +712,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS213",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS213",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164071",
@@ -764,8 +757,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS501",
-            "round_id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
+            "id": "MS501",
+            "round_index": 4,
             "sides": [
                 {
                     "contestant_id": "163911",
@@ -821,8 +814,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS143",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS143",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163851",
@@ -874,8 +867,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS145",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS145",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164241",
@@ -929,8 +922,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS147",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS147",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164181",
@@ -982,8 +975,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS302",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS302",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "163931",
@@ -1037,8 +1030,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS601",
-            "round_id": "f8982c74-da2b-43bd-8227-1c224738ef1d",
+            "id": "MS601",
+            "round_index": 5,
             "sides": [
                 {
                     "contestant_id": "163911",
@@ -1082,8 +1075,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS101",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS101",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163911",
@@ -1127,8 +1120,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS164",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS164",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164391",
@@ -1172,8 +1165,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS138",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS138",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164161",
@@ -1219,8 +1212,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS220",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS220",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164401",
@@ -1266,8 +1259,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS106",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS106",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163931",
@@ -1329,8 +1322,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS108",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS108",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164191",
@@ -1374,8 +1367,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS111",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS111",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164251",
@@ -1427,8 +1420,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS222",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS222",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163851",
@@ -1480,8 +1473,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS149",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS149",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164021",
@@ -1525,8 +1518,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS225",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS225",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164021",
@@ -1590,8 +1583,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS226",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS226",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164386",
@@ -1645,8 +1638,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS314",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS314",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164291",
@@ -1696,8 +1689,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS313",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS313",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164021",
@@ -1741,8 +1734,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS163",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS163",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164101",
@@ -1808,8 +1801,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS217",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS217",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163871",
@@ -1855,8 +1848,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS214",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS214",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164006",
@@ -1900,8 +1893,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS141",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS141",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164171",
@@ -1965,8 +1958,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS140",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS140",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164311",
@@ -2022,8 +2015,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS201",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS201",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163911",
@@ -2079,8 +2072,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS303",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS303",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "163826",
@@ -2134,8 +2127,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS202",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS202",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163831",
@@ -2201,8 +2194,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS304",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS304",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164281",
@@ -2246,8 +2239,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS117",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS117",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163901",
@@ -2293,8 +2286,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS114",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS114",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163861",
@@ -2338,8 +2331,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS118",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS118",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164271",
@@ -2383,8 +2376,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS113",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS113",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164281",
@@ -2430,8 +2423,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS103",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS103",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163831",
@@ -2477,8 +2470,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS401",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS401",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "163911",
@@ -2532,8 +2525,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS102",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS102",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163771",
@@ -2579,8 +2572,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS218",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS218",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163976",
@@ -2640,8 +2633,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS219",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS219",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164341",
@@ -2693,8 +2686,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS107",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS107",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163811",
@@ -2756,8 +2749,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS110",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS110",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163821",
@@ -2811,8 +2804,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS210",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS210",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163956",
@@ -2874,8 +2867,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS137",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS137",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164341",
@@ -2919,8 +2912,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MS503",
-            "round_id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
+            "id": "MS503",
+            "round_index": 4,
             "sides": [
                 {
                     "contestant_id": "163871",
@@ -2964,8 +2957,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS315",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS315",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164141",
@@ -3009,8 +3002,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS504",
-            "round_id": "eeb05201-5cd9-4fe8-8a85-46f40dbd86f1",
+            "id": "MS504",
+            "round_index": 4,
             "sides": [
                 {
                     "contestant_id": "164021",
@@ -3072,8 +3065,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS211",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS211",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164351",
@@ -3119,8 +3112,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS316",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS316",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164156",
@@ -3164,8 +3157,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS158",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS158",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164041",
@@ -3209,8 +3202,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS206",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS206",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164256",
@@ -3264,8 +3257,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS203",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS203",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163841",
@@ -3327,8 +3320,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS403",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS403",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "163901",
@@ -3372,8 +3365,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS227",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS227",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164291",
@@ -3417,8 +3410,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS126",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS126",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163991",
@@ -3462,8 +3455,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MS160",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS160",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164331",
@@ -3507,8 +3500,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS127",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS127",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164001",
@@ -3552,8 +3545,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS130",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS130",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164011",
@@ -3597,8 +3590,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS305",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS305",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "163901",
@@ -3658,8 +3651,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS105",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS105",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163841",
@@ -3703,8 +3696,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS112",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS112",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164261",
@@ -3764,8 +3757,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS120",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS120",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163961",
@@ -3819,8 +3812,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS228",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS228",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164371",
@@ -3872,8 +3865,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS230",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS230",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164031",
@@ -3917,8 +3910,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS129",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS129",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164231",
@@ -3972,8 +3965,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS121",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS121",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164351",
@@ -4019,8 +4012,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS122",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS122",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164361",
@@ -4072,8 +4065,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS155",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS155",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164371",
@@ -4127,8 +4120,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MS148",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS148",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163801",
@@ -4172,8 +4165,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS301",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS301",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "163911",
@@ -4235,8 +4228,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS162",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS162",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164301",
@@ -4280,8 +4273,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS139",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS139",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164401",
@@ -4329,8 +4322,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS306",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS306",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164351",
@@ -4366,8 +4359,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MS142",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS142",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164321",
@@ -4419,8 +4412,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS109",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS109",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163941",
@@ -4480,8 +4473,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS408",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS408",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "164141",
@@ -4525,8 +4518,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS208",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS208",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164116",
@@ -4570,8 +4563,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS310",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS310",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164341",
@@ -4623,8 +4616,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS309",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS309",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "163871",
@@ -4668,8 +4661,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS308",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS308",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164016",
@@ -4713,8 +4706,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS128",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS128",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164121",
@@ -4758,8 +4751,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS407",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS407",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "164021",
@@ -4777,8 +4770,8 @@ export default {
             "match_status": "Walk-Over"
         },
         {
-            "match_id": "MS119",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS119",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163951",
@@ -4822,8 +4815,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS152",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS152",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164091",
@@ -4883,8 +4876,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS221",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS221",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164176",
@@ -4946,8 +4939,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS154",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS154",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164051",
@@ -4991,8 +4984,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS224",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS224",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164181",
@@ -5036,8 +5029,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS223",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS223",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164241",
@@ -5089,8 +5082,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS204",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS204",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163811",
@@ -5144,8 +5137,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS307",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS307",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164071",
@@ -5189,8 +5182,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS159",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS159",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164031",
@@ -5242,8 +5235,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS231",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS231",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164156",
@@ -5297,8 +5290,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS311",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS311",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164321",
@@ -5344,8 +5337,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS406",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS406",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "163851",
@@ -5389,8 +5382,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS151",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS151",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164381",
@@ -5434,8 +5427,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS123",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS123",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164061",
@@ -5497,8 +5490,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS157",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS157",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164141",
@@ -5542,8 +5535,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS156",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS156",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164131",
@@ -5589,8 +5582,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS132",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS132",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163981",
@@ -5644,8 +5637,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS131",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS131",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "167131",
@@ -5697,8 +5690,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS150",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS150",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164081",
@@ -5742,8 +5735,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS124",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS124",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164221",
@@ -5789,8 +5782,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS405",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS405",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "163871",
@@ -5836,8 +5829,8 @@ export default {
             "match_status": "Retired"
         },
         {
-            "match_id": "MS404",
-            "round_id": "249f66ca-6969-4757-b271-1fa812e183da",
+            "id": "MS404",
+            "round_index": 3,
             "sides": [
                 {
                     "contestant_id": "164126",
@@ -5897,8 +5890,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS134",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS134",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164201",
@@ -5944,8 +5937,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS135",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS135",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163971",
@@ -6001,8 +5994,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS312",
-            "round_id": "2575c05f-63b9-4553-9896-b9aada5c7cb9",
+            "id": "MS312",
+            "round_index": 2,
             "sides": [
                 {
                     "contestant_id": "164241",
@@ -6062,8 +6055,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS205",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS205",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "163946",
@@ -6117,8 +6110,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS153",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS153",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164291",
@@ -6174,8 +6167,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS125",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS125",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164071",
@@ -6235,8 +6228,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS207",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS207",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164281",
@@ -6280,8 +6273,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS133",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS133",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "163871",
@@ -6325,8 +6318,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS229",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS229",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164141",
@@ -6388,8 +6381,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS232",
-            "round_id": "0c28cf42-c060-4e02-a45c-6435d03f9a48",
+            "id": "MS232",
+            "round_index": 1,
             "sides": [
                 {
                     "contestant_id": "164101",
@@ -6433,8 +6426,8 @@ export default {
             "match_status": "Complete"
         },
         {
-            "match_id": "MS136",
-            "round_id": "9158e17d-077f-40f8-bcc5-2d2fe9543432",
+            "id": "MS136",
+            "round_index": 0,
             "sides": [
                 {
                     "contestant_id": "164211",

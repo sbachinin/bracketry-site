@@ -5,6 +5,8 @@ import * as elements from './elements.mjs'
 import { get_options_group_heading } from './get_options_group_heading.mjs'
 import { throttle_with_trailing } from '../utils.mjs'
 import { create_user_options_text } from './user_options_text.mjs'
+import { insert_styles } from '../pages/utils.mjs'
+import { options_manager_styles } from './options-manager-styles.mjs'
 
 const names_of_expanded_groups = []
 const all_inputs = []
@@ -81,6 +83,7 @@ export const add_options_manager = (
     user_options_to_values
 ) => {
     const sidebar_el = elements.inputs_root_wrapper()
+    insert_styles('', 'options-manager-styles', options_manager_styles)
 
     create_inputs(
         user_options_to_values,

@@ -1,6 +1,6 @@
 import data from './test_data/finished-singles-2021.js'
 
-export const start_mock_full_data_updates = (applyFullDataUpdate) => {
+export const start_mock_full_data_updates = (mergeData) => {
     if (true) return
     let counter = 0
 
@@ -20,7 +20,7 @@ export const start_mock_full_data_updates = (applyFullDataUpdate) => {
                     })
                 }
             })
-            applyFullDataUpdate(data)
+            mergeData(data)
         })
     }, 3000)
 }

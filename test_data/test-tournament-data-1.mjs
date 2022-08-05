@@ -1,7 +1,7 @@
 const match1 = {
     order: 0,
-    match_id: 'match1',
-    round_id: 'round1',
+    id: 'match1',
+    round_index: 0,
     sides: [
         {
             contestant_id: 'a',
@@ -33,8 +33,8 @@ const match1 = {
 
 const match2 = {
     order: 1,
-    match_id: 'match2',
-    round_id: 'round1',
+    id: 'match2',
+    round_index: 0,
     sides: [
         {
             contestant_id: 'c',
@@ -51,11 +51,9 @@ const match2 = {
 export default {
     rounds: [
         {
-            id: 'round1',
             name: 'Ovo',
         },
         {
-            id: 'round2',
             name: 'Fin',
         }
     ],

@@ -56,12 +56,11 @@ export const prepareMockData = orig_data => {
     const contestants = get_contestants(orig_data)
     return Promise.resolve({
         rounds: orig_data.rounds.map(
-            round => ({ id: round.uuid, name: round.name })
+            round => ({ name: round.name })
         ),
 
         matches: orig_data.matches.map((match) => ({
-            match_id: match.match_id,
-            round_id: match.round_id,
+            id: match.match_id,
             sides: get_sides_data(match.teams),
             order: match.order - 1,
             is_live: match.match_status !== null && match.match_status.name === 'Live',
