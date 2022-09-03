@@ -17,316 +17,258 @@ export default {
         
         {
             "id": "0",
-            "round_index": 0,
-            "sides": [
-                {
-                    "contestant_id": "benfica",
-                    "score": [
-                        {
-                            "main_score": "2",
-                            "is_winner": false
-                        },
-                        {
-                            "main_score": "1",
-                            "is_winner": true
-                        },
-                    ],
-                    "is_winner": true,
-                },
-                {
-                    "contestant_id": "ajax",
-                    "score": [
-                        {
-                            "main_score": "2",
-                            "is_winner": false
-                        },
-                        {
-                            "main_score": "0",
-                            "is_winner": false
-                        },
-                    ],
-                    "is_winner": false
-                }
-            ],
+            "roundIndex": 0,
+            "sides": [],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": true,
+            
         },
 
 
 
         {
             "id": "1",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "inter",
+                    "contestantId": "inter",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": true
+                            "mainScore": "1",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "liverpool",
+                    "contestantId": "liverpool",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": true
+                            "mainScore": "2",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true,
+                    subscore: '23'
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": true,
         },
 
 
         {
             "id": "2",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "villarreal",
+                    "contestantId": "villarreal",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": true
+                            "mainScore": "3",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true,
+                    subscore: 2
                 },
                 {
-                    "contestant_id": "juventus",
+                    "contestantId": "juventus",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false,
+                    subscore: 1
                 }
             ],
             "order": 2,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            matchStatus: 'Paused'
         },
 
 
         {
             "id": "3",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "salzburg",
+                    "contestantId": "salzburg",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "bayern",
+                    "contestantId": "bayern",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 3,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            
         },
 
 
         {
             "id": "4",
-            "round_index": 0,
-            "sides": [
-                {
-                    "contestant_id": "sporting",
-                    "score": [
-                        {
-                            "main_score": "0",
-                            "is_winner": false
-                        },
-                        {
-                            "main_score": "0",
-                            "is_winner": false
-                        },
-                    ],
-                    "is_winner": false
-                },
-                {
-                    "contestant_id": "city",
-                    "score": [
-                        {
-                            "main_score": "5",
-                            "is_winner": true
-                        },
-                        {
-                            "main_score": "0",
-                            "is_winner": false
-                        },
-                    ],
-                    "is_winner": true
-                }
-            ],
+            "roundIndex": 0,
             "order": 4,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
 
 
 
         {
             "id": "5",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "atletico",
+                    "contestantId": "atletico",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": true
+                            "mainScore": "1",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "mu",
+                    "contestantId": "mu",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 5,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
         },
 
 
 
         {
             "id": "6",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "chelsea",
+                    "contestantId": "chelsea",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": true
+                            "mainScore": "2",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": true
+                            "mainScore": "2",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "lille",
+                    "contestantId": "lille",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 6,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            
         },
 
 
         {
             "id": "7",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "psg",
+                    "contestantId": "psg",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": true
+                            "mainScore": "1",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "real",
+                    "contestantId": "real",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": true
+                            "mainScore": "3",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 7,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            
         },
 
 
@@ -335,273 +277,274 @@ export default {
 
         {
             "id": "8",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "benfica",
+                    "contestantId": "benfica",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "liverpool",
+                    "contestantId": "liverpool",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": true
+                            "mainScore": "3",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            
         },
 
         {
             "id": "9",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "villarreal",
+                    "contestantId": "villarreal",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": true
+                            "mainScore": "1",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "bayern",
+                    "contestantId": "bayern",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "C"
         },
 
 
         {
             "id": "10",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "city",
+                    "contestantId": "city",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": true
+                            "mainScore": "1",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "atletico",
+                    "contestantId": "atletico",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 2,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
         },
 
 
 
         {
             "id": "11",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "chelsea",
+                    "contestantId": "chelsea",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner":  true
+                            "mainScore": "3",
+                            "isWinner":  true
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "real",
+                    "contestantId": "real",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": true
+                            "mainScore": "3",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 3,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": true,
+            
         },
 
 
         {
             "id": "12",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "liverpool",
+                    "contestantId": "liverpool",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": true
+                            "mainScore": "2",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": true
+                            "mainScore": "3",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true,
+                    isServing: true
                 },
                 {
-                    "contestant_id": "villarreal",
+                    "contestantId": "villarreal",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false,
+                    isServing: true
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            
         },
 
         {
             "id": "13",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "city",
+                    "contestantId": "city",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": true
+                            "mainScore": "4",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "real",
+                    "contestantId": "real",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": true
+                            "mainScore": "3",
+                            "isWinner": true
                         },
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            
         },
 
         {
             "id": "14",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "liverpool",
+                    "contestantId": "liverpool",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "real",
+                    "contestantId": "real",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": true
+                            "mainScore": "1",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            
         },
     ],
     "contestants": {
         "liverpool": {
+            entryStatus: 'WC',
             "players": [
                 {
                     "title": "Liverpool",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/liverpool.png",
-                    "nationality_code": 'EN'
+                    "nationality": "liverpool"
                 }
             ]
         },
@@ -609,8 +552,7 @@ export default {
             "players": [
                 {
                     "title": "Real Madrid",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/real.png",
-                    "nationality_code": 'ESP'
+                    "nationality": "real"
                 }
             ]
         },
@@ -618,8 +560,7 @@ export default {
             "players": [
                 {
                     "title": "Villarreal",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/villarreal.png",
-                    "nationality_code": 'ESP'
+                    "nationality": "villarreal"
                 }
             ]
         },
@@ -627,8 +568,7 @@ export default {
             "players": [
                 {
                     "title": "Manchester City",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/city.png",
-                    "nationality_code": 'EN'
+                    "nationality": "city"
                 }
             ]
         },
@@ -636,8 +576,7 @@ export default {
             "players": [
                 {
                     "title": "Benfica",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/benfica.png",
-                    "nationality_code": 'POR'
+                    "nationality": "benfica"
                 }
             ]
         },
@@ -645,8 +584,7 @@ export default {
             "players": [
                 {
                     "title": "Bayern Munich",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/bayern.png",
-                    "nationality_code": 'GER'
+                    "nationality": "bayern"
                 }
             ]
         },
@@ -654,8 +592,7 @@ export default {
             "players": [
                 {
                     "title": "Atletico",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/atletico.png",
-                    "nationality_code": 'ESP'
+                    "nationality": "atletico"
                 }
             ]
         },
@@ -663,8 +600,7 @@ export default {
             "players": [
                 {
                     "title": "Chelsea",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/chelsea.png",
-                    "nationality_code": 'EN'
+                    "nationality": "chelsea"
                 }
             ]
         },
@@ -672,8 +608,7 @@ export default {
             "players": [
                 {
                     "title": "Ajax",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/ajax.png",
-                    "nationality_code": 'NED'
+                    "nationality": "ajax"
                 }
             ]
         },
@@ -681,8 +616,7 @@ export default {
             "players": [
                 {
                     "title": "Inter",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/inter.png",
-                    "nationality_code": 'IT'
+                    "nationality": "inter"
                 }
             ]
         },
@@ -690,8 +624,7 @@ export default {
             "players": [
                 {
                     "title": "Juventus",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/juventus.png",
-                    "nationality_code": 'IT'
+                    "nationality": "juventus"
                 }
             ]
         },
@@ -699,8 +632,7 @@ export default {
             "players": [
                 {
                     "title": "Salzburg",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/salzburg.png",
-                    "nationality_code": 'AUT'
+                    "nationality": "salzburg"
                 }
             ]
         },
@@ -708,8 +640,7 @@ export default {
             "players": [
                 {
                     "title": "Sporting",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/sporting.png",
-                    "nationality_code": 'POR'
+                    "nationality": "sporting"
                 }
             ]
         },
@@ -717,8 +648,7 @@ export default {
             "players": [
                 {
                     "title": "Manchester United",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/mu.png",
-                    "nationality_code": 'EN'
+                    "nationality": "mu"
                 }
             ]
         },
@@ -726,8 +656,7 @@ export default {
             "players": [
                 {
                     "title": "Lille",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/lille.png",
-                    "nationality_code": 'FR'
+                    "nationality": "lille"
                 }
             ]
         },
@@ -735,8 +664,7 @@ export default {
             "players": [
                 {
                     "title": "PSG",
-                    "flag_url": "https://sbachinin.github.io/easy-playoffs-site/football_flags/psg.png",
-                    "nationality_code": 'FR'
+                    "nationality": "psg"
                 }
             ]
         }

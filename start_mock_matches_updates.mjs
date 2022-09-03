@@ -1,19 +1,19 @@
 const live_match = {
-    is_live: true,
+    isLive: true,
     id: "MS219",
     order: 18,
-    round_index: 0, // ???????
+    roundIndex: 0, // ???????
     sides: [{
-        contestant_id: "163976",
-        is_serving: false,
-        is_winner: false,
-        score: [ { main_score: "4"}, { main_score: "1" } ],
+        contestantId: "163976",
+        isServing: false,
+        isWinner: false,
+        score: [ { mainScore: "4"}, { mainScore: "1" } ],
         subscore: "40"
     }, {
-        contestant_id: "164216",
-        is_serving: true,
-        is_winner: false,
-        score: [ { main_score: "6" }, { main_score: "0" } ],
+        contestantId: "164216",
+        isServing: true,
+        isWinner: false,
+        score: [ { mainScore: "6" }, { mainScore: "0" } ],
         subscore: "40"
     }]
 }
@@ -21,17 +21,17 @@ const live_match = {
 const live_match2 = {
     id: "MS220",
     order: 19,
-    round_index: 1, // ???????
+    roundIndex: 1, // ???????
     sides: [{
-        contestant_id: "164341",
+        contestantId: "164341",
         score: [ {
-            main_score: "", tie_break: undefined
+            mainScore: "", tieBreak: undefined
         } ],
         subscore: ""
     }, {
-        contestant_id: "164166",
+        contestantId: "164166",
         score: [ {
-            main_score: "", tie_break: undefined
+            mainScore: "", tieBreak: undefined
         } ],
         subscore: ""
     }]
@@ -41,17 +41,17 @@ const live_match2 = {
 const live_match3 = {
     id: "MS288uhoih20",
     order: 0,
-    round_index: 3, // ???????
+    roundIndex: 3, // ???????
     sides: [{
-        contestant_id: "199971",
+        contestantId: "199971",
         score: [ {
-            main_score: "", tie_break: undefined
+            mainScore: "", tieBreak: undefined
         } ],
         subscore: ""
     }, {
-        contestant_id: "199146",
+        contestantId: "199146",
         score: [ {
-            main_score: "", tie_break: undefined
+            mainScore: "", tieBreak: undefined
         } ],
         subscore: ""
     }]
@@ -63,8 +63,8 @@ export const start_mock_matches_updates = (applyMatchesUpdates) => {
     if (true) return
     setInterval(() => {
         live_match.sides[1].subscore = live_match.sides[1].subscore === '40' ? 'A' : '40'
-        live_match2.sides[0].score[0].main_score = items[Math.floor(Math.random()*items.length)]
-        live_match2.sides[1].score[0].main_score = items[Math.floor(Math.random()*items.length)]
+        live_match2.sides[0].score[0].mainScore = items[Math.floor(Math.random()*items.length)]
+        live_match2.sides[1].score[0].mainScore = items[Math.floor(Math.random()*items.length)]
         applyMatchesUpdates([ live_match, live_match2, live_match3 ])
     }, 3000)
 }

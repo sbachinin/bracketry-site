@@ -14,7 +14,7 @@ export const start_mock_full_data_updates = (mergeData) => {
                         return {
                             ...s,
                             score: s.score.map(ss => {
-                                return { ...ss, main_score: (parseInt(ss.main_score) || 0) + counter + '' }
+                                return { ...ss, mainScore: (parseInt(ss.mainScore) || 0) + counter + '' }
                             })
                         }
                     })

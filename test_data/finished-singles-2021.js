@@ -25,6450 +25,6450 @@ export default {
     "matches": [
         {
             "id": "MS701",
-            "round_index": 6,
+            "roundIndex": 6,
             "sides": [
                 {
-                    "contestant_id": "163911",
+                    "contestantId": "163911",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163806",
+                    "contestantId": "163806",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS502",
-            "round_index": 4,
+            "roundIndex": 4,
             "sides": [
                 {
-                    "contestant_id": "164351",
+                    "contestantId": "164351",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164016",
+                    "contestantId": "164016",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS115",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164111",
+                    "contestantId": "164111",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 1,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 1,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164116",
+                    "contestantId": "164116",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 14,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS146",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163791",
+                    "contestantId": "163791",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163796",
+                    "contestantId": "163796",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 45,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS161",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164151",
+                    "contestantId": "164151",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164156",
+                    "contestantId": "164156",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 60,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS215",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164236",
+                    "contestantId": "164236",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164016",
+                    "contestantId": "164016",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 14,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS216",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "167131",
+                    "contestantId": "167131",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163986",
+                    "contestantId": "163986",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 15,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS104",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163921",
+                    "contestantId": "163921",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163926",
+                    "contestantId": "163926",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 3,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS402",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "164266",
+                    "contestantId": "164266",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163896",
+                    "contestantId": "163896",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS116",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163891",
+                    "contestantId": "163891",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 10,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 10,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163896",
+                    "contestantId": "163896",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 8,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 8,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 15,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS144",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163781",
+                    "contestantId": "163781",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163786",
+                    "contestantId": "163786",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 43,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS209",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163901",
+                    "contestantId": "163901",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164271",
+                    "contestantId": "164271",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 8,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS602",
-            "round_index": 5,
+            "roundIndex": 5,
             "sides": [
                 {
-                    "contestant_id": "163806",
+                    "contestantId": "163806",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164021",
+                    "contestantId": "164021",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS212",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164066",
+                    "contestantId": "164066",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164226",
+                    "contestantId": "164226",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 11,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS213",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164071",
+                    "contestantId": "164071",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163996",
+                    "contestantId": "163996",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 12,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS501",
-            "round_index": 4,
+            "roundIndex": 4,
             "sides": [
                 {
-                    "contestant_id": "163911",
+                    "contestantId": "163911",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163896",
+                    "contestantId": "163896",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS143",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163851",
+                    "contestantId": "163851",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163856",
+                    "contestantId": "163856",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 42,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS145",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164241",
+                    "contestantId": "164241",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164246",
+                    "contestantId": "164246",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 44,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS147",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164181",
+                    "contestantId": "164181",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164186",
+                    "contestantId": "164186",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 46,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS302",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "163931",
+                    "contestantId": "163931",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164196",
+                    "contestantId": "164196",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS601",
-            "round_index": 5,
+            "roundIndex": 5,
             "sides": [
                 {
-                    "contestant_id": "163911",
+                    "contestantId": "163911",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164016",
+                    "contestantId": "164016",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS101",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163911",
+                    "contestantId": "163911",
                     "score": [
                         {
-                            "main_score": "62",
-                            "is_winner": true
+                            "mainScore": "62",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163916",
+                    "contestantId": "163916",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS164",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164391",
+                    "contestantId": "164391",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164396",
+                    "contestantId": "164396",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 63,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS138",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164161",
+                    "contestantId": "164161",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 0,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 0,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164166",
+                    "contestantId": "164166",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 37,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS220",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164401",
+                    "contestantId": "164401",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 8,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 8,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164311",
+                    "contestantId": "164311",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 10,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 10,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 19,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS106",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163931",
+                    "contestantId": "163931",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163936",
+                    "contestantId": "163936",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 5,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS108",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164191",
+                    "contestantId": "164191",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164196",
+                    "contestantId": "164196",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 7,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS111",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164251",
+                    "contestantId": "164251",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164256",
+                    "contestantId": "164256",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 10,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS222",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163851",
+                    "contestantId": "163851",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163786",
+                    "contestantId": "163786",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 21,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS149",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164021",
+                    "contestantId": "164021",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164026",
+                    "contestantId": "164026",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 48,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS225",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164021",
+                    "contestantId": "164021",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164081",
+                    "contestantId": "164081",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 24,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS226",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164386",
+                    "contestantId": "164386",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164091",
+                    "contestantId": "164091",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 25,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS314",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164291",
+                    "contestantId": "164291",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 1,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 1,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164136",
+                    "contestantId": "164136",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 13,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS313",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164021",
+                    "contestantId": "164021",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164091",
+                    "contestantId": "164091",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 12,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS163",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164101",
+                    "contestantId": "164101",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164106",
+                    "contestantId": "164106",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 62,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS217",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163871",
+                    "contestantId": "163871",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 10,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 10,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164201",
+                    "contestantId": "164201",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 8,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 8,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 16,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS214",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164006",
+                    "contestantId": "164006",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164126",
+                    "contestantId": "164126",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 13,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS141",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164171",
+                    "contestantId": "164171",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164176",
+                    "contestantId": "164176",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 40,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS140",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164311",
+                    "contestantId": "164311",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 1,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 1,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164316",
+                    "contestantId": "164316",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 39,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS201",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163911",
+                    "contestantId": "163911",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163771",
+                    "contestantId": "163771",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS303",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "163826",
+                    "contestantId": "163826",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164266",
+                    "contestantId": "164266",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 2,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS202",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163831",
+                    "contestantId": "163831",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163926",
+                    "contestantId": "163926",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS304",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164281",
+                    "contestantId": "164281",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163896",
+                    "contestantId": "163896",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 3,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS117",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163901",
+                    "contestantId": "163901",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163906",
+                    "contestantId": "163906",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 16,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS114",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163861",
+                    "contestantId": "163861",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163866",
+                    "contestantId": "163866",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 13,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS118",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164271",
+                    "contestantId": "164271",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164276",
+                    "contestantId": "164276",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 17,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS113",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164281",
+                    "contestantId": "164281",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164286",
+                    "contestantId": "164286",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 12,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS103",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163831",
+                    "contestantId": "163831",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163836",
+                    "contestantId": "163836",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 2,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS401",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "163911",
+                    "contestantId": "163911",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164196",
+                    "contestantId": "164196",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS102",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163771",
+                    "contestantId": "163771",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163776",
+                    "contestantId": "163776",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 1,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS218",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163976",
+                    "contestantId": "163976",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164216",
+                    "contestantId": "164216",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 17,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS219",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164341",
+                    "contestantId": "164341",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164166",
+                    "contestantId": "164166",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 18,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS107",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163811",
+                    "contestantId": "163811",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163816",
+                    "contestantId": "163816",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 6,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS110",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163821",
+                    "contestantId": "163821",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163826",
+                    "contestantId": "163826",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 9,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS210",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163956",
+                    "contestantId": "163956",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163966",
+                    "contestantId": "163966",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 9,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS137",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164341",
+                    "contestantId": "164341",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164346",
+                    "contestantId": "164346",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 36,
-            "is_live": false,
-            "match_status": "Retired"
+            "isLive": false,
+            "matchStatus": "Retired"
         },
         {
             "id": "MS503",
-            "round_index": 4,
+            "roundIndex": 4,
             "sides": [
                 {
-                    "contestant_id": "163871",
+                    "contestantId": "163871",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163806",
+                    "contestantId": "163806",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 2,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS315",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164141",
+                    "contestantId": "164141",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164336",
+                    "contestantId": "164336",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 14,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS504",
-            "round_index": 4,
+            "roundIndex": 4,
             "sides": [
                 {
-                    "contestant_id": "164021",
+                    "contestantId": "164021",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164396",
+                    "contestantId": "164396",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 3,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS211",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164351",
+                    "contestantId": "164351",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164361",
+                    "contestantId": "164361",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 1,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 1,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 10,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS316",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164156",
+                    "contestantId": "164156",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164396",
+                    "contestantId": "164396",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 15,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS158",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164041",
+                    "contestantId": "164041",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164046",
+                    "contestantId": "164046",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 57,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS206",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164256",
+                    "contestantId": "164256",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164266",
+                    "contestantId": "164266",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 5,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS203",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163841",
+                    "contestantId": "163841",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 9,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 9,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163931",
+                    "contestantId": "163931",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 11,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 11,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 2,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS403",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "163901",
+                    "contestantId": "163901",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164351",
+                    "contestantId": "164351",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 2,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS227",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164291",
+                    "contestantId": "164291",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164051",
+                    "contestantId": "164051",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 26,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS126",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163991",
+                    "contestantId": "163991",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163996",
+                    "contestantId": "163996",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 25,
-            "is_live": false,
-            "match_status": "Retired"
+            "isLive": false,
+            "matchStatus": "Retired"
         },
         {
             "id": "MS160",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164331",
+                    "contestantId": "164331",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164336",
+                    "contestantId": "164336",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 59,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS127",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164001",
+                    "contestantId": "164001",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164006",
+                    "contestantId": "164006",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 26,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS130",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164011",
+                    "contestantId": "164011",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164016",
+                    "contestantId": "164016",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 29,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS305",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "163901",
+                    "contestantId": "163901",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163956",
+                    "contestantId": "163956",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 4,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS105",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163841",
+                    "contestantId": "163841",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163846",
+                    "contestantId": "163846",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 4,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS112",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164261",
+                    "contestantId": "164261",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164266",
+                    "contestantId": "164266",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 11,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS120",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163961",
+                    "contestantId": "163961",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163966",
+                    "contestantId": "163966",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 19,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS228",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164371",
+                    "contestantId": "164371",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164136",
+                    "contestantId": "164136",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 27,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS230",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164031",
+                    "contestantId": "164031",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164336",
+                    "contestantId": "164336",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 29,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS129",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164231",
+                    "contestantId": "164231",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164236",
+                    "contestantId": "164236",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 28,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS121",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164351",
+                    "contestantId": "164351",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164356",
+                    "contestantId": "164356",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 20,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS122",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164361",
+                    "contestantId": "164361",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164366",
+                    "contestantId": "164366",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 21,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS155",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164371",
+                    "contestantId": "164371",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164376",
+                    "contestantId": "164376",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 54,
-            "is_live": false,
-            "match_status": "Retired"
+            "isLive": false,
+            "matchStatus": "Retired"
         },
         {
             "id": "MS148",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163801",
+                    "contestantId": "163801",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163806",
+                    "contestantId": "163806",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 47,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS301",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "163911",
+                    "contestantId": "163911",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163926",
+                    "contestantId": "163926",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 1,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 1,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 0,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS162",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164301",
+                    "contestantId": "164301",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164306",
+                    "contestantId": "164306",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 61,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS139",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164401",
+                    "contestantId": "164401",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164406",
+                    "contestantId": "164406",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 38,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS306",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164351",
+                    "contestantId": "164351",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164226",
+                    "contestantId": "164226",
                     "score": [
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 5,
-            "is_live": false,
-            "match_status": "Retired"
+            "isLive": false,
+            "matchStatus": "Retired"
         },
         {
             "id": "MS142",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164321",
+                    "contestantId": "164321",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164326",
+                    "contestantId": "164326",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 41,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS109",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163941",
+                    "contestantId": "163941",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163946",
+                    "contestantId": "163946",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 8,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS408",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "164141",
+                    "contestantId": "164141",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164396",
+                    "contestantId": "164396",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 7,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS208",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164116",
+                    "contestantId": "164116",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163896",
+                    "contestantId": "163896",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 7,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS310",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164341",
+                    "contestantId": "164341",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164311",
+                    "contestantId": "164311",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 9,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS309",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "163871",
+                    "contestantId": "163871",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163976",
+                    "contestantId": "163976",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 8,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS308",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164016",
+                    "contestantId": "164016",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163986",
+                    "contestantId": "163986",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 7,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS128",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164121",
+                    "contestantId": "164121",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164126",
+                    "contestantId": "164126",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 27,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS407",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "164021",
+                    "contestantId": "164021",
                     "score": [],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164136",
+                    "contestantId": "164136",
                     "score": [],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 6,
-            "is_live": false,
-            "match_status": "Walk-Over"
+            "isLive": false,
+            "matchStatus": "Walk-Over"
         },
         {
             "id": "MS119",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163951",
+                    "contestantId": "163951",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163956",
+                    "contestantId": "163956",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 18,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS152",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164091",
+                    "contestantId": "164091",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164096",
+                    "contestantId": "164096",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 51,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS221",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164176",
+                    "contestantId": "164176",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164321",
+                    "contestantId": "164321",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 20,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS154",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164051",
+                    "contestantId": "164051",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164056",
+                    "contestantId": "164056",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 53,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS224",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164181",
+                    "contestantId": "164181",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163806",
+                    "contestantId": "163806",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 23,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS223",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164241",
+                    "contestantId": "164241",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163791",
+                    "contestantId": "163791",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 22,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS204",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163811",
+                    "contestantId": "163811",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164196",
+                    "contestantId": "164196",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 1,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 1,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 3,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS307",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164071",
+                    "contestantId": "164071",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164126",
+                    "contestantId": "164126",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 6,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS159",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164031",
+                    "contestantId": "164031",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164036",
+                    "contestantId": "164036",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 58,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS231",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164156",
+                    "contestantId": "164156",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164306",
+                    "contestantId": "164306",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 30,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS311",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164321",
+                    "contestantId": "164321",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 7,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 7,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163851",
+                    "contestantId": "163851",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 9,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 9,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 10,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS406",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "163851",
+                    "contestantId": "163851",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163806",
+                    "contestantId": "163806",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 5,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS151",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164381",
+                    "contestantId": "164381",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164386",
+                    "contestantId": "164386",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 50,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS123",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164061",
+                    "contestantId": "164061",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164066",
+                    "contestantId": "164066",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 22,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS157",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164141",
+                    "contestantId": "164141",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164146",
+                    "contestantId": "164146",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 56,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS156",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164131",
+                    "contestantId": "164131",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 9,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 9,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164136",
+                    "contestantId": "164136",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 11,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 11,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 55,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS132",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163981",
+                    "contestantId": "163981",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163986",
+                    "contestantId": "163986",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 31,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS131",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "167131",
+                    "contestantId": "167131",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163886",
+                    "contestantId": "163886",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 30,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS150",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164081",
+                    "contestantId": "164081",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164086",
+                    "contestantId": "164086",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 49,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS124",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164221",
+                    "contestantId": "164221",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164226",
+                    "contestantId": "164226",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 23,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS405",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "163871",
+                    "contestantId": "163871",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164341",
+                    "contestantId": "164341",
                     "score": [
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 3,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 3,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 4,
-            "is_live": false,
-            "match_status": "Retired"
+            "isLive": false,
+            "matchStatus": "Retired"
         },
         {
             "id": "MS404",
-            "round_index": 3,
+            "roundIndex": 3,
             "sides": [
                 {
-                    "contestant_id": "164126",
+                    "contestantId": "164126",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164016",
+                    "contestantId": "164016",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 3,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS134",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164201",
+                    "contestantId": "164201",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 8,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 8,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164206",
+                    "contestantId": "164206",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 6,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 6,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 33,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS135",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163971",
+                    "contestantId": "163971",
                     "score": [
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163976",
+                    "contestantId": "163976",
                     "score": [
                         {
-                            "main_score": "6",
-                            "tie_break": 1,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 1,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 34,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS312",
-            "round_index": 2,
+            "roundIndex": 2,
             "sides": [
                 {
-                    "contestant_id": "164241",
+                    "contestantId": "164241",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "0",
-                            "is_winner": false
+                            "mainScore": "0",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163806",
+                    "contestantId": "163806",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 11,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS205",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "163946",
+                    "contestantId": "163946",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 5,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 5,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "163826",
+                    "contestantId": "163826",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 4,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS153",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164291",
+                    "contestantId": "164291",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 4,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 4,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164296",
+                    "contestantId": "164296",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 7,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 7,
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 2,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 2,
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 52,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS125",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164071",
+                    "contestantId": "164071",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164076",
+                    "contestantId": "164076",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 24,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS207",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164281",
+                    "contestantId": "164281",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163861",
+                    "contestantId": "163861",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 6,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS133",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "163871",
+                    "contestantId": "163871",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "163876",
+                    "contestantId": "163876",
                     "score": [
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 32,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS229",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164141",
+                    "contestantId": "164141",
                     "score": [
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "7",
-                            "tie_break": 14,
-                            "is_winner": true
+                            "mainScore": "7",
+                            "tieBreak": 14,
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 },
                 {
-                    "contestant_id": "164046",
+                    "contestantId": "164046",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "3",
-                            "is_winner": false
+                            "mainScore": "3",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "6",
-                            "tie_break": 12,
-                            "is_winner": false
+                            "mainScore": "6",
+                            "tieBreak": 12,
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 }
             ],
             "order": 28,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS232",
-            "round_index": 1,
+            "roundIndex": 1,
             "sides": [
                 {
-                    "contestant_id": "164101",
+                    "contestantId": "164101",
                     "score": [
                         {
-                            "main_score": "1",
-                            "is_winner": false
+                            "mainScore": "1",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "2",
-                            "is_winner": false
+                            "mainScore": "2",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164396",
+                    "contestantId": "164396",
                     "score": [
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 31,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         },
         {
             "id": "MS136",
-            "round_index": 0,
+            "roundIndex": 0,
             "sides": [
                 {
-                    "contestant_id": "164211",
+                    "contestantId": "164211",
                     "score": [
                         {
-                            "main_score": "5",
-                            "is_winner": false
+                            "mainScore": "5",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         },
                         {
-                            "main_score": "4",
-                            "is_winner": false
+                            "mainScore": "4",
+                            "isWinner": false
                         }
                     ],
-                    "is_winner": false
+                    "isWinner": false
                 },
                 {
-                    "contestant_id": "164216",
+                    "contestantId": "164216",
                     "score": [
                         {
-                            "main_score": "7",
-                            "is_winner": true
+                            "mainScore": "7",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         },
                         {
-                            "main_score": "6",
-                            "is_winner": true
+                            "mainScore": "6",
+                            "isWinner": true
                         }
                     ],
-                    "is_winner": true
+                    "isWinner": true
                 }
             ],
             "order": 35,
-            "is_live": false,
-            "match_status": "Complete"
+            "isLive": false,
+            "matchStatus": "Complete"
         }
     ],
     "contestants": {
@@ -6500,7 +6500,7 @@ export default {
             ]
         },
         "163786": {
-            "entry_status": "22",
+            "entryStatus": "22",
             "players": [
                 {
                     "title": "B. Coric",
@@ -6519,7 +6519,7 @@ export default {
             ]
         },
         "163796": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "Q. Halys",
@@ -6538,7 +6538,7 @@ export default {
             ]
         },
         "163806": {
-            "entry_status": "4",
+            "entryStatus": "4",
             "players": [
                 {
                     "title": "D. Medvedev",
@@ -6602,7 +6602,7 @@ export default {
             ]
         },
         "163841": {
-            "entry_status": "17",
+            "entryStatus": "17",
             "players": [
                 {
                     "title": "S. Wawrinka",
@@ -6657,7 +6657,7 @@ export default {
             ]
         },
         "163871": {
-            "entry_status": "7",
+            "entryStatus": "7",
             "players": [
                 {
                     "title": "A. Rublev",
@@ -6694,7 +6694,7 @@ export default {
             ]
         },
         "163896": {
-            "entry_status": "6",
+            "entryStatus": "6",
             "players": [
                 {
                     "title": "A. Zverev",
@@ -6704,7 +6704,7 @@ export default {
             ]
         },
         "163901": {
-            "entry_status": "3",
+            "entryStatus": "3",
             "players": [
                 {
                     "title": "D. Thiem",
@@ -6723,7 +6723,7 @@ export default {
             ]
         },
         "163911": {
-            "entry_status": "1",
+            "entryStatus": "1",
             "players": [
                 {
                     "title": "N. Djokovic",
@@ -6751,7 +6751,7 @@ export default {
             ]
         },
         "163926": {
-            "entry_status": "27",
+            "entryStatus": "27",
             "players": [
                 {
                     "title": "T. Fritz",
@@ -6770,7 +6770,7 @@ export default {
             ]
         },
         "163936": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "M. Polmans",
@@ -6780,7 +6780,7 @@ export default {
             ]
         },
         "163941": {
-            "entry_status": "10",
+            "entryStatus": "10",
             "players": [
                 {
                     "title": "G. Monfils",
@@ -6799,7 +6799,7 @@ export default {
             ]
         },
         "163951": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "F. Ferreira Silva",
@@ -6827,7 +6827,7 @@ export default {
             ]
         },
         "163966": {
-            "entry_status": "29",
+            "entryStatus": "29",
             "players": [
                 {
                     "title": "U. Humbert",
@@ -6837,7 +6837,7 @@ export default {
             ]
         },
         "163971": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "L. Tu",
@@ -6856,7 +6856,7 @@ export default {
             ]
         },
         "163981": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "E. Ymer",
@@ -6866,7 +6866,7 @@ export default {
             ]
         },
         "163986": {
-            "entry_status": "8",
+            "entryStatus": "8",
             "players": [
                 {
                     "title": "D. Schwartzman",
@@ -6885,7 +6885,7 @@ export default {
             ]
         },
         "163996": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "B. Tomic",
@@ -6895,7 +6895,7 @@ export default {
             ]
         },
         "164001": {
-            "entry_status": "LL",
+            "entryStatus": "LL",
             "players": [
                 {
                     "title": "D. Dzumhur",
@@ -6923,7 +6923,7 @@ export default {
             ]
         },
         "164016": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "A. Karatsev",
@@ -6933,7 +6933,7 @@ export default {
             ]
         },
         "164021": {
-            "entry_status": "5",
+            "entryStatus": "5",
             "players": [
                 {
                     "title": "S. Tsitsipas",
@@ -6970,7 +6970,7 @@ export default {
             ]
         },
         "164041": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "H. Laaksonen",
@@ -6998,7 +6998,7 @@ export default {
             ]
         },
         "164056": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "S. Nagal",
@@ -7008,7 +7008,7 @@ export default {
             ]
         },
         "164061": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "K. Coppejans",
@@ -7027,7 +7027,7 @@ export default {
             ]
         },
         "164071": {
-            "entry_status": "11",
+            "entryStatus": "11",
             "players": [
                 {
                     "title": "D. Shapovalov",
@@ -7046,7 +7046,7 @@ export default {
             ]
         },
         "164081": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "T. Kokkinakis",
@@ -7074,7 +7074,7 @@ export default {
             ]
         },
         "164096": {
-            "entry_status": "26",
+            "entryStatus": "26",
             "players": [
                 {
                     "title": "H. Hurkacz",
@@ -7084,7 +7084,7 @@ export default {
             ]
         },
         "164101": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "M. Mmoh",
@@ -7094,7 +7094,7 @@ export default {
             ]
         },
         "164106": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "V. Troicki",
@@ -7104,7 +7104,7 @@ export default {
             ]
         },
         "164111": {
-            "entry_status": "LL",
+            "entryStatus": "LL",
             "players": [
                 {
                     "title": "T. Daniel",
@@ -7114,7 +7114,7 @@ export default {
             ]
         },
         "164116": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "M. Cressy",
@@ -7124,7 +7124,7 @@ export default {
             ]
         },
         "164121": {
-            "entry_status": "LL",
+            "entryStatus": "LL",
             "players": [
                 {
                     "title": "C. Stebe",
@@ -7134,7 +7134,7 @@ export default {
             ]
         },
         "164126": {
-            "entry_status": "20",
+            "entryStatus": "20",
             "players": [
                 {
                     "title": "F. Auger-Aliassime",
@@ -7153,7 +7153,7 @@ export default {
             ]
         },
         "164136": {
-            "entry_status": "9",
+            "entryStatus": "9",
             "players": [
                 {
                     "title": "M. Berrettini",
@@ -7163,7 +7163,7 @@ export default {
             ]
         },
         "164141": {
-            "entry_status": "16",
+            "entryStatus": "16",
             "players": [
                 {
                     "title": "F. Fognini",
@@ -7182,7 +7182,7 @@ export default {
             ]
         },
         "164151": {
-            "entry_status": "30",
+            "entryStatus": "30",
             "players": [
                 {
                     "title": "D. Evans",
@@ -7219,7 +7219,7 @@ export default {
             ]
         },
         "164171": {
-            "entry_status": "13",
+            "entryStatus": "13",
             "players": [
                 {
                     "title": "D. Goffin",
@@ -7229,7 +7229,7 @@ export default {
             ]
         },
         "164176": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "A. Popyrin",
@@ -7266,7 +7266,7 @@ export default {
             ]
         },
         "164196": {
-            "entry_status": "14",
+            "entryStatus": "14",
             "players": [
                 {
                     "title": "M. Raonic",
@@ -7303,7 +7303,7 @@ export default {
             ]
         },
         "164216": {
-            "entry_status": "31",
+            "entryStatus": "31",
             "players": [
                 {
                     "title": "L. Sonego",
@@ -7322,7 +7322,7 @@ export default {
             ]
         },
         "164226": {
-            "entry_status": "15",
+            "entryStatus": "15",
             "players": [
                 {
                     "title": "P. Carreno Busta",
@@ -7332,7 +7332,7 @@ export default {
             ]
         },
         "164231": {
-            "entry_status": "25",
+            "entryStatus": "25",
             "players": [
                 {
                     "title": "B. Paire",
@@ -7351,7 +7351,7 @@ export default {
             ]
         },
         "164241": {
-            "entry_status": "28",
+            "entryStatus": "28",
             "players": [
                 {
                     "title": "F. Krajinovic",
@@ -7361,7 +7361,7 @@ export default {
             ]
         },
         "164246": {
-            "entry_status": "LL",
+            "entryStatus": "LL",
             "players": [
                 {
                     "title": "R. Haase",
@@ -7389,7 +7389,7 @@ export default {
             ]
         },
         "164261": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "S. Stakhovsky",
@@ -7399,7 +7399,7 @@ export default {
             ]
         },
         "164266": {
-            "entry_status": "23",
+            "entryStatus": "23",
             "players": [
                 {
                     "title": "D. Lajovic",
@@ -7418,7 +7418,7 @@ export default {
             ]
         },
         "164276": {
-            "entry_status": "LL",
+            "entryStatus": "LL",
             "players": [
                 {
                     "title": "H. Dellien",
@@ -7428,7 +7428,7 @@ export default {
             ]
         },
         "164281": {
-            "entry_status": "32",
+            "entryStatus": "32",
             "players": [
                 {
                     "title": "A. Mannarino",
@@ -7447,7 +7447,7 @@ export default {
             ]
         },
         "164291": {
-            "entry_status": "19",
+            "entryStatus": "19",
             "players": [
                 {
                     "title": "K. Khachanov",
@@ -7457,7 +7457,7 @@ export default {
             ]
         },
         "164296": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "A. Vukic",
@@ -7476,7 +7476,7 @@ export default {
             ]
         },
         "164306": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "R. Safiullin",
@@ -7495,7 +7495,7 @@ export default {
             ]
         },
         "164316": {
-            "entry_status": "12",
+            "entryStatus": "12",
             "players": [
                 {
                     "title": "R. Bautista Agut",
@@ -7514,7 +7514,7 @@ export default {
             ]
         },
         "164326": {
-            "entry_status": "LL",
+            "entryStatus": "LL",
             "players": [
                 {
                     "title": "M. Torpegaard",
@@ -7533,7 +7533,7 @@ export default {
             ]
         },
         "164336": {
-            "entry_status": "21",
+            "entryStatus": "21",
             "players": [
                 {
                     "title": "A. de Minaur",
@@ -7543,7 +7543,7 @@ export default {
             ]
         },
         "164341": {
-            "entry_status": "24",
+            "entryStatus": "24",
             "players": [
                 {
                     "title": "C. Ruud",
@@ -7562,7 +7562,7 @@ export default {
             ]
         },
         "164351": {
-            "entry_status": "18",
+            "entryStatus": "18",
             "players": [
                 {
                     "title": "G. Dimitrov",
@@ -7581,7 +7581,7 @@ export default {
             ]
         },
         "164361": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "A. Bolt",
@@ -7600,7 +7600,7 @@ export default {
             ]
         },
         "164371": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "T. Machac",
@@ -7610,7 +7610,7 @@ export default {
             ]
         },
         "164376": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "M. Vilella Martinez",
@@ -7620,7 +7620,7 @@ export default {
             ]
         },
         "164381": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "B. Van de Zandschulp",
@@ -7630,7 +7630,7 @@ export default {
             ]
         },
         "164386": {
-            "entry_status": "Q",
+            "entryStatus": "Q",
             "players": [
                 {
                     "title": "C. Alcaraz",
@@ -7649,7 +7649,7 @@ export default {
             ]
         },
         "164396": {
-            "entry_status": "2",
+            "entryStatus": "2",
             "players": [
                 {
                     "title": "R. Nadal",
@@ -7659,7 +7659,7 @@ export default {
             ]
         },
         "164401": {
-            "entry_status": "WC",
+            "entryStatus": "WC",
             "players": [
                 {
                     "title": "C. O'Connell",
@@ -7678,7 +7678,7 @@ export default {
             ]
         },
         "167131": {
-            "entry_status": "LL",
+            "entryStatus": "LL",
             "players": [
                 {
                     "title": "A. Muller",

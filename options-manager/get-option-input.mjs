@@ -1,6 +1,7 @@
 import { create_element_from_Html, is_object } from '../pages/utils.mjs'
 import { escape_Html } from '../pages/utils.mjs'
 import * as elements from './elements.mjs'
+import { explanations } from './explanations.mjs'
 
 export const get_option_input = (name, info, value, onchange) => {
     let input
@@ -74,7 +75,7 @@ export const get_option_input = (name, info, value, onchange) => {
     const wrapper_el = elements.option_wrapper_el(name, info)
     wrapper_el.querySelector('.input-placeholder').replaceWith(input)
     wrapper_el.querySelector('.explanation-placeholder').replaceWith(
-        info.explanation ? elements.option_explanation_button(info.explanation) : ''
+        explanations[name] ? elements.option_explanation_button(explanations[name]) : ''
     )
 
     return {

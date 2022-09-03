@@ -1,30 +1,30 @@
 const match1 = {
     order: 0,
     id: 'match1',
-    round_index: 0,
+    roundIndex: 0,
     sides: [
         {
-            contestant_id: 'a',
+            contestantId: 'a',
             score: [
                 {
-                    main_score: 0,
-                    tie_break: 7
+                    mainScore: 0,
+                    tieBreak: 7
                 },
                 {
-                    main_score: 6
+                    mainScore: 6
                 }
             ],
-            is_winner: true
+            isWinner: true
         },
         {
-            contestant_id: 'b',
+            contestantId: 'b',
             score: [
                 {
-                    main_score: 0,
-                    tie_break: 5
+                    mainScore: 0,
+                    tieBreak: 5
                 },
                 {
-                    main_score: 3
+                    mainScore: 3
                 }
             ],
         }
@@ -34,15 +34,15 @@ const match1 = {
 const match2 = {
     order: 1,
     id: 'match2',
-    round_index: 0,
+    roundIndex: 0,
     sides: [
         {
-            contestant_id: 'c',
+            contestantId: 'c',
             score: [],
-            is_winner: true
+            isWinner: true
         },
         {
-            contestant_id: 'd',
+            contestantId: 'd',
             score: []
         }
     ]
@@ -65,7 +65,7 @@ export default {
 
     contestants: {
         a: {
-            entry_status: 'J',
+            entryStatus: 'J',
             players: [{
                 title: 'link tag will not be clickable here',
                 nationality_code: 'ALB',
@@ -77,7 +77,7 @@ export default {
             }]
         },
         c: {
-            entry_status: 'WO',
+            entryStatus: 'WO',
             players: [{
                 title: 'Ccccc',
             }]

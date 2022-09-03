@@ -22,7 +22,7 @@ const get_contestants = all_data => {
                     .find(team_meta => team_meta.uuid === side.team_id)
 
                 contestants[side.team_id] = {
-                    entry_status: contestant_orig_meta.seed ? String(contestant_orig_meta.seed) : contestant_orig_meta.entry_status?.abbr,
+                    entryStatus: contestant_orig_meta.seed ? String(contestant_orig_meta.seed) : contestant_orig_meta.entryStatus?.abbr,
                     players: contestant_orig_meta.players
                         .map(player_id => prepare_single_player(all_data, player_id))
                 }
@@ -36,17 +36,17 @@ const get_contestants = all_data => {
 const get_sides_data = (match_teams) => {
     return match_teams.filter(Boolean).map(team => {
         return {
-            contestant_id: team.team_id,
+            contestantId: team.team_id,
             score: team.score === undefined ? [] : team.score
                 .filter(score => score.game !== '')
                 .map(score => ({
-                    main_score: score.game,
-                    tie_break: score.tie_break && Number(score.tie_break),
-                    is_winner: score.winner
+                    mainScore: score.game,
+                    tieBreak: score.tieBreak && Number(score.tieBreak),
+                    isWinner: score.winner
                 })),
             subscore: team.point,
-            is_serving: team.is_serving,
-            is_winner: team.status === 'Winner'
+            isServing: team.isServing,
+            isWinner: team.status === 'Winner'
         }
     })
 }
@@ -63,8 +63,8 @@ export const prepareMockData = orig_data => {
             id: match.match_id,
             sides: get_sides_data(match.teams),
             order: match.order - 1,
-            is_live: match.match_status !== null && match.match_status.name === 'Live',
-            match_status: match.match_status?.name || '05.04.2020'
+            isLive: match.matchStatus !== null && match.matchStatus.name === 'Live',
+            matchStatus: match.matchStatus?.name || '05.04.2020'
         })).filter(m => m.sides.find(Boolean)),
 
         contestants
