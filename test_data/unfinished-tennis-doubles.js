@@ -251,7 +251,7 @@ export default {
                             "isWinner": false
                         }
                     ],
-                    "subscore": "15",
+                    "subscore": { mainScore: "15" },
                     "isServing": true,
                     "isWinner": false
                 },
@@ -271,7 +271,7 @@ export default {
                             "isWinner": false
                         }
                     ],
-                    "subscore": "15",
+                    "subscore": { mainScore: "15" },
                     "isServing": false,
                     "isWinner": false
                 }
@@ -661,14 +661,14 @@ export default {
                 {
                     "contestantId": "200806",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "200791",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 }
@@ -1088,14 +1088,14 @@ export default {
                 {
                     "contestantId": "200886",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "200761",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 }
@@ -1111,14 +1111,14 @@ export default {
                 {
                     "contestantId": "200731",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "200751",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 }
@@ -1179,7 +1179,7 @@ export default {
                 {
                     "contestantId": "200741",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 }
@@ -1675,7 +1675,7 @@ export default {
                 {
                     "contestantId": "200931",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 }
@@ -2144,14 +2144,14 @@ export default {
                 {
                     "contestantId": "200646",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "200661",
                     "score": [],
-                    "subscore": "",
+                    "subscore": { mainScore: "" },
                     "isServing": false,
                     "isWinner": false
                 }

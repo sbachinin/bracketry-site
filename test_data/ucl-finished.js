@@ -16,18 +16,15 @@ export default {
     "matches": [
         
         {
-            "id": "0",
             "roundIndex": 0,
-            "sides": [],
             "order": 0,
             "isLive": true,
-            
+            "sides": [],
         },
 
 
 
         {
-            "id": "1",
             "roundIndex": 0,
             "sides": [
                 {
@@ -42,7 +39,8 @@ export default {
                             "isWinner": true
                         },
                     ],
-                    "isWinner": false
+                    "isWinner": false,
+                    subscore: { mainScore: '231111' }
                 },
                 {
                     "contestantId": "liverpool",
@@ -57,7 +55,7 @@ export default {
                         },
                     ],
                     "isWinner": true,
-                    subscore: '23'
+                    subscore: { mainScore: '23' }
                 }
             ],
             "order": 1,
@@ -82,7 +80,7 @@ export default {
                         },
                     ],
                     "isWinner": true,
-                    subscore: 2
+                    subscore: { mainScore: 2 }
                 },
                 {
                     "contestantId": "juventus",
@@ -97,7 +95,7 @@ export default {
                         },
                     ],
                     "isWinner": false,
-                    subscore: 1
+                    subscore: { mainScore: 1 }
                 }
             ],
             "order": 2,
@@ -113,14 +111,12 @@ export default {
                 {
                     "contestantId": "salzburg",
                     "score": [
-                        {
-                            "mainScore": "1",
-                            "isWinner": false
-                        },
-                        {
-                            "mainScore": "1",
-                            "isWinner": false
-                        },
+                        { mainScore: 'Walkover', isWinner: true },
+                        { tieBreak: 12 },
+                        { mainScore: '444' },
+                        { mainScore: '323', tieBreak: 21 },
+                        undefined,
+                        { mainScore: '323', isWinner: true }
                     ],
                     "isWinner": false
                 },
@@ -128,13 +124,17 @@ export default {
                     "contestantId": "bayern",
                     "score": [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            "mainScore": "14",
+                            "isWinner": true
                         },
+                        undefined,
                         {
                             "mainScore": "7",
                             "isWinner": true
                         },
+                        {
+                            mainScore: '1'
+                        }
                     ],
                     "isWinner": true
                 }
@@ -155,42 +155,42 @@ export default {
 
 
 
-        {
-            "id": "5",
-            "roundIndex": 0,
-            "sides": [
-                {
-                    "contestantId": "atletico",
-                    "score": [
-                        {
-                            "mainScore": "1",
-                            "isWinner": false
-                        },
-                        {
-                            "mainScore": "1",
-                            "isWinner": true
-                        },
-                    ],
-                    "isWinner": true
-                },
-                {
-                    "contestantId": "mu",
-                    "score": [
-                        {
-                            "mainScore": "1",
-                            "isWinner": false
-                        },
-                        {
-                            "mainScore": "0",
-                            "isWinner": false
-                        },
-                    ],
-                    "isWinner": false
-                }
-            ],
-            "order": 5,
-            "isLive": false,
-        },
+        // {
+        //     "id": "5",
+        //     "roundIndex": 0,
+        //     "sides": [
+        //         {
+        //             "contestantId": "atletico",
+        //             "score": [
+        //                 {
+        //                     "mainScore": "1",
+        //                     "isWinner": false
+        //                 },
+        //                 {
+        //                     "mainScore": "1",
+        //                     "isWinner": true
+        //                 },
+        //             ],
+        //             "isWinner": true
+        //         },
+        //         {
+        //             "contestantId": "mu",
+        //             "score": [
+        //                 {
+        //                     "mainScore": "1",
+        //                     "isWinner": false
+        //                 },
+        //                 {
+        //                     "mainScore": "0",
+        //                     "isWinner": false
+        //                 },
+        //             ],
+        //             "isWinner": false
+        //         }
+        //     ],
+        //     "order": 5,
+        //     "isLive": false,
+        // },
 
 
 
@@ -268,7 +268,6 @@ export default {
             ],
             "order": 7,
             "isLive": false,
-            
         },
 
 
@@ -278,39 +277,8 @@ export default {
         {
             "id": "8",
             "roundIndex": 1,
-            "sides": [
-                {
-                    "contestantId": "benfica",
-                    "score": [
-                        {
-                            "mainScore": "1",
-                            "isWinner": false
-                        },
-                        {
-                            "mainScore": "3",
-                            "isWinner": false
-                        },
-                    ],
-                    "isWinner": true
-                },
-                {
-                    "contestantId": "liverpool",
-                    "score": [
-                        {
-                            "mainScore": "3",
-                            "isWinner": true
-                        },
-                        {
-                            "mainScore": "3",
-                            "isWinner": false
-                        },
-                    ],
-                    "isWinner": false
-                }
-            ],
             "order": 0,
             "isLive": false,
-            
         },
 
         {
@@ -369,20 +337,6 @@ export default {
                         },
                     ],
                     "isWinner": true
-                },
-                {
-                    "contestantId": "atletico",
-                    "score": [
-                        {
-                            "mainScore": "0",
-                            "isWinner": false
-                        },
-                        {
-                            "mainScore": "0",
-                            "isWinner": false
-                        },
-                    ],
-                    "isWinner": false
                 }
             ],
             "order": 2,
@@ -391,6 +345,7 @@ export default {
 
 
 
+        // no winner here
         {
             "id": "11",
             "roundIndex": 1,
@@ -407,7 +362,6 @@ export default {
                             "isWinner":  true
                         },
                     ],
-                    "isWinner": false
                 },
                 {
                     "contestantId": "real",
@@ -421,7 +375,6 @@ export default {
                             "isWinner": false
                         },
                     ],
-                    "isWinner": true
                 }
             ],
             "order": 3,
