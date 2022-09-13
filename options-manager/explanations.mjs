@@ -69,5 +69,8 @@ If you provide this function, contestant's match history will not be highlighted
             <br />
             <br />
             If you provide this function, it will discard the default behaviour: contestant's match history will not be highlighted when you click a match's side`,
-    
+
+    useClassicalLayout: `
+        ...from readme
+    `
 }

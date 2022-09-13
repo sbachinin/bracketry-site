@@ -95,7 +95,7 @@ export default {
                         },
                     ],
                     "isWinner": false,
-                    subscore: { mainScore: 1 }
+                    subscore: {}
                 }
             ],
             "order": 2,
@@ -113,12 +113,11 @@ export default {
                     "score": [
                         { mainScore: 'Walkover', isWinner: true },
                         { tieBreak: 12 },
-                        { mainScore: '444' },
-                        { mainScore: '323', tieBreak: 21 },
                         undefined,
                         { mainScore: '323', isWinner: true }
                     ],
-                    "isWinner": false
+                    "isWinner": false,
+                    subscore: {}
                 },
                 {
                     "contestantId": "bayern",
@@ -136,7 +135,8 @@ export default {
                             mainScore: '1'
                         }
                     ],
-                    "isWinner": true
+                    "isWinner": true,
+                    subscore: {}
                 }
             ],
             "order": 3,

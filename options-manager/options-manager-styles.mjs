@@ -104,4 +104,25 @@ export const options_manager_styles = `
                 rgba(0,0,0,0) calc(50% + 0.8px),
                 rgba(0,0,0,0) 100%);
     }
+
+
+
+    
+    .checkbox {
+        border: 1px solid black;
+        color: transparent;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        user-select: none;
+        font-weight: bold;
+        flex-shrink: 0;
+    }
+    .checkbox.checked {
+        color: #1c5dd9;
+    }
+
 `
