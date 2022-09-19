@@ -5,7 +5,7 @@ const prepare_single_player = (all_data, player_id) => {
     const code = iso3_to_iso2[player_meta.nationality.code] || player_meta.nationality.code
     return {
         title: player_meta.short_name,
-        nationality_code: code,
+        nationality: code,
         flag_url: `https://purecatamphetamine.github.io/country-flag-icons/3x2/${code}.svg`,
     }
 }
@@ -37,14 +37,14 @@ const get_sides_data = (match_teams) => {
     return match_teams.filter(Boolean).map(team => {
         return {
             contestantId: team.team_id,
-            score: team.score === undefined ? [] : team.score
+            scores: team.score === undefined ? [] : team.score
                 .filter(score => score.game !== '')
                 .map(score => ({
                     mainScore: score.game,
-                    tieBreak: score.tieBreak && Number(score.tieBreak),
+                    subscore: score.subscore && Number(score.subscore),
                     isWinner: score.winner
                 })),
-            subscore: team.point,
+            current_score: team.point,
             isServing: team.isServing,
             isWinner: team.status === 'Winner'
         }

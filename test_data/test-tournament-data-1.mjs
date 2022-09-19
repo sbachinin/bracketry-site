@@ -5,10 +5,10 @@ const match1 = {
     sides: [
         {
             contestantId: 'a',
-            score: [
+            scores: [
                 {
                     mainScore: 0,
-                    tieBreak: 7
+                    subscore: 7
                 },
                 {
                     mainScore: 6
@@ -18,10 +18,10 @@ const match1 = {
         },
         {
             contestantId: 'b',
-            score: [
+            scores: [
                 {
                     mainScore: 0,
-                    tieBreak: 5
+                    subscore: 5
                 },
                 {
                     mainScore: 3
@@ -38,12 +38,12 @@ const match2 = {
     sides: [
         {
             contestantId: 'c',
-            score: [],
+            scores: [],
             isWinner: true
         },
         {
             contestantId: 'd',
-            score: []
+            scores: []
         }
     ]
 }
@@ -68,7 +68,7 @@ export default {
             entryStatus: 'J',
             players: [{
                 title: 'link tag will not be clickable here',
-                nationality_code: 'ALB',
+                nationality: 'ALB',
             }]
         },
         b: {
@@ -85,7 +85,7 @@ export default {
         d: {
             players: [{
                 title: 'DD DD DD',
-                nationality_code: 'fsdfds'
+                nationality: 'fsdfds'
             }]
         }
     }

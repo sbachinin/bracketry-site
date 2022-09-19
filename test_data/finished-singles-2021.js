@@ -29,10 +29,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163911",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "isWinner": true
+                            "isWinner": true,
                         },
                         {
                             "mainScore": "6",
@@ -43,14 +43,15 @@ export default {
                             "isWinner": true
                         }
                     ],
-                    "isWinner": true
+                    "isWinner": 4234234234
                 },
                 {
                     "contestantId": "163806",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            "isWinner": false,
+                            subscore: 32
                         },
                         {
                             "mainScore": "2",
@@ -74,7 +75,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164351",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -96,7 +97,7 @@ export default {
                 },
                 {
                     "contestantId": "164016",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -127,15 +128,15 @@ export default {
             "sides": [
                 {
                     "contestantId": "164111",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 1,
+                            "subscore": 1,
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -147,15 +148,15 @@ export default {
                 },
                 {
                     "contestantId": "164116",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -176,7 +177,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163791",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -194,7 +195,7 @@ export default {
                 },
                 {
                     "contestantId": "163796",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -221,7 +222,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164151",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -243,7 +244,7 @@ export default {
                 },
                 {
                     "contestantId": "164156",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -274,7 +275,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164236",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
                             "isWinner": false
@@ -292,7 +293,7 @@ export default {
                 },
                 {
                     "contestantId": "164016",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -319,7 +320,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "167131",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -337,7 +338,7 @@ export default {
                 },
                 {
                     "contestantId": "163986",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -364,10 +365,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163921",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         },
                         {
@@ -380,7 +381,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         }
                     ],
@@ -388,10 +389,10 @@ export default {
                 },
                 {
                     "contestantId": "163926",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         },
                         {
@@ -404,7 +405,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         }
                     ],
@@ -421,14 +422,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "164266",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -440,14 +441,14 @@ export default {
                 },
                 {
                     "contestantId": "163896",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -468,15 +469,15 @@ export default {
             "sides": [
                 {
                     "contestantId": "163891",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 10,
+                            "subscore": 10,
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -492,15 +493,15 @@ export default {
                 },
                 {
                     "contestantId": "163896",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -525,14 +526,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "163781",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -544,14 +545,14 @@ export default {
                 },
                 {
                     "contestantId": "163786",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -572,7 +573,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163901",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -590,7 +591,7 @@ export default {
                 },
                 {
                     "contestantId": "164271",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -617,7 +618,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163806",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -635,7 +636,7 @@ export default {
                 },
                 {
                     "contestantId": "164021",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -662,14 +663,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "164066",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -685,14 +686,14 @@ export default {
                 },
                 {
                     "contestantId": "164226",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -717,7 +718,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164071",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -735,7 +736,7 @@ export default {
                 },
                 {
                     "contestantId": "163996",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -762,10 +763,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163911",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         },
                         {
@@ -778,7 +779,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         }
                     ],
@@ -786,10 +787,10 @@ export default {
                 },
                 {
                     "contestantId": "163896",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         },
                         {
@@ -802,7 +803,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         }
                     ],
@@ -819,7 +820,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163851",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -841,7 +842,7 @@ export default {
                 },
                 {
                     "contestantId": "163856",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -872,10 +873,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164241",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -895,10 +896,10 @@ export default {
                 },
                 {
                     "contestantId": "164246",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
@@ -927,7 +928,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164181",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -949,7 +950,7 @@ export default {
                 },
                 {
                     "contestantId": "164186",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -980,10 +981,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163931",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         },
                         {
@@ -1003,10 +1004,10 @@ export default {
                 },
                 {
                     "contestantId": "164196",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -1035,7 +1036,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163911",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1053,7 +1054,7 @@ export default {
                 },
                 {
                     "contestantId": "164016",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -1080,7 +1081,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163911",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "62",
                             "isWinner": true
@@ -1098,7 +1099,7 @@ export default {
                 },
                 {
                     "contestantId": "163916",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -1125,7 +1126,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164391",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -1143,7 +1144,7 @@ export default {
                 },
                 {
                     "contestantId": "164396",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1170,14 +1171,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "164161",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 0,
+                            "subscore": 0,
                             "isWinner": false
                         },
                         {
@@ -1189,14 +1190,14 @@ export default {
                 },
                 {
                     "contestantId": "164166",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -1217,7 +1218,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164401",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -1228,7 +1229,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": false
                         }
                     ],
@@ -1236,7 +1237,7 @@ export default {
                 },
                 {
                     "contestantId": "164311",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1247,7 +1248,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 10,
+                            "subscore": 10,
                             "isWinner": true
                         }
                     ],
@@ -1264,7 +1265,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163931",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -1279,7 +1280,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -1291,7 +1292,7 @@ export default {
                 },
                 {
                     "contestantId": "163936",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1306,7 +1307,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -1327,7 +1328,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164191",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -1345,7 +1346,7 @@ export default {
                 },
                 {
                     "contestantId": "164196",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1372,7 +1373,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164251",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -1394,7 +1395,7 @@ export default {
                 },
                 {
                     "contestantId": "164256",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1425,7 +1426,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163851",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1447,7 +1448,7 @@ export default {
                 },
                 {
                     "contestantId": "163786",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -1478,7 +1479,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164021",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1496,7 +1497,7 @@ export default {
                 },
                 {
                     "contestantId": "164026",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -1523,10 +1524,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164021",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -1539,7 +1540,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -1551,10 +1552,10 @@ export default {
                 },
                 {
                     "contestantId": "164081",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -1567,7 +1568,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -1588,7 +1589,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164386",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1603,7 +1604,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         }
                     ],
@@ -1611,7 +1612,7 @@ export default {
                 },
                 {
                     "contestantId": "164091",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -1626,7 +1627,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         }
                     ],
@@ -1643,20 +1644,20 @@ export default {
             "sides": [
                 {
                     "contestantId": "164291",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 1,
+                            "subscore": 1,
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         }
                     ],
@@ -1664,20 +1665,20 @@ export default {
                 },
                 {
                     "contestantId": "164136",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         }
                     ],
@@ -1694,7 +1695,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164021",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1712,7 +1713,7 @@ export default {
                 },
                 {
                     "contestantId": "164091",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -1739,15 +1740,15 @@ export default {
             "sides": [
                 {
                     "contestantId": "164101",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -1756,7 +1757,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -1768,15 +1769,15 @@ export default {
                 },
                 {
                     "contestantId": "164106",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -1785,7 +1786,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -1806,7 +1807,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163871",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1817,7 +1818,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 10,
+                            "subscore": 10,
                             "isWinner": true
                         }
                     ],
@@ -1825,7 +1826,7 @@ export default {
                 },
                 {
                     "contestantId": "164201",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -1836,7 +1837,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": false
                         }
                     ],
@@ -1853,7 +1854,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164006",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -1871,7 +1872,7 @@ export default {
                 },
                 {
                     "contestantId": "164126",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1898,7 +1899,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164171",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -1909,12 +1910,12 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         },
                         {
@@ -1926,7 +1927,7 @@ export default {
                 },
                 {
                     "contestantId": "164176",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -1937,12 +1938,12 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         },
                         {
@@ -1963,10 +1964,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164311",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 1,
+                            "subscore": 1,
                             "isWinner": false
                         },
                         {
@@ -1979,7 +1980,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         }
                     ],
@@ -1987,10 +1988,10 @@ export default {
                 },
                 {
                     "contestantId": "164316",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2003,7 +2004,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         }
                     ],
@@ -2020,19 +2021,19 @@ export default {
             "sides": [
                 {
                     "contestantId": "163911",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2044,19 +2045,19 @@ export default {
                 },
                 {
                     "contestantId": "163771",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         },
                         {
@@ -2077,10 +2078,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163826",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         },
                         {
@@ -2100,10 +2101,10 @@ export default {
                 },
                 {
                     "contestantId": "164266",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         },
                         {
@@ -2132,24 +2133,24 @@ export default {
             "sides": [
                 {
                     "contestantId": "163831",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -2161,24 +2162,24 @@ export default {
                 },
                 {
                     "contestantId": "163926",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2199,7 +2200,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164281",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -2217,7 +2218,7 @@ export default {
                 },
                 {
                     "contestantId": "163896",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -2244,10 +2245,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163901",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2263,10 +2264,10 @@ export default {
                 },
                 {
                     "contestantId": "163906",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         },
                         {
@@ -2291,7 +2292,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163861",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -2309,7 +2310,7 @@ export default {
                 },
                 {
                     "contestantId": "163866",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -2336,7 +2337,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164271",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -2354,7 +2355,7 @@ export default {
                 },
                 {
                     "contestantId": "164276",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -2381,7 +2382,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164281",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -2392,7 +2393,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         }
                     ],
@@ -2400,7 +2401,7 @@ export default {
                 },
                 {
                     "contestantId": "164286",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -2411,7 +2412,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         }
                     ],
@@ -2428,14 +2429,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "163831",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2447,14 +2448,14 @@ export default {
                 },
                 {
                     "contestantId": "163836",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         },
                         {
@@ -2475,10 +2476,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163911",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2498,10 +2499,10 @@ export default {
                 },
                 {
                     "contestantId": "164196",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
@@ -2530,10 +2531,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163771",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2549,10 +2550,10 @@ export default {
                 },
                 {
                     "contestantId": "163776",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -2577,7 +2578,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163976",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -2603,7 +2604,7 @@ export default {
                 },
                 {
                     "contestantId": "164216",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -2638,7 +2639,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164341",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -2660,7 +2661,7 @@ export default {
                 },
                 {
                     "contestantId": "164166",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -2691,14 +2692,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "163811",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
@@ -2718,14 +2719,14 @@ export default {
                 },
                 {
                     "contestantId": "163816",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2754,10 +2755,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163821",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2777,10 +2778,10 @@ export default {
                 },
                 {
                     "contestantId": "163826",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -2809,7 +2810,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163956",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -2824,7 +2825,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -2836,7 +2837,7 @@ export default {
                 },
                 {
                     "contestantId": "163966",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -2851,7 +2852,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         },
                         {
@@ -2872,7 +2873,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164341",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -2890,7 +2891,7 @@ export default {
                 },
                 {
                     "contestantId": "164346",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -2917,7 +2918,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163871",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -2935,7 +2936,7 @@ export default {
                 },
                 {
                     "contestantId": "163806",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -2962,7 +2963,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164141",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -2980,7 +2981,7 @@ export default {
                 },
                 {
                     "contestantId": "164336",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -3007,7 +3008,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164021",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3018,7 +3019,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -3034,7 +3035,7 @@ export default {
                 },
                 {
                     "contestantId": "164396",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3045,7 +3046,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
@@ -3070,10 +3071,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164351",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -3089,10 +3090,10 @@ export default {
                 },
                 {
                     "contestantId": "164361",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 1,
+                            "subscore": 1,
                             "isWinner": false
                         },
                         {
@@ -3117,7 +3118,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164156",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -3135,7 +3136,7 @@ export default {
                 },
                 {
                     "contestantId": "164396",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -3162,7 +3163,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164041",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -3180,7 +3181,7 @@ export default {
                 },
                 {
                     "contestantId": "164046",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3207,14 +3208,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "164256",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
@@ -3230,14 +3231,14 @@ export default {
                 },
                 {
                     "contestantId": "164266",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -3262,7 +3263,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163841",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -3281,7 +3282,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 9,
+                            "subscore": 9,
                             "isWinner": false
                         }
                     ],
@@ -3289,7 +3290,7 @@ export default {
                 },
                 {
                     "contestantId": "163931",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -3308,7 +3309,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 11,
+                            "subscore": 11,
                             "isWinner": true
                         }
                     ],
@@ -3325,7 +3326,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163901",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -3343,7 +3344,7 @@ export default {
                 },
                 {
                     "contestantId": "164351",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3370,7 +3371,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164291",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3388,7 +3389,7 @@ export default {
                 },
                 {
                     "contestantId": "164051",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -3415,7 +3416,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163991",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3433,7 +3434,7 @@ export default {
                 },
                 {
                     "contestantId": "163996",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3460,7 +3461,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164331",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -3478,7 +3479,7 @@ export default {
                 },
                 {
                     "contestantId": "164336",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -3505,7 +3506,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164001",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3523,7 +3524,7 @@ export default {
                 },
                 {
                     "contestantId": "164006",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3550,7 +3551,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164011",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3568,7 +3569,7 @@ export default {
                 },
                 {
                     "contestantId": "164016",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3595,7 +3596,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163901",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -3621,7 +3622,7 @@ export default {
                 },
                 {
                     "contestantId": "163956",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3656,7 +3657,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163841",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3674,7 +3675,7 @@ export default {
                 },
                 {
                     "contestantId": "163846",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3701,7 +3702,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164261",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -3727,7 +3728,7 @@ export default {
                 },
                 {
                     "contestantId": "164266",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -3762,7 +3763,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163961",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3773,7 +3774,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -3785,7 +3786,7 @@ export default {
                 },
                 {
                     "contestantId": "163966",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3796,7 +3797,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -3817,7 +3818,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164371",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3839,7 +3840,7 @@ export default {
                 },
                 {
                     "contestantId": "164136",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3870,7 +3871,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164031",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -3888,7 +3889,7 @@ export default {
                 },
                 {
                     "contestantId": "164336",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3915,7 +3916,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164231",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -3926,7 +3927,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -3938,7 +3939,7 @@ export default {
                 },
                 {
                     "contestantId": "164236",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3949,7 +3950,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -3970,7 +3971,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164351",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -3981,7 +3982,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         }
                     ],
@@ -3989,7 +3990,7 @@ export default {
                 },
                 {
                     "contestantId": "164356",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -4000,7 +4001,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         }
                     ],
@@ -4017,7 +4018,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164361",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4039,7 +4040,7 @@ export default {
                 },
                 {
                     "contestantId": "164366",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -4070,10 +4071,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164371",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -4093,10 +4094,10 @@ export default {
                 },
                 {
                     "contestantId": "164376",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -4125,7 +4126,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163801",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -4143,7 +4144,7 @@ export default {
                 },
                 {
                     "contestantId": "163806",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4170,10 +4171,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163911",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -4197,10 +4198,10 @@ export default {
                 },
                 {
                     "contestantId": "163926",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 1,
+                            "subscore": 1,
                             "isWinner": false
                         },
                         {
@@ -4233,7 +4234,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164301",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -4251,7 +4252,7 @@ export default {
                 },
                 {
                     "contestantId": "164306",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4278,15 +4279,15 @@ export default {
             "sides": [
                 {
                     "contestantId": "164401",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -4298,15 +4299,15 @@ export default {
                 },
                 {
                     "contestantId": "164406",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -4327,7 +4328,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164351",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4341,7 +4342,7 @@ export default {
                 },
                 {
                     "contestantId": "164226",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
                             "isWinner": false
@@ -4364,7 +4365,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164321",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -4386,7 +4387,7 @@ export default {
                 },
                 {
                     "contestantId": "164326",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4417,7 +4418,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163941",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4443,7 +4444,7 @@ export default {
                 },
                 {
                     "contestantId": "163946",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -4478,7 +4479,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164141",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -4496,7 +4497,7 @@ export default {
                 },
                 {
                     "contestantId": "164396",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4523,7 +4524,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164116",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -4541,7 +4542,7 @@ export default {
                 },
                 {
                     "contestantId": "163896",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -4568,7 +4569,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164341",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4590,7 +4591,7 @@ export default {
                 },
                 {
                     "contestantId": "164311",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -4621,7 +4622,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163871",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -4639,7 +4640,7 @@ export default {
                 },
                 {
                     "contestantId": "163976",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -4666,7 +4667,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164016",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4684,7 +4685,7 @@ export default {
                 },
                 {
                     "contestantId": "163986",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -4711,7 +4712,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164121",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -4729,7 +4730,7 @@ export default {
                 },
                 {
                     "contestantId": "164126",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4756,12 +4757,12 @@ export default {
             "sides": [
                 {
                     "contestantId": "164021",
-                    "score": [],
+                    "scores": [],
                     "isWinner": true
                 },
                 {
                     "contestantId": "164136",
-                    "score": [],
+                    "scores": [],
                     "isWinner": false
                 }
             ],
@@ -4775,7 +4776,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163951",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -4793,7 +4794,7 @@ export default {
                 },
                 {
                     "contestantId": "163956",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4820,7 +4821,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164091",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -4846,7 +4847,7 @@ export default {
                 },
                 {
                     "contestantId": "164096",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4881,7 +4882,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164176",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -4896,7 +4897,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -4908,7 +4909,7 @@ export default {
                 },
                 {
                     "contestantId": "164321",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4923,7 +4924,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         },
                         {
@@ -4944,7 +4945,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164051",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -4962,7 +4963,7 @@ export default {
                 },
                 {
                     "contestantId": "164056",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -4989,7 +4990,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164181",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -5007,7 +5008,7 @@ export default {
                 },
                 {
                     "contestantId": "163806",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5034,7 +5035,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164241",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5056,7 +5057,7 @@ export default {
                 },
                 {
                     "contestantId": "163791",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
@@ -5087,10 +5088,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163811",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -5110,10 +5111,10 @@ export default {
                 },
                 {
                     "contestantId": "164196",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 1,
+                            "subscore": 1,
                             "isWinner": false
                         },
                         {
@@ -5142,7 +5143,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164071",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -5160,7 +5161,7 @@ export default {
                 },
                 {
                     "contestantId": "164126",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -5187,7 +5188,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164031",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5209,7 +5210,7 @@ export default {
                 },
                 {
                     "contestantId": "164036",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -5240,7 +5241,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164156",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -5255,7 +5256,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         }
                     ],
@@ -5263,7 +5264,7 @@ export default {
                 },
                 {
                     "contestantId": "164306",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5278,7 +5279,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         }
                     ],
@@ -5295,10 +5296,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164321",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": false
                         },
                         {
@@ -5314,10 +5315,10 @@ export default {
                 },
                 {
                     "contestantId": "163851",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 9,
+                            "subscore": 9,
                             "isWinner": true
                         },
                         {
@@ -5342,7 +5343,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163851",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -5360,7 +5361,7 @@ export default {
                 },
                 {
                     "contestantId": "163806",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5387,7 +5388,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164381",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -5405,7 +5406,7 @@ export default {
                 },
                 {
                     "contestantId": "164386",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5432,7 +5433,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164061",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -5443,7 +5444,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -5459,7 +5460,7 @@ export default {
                 },
                 {
                     "contestantId": "164066",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5470,7 +5471,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -5495,7 +5496,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164141",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5513,7 +5514,7 @@ export default {
                 },
                 {
                     "contestantId": "164146",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -5540,10 +5541,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164131",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 9,
+                            "subscore": 9,
                             "isWinner": false
                         },
                         {
@@ -5559,10 +5560,10 @@ export default {
                 },
                 {
                     "contestantId": "164136",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 11,
+                            "subscore": 11,
                             "isWinner": true
                         },
                         {
@@ -5587,10 +5588,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163981",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -5610,10 +5611,10 @@ export default {
                 },
                 {
                     "contestantId": "163986",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -5642,7 +5643,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "167131",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -5664,7 +5665,7 @@ export default {
                 },
                 {
                     "contestantId": "163886",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5695,7 +5696,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164081",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5713,7 +5714,7 @@ export default {
                 },
                 {
                     "contestantId": "164086",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -5740,14 +5741,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "164221",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
@@ -5759,14 +5760,14 @@ export default {
                 },
                 {
                     "contestantId": "164226",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -5787,14 +5788,14 @@ export default {
             "sides": [
                 {
                     "contestantId": "163871",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -5806,14 +5807,14 @@ export default {
                 },
                 {
                     "contestantId": "164341",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": false
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 3,
+                            "subscore": 3,
                             "isWinner": false
                         },
                         {
@@ -5834,7 +5835,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164126",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -5860,7 +5861,7 @@ export default {
                 },
                 {
                     "contestantId": "164016",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -5895,10 +5896,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164201",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 8,
+                            "subscore": 8,
                             "isWinner": true
                         },
                         {
@@ -5914,10 +5915,10 @@ export default {
                 },
                 {
                     "contestantId": "164206",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 6,
+                            "subscore": 6,
                             "isWinner": false
                         },
                         {
@@ -5942,10 +5943,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "163971",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -5954,7 +5955,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
@@ -5966,10 +5967,10 @@ export default {
                 },
                 {
                     "contestantId": "163976",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
-                            "tieBreak": 1,
+                            "subscore": 1,
                             "isWinner": false
                         },
                         {
@@ -5978,7 +5979,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -5999,7 +6000,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164241",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -6025,7 +6026,7 @@ export default {
                 },
                 {
                     "contestantId": "163806",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -6060,7 +6061,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163946",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -6075,7 +6076,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 5,
+                            "subscore": 5,
                             "isWinner": false
                         }
                     ],
@@ -6083,7 +6084,7 @@ export default {
                 },
                 {
                     "contestantId": "163826",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -6098,7 +6099,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         }
                     ],
@@ -6115,19 +6116,19 @@ export default {
             "sides": [
                 {
                     "contestantId": "164291",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 4,
+                            "subscore": 4,
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
@@ -6139,19 +6140,19 @@ export default {
                 },
                 {
                     "contestantId": "164296",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 7,
+                            "subscore": 7,
                             "isWinner": true
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 2,
+                            "subscore": 2,
                             "isWinner": false
                         },
                         {
@@ -6172,7 +6173,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164071",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -6198,7 +6199,7 @@ export default {
                 },
                 {
                     "contestantId": "164076",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -6233,7 +6234,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164281",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -6251,7 +6252,7 @@ export default {
                 },
                 {
                     "contestantId": "163861",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -6278,7 +6279,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "163871",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -6296,7 +6297,7 @@ export default {
                 },
                 {
                     "contestantId": "163876",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -6323,7 +6324,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164141",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": false
@@ -6342,7 +6343,7 @@ export default {
                         },
                         {
                             "mainScore": "7",
-                            "tieBreak": 14,
+                            "subscore": 14,
                             "isWinner": true
                         }
                     ],
@@ -6350,7 +6351,7 @@ export default {
                 },
                 {
                     "contestantId": "164046",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -6369,7 +6370,7 @@ export default {
                         },
                         {
                             "mainScore": "6",
-                            "tieBreak": 12,
+                            "subscore": 12,
                             "isWinner": false
                         }
                     ],
@@ -6386,7 +6387,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164101",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -6404,7 +6405,7 @@ export default {
                 },
                 {
                     "contestantId": "164396",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "6",
                             "isWinner": true
@@ -6431,7 +6432,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "164211",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "5",
                             "isWinner": false
@@ -6449,7 +6450,7 @@ export default {
                 },
                 {
                     "contestantId": "164216",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "7",
                             "isWinner": true
@@ -6476,7 +6477,7 @@ export default {
             "players": [
                 {
                     "title": "F. Tiafoe",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -6485,7 +6486,7 @@ export default {
             "players": [
                 {
                     "title": "S. Travaglia",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -6494,7 +6495,7 @@ export default {
             "players": [
                 {
                     "title": "G. Pella",
-                    "nationality_code": "AR",
+                    "nationality": "AR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
                 }
             ]
@@ -6504,7 +6505,7 @@ export default {
             "players": [
                 {
                     "title": "B. Coric",
-                    "nationality_code": "CRO",
+                    "nationality": "CRO",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CRO.svg"
                 }
             ]
@@ -6513,7 +6514,7 @@ export default {
             "players": [
                 {
                     "title": "P. Andujar",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -6523,7 +6524,7 @@ export default {
             "players": [
                 {
                     "title": "Q. Halys",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -6532,7 +6533,7 @@ export default {
             "players": [
                 {
                     "title": "V. Pospisil",
-                    "nationality_code": "CA",
+                    "nationality": "CA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
                 }
             ]
@@ -6542,7 +6543,7 @@ export default {
             "players": [
                 {
                     "title": "D. Medvedev",
-                    "nationality_code": "RU",
+                    "nationality": "RU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
                 }
             ]
@@ -6551,7 +6552,7 @@ export default {
             "players": [
                 {
                     "title": "C. Moutet",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -6560,7 +6561,7 @@ export default {
             "players": [
                 {
                     "title": "J. Millman",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -6569,7 +6570,7 @@ export default {
             "players": [
                 {
                     "title": "Y. Nishioka",
-                    "nationality_code": "JP",
+                    "nationality": "JP",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
                 }
             ]
@@ -6578,7 +6579,7 @@ export default {
             "players": [
                 {
                     "title": "P. Martinez",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -6587,7 +6588,7 @@ export default {
             "players": [
                 {
                     "title": "R. Opelka",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -6596,7 +6597,7 @@ export default {
             "players": [
                 {
                     "title": "Y. Lu",
-                    "nationality_code": "TPE",
+                    "nationality": "TPE",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/TPE.svg"
                 }
             ]
@@ -6606,7 +6607,7 @@ export default {
             "players": [
                 {
                     "title": "S. Wawrinka",
-                    "nationality_code": "SUI",
+                    "nationality": "SUI",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SUI.svg"
                 }
             ]
@@ -6615,7 +6616,7 @@ export default {
             "players": [
                 {
                     "title": "P. Sousa",
-                    "nationality_code": "POR",
+                    "nationality": "POR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/POR.svg"
                 }
             ]
@@ -6624,7 +6625,7 @@ export default {
             "players": [
                 {
                     "title": "M. McDonald",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -6633,7 +6634,7 @@ export default {
             "players": [
                 {
                     "title": "M. Cecchinato",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -6642,7 +6643,7 @@ export default {
             "players": [
                 {
                     "title": "M. Kecmanovic",
-                    "nationality_code": "RS",
+                    "nationality": "RS",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
                 }
             ]
@@ -6651,7 +6652,7 @@ export default {
             "players": [
                 {
                     "title": "K. Majchrzak",
-                    "nationality_code": "PL",
+                    "nationality": "PL",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/PL.svg"
                 }
             ]
@@ -6661,7 +6662,7 @@ export default {
             "players": [
                 {
                     "title": "A. Rublev",
-                    "nationality_code": "RU",
+                    "nationality": "RU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
                 }
             ]
@@ -6670,7 +6671,7 @@ export default {
             "players": [
                 {
                     "title": "Y. Hanfmann",
-                    "nationality_code": "GER",
+                    "nationality": "GER",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
                 }
             ]
@@ -6679,7 +6680,7 @@ export default {
             "players": [
                 {
                     "title": "J. Londero",
-                    "nationality_code": "AR",
+                    "nationality": "AR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
                 }
             ]
@@ -6688,7 +6689,7 @@ export default {
             "players": [
                 {
                     "title": "M. Giron",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -6698,7 +6699,7 @@ export default {
             "players": [
                 {
                     "title": "A. Zverev",
-                    "nationality_code": "GER",
+                    "nationality": "GER",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
                 }
             ]
@@ -6708,7 +6709,7 @@ export default {
             "players": [
                 {
                     "title": "D. Thiem",
-                    "nationality_code": "AT",
+                    "nationality": "AT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AT.svg"
                 }
             ]
@@ -6717,7 +6718,7 @@ export default {
             "players": [
                 {
                     "title": "M. Kukushkin",
-                    "nationality_code": "KZ",
+                    "nationality": "KZ",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KZ.svg"
                 }
             ]
@@ -6727,7 +6728,7 @@ export default {
             "players": [
                 {
                     "title": "N. Djokovic",
-                    "nationality_code": "RS",
+                    "nationality": "RS",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
                 }
             ]
@@ -6736,7 +6737,7 @@ export default {
             "players": [
                 {
                     "title": "J. Chardy",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -6745,7 +6746,7 @@ export default {
             "players": [
                 {
                     "title": "A. Ramos-Vinolas",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -6755,7 +6756,7 @@ export default {
             "players": [
                 {
                     "title": "T. Fritz",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -6764,7 +6765,7 @@ export default {
             "players": [
                 {
                     "title": "M. Fucsovics",
-                    "nationality_code": "HU",
+                    "nationality": "HU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/HU.svg"
                 }
             ]
@@ -6774,7 +6775,7 @@ export default {
             "players": [
                 {
                     "title": "M. Polmans",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -6784,7 +6785,7 @@ export default {
             "players": [
                 {
                     "title": "G. Monfils",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -6793,7 +6794,7 @@ export default {
             "players": [
                 {
                     "title": "E. Ruusuvuori",
-                    "nationality_code": "FI",
+                    "nationality": "FI",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg"
                 }
             ]
@@ -6803,7 +6804,7 @@ export default {
             "players": [
                 {
                     "title": "F. Ferreira Silva",
-                    "nationality_code": "POR",
+                    "nationality": "POR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/POR.svg"
                 }
             ]
@@ -6812,7 +6813,7 @@ export default {
             "players": [
                 {
                     "title": "N. Kyrgios",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -6821,7 +6822,7 @@ export default {
             "players": [
                 {
                     "title": "Y. Uchiyama",
-                    "nationality_code": "JP",
+                    "nationality": "JP",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
                 }
             ]
@@ -6831,7 +6832,7 @@ export default {
             "players": [
                 {
                     "title": "U. Humbert",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -6841,7 +6842,7 @@ export default {
             "players": [
                 {
                     "title": "L. Tu",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -6850,7 +6851,7 @@ export default {
             "players": [
                 {
                     "title": "F. Lopez",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -6860,7 +6861,7 @@ export default {
             "players": [
                 {
                     "title": "E. Ymer",
-                    "nationality_code": "SE",
+                    "nationality": "SE",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg"
                 }
             ]
@@ -6870,7 +6871,7 @@ export default {
             "players": [
                 {
                     "title": "D. Schwartzman",
-                    "nationality_code": "AR",
+                    "nationality": "AR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
                 }
             ]
@@ -6879,7 +6880,7 @@ export default {
             "players": [
                 {
                     "title": "Y. Sugita",
-                    "nationality_code": "JP",
+                    "nationality": "JP",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
                 }
             ]
@@ -6889,7 +6890,7 @@ export default {
             "players": [
                 {
                     "title": "B. Tomic",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -6899,7 +6900,7 @@ export default {
             "players": [
                 {
                     "title": "D. Dzumhur",
-                    "nationality_code": "BA",
+                    "nationality": "BA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BA.svg"
                 }
             ]
@@ -6908,7 +6909,7 @@ export default {
             "players": [
                 {
                     "title": "J. Duckworth",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -6917,7 +6918,7 @@ export default {
             "players": [
                 {
                     "title": "G. Mager",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -6927,7 +6928,7 @@ export default {
             "players": [
                 {
                     "title": "A. Karatsev",
-                    "nationality_code": "RU",
+                    "nationality": "RU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
                 }
             ]
@@ -6937,7 +6938,7 @@ export default {
             "players": [
                 {
                     "title": "S. Tsitsipas",
-                    "nationality_code": "GRE",
+                    "nationality": "GRE",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GRE.svg"
                 }
             ]
@@ -6946,7 +6947,7 @@ export default {
             "players": [
                 {
                     "title": "G. Simon",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -6955,7 +6956,7 @@ export default {
             "players": [
                 {
                     "title": "P. Cuevas",
-                    "nationality_code": "URU",
+                    "nationality": "URU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/URU.svg"
                 }
             ]
@@ -6964,7 +6965,7 @@ export default {
             "players": [
                 {
                     "title": "A. Seppi",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -6974,7 +6975,7 @@ export default {
             "players": [
                 {
                     "title": "H. Laaksonen",
-                    "nationality_code": "SUI",
+                    "nationality": "SUI",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SUI.svg"
                 }
             ]
@@ -6983,7 +6984,7 @@ export default {
             "players": [
                 {
                     "title": "S. Caruso",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -6992,7 +6993,7 @@ export default {
             "players": [
                 {
                     "title": "R. Berankis",
-                    "nationality_code": "LT",
+                    "nationality": "LT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/LT.svg"
                 }
             ]
@@ -7002,7 +7003,7 @@ export default {
             "players": [
                 {
                     "title": "S. Nagal",
-                    "nationality_code": "IN",
+                    "nationality": "IN",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IN.svg"
                 }
             ]
@@ -7012,7 +7013,7 @@ export default {
             "players": [
                 {
                     "title": "K. Coppejans",
-                    "nationality_code": "BE",
+                    "nationality": "BE",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BE.svg"
                 }
             ]
@@ -7021,7 +7022,7 @@ export default {
             "players": [
                 {
                     "title": "J. Vesely",
-                    "nationality_code": "CZ",
+                    "nationality": "CZ",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CZ.svg"
                 }
             ]
@@ -7031,7 +7032,7 @@ export default {
             "players": [
                 {
                     "title": "D. Shapovalov",
-                    "nationality_code": "CA",
+                    "nationality": "CA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
                 }
             ]
@@ -7040,7 +7041,7 @@ export default {
             "players": [
                 {
                     "title": "J. Sinner",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -7050,7 +7051,7 @@ export default {
             "players": [
                 {
                     "title": "T. Kokkinakis",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -7059,7 +7060,7 @@ export default {
             "players": [
                 {
                     "title": "S. Kwon",
-                    "nationality_code": "KR",
+                    "nationality": "KR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KR.svg"
                 }
             ]
@@ -7068,7 +7069,7 @@ export default {
             "players": [
                 {
                     "title": "M. Ymer",
-                    "nationality_code": "SE",
+                    "nationality": "SE",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg"
                 }
             ]
@@ -7078,7 +7079,7 @@ export default {
             "players": [
                 {
                     "title": "H. Hurkacz",
-                    "nationality_code": "PL",
+                    "nationality": "PL",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/PL.svg"
                 }
             ]
@@ -7088,7 +7089,7 @@ export default {
             "players": [
                 {
                     "title": "M. Mmoh",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -7098,7 +7099,7 @@ export default {
             "players": [
                 {
                     "title": "V. Troicki",
-                    "nationality_code": "RS",
+                    "nationality": "RS",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
                 }
             ]
@@ -7108,7 +7109,7 @@ export default {
             "players": [
                 {
                     "title": "T. Daniel",
-                    "nationality_code": "JP",
+                    "nationality": "JP",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
                 }
             ]
@@ -7118,7 +7119,7 @@ export default {
             "players": [
                 {
                     "title": "M. Cressy",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -7128,7 +7129,7 @@ export default {
             "players": [
                 {
                     "title": "C. Stebe",
-                    "nationality_code": "GER",
+                    "nationality": "GER",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
                 }
             ]
@@ -7138,7 +7139,7 @@ export default {
             "players": [
                 {
                     "title": "F. Auger-Aliassime",
-                    "nationality_code": "CA",
+                    "nationality": "CA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
                 }
             ]
@@ -7147,7 +7148,7 @@ export default {
             "players": [
                 {
                     "title": "K. Anderson",
-                    "nationality_code": "RSA",
+                    "nationality": "RSA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RSA.svg"
                 }
             ]
@@ -7157,7 +7158,7 @@ export default {
             "players": [
                 {
                     "title": "M. Berrettini",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -7167,7 +7168,7 @@ export default {
             "players": [
                 {
                     "title": "F. Fognini",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -7176,7 +7177,7 @@ export default {
             "players": [
                 {
                     "title": "P. Herbert",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -7186,7 +7187,7 @@ export default {
             "players": [
                 {
                     "title": "D. Evans",
-                    "nationality_code": "GB",
+                    "nationality": "GB",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
                 }
             ]
@@ -7195,7 +7196,7 @@ export default {
             "players": [
                 {
                     "title": "C. Norrie",
-                    "nationality_code": "GB",
+                    "nationality": "GB",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
                 }
             ]
@@ -7204,7 +7205,7 @@ export default {
             "players": [
                 {
                     "title": "N. Basilashvili",
-                    "nationality_code": "GE",
+                    "nationality": "GE",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GE.svg"
                 }
             ]
@@ -7213,7 +7214,7 @@ export default {
             "players": [
                 {
                     "title": "T. Paul",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -7223,7 +7224,7 @@ export default {
             "players": [
                 {
                     "title": "D. Goffin",
-                    "nationality_code": "BE",
+                    "nationality": "BE",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BE.svg"
                 }
             ]
@@ -7233,7 +7234,7 @@ export default {
             "players": [
                 {
                     "title": "A. Popyrin",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -7242,7 +7243,7 @@ export default {
             "players": [
                 {
                     "title": "R. Carballes Baena",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -7251,7 +7252,7 @@ export default {
             "players": [
                 {
                     "title": "A. Balazs",
-                    "nationality_code": "HU",
+                    "nationality": "HU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/HU.svg"
                 }
             ]
@@ -7260,7 +7261,7 @@ export default {
             "players": [
                 {
                     "title": "F. Coria",
-                    "nationality_code": "AR",
+                    "nationality": "AR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
                 }
             ]
@@ -7270,7 +7271,7 @@ export default {
             "players": [
                 {
                     "title": "M. Raonic",
-                    "nationality_code": "CA",
+                    "nationality": "CA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
                 }
             ]
@@ -7279,7 +7280,7 @@ export default {
             "players": [
                 {
                     "title": "T. Monteiro",
-                    "nationality_code": "BR",
+                    "nationality": "BR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BR.svg"
                 }
             ]
@@ -7288,7 +7289,7 @@ export default {
             "players": [
                 {
                     "title": "A. Martin",
-                    "nationality_code": "SK",
+                    "nationality": "SK",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SK.svg"
                 }
             ]
@@ -7297,7 +7298,7 @@ export default {
             "players": [
                 {
                     "title": "S. Querrey",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -7307,7 +7308,7 @@ export default {
             "players": [
                 {
                     "title": "L. Sonego",
-                    "nationality_code": "IT",
+                    "nationality": "IT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
@@ -7316,7 +7317,7 @@ export default {
             "players": [
                 {
                     "title": "K. Nishikori",
-                    "nationality_code": "JP",
+                    "nationality": "JP",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
                 }
             ]
@@ -7326,7 +7327,7 @@ export default {
             "players": [
                 {
                     "title": "P. Carreno Busta",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -7336,7 +7337,7 @@ export default {
             "players": [
                 {
                     "title": "B. Paire",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -7345,7 +7346,7 @@ export default {
             "players": [
                 {
                     "title": "E. Gerasimov",
-                    "nationality_code": "BY",
+                    "nationality": "BY",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BY.svg"
                 }
             ]
@@ -7355,7 +7356,7 @@ export default {
             "players": [
                 {
                     "title": "F. Krajinovic",
-                    "nationality_code": "RS",
+                    "nationality": "RS",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
                 }
             ]
@@ -7365,7 +7366,7 @@ export default {
             "players": [
                 {
                     "title": "R. Haase",
-                    "nationality_code": "NED",
+                    "nationality": "NED",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NED.svg"
                 }
             ]
@@ -7374,7 +7375,7 @@ export default {
             "players": [
                 {
                     "title": "A. Bedene",
-                    "nationality_code": "SLO",
+                    "nationality": "SLO",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SLO.svg"
                 }
             ]
@@ -7383,7 +7384,7 @@ export default {
             "players": [
                 {
                     "title": "A. Bublik",
-                    "nationality_code": "KZ",
+                    "nationality": "KZ",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KZ.svg"
                 }
             ]
@@ -7393,7 +7394,7 @@ export default {
             "players": [
                 {
                     "title": "S. Stakhovsky",
-                    "nationality_code": "UA",
+                    "nationality": "UA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/UA.svg"
                 }
             ]
@@ -7403,7 +7404,7 @@ export default {
             "players": [
                 {
                     "title": "D. Lajovic",
-                    "nationality_code": "RS",
+                    "nationality": "RS",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
                 }
             ]
@@ -7412,7 +7413,7 @@ export default {
             "players": [
                 {
                     "title": "D. Koepfer",
-                    "nationality_code": "GER",
+                    "nationality": "GER",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
                 }
             ]
@@ -7422,7 +7423,7 @@ export default {
             "players": [
                 {
                     "title": "H. Dellien",
-                    "nationality_code": "BO",
+                    "nationality": "BO",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BO.svg"
                 }
             ]
@@ -7432,7 +7433,7 @@ export default {
             "players": [
                 {
                     "title": "A. Mannarino",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
@@ -7441,7 +7442,7 @@ export default {
             "players": [
                 {
                     "title": "D. Novak",
-                    "nationality_code": "AT",
+                    "nationality": "AT",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AT.svg"
                 }
             ]
@@ -7451,7 +7452,7 @@ export default {
             "players": [
                 {
                     "title": "K. Khachanov",
-                    "nationality_code": "RU",
+                    "nationality": "RU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
                 }
             ]
@@ -7461,7 +7462,7 @@ export default {
             "players": [
                 {
                     "title": "A. Vukic",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -7470,7 +7471,7 @@ export default {
             "players": [
                 {
                     "title": "I. Ivashka",
-                    "nationality_code": "BY",
+                    "nationality": "BY",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BY.svg"
                 }
             ]
@@ -7480,7 +7481,7 @@ export default {
             "players": [
                 {
                     "title": "R. Safiullin",
-                    "nationality_code": "RU",
+                    "nationality": "RU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
                 }
             ]
@@ -7489,7 +7490,7 @@ export default {
             "players": [
                 {
                     "title": "R. Albot",
-                    "nationality_code": "MD",
+                    "nationality": "MD",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/MD.svg"
                 }
             ]
@@ -7499,7 +7500,7 @@ export default {
             "players": [
                 {
                     "title": "R. Bautista Agut",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -7508,7 +7509,7 @@ export default {
             "players": [
                 {
                     "title": "L. Harris",
-                    "nationality_code": "RSA",
+                    "nationality": "RSA",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RSA.svg"
                 }
             ]
@@ -7518,7 +7519,7 @@ export default {
             "players": [
                 {
                     "title": "M. Torpegaard",
-                    "nationality_code": "DEN",
+                    "nationality": "DEN",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/DEN.svg"
                 }
             ]
@@ -7527,7 +7528,7 @@ export default {
             "players": [
                 {
                     "title": "T. Sandgren",
-                    "nationality_code": "US",
+                    "nationality": "US",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
@@ -7537,7 +7538,7 @@ export default {
             "players": [
                 {
                     "title": "A. de Minaur",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -7547,7 +7548,7 @@ export default {
             "players": [
                 {
                     "title": "C. Ruud",
-                    "nationality_code": "NO",
+                    "nationality": "NO",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NO.svg"
                 }
             ]
@@ -7556,7 +7557,7 @@ export default {
             "players": [
                 {
                     "title": "J. Thompson",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -7566,7 +7567,7 @@ export default {
             "players": [
                 {
                     "title": "G. Dimitrov",
-                    "nationality_code": "BUL",
+                    "nationality": "BUL",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BUL.svg"
                 }
             ]
@@ -7575,7 +7576,7 @@ export default {
             "players": [
                 {
                     "title": "M. Cilic",
-                    "nationality_code": "CRO",
+                    "nationality": "CRO",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CRO.svg"
                 }
             ]
@@ -7585,7 +7586,7 @@ export default {
             "players": [
                 {
                     "title": "A. Bolt",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -7594,7 +7595,7 @@ export default {
             "players": [
                 {
                     "title": "N. Gombos",
-                    "nationality_code": "SK",
+                    "nationality": "SK",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SK.svg"
                 }
             ]
@@ -7604,7 +7605,7 @@ export default {
             "players": [
                 {
                     "title": "T. Machac",
-                    "nationality_code": "CZ",
+                    "nationality": "CZ",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CZ.svg"
                 }
             ]
@@ -7614,7 +7615,7 @@ export default {
             "players": [
                 {
                     "title": "M. Vilella Martinez",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -7624,7 +7625,7 @@ export default {
             "players": [
                 {
                     "title": "B. Van de Zandschulp",
-                    "nationality_code": "NED",
+                    "nationality": "NED",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NED.svg"
                 }
             ]
@@ -7634,7 +7635,7 @@ export default {
             "players": [
                 {
                     "title": "C. Alcaraz",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -7643,7 +7644,7 @@ export default {
             "players": [
                 {
                     "title": "L. Djere",
-                    "nationality_code": "RS",
+                    "nationality": "RS",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
                 }
             ]
@@ -7653,7 +7654,7 @@ export default {
             "players": [
                 {
                     "title": "R. Nadal",
-                    "nationality_code": "ES",
+                    "nationality": "ES",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
@@ -7663,7 +7664,7 @@ export default {
             "players": [
                 {
                     "title": "C. O'Connell",
-                    "nationality_code": "AU",
+                    "nationality": "AU",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
@@ -7672,7 +7673,7 @@ export default {
             "players": [
                 {
                     "title": "J. Struff",
-                    "nationality_code": "GER",
+                    "nationality": "GER",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
                 }
             ]
@@ -7682,7 +7683,7 @@ export default {
             "players": [
                 {
                     "title": "A. Muller",
-                    "nationality_code": "FR",
+                    "nationality": "FR",
                     "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]

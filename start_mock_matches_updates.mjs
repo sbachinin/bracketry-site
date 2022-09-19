@@ -7,14 +7,14 @@ const live_match = {
         contestantId: "163976",
         isServing: false,
         isWinner: false,
-        score: [ { mainScore: "4"}, { mainScore: "1" } ],
-        subscore: { mainScore: "40" }
+        scores: [ { mainScore: "4"}, { mainScore: "1" } ],
+        current_score: { mainScore: "40" }
     }, {
         contestantId: "164216",
         isServing: true,
         isWinner: false,
-        score: [ { mainScore: "6" }, { mainScore: "0" } ],
-        subscore: { mainScore: "40" }
+        scores: [ { mainScore: "6" }, { mainScore: "0" } ],
+        current_score: { mainScore: "40" }
     }]
 }
 
@@ -24,16 +24,16 @@ const live_match2 = {
     roundIndex: 1, // ???????
     sides: [{
         contestantId: "164341",
-        score: [ {
-            mainScore: "", tieBreak: undefined
+        scores: [ {
+            mainScore: "", subscore: undefined
         } ],
-        subscore: { mainScore: "" }
+        current_score: { mainScore: "" }
     }, {
         contestantId: "164166",
-        score: [ {
-            mainScore: "", tieBreak: undefined
+        scores: [ {
+            mainScore: "", subscore: undefined
         } ],
-        subscore: { mainScore: "" }
+        current_score: { mainScore: "" }
     }]
 }
 
@@ -44,16 +44,16 @@ const live_match3 = {
     roundIndex: 3, // ???????
     sides: [{
         contestantId: "199971",
-        score: [ {
-            mainScore: "", tieBreak: undefined
+        scores: [ {
+            mainScore: "", subscore: undefined
         } ],
-        subscore: { mainScore: "" }
+        current_score: { mainScore: "" }
     }, {
         contestantId: "199146",
-        score: [ {
-            mainScore: "", tieBreak: undefined
+        scores: [ {
+            mainScore: "", subscore: undefined
         } ],
-        subscore: { mainScore: "" }
+        current_score: { mainScore: "" }
     }]
 }
 
@@ -62,9 +62,9 @@ const items = ['15', '30', '40', 'A']
 export const start_mock_matches_updates = (applyMatchesUpdates) => {
     if (true) return
     setInterval(() => {
-        live_match.sides[1].subscore = live_match.sides[1].subscore.mainScore === '40' ? 'A' : '40'
-        live_match2.sides[0].score[0].mainScore = items[Math.floor(Math.random()*items.length)]
-        live_match2.sides[1].score[0].mainScore = items[Math.floor(Math.random()*items.length)]
+        live_match.sides[1].current_score = live_match.sides[1].current_score.mainScore === '40' ? 'A' : '40'
+        live_match2.sides[0].scores[0].mainScore = items[Math.floor(Math.random()*items.length)]
+        live_match2.sides[1].scores[0].mainScore = items[Math.floor(Math.random()*items.length)]
         applyMatchesUpdates([ live_match, live_match2, live_match3 ])
     }, 3000)
 }

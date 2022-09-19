@@ -29,10 +29,11 @@ export default {
             "sides": [
                 {
                     "contestantId": "inter",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            "isWinner": false,
+                            subscore: 4
                         },
                         {
                             "mainScore": "1",
@@ -40,14 +41,15 @@ export default {
                         },
                     ],
                     "isWinner": false,
-                    subscore: { mainScore: '231111' }
+                    current_score: { mainScore: '231111' }
                 },
                 {
                     "contestantId": "liverpool",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": true
+                            "isWinner": true,
+                            subscore: 2
                         },
                         {
                             "mainScore": "0",
@@ -55,7 +57,7 @@ export default {
                         },
                     ],
                     "isWinner": true,
-                    subscore: { mainScore: '23' }
+                    current_score: { mainScore: '23' }
                 }
             ],
             "order": 1,
@@ -69,7 +71,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "villarreal",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -80,11 +82,11 @@ export default {
                         },
                     ],
                     "isWinner": true,
-                    subscore: { mainScore: 2 }
+                    current_score: { mainScore: 2 }
                 },
                 {
                     "contestantId": "juventus",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -95,7 +97,7 @@ export default {
                         },
                     ],
                     "isWinner": false,
-                    subscore: {}
+                    current_score: {}
                 }
             ],
             "order": 2,
@@ -110,18 +112,18 @@ export default {
             "sides": [
                 {
                     "contestantId": "salzburg",
-                    "score": [
+                    "scores": [
                         { mainScore: 'Walkover', isWinner: true },
-                        { tieBreak: 12 },
+                        { subscore: 12 },
                         undefined,
                         { mainScore: '323', isWinner: true }
                     ],
                     "isWinner": false,
-                    subscore: {}
+                    current_score: {}
                 },
                 {
                     "contestantId": "bayern",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "14",
                             "isWinner": true
@@ -136,7 +138,7 @@ export default {
                         }
                     ],
                     "isWinner": true,
-                    subscore: {}
+                    current_score: {}
                 }
             ],
             "order": 3,
@@ -161,7 +163,7 @@ export default {
         //     "sides": [
         //         {
         //             "contestantId": "atletico",
-        //             "score": [
+        //             "scores": [
         //                 {
         //                     "mainScore": "1",
         //                     "isWinner": false
@@ -175,7 +177,7 @@ export default {
         //         },
         //         {
         //             "contestantId": "mu",
-        //             "score": [
+        //             "scores": [
         //                 {
         //                     "mainScore": "1",
         //                     "isWinner": false
@@ -200,7 +202,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "chelsea",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": true
@@ -214,7 +216,7 @@ export default {
                 },
                 {
                     "contestantId": "lille",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
                             "isWinner": false
@@ -239,7 +241,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "psg",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": true
@@ -253,7 +255,7 @@ export default {
                 },
                 {
                     "contestantId": "real",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
                             "isWinner": false
@@ -287,7 +289,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "villarreal",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": true
@@ -301,7 +303,7 @@ export default {
                 },
                 {
                     "contestantId": "bayern",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
                             "isWinner": false
@@ -326,7 +328,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "city",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": true
@@ -352,7 +354,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "chelsea",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": false
@@ -365,7 +367,7 @@ export default {
                 },
                 {
                     "contestantId": "real",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": true
@@ -389,7 +391,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "liverpool",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "2",
                             "isWinner": true
@@ -404,7 +406,7 @@ export default {
                 },
                 {
                     "contestantId": "villarreal",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
                             "isWinner": false
@@ -429,7 +431,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "city",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "4",
                             "isWinner": true
@@ -443,7 +445,7 @@ export default {
                 },
                 {
                     "contestantId": "real",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "3",
                             "isWinner": false
@@ -467,7 +469,7 @@ export default {
             "sides": [
                 {
                     "contestantId": "liverpool",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "0",
                             "isWinner": false
@@ -477,7 +479,7 @@ export default {
                 },
                 {
                     "contestantId": "real",
-                    "score": [
+                    "scores": [
                         {
                             "mainScore": "1",
                             "isWinner": true
