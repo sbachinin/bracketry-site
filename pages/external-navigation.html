@@ -38,7 +38,7 @@
 
 <body>
     <script type="module">
-        import { createPlayoffs } from 'easy-playoffs'
+        import { createPlayoffs } from 'playoffs'
 
         import { insert_styles } from './pages/utils.mjs'
         import * as html_partials from './html_partials.mjs'
@@ -118,7 +118,7 @@
                 Let's build a top navigation bar with a button for each round
             </p>
             <div class="code" style="margin-top: 15px;">
-import { createPlayoffs } from 'easy-playoffs'
+import { createPlayoffs } from 'playoffs'
 
 const { <span class="highlighted-code">setBaseRoundIndex</span> } = createPlayoffs(
     your_data,
@@ -181,7 +181,7 @@ const { <span class="highlighted-code">setBaseRoundIndex</span> } = createPlayof
 
 
 <div class="code" style="margin-top: 15px;">
-import { createPlayoffs } from 'easy-playoffs'
+import { createPlayoffs } from 'playoffs'
 
 const {
     setBaseRoundIndex,
@@ -230,7 +230,7 @@ const buttons = your_data.rounds.map((r, r_i) => {
             <hr style="margin: 70px 0;" />
             <div class="heading-3">3. NAVIGATE TO NTH ROUND ON INITIALIZATION</div>
             <p>
-                On initialization easy-playoffs by default shows the very first rounds of a tournament.
+                On initialization playoffs by default shows the very first rounds of a tournament.
                 <br />
                 But you may want to start from the last "contentful" round for example. (E.g., final round of a finished tournament)
                 <br />
@@ -242,7 +242,7 @@ const buttons = your_data.rounds.map((r, r_i) => {
             </p>
 
             <div class="code">
-import { createPlayoffs } from 'easy-playoffs'
+import { createPlayoffs } from 'playoffs'
 
 const { <span class="highlighted-code">setBaseRoundIndex</span> } = createPlayoffs(
     your_data,

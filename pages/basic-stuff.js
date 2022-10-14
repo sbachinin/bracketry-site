@@ -1,4 +1,4 @@
-import { createPlayoffs } from 'easy-playoffs'
+import { createPlayoffs } from 'playoffs'
 
 import { insert_styles } from './utils.mjs'
 import * as html_partials from './html_partials.mjs'
@@ -16,7 +16,7 @@ document.body.innerHTML = `
     <h1>BASIC STUFF</h1>
     <hr />
     <h2>HOW</h2>
-    <div class="code">import { createPlayoffs } from 'easy-playoffs'
+    <div class="code">import { createPlayoffs } from 'playoffs'
 
 createPlayoffs(
 data,

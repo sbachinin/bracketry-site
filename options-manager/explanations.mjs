@@ -1,4 +1,4 @@
-import { BUTTONS_POSITIONS } from '../node_modules/easy-playoffs/lib/constants.mjs'
+import { BUTTONS_POSITIONS } from '../node_modules/playoffs/lib/constants.mjs'
 
 export const explanations = {
     getRoundTitleElement: `Here you can provide your own round title element.
@@ -24,7 +24,7 @@ getMatchElement will be called with 3 args:
     3) all data with which createPlayoffs() were called
 `,
 
-    matchMaxWidth: `Specifying smaller width here will help easy-playoffs draw a greater number of rounds within a given width`,
+    matchMaxWidth: `Specifying smaller width here will help Playoffs draw a greater number of rounds within a given width`,
 
     matchMinVerticalGap: `Minimal distance means a distance between matches of the leftmost visible round when the visible height isn't enough to contain all matches of this round`,
 

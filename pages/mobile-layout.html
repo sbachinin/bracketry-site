@@ -13,7 +13,7 @@
 
 <body>
     <script type="module">
-        import { createPlayoffs } from 'easy-playoffs'
+        import { createPlayoffs } from 'playoffs'
 
         import { insert_styles } from './pages/utils.mjs'
         import * as html_partials from './html_partials.mjs'
@@ -29,7 +29,7 @@
 
             ${html_partials.home_link}
 
-        Easy-playoffs has a flexible layout, meaning that it always tries to display the maximum information for given data and available space on a page.
+        Playoffs has a flexible layout, meaning that it always tries to display the maximum information for given data and available space on a page.
         (Actual width of a container element that you pass to createPlayoffs)
         Rounds are as narrow as possible with a given data.
 
@@ -49,7 +49,7 @@
             <div class="heading-2">LAYOUT CASES</div>
             <hr />
             <div class="heading-3">Default</div>
-            <div class="code">import { createPlayoffs } from 'easy-playoffs'
+            <div class="code">import { createPlayoffs } from 'playoffs'
 
 <span class="bleak-code">// just default stuff: </span>
 createPlayoffs(
@@ -86,7 +86,7 @@ createPlayoffs(
                 So you can measure your device and decide if you need a mobile layout in particular case.
                 It makes sense to do this check every time on resize. This can be achieved for example via window.matchMedia:
             </p>
-            <div class="code">import { createPlayoffs } from 'easy-playoffs'
+            <div class="code">import { createPlayoffs } from 'playoffs'
 
 const { <span class="highlighted-code">applyNewOptions</span> } = createPlayoffs(
     data,
@@ -115,13 +115,13 @@ mediaQuery.addListener(e => applyNewOptions({ useMobileLayout: e.matches }))
             <div class="note huge-margin-top">
                 <div class="heading-4" id="device-pixel-ratio">Device Pixel Ratio</div>
                     <p>
-                    If you want easy-playoffs to work on mobile devices, mind the devices with high pixel density.
+                    If you want Playoffs to work on mobile devices, mind the devices with high pixel density.
                         <br />
                     On such devices you may find that your elements look 2 or 3 times smaller than on desktop.
                         <br />
                     Thus for instance a text with font-size of 16px may look very small and hardly readable on high-density displays.
                         <br />
-                    By default easy-playoffs tries to prevent this scaling effect and instead provide more or less similar physical sizes across all devices.
+                    By default Playoffs tries to prevent this scaling effect and instead provide more or less similar physical sizes across all devices.
                         <br />
                     It does this by multiplying all pixel values by Window.devicePixelRatio.
                         <br />
@@ -130,7 +130,7 @@ mediaQuery.addListener(e => applyNewOptions({ useMobileLayout: e.matches }))
                     <div class="small-text italic indent">
                         <br />
                         Boring note: devicePixelRatio <b>will not be applied in desktop browsers</b> even with applyDevicePixelRatio set to true.
-                        <br />Thus easy-playoffs tries to avoid <i>double zoom</i>.
+                        <br />Thus Playoffs tries to avoid <i>double zoom</i>.
                         <br />The problem is that in desktop browsers devicePixelRatio reflects the zoom level. (On a page with 150% zoom devicePixelRatio will be 1.5).
                         <br />Thus applying devicePixelRatio on desktop will magnify elements which are already magnified by zoom.
                         <br /><br />

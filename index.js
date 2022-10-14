@@ -1,4 +1,4 @@
-import { createPlayoffs } from 'easy-playoffs'
+import { createPlayoffs } from 'playoffs'
 
 import { insert_styles } from './pages/utils.mjs'
 import { get_some_data } from './test_data/get_some_data.mjs'

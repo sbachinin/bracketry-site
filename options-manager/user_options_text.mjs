@@ -1,5 +1,5 @@
 import { create_element_from_Html } from '../pages/utils.mjs'
-import { get_default_options } from '../node_modules/easy-playoffs/lib/options/options_meta_getter.mjs'
+import { get_default_options } from '../node_modules/playoffs/lib/options/options_meta_getter.mjs'
 
 const get_text = (options_to_values) => {
     const default_options = get_default_options()
