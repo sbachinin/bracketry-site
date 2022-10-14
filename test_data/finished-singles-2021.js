@@ -6478,7 +6478,6 @@ export default {
                 {
                     "title": "F. Tiafoe",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
         },
@@ -6487,7 +6486,6 @@ export default {
                 {
                     "title": "S. Travaglia",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
         },
@@ -6496,7 +6494,6 @@ export default {
                 {
                     "title": "G. Pella",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
                 }
             ]
         },
@@ -6506,7 +6503,6 @@ export default {
                 {
                     "title": "B. Coric",
                     "nationality": "CRO",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CRO.svg"
                 }
             ]
         },
@@ -6515,7 +6511,6 @@ export default {
                 {
                     "title": "P. Andujar",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
         },
@@ -6525,7 +6520,6 @@ export default {
                 {
                     "title": "Q. Halys",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
         },
@@ -6534,7 +6528,6 @@ export default {
                 {
                     "title": "V. Pospisil",
                     "nationality": "CA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
                 }
             ]
         },
@@ -6544,7 +6537,6 @@ export default {
                 {
                     "title": "D. Medvedev",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
                 }
             ]
         },
@@ -6553,7 +6545,6 @@ export default {
                 {
                     "title": "C. Moutet",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
         },
@@ -6562,7 +6553,7 @@ export default {
                 {
                     "title": "J. Millman",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -6571,7 +6562,7 @@ export default {
                 {
                     "title": "Y. Nishioka",
                     "nationality": "JP",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+                    
                 }
             ]
         },
@@ -6580,7 +6571,7 @@ export default {
                 {
                     "title": "P. Martinez",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -6589,7 +6580,7 @@ export default {
                 {
                     "title": "R. Opelka",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -6598,7 +6589,7 @@ export default {
                 {
                     "title": "Y. Lu",
                     "nationality": "TPE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/TPE.svg"
+                    
                 }
             ]
         },
@@ -6608,7 +6599,7 @@ export default {
                 {
                     "title": "S. Wawrinka",
                     "nationality": "SUI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SUI.svg"
+                    
                 }
             ]
         },
@@ -6617,7 +6608,7 @@ export default {
                 {
                     "title": "P. Sousa",
                     "nationality": "POR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/POR.svg"
+                    
                 }
             ]
         },
@@ -6626,7 +6617,7 @@ export default {
                 {
                     "title": "M. McDonald",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -6635,7 +6626,7 @@ export default {
                 {
                     "title": "M. Cecchinato",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+                    
                 }
             ]
         },
@@ -6644,7 +6635,7 @@ export default {
                 {
                     "title": "M. Kecmanovic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+                    
                 }
             ]
         },
@@ -6653,7 +6644,7 @@ export default {
                 {
                     "title": "K. Majchrzak",
                     "nationality": "PL",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/PL.svg"
+                    
                 }
             ]
         },
@@ -6663,7 +6654,7 @@ export default {
                 {
                     "title": "A. Rublev",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+                    
                 }
             ]
         },
@@ -6671,8 +6662,8 @@ export default {
             "players": [
                 {
                     "title": "Y. Hanfmann",
-                    "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+                    "nationality": "DE",
+                    
                 }
             ]
         },
@@ -6681,7 +6672,7 @@ export default {
                 {
                     "title": "J. Londero",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+                    
                 }
             ]
         },
@@ -6690,7 +6681,7 @@ export default {
                 {
                     "title": "M. Giron",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -6699,8 +6690,8 @@ export default {
             "players": [
                 {
                     "title": "A. Zverev",
-                    "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+                    "nationality": "DE",
+                    
                 }
             ]
         },
@@ -6710,7 +6701,7 @@ export default {
                 {
                     "title": "D. Thiem",
                     "nationality": "AT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AT.svg"
+                    
                 }
             ]
         },
@@ -6719,7 +6710,7 @@ export default {
                 {
                     "title": "M. Kukushkin",
                     "nationality": "KZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KZ.svg"
+                    
                 }
             ]
         },
@@ -6729,7 +6720,7 @@ export default {
                 {
                     "title": "N. Djokovic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+                    
                 }
             ]
         },
@@ -6738,7 +6729,7 @@ export default {
                 {
                     "title": "J. Chardy",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    
                 }
             ]
         },
@@ -6747,7 +6738,7 @@ export default {
                 {
                     "title": "A. Ramos-Vinolas",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -6757,7 +6748,7 @@ export default {
                 {
                     "title": "T. Fritz",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -6766,7 +6757,7 @@ export default {
                 {
                     "title": "M. Fucsovics",
                     "nationality": "HU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/HU.svg"
+                    
                 }
             ]
         },
@@ -6776,7 +6767,7 @@ export default {
                 {
                     "title": "M. Polmans",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -6786,7 +6777,7 @@ export default {
                 {
                     "title": "G. Monfils",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    
                 }
             ]
         },
@@ -6795,7 +6786,7 @@ export default {
                 {
                     "title": "E. Ruusuvuori",
                     "nationality": "FI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg"
+                    
                 }
             ]
         },
@@ -6805,7 +6796,7 @@ export default {
                 {
                     "title": "F. Ferreira Silva",
                     "nationality": "POR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/POR.svg"
+                    
                 }
             ]
         },
@@ -6814,7 +6805,7 @@ export default {
                 {
                     "title": "N. Kyrgios",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -6823,7 +6814,7 @@ export default {
                 {
                     "title": "Y. Uchiyama",
                     "nationality": "JP",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+                    
                 }
             ]
         },
@@ -6833,7 +6824,7 @@ export default {
                 {
                     "title": "U. Humbert",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    
                 }
             ]
         },
@@ -6843,7 +6834,7 @@ export default {
                 {
                     "title": "L. Tu",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -6852,7 +6843,7 @@ export default {
                 {
                     "title": "F. Lopez",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -6862,7 +6853,7 @@ export default {
                 {
                     "title": "E. Ymer",
                     "nationality": "SE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg"
+                    
                 }
             ]
         },
@@ -6872,7 +6863,7 @@ export default {
                 {
                     "title": "D. Schwartzman",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+                    
                 }
             ]
         },
@@ -6881,7 +6872,7 @@ export default {
                 {
                     "title": "Y. Sugita",
                     "nationality": "JP",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+                    
                 }
             ]
         },
@@ -6891,7 +6882,7 @@ export default {
                 {
                     "title": "B. Tomic",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -6901,7 +6892,7 @@ export default {
                 {
                     "title": "D. Dzumhur",
                     "nationality": "BA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BA.svg"
+                    
                 }
             ]
         },
@@ -6910,7 +6901,7 @@ export default {
                 {
                     "title": "J. Duckworth",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -6919,7 +6910,7 @@ export default {
                 {
                     "title": "G. Mager",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+                    
                 }
             ]
         },
@@ -6929,7 +6920,7 @@ export default {
                 {
                     "title": "A. Karatsev",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+                    
                 }
             ]
         },
@@ -6938,8 +6929,7 @@ export default {
             "players": [
                 {
                     "title": "S. Tsitsipas",
-                    "nationality": "GRE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GRE.svg"
+                    "nationality": "GR",
                 }
             ]
         },
@@ -6948,7 +6938,6 @@ export default {
                 {
                     "title": "G. Simon",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
                 }
             ]
         },
@@ -6957,7 +6946,6 @@ export default {
                 {
                     "title": "P. Cuevas",
                     "nationality": "URU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/URU.svg"
                 }
             ]
         },
@@ -6966,7 +6954,6 @@ export default {
                 {
                     "title": "A. Seppi",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
         },
@@ -6976,7 +6963,6 @@ export default {
                 {
                     "title": "H. Laaksonen",
                     "nationality": "SUI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SUI.svg"
                 }
             ]
         },
@@ -6985,7 +6971,6 @@ export default {
                 {
                     "title": "S. Caruso",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
         },
@@ -6994,7 +6979,6 @@ export default {
                 {
                     "title": "R. Berankis",
                     "nationality": "LT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/LT.svg"
                 }
             ]
         },
@@ -7004,7 +6988,6 @@ export default {
                 {
                     "title": "S. Nagal",
                     "nationality": "IN",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IN.svg"
                 }
             ]
         },
@@ -7014,7 +6997,6 @@ export default {
                 {
                     "title": "K. Coppejans",
                     "nationality": "BE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BE.svg"
                 }
             ]
         },
@@ -7023,7 +7005,6 @@ export default {
                 {
                     "title": "J. Vesely",
                     "nationality": "CZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CZ.svg"
                 }
             ]
         },
@@ -7033,7 +7014,7 @@ export default {
                 {
                     "title": "D. Shapovalov",
                     "nationality": "CA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
+                    
                 }
             ]
         },
@@ -7042,7 +7023,7 @@ export default {
                 {
                     "title": "J. Sinner",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+                    
                 }
             ]
         },
@@ -7052,7 +7033,7 @@ export default {
                 {
                     "title": "T. Kokkinakis",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -7061,7 +7042,7 @@ export default {
                 {
                     "title": "S. Kwon",
                     "nationality": "KR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KR.svg"
+                    
                 }
             ]
         },
@@ -7070,7 +7051,7 @@ export default {
                 {
                     "title": "M. Ymer",
                     "nationality": "SE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg"
+                    
                 }
             ]
         },
@@ -7080,7 +7061,7 @@ export default {
                 {
                     "title": "H. Hurkacz",
                     "nationality": "PL",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/PL.svg"
+                    
                 }
             ]
         },
@@ -7090,7 +7071,7 @@ export default {
                 {
                     "title": "M. Mmoh",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -7100,7 +7081,7 @@ export default {
                 {
                     "title": "V. Troicki",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+                    
                 }
             ]
         },
@@ -7110,7 +7091,7 @@ export default {
                 {
                     "title": "T. Daniel",
                     "nationality": "JP",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+                    
                 }
             ]
         },
@@ -7120,7 +7101,7 @@ export default {
                 {
                     "title": "M. Cressy",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -7129,8 +7110,8 @@ export default {
             "players": [
                 {
                     "title": "C. Stebe",
-                    "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+                    "nationality": "DE",
+                    
                 }
             ]
         },
@@ -7140,7 +7121,7 @@ export default {
                 {
                     "title": "F. Auger-Aliassime",
                     "nationality": "CA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
+                    
                 }
             ]
         },
@@ -7149,7 +7130,7 @@ export default {
                 {
                     "title": "K. Anderson",
                     "nationality": "RSA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RSA.svg"
+                    
                 }
             ]
         },
@@ -7159,7 +7140,7 @@ export default {
                 {
                     "title": "M. Berrettini",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+                    
                 }
             ]
         },
@@ -7169,7 +7150,7 @@ export default {
                 {
                     "title": "F. Fognini",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+                    
                 }
             ]
         },
@@ -7178,7 +7159,7 @@ export default {
                 {
                     "title": "P. Herbert",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    
                 }
             ]
         },
@@ -7188,7 +7169,7 @@ export default {
                 {
                     "title": "D. Evans",
                     "nationality": "GB",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
+                    
                 }
             ]
         },
@@ -7197,7 +7178,7 @@ export default {
                 {
                     "title": "C. Norrie",
                     "nationality": "GB",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
+                    
                 }
             ]
         },
@@ -7206,7 +7187,7 @@ export default {
                 {
                     "title": "N. Basilashvili",
                     "nationality": "GE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GE.svg"
+                    
                 }
             ]
         },
@@ -7215,7 +7196,7 @@ export default {
                 {
                     "title": "T. Paul",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -7225,7 +7206,7 @@ export default {
                 {
                     "title": "D. Goffin",
                     "nationality": "BE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BE.svg"
+                    
                 }
             ]
         },
@@ -7235,7 +7216,7 @@ export default {
                 {
                     "title": "A. Popyrin",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -7244,7 +7225,7 @@ export default {
                 {
                     "title": "R. Carballes Baena",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -7253,7 +7234,7 @@ export default {
                 {
                     "title": "A. Balazs",
                     "nationality": "HU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/HU.svg"
+                    
                 }
             ]
         },
@@ -7262,7 +7243,7 @@ export default {
                 {
                     "title": "F. Coria",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+                    
                 }
             ]
         },
@@ -7272,7 +7253,7 @@ export default {
                 {
                     "title": "M. Raonic",
                     "nationality": "CA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
+                    
                 }
             ]
         },
@@ -7281,7 +7262,7 @@ export default {
                 {
                     "title": "T. Monteiro",
                     "nationality": "BR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BR.svg"
+                    
                 }
             ]
         },
@@ -7290,7 +7271,7 @@ export default {
                 {
                     "title": "A. Martin",
                     "nationality": "SK",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SK.svg"
+                    
                 }
             ]
         },
@@ -7299,7 +7280,7 @@ export default {
                 {
                     "title": "S. Querrey",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -7309,7 +7290,7 @@ export default {
                 {
                     "title": "L. Sonego",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+                    
                 }
             ]
         },
@@ -7318,7 +7299,7 @@ export default {
                 {
                     "title": "K. Nishikori",
                     "nationality": "JP",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+                    
                 }
             ]
         },
@@ -7328,7 +7309,7 @@ export default {
                 {
                     "title": "P. Carreno Busta",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -7338,7 +7319,7 @@ export default {
                 {
                     "title": "B. Paire",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    
                 }
             ]
         },
@@ -7347,7 +7328,7 @@ export default {
                 {
                     "title": "E. Gerasimov",
                     "nationality": "BY",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BY.svg"
+                    
                 }
             ]
         },
@@ -7357,7 +7338,7 @@ export default {
                 {
                     "title": "F. Krajinovic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+                    
                 }
             ]
         },
@@ -7367,7 +7348,7 @@ export default {
                 {
                     "title": "R. Haase",
                     "nationality": "NED",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NED.svg"
+                    
                 }
             ]
         },
@@ -7376,7 +7357,7 @@ export default {
                 {
                     "title": "A. Bedene",
                     "nationality": "SLO",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SLO.svg"
+                    
                 }
             ]
         },
@@ -7385,7 +7366,7 @@ export default {
                 {
                     "title": "A. Bublik",
                     "nationality": "KZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KZ.svg"
+                    
                 }
             ]
         },
@@ -7395,7 +7376,7 @@ export default {
                 {
                     "title": "S. Stakhovsky",
                     "nationality": "UA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/UA.svg"
+                    
                 }
             ]
         },
@@ -7405,7 +7386,7 @@ export default {
                 {
                     "title": "D. Lajovic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+                    
                 }
             ]
         },
@@ -7413,8 +7394,8 @@ export default {
             "players": [
                 {
                     "title": "D. Koepfer",
-                    "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+                    "nationality": "DE",
+                    
                 }
             ]
         },
@@ -7424,7 +7405,7 @@ export default {
                 {
                     "title": "H. Dellien",
                     "nationality": "BO",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BO.svg"
+                    
                 }
             ]
         },
@@ -7434,7 +7415,7 @@ export default {
                 {
                     "title": "A. Mannarino",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    
                 }
             ]
         },
@@ -7443,7 +7424,7 @@ export default {
                 {
                     "title": "D. Novak",
                     "nationality": "AT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AT.svg"
+                    
                 }
             ]
         },
@@ -7453,7 +7434,7 @@ export default {
                 {
                     "title": "K. Khachanov",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+                    
                 }
             ]
         },
@@ -7463,7 +7444,7 @@ export default {
                 {
                     "title": "A. Vukic",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -7472,7 +7453,7 @@ export default {
                 {
                     "title": "I. Ivashka",
                     "nationality": "BY",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BY.svg"
+                    
                 }
             ]
         },
@@ -7482,7 +7463,7 @@ export default {
                 {
                     "title": "R. Safiullin",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+                    
                 }
             ]
         },
@@ -7491,7 +7472,7 @@ export default {
                 {
                     "title": "R. Albot",
                     "nationality": "MD",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/MD.svg"
+                    
                 }
             ]
         },
@@ -7501,7 +7482,7 @@ export default {
                 {
                     "title": "R. Bautista Agut",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -7510,7 +7491,7 @@ export default {
                 {
                     "title": "L. Harris",
                     "nationality": "RSA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RSA.svg"
+                    
                 }
             ]
         },
@@ -7520,7 +7501,7 @@ export default {
                 {
                     "title": "M. Torpegaard",
                     "nationality": "DEN",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/DEN.svg"
+                    
                 }
             ]
         },
@@ -7529,7 +7510,7 @@ export default {
                 {
                     "title": "T. Sandgren",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    
                 }
             ]
         },
@@ -7539,7 +7520,7 @@ export default {
                 {
                     "title": "A. de Minaur",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -7549,7 +7530,7 @@ export default {
                 {
                     "title": "C. Ruud",
                     "nationality": "NO",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NO.svg"
+                    
                 }
             ]
         },
@@ -7558,7 +7539,7 @@ export default {
                 {
                     "title": "J. Thompson",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -7567,8 +7548,8 @@ export default {
             "players": [
                 {
                     "title": "G. Dimitrov",
-                    "nationality": "BUL",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BUL.svg"
+                    "nationality": "BG",
+                    
                 }
             ]
         },
@@ -7577,7 +7558,7 @@ export default {
                 {
                     "title": "M. Cilic",
                     "nationality": "CRO",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CRO.svg"
+                    
                 }
             ]
         },
@@ -7587,7 +7568,7 @@ export default {
                 {
                     "title": "A. Bolt",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -7596,7 +7577,7 @@ export default {
                 {
                     "title": "N. Gombos",
                     "nationality": "SK",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SK.svg"
+                    
                 }
             ]
         },
@@ -7606,7 +7587,7 @@ export default {
                 {
                     "title": "T. Machac",
                     "nationality": "CZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CZ.svg"
+                    
                 }
             ]
         },
@@ -7616,7 +7597,7 @@ export default {
                 {
                     "title": "M. Vilella Martinez",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -7626,7 +7607,7 @@ export default {
                 {
                     "title": "B. Van de Zandschulp",
                     "nationality": "NED",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NED.svg"
+                    
                 }
             ]
         },
@@ -7636,7 +7617,7 @@ export default {
                 {
                     "title": "C. Alcaraz",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -7645,7 +7626,7 @@ export default {
                 {
                     "title": "L. Djere",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+                    
                 }
             ]
         },
@@ -7655,7 +7636,7 @@ export default {
                 {
                     "title": "R. Nadal",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+                    
                 }
             ]
         },
@@ -7665,7 +7646,7 @@ export default {
                 {
                     "title": "C. O'Connell",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+                    
                 }
             ]
         },
@@ -7673,8 +7654,8 @@ export default {
             "players": [
                 {
                     "title": "J. Struff",
-                    "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+                    "nationality": "DE",
+                    
                 }
             ]
         },
@@ -7684,7 +7665,7 @@ export default {
                 {
                     "title": "A. Muller",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+                    
                 }
             ]
         }

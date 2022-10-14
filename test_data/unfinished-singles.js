@@ -1597,14 +1597,14 @@ export default {
                 {
                     "contestantId": "198811",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198781",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -2253,7 +2253,7 @@ export default {
             ],
             "order": 22,
             "isLive": true,
-            "matchStatus": "Live"
+            
         },
         {
             "id": "MS152",
@@ -3243,14 +3243,14 @@ export default {
                 {
                     "contestantId": "199136",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199146",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3266,14 +3266,14 @@ export default {
                 {
                     "contestantId": "198981",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199106",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3442,7 +3442,7 @@ export default {
                 {
                     "contestantId": "198951",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3458,14 +3458,14 @@ export default {
                 {
                     "contestantId": "199256",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199006",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3481,14 +3481,14 @@ export default {
                 {
                     "contestantId": "199181",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199986",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3555,7 +3555,7 @@ export default {
             ],
             "order": 30,
             "isLive": true,
-            "matchStatus": "Live"
+            
         },
         {
             "id": "MS303",
@@ -3564,14 +3564,14 @@ export default {
                 {
                     "contestantId": "199226",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199101",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4248,7 +4248,7 @@ export default {
             ],
             "order": 27,
             "isLive": true,
-            "matchStatus": "Live"
+            
         },
         {
             "id": "MS307",
@@ -4257,14 +4257,14 @@ export default {
                 {
                     "contestantId": "198841",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198856",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4280,14 +4280,14 @@ export default {
                 {
                     "contestantId": "198766",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198791",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4862,14 +4862,14 @@ export default {
                 {
                     "contestantId": "198926",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198806",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4885,14 +4885,14 @@ export default {
                 {
                     "contestantId": "199046",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199251",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4963,14 +4963,14 @@ export default {
                 {
                     "contestantId": "199031",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199271",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5018,7 +5018,7 @@ export default {
             ],
             "order": 18,
             "isLive": true,
-            "matchStatus": "Live"
+            
         },
         {
             "id": "MS207",
@@ -5072,14 +5072,14 @@ export default {
                 {
                     "contestantId": "198846",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199246",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5160,14 +5160,14 @@ export default {
                 {
                     "contestantId": "199291",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199166",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5183,7 +5183,7 @@ export default {
                 {
                     "contestantId": "199036",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5199,14 +5199,14 @@ export default {
                 {
                     "contestantId": "199076",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198941",
                     "scores": [],
-                    "current_score": { mainScore: "" },
+                    
                     "isServing": false,
                     "isWinner": false
                 }
