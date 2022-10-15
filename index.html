@@ -11,8 +11,9 @@
         }
 
         .title {
-            font-size: 99px;
-            margin-top: 50px;
+            font-size: 60px;
+            margin-top: 26px;
+            margin-bottom: 30px;
             letter-spacing: 0.07em;
             font-weight: bold;
             line-height: 0.85;
@@ -20,9 +21,10 @@
         }
 
         .logo {
-            width: 222px;
-            float: left;
-            padding-right: 32px;
+            height: 100px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 39px;
         }
 
         .diagram-img {
@@ -49,14 +51,12 @@
 </head>
 
 <body>
-    <img class="logo" src="pages/logo1.jpg" />
-    <h1 class="title" style="margin-bottom: 80px;">EASY<br />-PLAYOFFS</h1>
 
-    <div style="font-size: 24px;
-    font-style: italic;">
-        It creates diagrams that represent the "draws" of a knockout tournament:
-    </div>
-    <img class="diagram-img" src="pages/images/diagram.jpg" />
+    <h1 class="title"><img class="logo" src="pages/images/sheep.jpg" />PLAYOFFS</h1>
+
+    <div class="default-playoffs common-playoffs-wrapper"></div>
+    <div class="data-picker default-playoffs-data-picker">try different data: </div>
+
 
     <p style="line-height: 2.2;">
         But first you have to convert your data to a <a href="pages/data.html"><b>proper format</b></a>
@@ -81,9 +81,7 @@
     <p>You just provide your data and get this default view
         (On mobile it must look quite ugly. See possible layout solutions for small devices)
     </p>
-    
-    <div class="default-playoffs common-playoffs-wrapper"></div>
-    <div class="data-picker default-playoffs-data-picker">try different data: </div>
+
 
 
 
@@ -166,7 +164,7 @@
     <p>
         Playoffs' layout is mobile-friendly by default. (But please make sure that your wrapper element is fluid,
         i.e. shrinks with the viewport).
-        
+
     </p>
     <img src="pages/images/mobile.jpg" style="width: 380px;
         max-width: 85vw;
