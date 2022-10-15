@@ -6,7 +6,7 @@ console.log("Current directory:", __dirname);
 module.exports = {
     entry: {
         index: Path.resolve(__dirname, './index.js'),
-        ['basic-stuff']: Path.resolve(__dirname, './pages/basic-stuff.js'),
+        // ['basic-stuff']: Path.resolve(__dirname, './pages/basic-stuff.js'),
     },
     output: {
         path: Path.join(__dirname, './pages/js_bundles'),

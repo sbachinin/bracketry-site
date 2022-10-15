@@ -3,96 +3,158 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script defer src="pages/js_bundles/index.js"></script>
+
+    <link rel="stylesheet" href="./styles/common-styles.css">
+    <link rel="stylesheet" href="./styles/atom-one-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+
     <style>
-        html {
-            visibility: hidden;
-            opacity: 0;
-            overflow-x: hidden;
-        }
-
-        .title {
-            font-size: 60px;
-            margin-top: 26px;
-            margin-bottom: 30px;
-            letter-spacing: 0.07em;
-            font-weight: bold;
-            line-height: 0.85;
-            word-wrap: break-word;
-        }
-
-        .logo {
-            height: 100px;
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: 39px;
-        }
-
-        .diagram-img {
-            height: 225px;
-            display: block;
-            margin-top: 21px;
-            margin-bottom: 25px;
-            margin-left: 6%;
-            max-width: 70vw;
-        }
 
         .default-playoffs {
-            margin: 20px 0 0 0;
+            margin: 20px 0 25px 0;
         }
 
-        .default-playoffs-data-picker {
-            margin-top: 10px;
+        .adjustments {
+            display: flex;
+            justify-content: center;
+        }
+
+        .data-picker.default-playoffs-data-picker {
+            margin-right: 60px;
         }
 
         h3 {
             margin: 50px 0 10px 0;
         }
+
+        ul a {
+            display: list-item;
+        }
     </style>
+
 </head>
 
 <body>
 
-    <h1 class="title"><img class="logo" src="pages/images/sheep.jpg" />PLAYOFFS</h1>
+    <header>
+        <img class="logo" src="images/sheep.jpg" />
+        <div class="title">
+            PLAYOFFS<span class="subtitle">js</span>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
 
     <div class="default-playoffs common-playoffs-wrapper"></div>
-    <div class="data-picker default-playoffs-data-picker">try different data: </div>
+
+    <div class="adjustments">
+        <div class="data-picker default-playoffs-data-picker"></div>
+        <div class="options-manager-opener main-button" style="display: inline-block;">manage options</div>
+    </div>
 
 
-    <p style="line-height: 2.2;">
-        But first you have to convert your data to a <a href="pages/data.html"><b>proper format</b></a>
-        <br />
-        You can also make a lot of visual <a href="#options-header"><b>adjustments</b></a> to your diagram
-        <br />
-        It tries to display stuff in the most condensed way
-        (as much rounds as possible with a given data and available space. Later rounds are 'squashed' to avoid big
-        vertical gaps which usually make you scroll a lot to find the right match).
-        <br />
-        It's mobile-friendly by default.
-        <br />
-        And it supports <a href="#live-updates-header">live updates</a>
-        <br />
-        Note that if you want to display countries' <a href="#flags-header">flags</a>, you have to provide your own flag
-        urls
+    <hr style="margin: 26px 0 46px" />
+
+    <div class="heading-3">Installation</div>
+
+    <pre><code>npm install playoffs</code></pre>
+
+    <div class="heading-3">Basic usage</div>
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const wrapper = document.querySelector('#your-wrapper-element')
+const data = { ... } // data of specific shape
+
+createPlayoffs(data, wrapper)</code></pre>
+
+    <p class="indented-paragraph">
+        In most cases #your-wrapper-element should have <b>explicit width and height</b>.
+        <br>
+        Playoffs will try to take all the available space within your wrapper.
     </p>
 
-    <hr style="margin: 50px 0 70px;" />
 
-    <div class="heading-2"><a href="pages/basic-stuff.html">BASIC USAGE</a></div>
-    <p>You just provide your data and get this default view
-        (On mobile it must look quite ugly. See possible layout solutions for small devices)
-    </p>
+    <div class="heading-3">How to...</div>
+
+    <ul>
+        
+        <a href="prepare-data">Prepare your <big><b>data</b></big></a>
+        <br>
+
+        <a href="fonts-colors-sizes">Adjust <big><b>fonts & colors & sizes</b></big></a>
+        <br>
+
+        <a href="adjust-buttons">Change the position of <big><b>navigation buttons</b></big></a>
+        <br>
+
+        <a href="external-navigation">Build your own <big><b>"external" navigation</b></big></a>
+        <br>
+
+        <a href="mobile">Make playoffs <big><b>mobile</b></big>-friendly</a>
+        <br>
+
+        <a href="inject-markup">Inject some pieces of <big><b>your own markup</b></big></a>
+        <br>
+
+        <a href="get-match-element">...or provide your own <big><b>match element</b></big></a>
+        <br>
+
+        <a href="change-options"><big><b>Change options</b></big> after initialization</a>
+        <br>
+
+        <a href="click-handlers">Set custom <big><b>click handlers</b></big> on match element or match side element</a>
+        <br>
+
+        <a href="live-updates">Apply <big><b>live updates</b></big></a>
+        <br>
+
+        <a href="live-match">Highlight a <big><b>'Live' match</b></big></a>
+        <br>
+
+        <a href="change-tournament">Switch to a <big><b>different tournament</b></big></a>
+        <br>
+
+        <a href="whole-rounds">Get rid of the partly visible round on the right (display only <big><b>whole rounds</b></big>)</a>
+        <br>
+
+        <a href="n-rounds">Display <big><b>N rounds</b></big></a>
+        <br>
+
+        <a href="doubles">Display <big><b>doubles</b></big> in tennis</a>
+        <br>
+
+        <a href="auto-height">Render playoffs with <big><b>'auto height'</b></big> (as high as the entire content)</a>
+        <br>
+
+        <a href="flags">Get national <big><b>flags</b></big> (or whatever image before team title)</a>
+
+    </ul>
+
+
+    <div class="heading-3">API</div>
+
+    <ul>
+        
+        <a href="create-playoffs">createPlayoffs()</a>
+        <br>
+
+        <a href="lifecycle-methods">"Lifecycle" methods</a>
+        <br>
+    
+        <a href="data-shape">Shape of data</a>
+        <br>
+    
+        <a href="options">Options</a>
+        <br>
+    
+    
 
 
 
 
 
 
-
-
-
-
-
-
+<!-- 
     <div class="heading-2" id="options-header">OPTIONS</div>
 
     <div class="heading-3" style="margin-bottom: 0;"><a href="pages/custom-buttons.html">CUSTOM NAVIGATION BUTTONS</a>
@@ -122,9 +184,6 @@
         behaviour.
     </p>
     <a href="pages/onclicks.html" class="more-link">EXAMPLE</a>
-    <!-- end options -->
-
-
 
 
 
@@ -174,6 +233,20 @@
     " />
     <a class="more-link" href="pages/mobile-layout.html">More</a>
 
+ -->
+
+
+
+
+
+    <div class="footer" style="
+        background: #f2fae6;
+        height: 252px;
+        margin-top: 50px;
+        width: 150vw;
+        margin-left: -50vw;
+        margin-bottom: -50px;
+    "></div>
 
 
 
@@ -181,13 +254,5 @@
 
 
 
-
-
-
-
-
-
-
-
-
+    <script>hljs.highlightAll()</script>
 </body>

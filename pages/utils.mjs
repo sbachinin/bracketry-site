@@ -26,3 +26,8 @@ export const escape_Html = unsafe => {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 }
+
+
+export const get_n_things = (n, cb) => {
+    return Array.from(Array(n)).map((_, i) => cb(i))
+}

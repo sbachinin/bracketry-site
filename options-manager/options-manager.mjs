@@ -1,5 +1,5 @@
-import { OPTIONS } from '../node_modules/playoffs/lib/options/options_meta.mjs'
-import { get_default_options } from '../node_modules/playoffs/lib/options/options_meta_getter.mjs'
+import { OPTIONS } from './options_meta.mjs'
+import { get_default_options } from './options-meta-getter.mjs'
 import { get_option_input } from './get-option-input.mjs'
 import * as elements from './elements.mjs'
 import { get_options_group_heading } from './get_options_group_heading.mjs'

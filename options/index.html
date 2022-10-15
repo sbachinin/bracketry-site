@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        .option-group-title {
+            color: #ff5722;
+            font-size: 32px;
+            margin-top: 66px;
+            margin-bottom: 42px;
+        }
+
+        .option-group-title:first-letter {
+            text-transform: uppercase;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #ccc !important;
+        }
+
+        td {
+            padding-right: 20px;
+        }
+
+        td:not(:first-child) {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+
+        .td-essence {
+            width: 250px;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .td-explanation {
+            width: 400px;
+            overflow: hidden;
+            display: inline-block;
+            white-space: pre-wrap;
+            font-size: 14px;
+            line-height: 1.6em;
+        }
+
+        td:first-child {
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/sheep.jpg" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="common-playoffs-wrapper"></div>
+
+    <div class="options-manager-opener main-button" style="margin: 25px auto">manage options</div>
+
+
+    <div class="heading-3">How to apply options</div>
+
+    Options can be passed to <b><a href="/create-playoffs">createPlayoffs</a></b> as a 3rd argument
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const wrapper = document.querySelector('#your-wrapper-element')
+const data = { ... } // data of specific shape
+
+const options = {
+    matchMaxWidth: '200px'
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+
+    <br>
+    Options can be changed later via <b><a href="/lifecycle-methods#applyNewOptions">applyNewOptions</a></b> lifecycle
+    method
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const wrapper = document.querySelector('#your-wrapper-element')
+const data = { ... } // data of specific shape
+
+const options = {
+    matchMaxWidth: '200px'
+}
+
+const { applyNewOptions } = createPlayoffs(data, wrapper, options)
+
+applyNewOptions({
+    matchMaxWidth: '100px'
+})</code></pre>
+
+    (but options of functional type such as getMatchElement are <i>not changeable</i> by applyNewOptions)
+    <br>
+    <br>
+    You can get current options via <b><a href="/lifecycle-methods#getUserOptions">getUserOptions</a></b> method
+
+
+
+    <br>
+    <br>
+    <div class="list-of-options"></div>
+
+
+
+
+    <div class="footer" style="
+        background: #f2fae6;
+        height: 252px;
+        margin-top: 50px;
+        width: 150vw;
+        margin-left: -50vw;
+        margin-bottom: -50px;
+    "></div>
+
+
+
+
+
+
+    <script type="module">
+        import { createPlayoffs } from '../easy-playoffs.min.js'
+        import data from '../test_data/unfinished-tennis-doubles.js'
+        import { add_options_manager } from '../options-manager/options-manager.mjs'
+        import { OPTIONS } from '../options-manager/options_meta.mjs'
+        import { explanations } from '../options-manager/explanations.mjs'
+
+
+        const playoffs = createPlayoffs(
+            data,
+            document.querySelector('.common-playoffs-wrapper'),
+            {}
+        )
+
+        add_options_manager(
+            document.querySelector('.options-manager-opener'),
+            (o) => playoffs.applyNewOptions(o),
+            {}
+        )
+
+        const get_option_type_label = (type) => {
+            if (type === 'function_or_null') return 'function or null'
+            if (type === 'multiline_string') return 'string'
+            if (type === 'pixels') return 'number'
+            return type
+        }
+
+        const options_html = `
+            <div class="option-group-title">General options</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th align="left">Name</th>
+                        <th align="left">Essence</th>
+                        <th align="left">Type</th>
+                        <th align="left">Default</th>
+                        <th align="left">Explanation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${Object.entries(OPTIONS).map(([options_group_name, options_of_group], i) => {
+
+            return `<tr><td colspan=10>
+
+                            ${i === 0
+                    ? ''
+                    : `<div class="option-group-title">
+                                    ${options_group_name.toLowerCase().replace(/_/g, ' ')}
+                                </div>`
+                }
+                            
+                            </td></tr>` +
+                Object.entries(options_of_group).map(([name, meta]) => `
+                                <tr>
+                                    <td align="left">${name}</td>
+                                    <td align="left" class="td-essence">${meta.title}</td>
+                                    <td align="left">${get_option_type_label(meta.type)}</td>
+                                    <td align="left">${meta.default_value}</td>
+                                    <td align="left" class="td-explanation">${explanations[name] || ''}</td>
+                                </tr>
+                            `).join('\n')
+        }).join('')}
+                </tbbody>
+            </table>
+        `
+
+        document.querySelector('.list-of-options').innerHTML = options_html
+    </script>
+
+    <script>hljs.highlightAll()</script>
+</body>

@@ -1,5 +1,6 @@
 export const options_manager_styles = `
     .options-group-heading {
+        background: #e2e2e2;
         font-size: 16px;
         padding: 6px 20px 6px 10px;
         cursor: pointer;
@@ -7,16 +8,24 @@ export const options_manager_styles = `
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: #373737;
         clear: both;
-        color: white;
-        text-transform: uppercase;
+        color: black;
+        text-transform: capitalize;
+        font-weight: bolder;
     }
     .options-group-heading {
         margin: 5px 0;
     }
+
+    .options-group-heading span {
+        display: inline-block;
+        line-height: 0;
+        font-weight: normal;
+        font-size: 18px;
+    }
+
     .single-option-wrapper {
-        padding: 15px 12px;
+        padding: 9px 12px;
     }
 
 
@@ -33,15 +42,16 @@ export const options_manager_styles = `
     }
 
     .single-option-wrapper:not(:first-child) {
-        border-top: 1px solid #4a4a4a;
+        border-top: 1px solid #ccc;
     }
 
     .option-name {
         display: block;
-        color: #8e8e8e;
+        color: #ababab;
         word-wrap: anywhere;
         font-style: italic;
         margin-bottom: 5px;
+        font-size: 13px;
     }
 
     .single-option {
@@ -77,7 +87,6 @@ export const options_manager_styles = `
 
 
     .option-explanation-button {
-        padding: 7px;
         margin: 0 10px;
         cursor: pointer;
         display: flex;
@@ -120,6 +129,7 @@ export const options_manager_styles = `
         user-select: none;
         font-weight: bold;
         flex-shrink: 0;
+        margin-left: 10px;
     }
     .checkbox.checked {
         color: #1c5dd9;

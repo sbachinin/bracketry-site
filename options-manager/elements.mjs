@@ -14,12 +14,13 @@ export const inputs_root_wrapper = () => create_element_from_Html(
             height: 100vh;
             overflow: visible scroll;
             font-family: sans-serif;
-            font-size: 15px;
+            font-size: 14px;
             z-index: 30;
             padding-bottom: 50px;
             box-sizing: border-box;
-            background: rgb(243, 243, 243);
-            padding-left: 5px;
+            background: white;
+            border-left: 1px solid #ccc;
+            letter-spacing: 0.03em;
         '
     ></div>`
 )
@@ -29,18 +30,18 @@ export const sidebar_close_button = () => {
         `<div
             class="sidebar-close-button"
             style='
-                font-size: 45px;
+                font-size: 35px;
                 box-sizing: border-box;
                 cursor: pointer;
                 float: right;
-                border: 1px solid;
                 margin: 8px;
-                width: 35px;
-                height: 35px;
+                width: 27px;
+                height: 18px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 user-select: none;
+        }
             '
         >&#215;</div>`
     )
@@ -58,11 +59,8 @@ export const options_group_heading = (
     names_of_expanded_groups
 ) => create_element_from_Html(`
     <div class="options-group-heading">
-        ${text}
+        ${text.toLowerCase()}
         <span class='${options_type_name}-arrow' style='
-            display: inline-block;
-            line-height: 0;
-            font-size: 18px;
             transform: ${ names_of_expanded_groups.includes(options_type_name) ? 'rotate(180deg)' : 'none' }
         '>
             V
