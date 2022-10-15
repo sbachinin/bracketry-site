@@ -12,6 +12,7 @@ module.exports = {
         path: Path.join(__dirname, './pages/js_bundles'),
         filename: '[name].js',
     },
+    watch: true,
     // optimization: {
     //     splitChunks: {
     //         chunks: 'all',
