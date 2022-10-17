@@ -56,25 +56,25 @@ export const sidebar_close_button = () => {
 export const options_group_heading = (
     text,
     options_type_name,
-    names_of_expanded_groups
+    is_expanded
 ) => create_element_from_Html(`
     <div class="options-group-heading">
         ${text.toLowerCase()}
         <span class='${options_type_name}-arrow' style='
-            transform: ${ names_of_expanded_groups.includes(options_type_name) ? 'rotate(180deg)' : 'none' }
+            transform: ${ is_expanded ? 'rotate(180deg)' : 'none' }
         '>
             V
         </span>
     </div>
 `)
 
-export const option_wrapper_el = (option_name, option_info) => create_element_from_Html(
+export const option_wrapper_el = (name, type, title) => create_element_from_Html(
     `<div class="single-option-wrapper">
-        <span class="option-name">${option_name}</span>
+        <span class="option-name">${name}</span>
             
-        <div class="single-option ${option_info.type}">
+        <div class="single-option ${type}">
             <div class="option-info">
-                <span class="option-title">${escape_Html(option_info.title)}</span>
+                <span class="option-title">${escape_Html(title)}</span>
                 <span class="explanation-placeholder"></span>
             </div>
             <span class="input-placeholder"></span>

@@ -29,16 +29,18 @@ export const options_manager_styles = `
     }
 
 
+    .single-option-wrapper.disabled > * {
+        filter: blur(0.6px);
+    }
+
     .single-option-wrapper.disabled .option-name,
     .single-option-wrapper.disabled .option-title {
         color: rgba(0,0,0,.35);
-        filter: blur(0.8px);
     }
 
     .single-option-wrapper.disabled input,
     .single-option-wrapper.disabled textarea {
         color: transparent;
-        filter: blur(0.8px);
     }
 
     .single-option-wrapper:not(:first-child) {
@@ -79,6 +81,7 @@ export const options_manager_styles = `
     .option-info {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .single-option:not(.boolean) .option-info {
@@ -93,7 +96,9 @@ export const options_manager_styles = `
         align-items: center;
     }
 
-
+    .option-explanation-button svg {
+        height: 16px;
+    }
 
 
 

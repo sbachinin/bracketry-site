@@ -44,6 +44,12 @@ header > * {
     color: #117181;
 }
 
+.pixels-badge {
+    align-self: center;
+    margin-left: -4px;
+    color: #ad6161;
+}
+
 .title a {
     text-decoration: none;
     color: #117181;
@@ -127,32 +133,15 @@ code {
 
 
 
-.data-picker {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.data-picker-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    background-color: #ccc;
-    margin-right: 10px;
-}
-.data-picker-dot.selected {
-    background-color: black;
-}
-
 
 
 .main-button {
     background: black;
     color: white;
-    padding: 5px 10px;
-    margin-right: 20px;
+    padding: 3px 7px;
     user-select: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 29px;
     width: max-content;
     opacity: 0.8;

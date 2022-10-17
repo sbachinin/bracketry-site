@@ -11,7 +11,7 @@ const get_text = (options_to_values) => {
         .replace(/"([^"]+)":/g, '$1:')
 }
 
-export const create_user_options_text = (initial_options_to_values) => {
+export const create_user_options_text = () => {
     const text_el = create_element_from_Html(
         `<div style='
             border: 1px solid #ccc;
@@ -21,7 +21,7 @@ export const create_user_options_text = (initial_options_to_values) => {
             background: #fff;
             color: #757575;
             overflow: auto;
-        '>${get_text(initial_options_to_values)}</div>`
+        '></div>`
     )
 
 

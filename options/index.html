@@ -3,6 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+    <script defer type="module" src="./options.mjs"></script>
     <link rel="stylesheet" href="../styles/atom-one-light.min.css">
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
@@ -109,7 +111,10 @@ applyNewOptions({
     matchMaxWidth: '100px'
 })</code></pre>
 
-    (but options of functional type such as getMatchElement are <i>not changeable</i> by applyNewOptions)
+    Options passed to applyNewOptions will be merged with those which were passed to createPlayoffs()
+    <br>
+
+    Options of functional type (such as getMatchElement) are <i>not changeable</i> by applyNewOptions
     <br>
     <br>
     You can get current options via <b><a href="/lifecycle-methods#getUserOptions">getUserOptions</a></b> method
@@ -136,75 +141,6 @@ applyNewOptions({
 
 
 
-
-    <script type="module">
-        import { createPlayoffs } from '../easy-playoffs.min.js'
-        import data from '../test_data/unfinished-tennis-doubles.js'
-        import { add_options_manager } from '../options-manager/options-manager.mjs'
-        import { OPTIONS } from '../options-manager/options_meta.mjs'
-        import { explanations } from '../options-manager/explanations.mjs'
-
-
-        const playoffs = createPlayoffs(
-            data,
-            document.querySelector('.common-playoffs-wrapper'),
-            {}
-        )
-
-        add_options_manager(
-            document.querySelector('.options-manager-opener'),
-            (o) => playoffs.applyNewOptions(o),
-            {}
-        )
-
-        const get_option_type_label = (type) => {
-            if (type === 'function_or_null') return 'function or null'
-            if (type === 'multiline_string') return 'string'
-            if (type === 'pixels') return 'number'
-            return type
-        }
-
-        const options_html = `
-            <div class="option-group-title">General options</div>
-            <table>
-                <thead>
-                    <tr>
-                        <th align="left">Name</th>
-                        <th align="left">Essence</th>
-                        <th align="left">Type</th>
-                        <th align="left">Default</th>
-                        <th align="left">Explanation</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${Object.entries(OPTIONS).map(([options_group_name, options_of_group], i) => {
-
-            return `<tr><td colspan=10>
-
-                            ${i === 0
-                    ? ''
-                    : `<div class="option-group-title">
-                                    ${options_group_name.toLowerCase().replace(/_/g, ' ')}
-                                </div>`
-                }
-                            
-                            </td></tr>` +
-                Object.entries(options_of_group).map(([name, meta]) => `
-                                <tr>
-                                    <td align="left">${name}</td>
-                                    <td align="left" class="td-essence">${meta.title}</td>
-                                    <td align="left">${get_option_type_label(meta.type)}</td>
-                                    <td align="left">${meta.default_value}</td>
-                                    <td align="left" class="td-explanation">${explanations[name] || ''}</td>
-                                </tr>
-                            `).join('\n')
-        }).join('')}
-                </tbbody>
-            </table>
-        `
-
-        document.querySelector('.list-of-options').innerHTML = options_html
-    </script>
 
     <script>hljs.highlightAll()</script>
 </body>

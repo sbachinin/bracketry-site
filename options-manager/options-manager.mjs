@@ -11,85 +11,85 @@ import { options_manager_styles } from './options-manager-styles.mjs'
 const names_of_expanded_groups = []
 const all_inputs = []
 
-const update_inputs = (options_to_values) => {
-    Object.keys(OPTIONS).forEach(options_type_name => {
-        document.querySelector(`.${options_type_name}-arrow`).style.transform = (
-            names_of_expanded_groups.includes(options_type_name) ? 'rotate(180deg)' : 'none'
-        )
-        document.querySelector(`.${options_type_name}`).style.height = (
-            names_of_expanded_groups.includes(options_type_name) ? 'auto' : 0
-        )
-    })
-    all_inputs.forEach(i => i.update(options_to_values))
+const toggle_group_expand = (group_name) => {
+    const should_expand = !names_of_expanded_groups.includes(group_name)
+
+    if (should_expand) {
+        names_of_expanded_groups.push(group_name)
+        document.querySelector(`.${group_name}-arrow`).style.transform = 'rotate(180deg)'
+        document.querySelector(`.${group_name}`).style.height = 'auto'
+    } else {
+        const index = names_of_expanded_groups.indexOf(group_name)
+        names_of_expanded_groups.splice(index, 1)
+        document.querySelector(`.${group_name}-arrow`).style.transform = 'none'
+        document.querySelector(`.${group_name}`).style.height = 0
+    }
 }
 
-const create_inputs = (user_options_to_values, sidebar_el, apply_new_options) => {
+const create_inputs = (sidebar_el, handle_option_change) => {
     sidebar_el.innerHTML = ''
 
-    const options_to_values = { ...get_default_options(), ...user_options_to_values}
-
     const onchange = throttle_with_trailing((option_name, option_value) => {
-        Object.assign(
-            options_to_values,
-            { [option_name]: option_value },
-        )
-
-        update_user_options_text(options_to_values)
-        update_inputs(options_to_values)
-        apply_new_options({ [option_name]: option_value })
+        handle_option_change(option_name, option_value)
     }, 300)
 
-    const get_inputs_of_type = (options, options_type_name) => {
+    const get_inputs_of_type = (options, group_name) => {
         const group_inputs = Object.entries(options)
             .map(([option_name, option_info]) => {
                 const input = get_option_input(
                     option_name,
                     option_info,
-                    options_to_values[option_name],
                     onchange
                 )
                 all_inputs.push(input)
                 return input.el
             })
 
-        const group_wrapper_el = elements.grouped_inputs_wrapper(options_type_name, names_of_expanded_groups)
+        const group_wrapper_el = elements.grouped_inputs_wrapper(group_name, names_of_expanded_groups)
         group_wrapper_el.append(...group_inputs)
         return group_wrapper_el
     }
 
     Object.entries(OPTIONS)
-        .forEach(([options_type_name, options_of_type]) => {
-            sidebar_el.append(
-                get_options_group_heading(
-                    options_type_name,
-                    () => update_inputs(options_to_values),
-                    names_of_expanded_groups
-                ),
-                get_inputs_of_type(options_of_type, options_type_name)
-            )
+        .forEach(([group_name, options_of_type]) => {
+            sidebar_el.append(get_options_group_heading(
+                group_name,
+                names_of_expanded_groups.includes(group_name),
+                toggle_group_expand
+            ))
+            sidebar_el.append(get_inputs_of_type(options_of_type, group_name))
         })
 
-    
+
     const {
         user_options_text_el, update_user_options_text
-    } = create_user_options_text(user_options_to_values)
+    } = create_user_options_text()
     sidebar_el.append(user_options_text_el)
-    
+
+    const update_inputs = (user_options) => {
+        const actual_options = { ...get_default_options(), ...user_options }
+        all_inputs.forEach(i => i.update(actual_options))
+        update_user_options_text(actual_options)
+    }
+
+    return update_inputs
 }
 
 export const add_options_manager = (
     opener_el,
-    apply_new_options,
-    user_options_to_values
+    playoffs
 ) => {
     const sidebar_el = elements.inputs_root_wrapper()
     insert_styles('', 'options-manager-styles', options_manager_styles)
 
-    create_inputs(
-        user_options_to_values,
-        sidebar_el,
-        apply_new_options
-    )
+    const handle_option_change = (option_name, option_value) => {
+        playoffs.applyNewOptions({ [option_name]: option_value })
+        update_inputs(playoffs.getUserOptions())
+    }
+
+    const update_inputs = create_inputs(sidebar_el, handle_option_change)
+
+    update_inputs(playoffs.getUserOptions())
 
     sidebar_el.prepend(elements.sidebar_close_button())
 
@@ -101,5 +101,8 @@ export const add_options_manager = (
 
     elements.create_tooltip()
 
-    return sidebar_el
+    return {
+        element: sidebar_el,
+        update_inputs
+    }
 }
