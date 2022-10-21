@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/sheep.jpg" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="common-playoffs-wrapper"></div>
+
+    <div class="options-manager-opener main-button" style="margin: 25px auto">manage options</div>
+
+
+
+
+    <div class="heading-3">Some heading</div>
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const wrapper = document.querySelector('#your-wrapper-element')
+const data = { ... } // data of specific shape
+
+const options = {
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+
+
+
+
+
+
+    <div class="footer" style="
+        background: #f2fae6;
+        height: 252px;
+        margin-top: 50px;
+        width: 150vw;
+        margin-left: -50vw;
+        margin-bottom: -50px;
+    "></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

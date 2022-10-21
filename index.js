@@ -23,8 +23,7 @@ get_some_data().then(data => {
     )
 
 
-
-    const mediaQuery = window.matchMedia('(max-width: 768px)')
+    const mediaQuery = window.matchMedia('(max-width: 600px)')
     const adjust_options_to_width = () => {
         if (mediaQuery.matches) {
             playoffs.applyNewOptions({

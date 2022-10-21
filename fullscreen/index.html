@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/sheep.jpg" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+
+    <div class="heading-2">Fullscreen mode</div>
+
+    <div class="main-button open-fullscreen-button">Open</div>
+
+    <div class="heading-3">How</div>
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const options = {
+    fullscreen: true,
+    rootBgColor: 'white',
+    width: '90vw',
+    height: '90vh'
+}
+
+document.querySelector('.your-button').addEventListener('click', () => {
+    createPlayoffs(yourData, document.body, options)
+})</code></pre>
+
+    It's recommended to render fullscreen playoffs to the <b>document.body.</b>
+    <br>
+    <br>
+    Setting <b>width</b> and <b>height</b> options will also make sense. Otherwise playoffs will take the entire viewport.
+    <br>
+    (Width and height may be provided in any units, not only vw or vh).
+    <br>
+    <br>
+    <b>rootBgColor</b> is 'transparent' by default so please provide something opaque instead.
+    <br>
+    Use <b>fullscreenBgColor</b> to change the background color of the margins outside playoffs' "body".
+    <br>
+    Or you can set <b>fullscreenBgColor</b> alone. In such case you will get the same color across the entire viewport.
+    <br>
+    <br>
+    <div class="heading-4">Ways to exit fullscreen mode</div>
+        &nbsp;&nbsp; - click on the cross button
+        <br>
+        &nbsp;&nbsp; - click anywhere outside the playoffs' "body"
+        <br>
+        &nbsp;&nbsp; - press Esc
+        <br>
+        &nbsp;&nbsp; - (programmatically) call <b>uninstall</b> method on a playoffs' instance
+
+    <br>
+    <br>
+    <div class="heading-4">"fullscreen" option is not updatable</div>
+    This option will be <b>ignored</b> when passed to <b>applyNewOptions</b>.
+    <br>
+    It means that there's no easy way to switch between 'fullscreen' and 'static' mode within one instance of playoffs.
+    <br>
+    <br>
+    If you need a 'small' playoffs which is expandable to fullscreen, then you need 2 instances, one 'static' and the second one which will be created in response to button click.
+    
+
+    <div class="footer" style="
+        background: #f2fae6;
+        height: 252px;
+        margin-top: 50px;
+        width: 150vw;
+        margin-left: -50vw;
+        margin-bottom: -50px;
+    "></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

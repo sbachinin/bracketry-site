@@ -76,7 +76,6 @@ export default {
             ],
             "order": 25,
             "isLive": false,
-            "matchStatus": "Complete"
         },
         {
             "id": "MS222",
@@ -123,7 +122,7 @@ export default {
             ],
             "order": 21,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS133",
@@ -180,7 +179,7 @@ export default {
             ],
             "order": 32,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS105",
@@ -225,7 +224,7 @@ export default {
             ],
             "order": 4,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS145",
@@ -278,7 +277,7 @@ export default {
             ],
             "order": 44,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS131",
@@ -323,7 +322,7 @@ export default {
             ],
             "order": 30,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS134",
@@ -368,7 +367,7 @@ export default {
             ],
             "order": 33,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS132",
@@ -413,7 +412,7 @@ export default {
             ],
             "order": 31,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS136",
@@ -466,7 +465,7 @@ export default {
             ],
             "order": 35,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS104",
@@ -511,7 +510,7 @@ export default {
             ],
             "order": 3,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS101",
@@ -556,7 +555,7 @@ export default {
             ],
             "order": 0,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS147",
@@ -617,7 +616,7 @@ export default {
             ],
             "order": 46,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS106",
@@ -672,7 +671,7 @@ export default {
             ],
             "order": 5,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS155",
@@ -717,7 +716,7 @@ export default {
             ],
             "order": 54,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS159",
@@ -770,7 +769,7 @@ export default {
             ],
             "order": 58,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS122",
@@ -823,7 +822,7 @@ export default {
             ],
             "order": 21,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS120",
@@ -878,7 +877,7 @@ export default {
             ],
             "order": 19,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS116",
@@ -933,7 +932,7 @@ export default {
             ],
             "order": 15,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS115",
@@ -978,7 +977,7 @@ export default {
             ],
             "order": 14,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS137",
@@ -1041,7 +1040,7 @@ export default {
             ],
             "order": 36,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS138",
@@ -1088,7 +1087,7 @@ export default {
             ],
             "order": 37,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS139",
@@ -1153,7 +1152,7 @@ export default {
             ],
             "order": 38,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS135",
@@ -1198,7 +1197,7 @@ export default {
             ],
             "order": 34,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS221",
@@ -1243,7 +1242,7 @@ export default {
             ],
             "order": 20,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS124",
@@ -1300,7 +1299,7 @@ export default {
             ],
             "order": 23,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS153",
@@ -1345,7 +1344,7 @@ export default {
             ],
             "order": 52,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS117",
@@ -1394,7 +1393,7 @@ export default {
             ],
             "order": 16,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS110",
@@ -1447,7 +1446,7 @@ export default {
             ],
             "order": 9,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS201",
@@ -1496,7 +1495,7 @@ export default {
             ],
             "order": 0,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS210",
@@ -1543,7 +1542,7 @@ export default {
             ],
             "order": 9,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS203",
@@ -1588,7 +1587,7 @@ export default {
             ],
             "order": 2,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS220",
@@ -1597,14 +1596,14 @@ export default {
                 {
                     "contestantId": "198811",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198781",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -1672,7 +1671,7 @@ export default {
             ],
             "order": 42,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS102",
@@ -1717,7 +1716,7 @@ export default {
             ],
             "order": 1,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS157",
@@ -1762,7 +1761,7 @@ export default {
             ],
             "order": 56,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS156",
@@ -1823,7 +1822,7 @@ export default {
             ],
             "order": 55,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS160",
@@ -1890,7 +1889,7 @@ export default {
             ],
             "order": 59,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS149",
@@ -1935,7 +1934,7 @@ export default {
             ],
             "order": 48,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS150",
@@ -1996,7 +1995,7 @@ export default {
             ],
             "order": 49,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS119",
@@ -2049,7 +2048,7 @@ export default {
             ],
             "order": 18,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS151",
@@ -2102,7 +2101,7 @@ export default {
             ],
             "order": 50,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS164",
@@ -2149,7 +2148,7 @@ export default {
             ],
             "order": 63,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS148",
@@ -2194,7 +2193,7 @@ export default {
             ],
             "order": 47,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS223",
@@ -2253,7 +2252,7 @@ export default {
             ],
             "order": 22,
             "isLive": true,
-            
+
         },
         {
             "id": "MS152",
@@ -2298,7 +2297,7 @@ export default {
             ],
             "order": 51,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS118",
@@ -2351,7 +2350,7 @@ export default {
             ],
             "order": 17,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS111",
@@ -2396,7 +2395,7 @@ export default {
             ],
             "order": 10,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS212",
@@ -2463,7 +2462,7 @@ export default {
             ],
             "order": 11,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS205",
@@ -2528,7 +2527,7 @@ export default {
             ],
             "order": 4,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS206",
@@ -2593,7 +2592,7 @@ export default {
             ],
             "order": 5,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS103",
@@ -2638,7 +2637,7 @@ export default {
             ],
             "order": 2,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS144",
@@ -2685,7 +2684,7 @@ export default {
             ],
             "order": 43,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS225",
@@ -2730,7 +2729,7 @@ export default {
             ],
             "order": 24,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS121",
@@ -2777,7 +2776,7 @@ export default {
             ],
             "order": 20,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS113",
@@ -2822,7 +2821,7 @@ export default {
             ],
             "order": 12,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS114",
@@ -2885,7 +2884,7 @@ export default {
             ],
             "order": 13,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS107",
@@ -2940,7 +2939,7 @@ export default {
             ],
             "order": 6,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS112",
@@ -2987,7 +2986,7 @@ export default {
             ],
             "order": 11,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS140",
@@ -3032,7 +3031,7 @@ export default {
             ],
             "order": 39,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS162",
@@ -3077,7 +3076,7 @@ export default {
             ],
             "order": 61,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS216",
@@ -3122,7 +3121,7 @@ export default {
             ],
             "order": 15,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS230",
@@ -3177,7 +3176,7 @@ export default {
             ],
             "order": 29,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS125",
@@ -3234,7 +3233,7 @@ export default {
             ],
             "order": 24,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS313",
@@ -3243,14 +3242,14 @@ export default {
                 {
                     "contestantId": "199136",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199146",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3266,14 +3265,14 @@ export default {
                 {
                     "contestantId": "198981",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199106",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3333,7 +3332,7 @@ export default {
             ],
             "order": 1,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS211",
@@ -3380,7 +3379,7 @@ export default {
             ],
             "order": 10,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS208",
@@ -3433,7 +3432,7 @@ export default {
             ],
             "order": 7,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS312",
@@ -3442,7 +3441,7 @@ export default {
                 {
                     "contestantId": "198951",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3458,14 +3457,14 @@ export default {
                 {
                     "contestantId": "199256",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199006",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3481,14 +3480,14 @@ export default {
                 {
                     "contestantId": "199181",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199986",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3555,7 +3554,7 @@ export default {
             ],
             "order": 30,
             "isLive": true,
-            
+
         },
         {
             "id": "MS303",
@@ -3564,14 +3563,14 @@ export default {
                 {
                     "contestantId": "199226",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199101",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -3639,7 +3638,7 @@ export default {
             ],
             "order": 45,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS224",
@@ -3696,7 +3695,7 @@ export default {
             ],
             "order": 23,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS158",
@@ -3751,7 +3750,7 @@ export default {
             ],
             "order": 57,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS123",
@@ -3812,7 +3811,7 @@ export default {
             ],
             "order": 22,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS154",
@@ -3873,7 +3872,7 @@ export default {
             ],
             "order": 53,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS109",
@@ -3918,7 +3917,7 @@ export default {
             ],
             "order": 8,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS108",
@@ -3981,7 +3980,7 @@ export default {
             ],
             "order": 7,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS141",
@@ -4036,7 +4035,7 @@ export default {
             ],
             "order": 40,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS142",
@@ -4083,7 +4082,7 @@ export default {
             ],
             "order": 41,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS161",
@@ -4140,7 +4139,7 @@ export default {
             ],
             "order": 60,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS218",
@@ -4185,7 +4184,7 @@ export default {
             ],
             "order": 17,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS228",
@@ -4248,7 +4247,7 @@ export default {
             ],
             "order": 27,
             "isLive": true,
-            
+
         },
         {
             "id": "MS307",
@@ -4257,14 +4256,14 @@ export default {
                 {
                     "contestantId": "198841",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198856",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4280,14 +4279,14 @@ export default {
                 {
                     "contestantId": "198766",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198791",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4347,7 +4346,7 @@ export default {
             ],
             "order": 26,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS126",
@@ -4408,7 +4407,7 @@ export default {
             ],
             "order": 25,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS130",
@@ -4453,7 +4452,7 @@ export default {
             ],
             "order": 29,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS163",
@@ -4498,7 +4497,7 @@ export default {
             ],
             "order": 62,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS209",
@@ -4543,7 +4542,7 @@ export default {
             ],
             "order": 8,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS213",
@@ -4588,7 +4587,7 @@ export default {
             ],
             "order": 12,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS214",
@@ -4641,7 +4640,7 @@ export default {
             ],
             "order": 13,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS215",
@@ -4686,7 +4685,7 @@ export default {
             ],
             "order": 14,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS217",
@@ -4741,7 +4740,7 @@ export default {
             ],
             "order": 16,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS204",
@@ -4806,7 +4805,7 @@ export default {
             ],
             "order": 3,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS229",
@@ -4853,7 +4852,7 @@ export default {
             ],
             "order": 28,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS308",
@@ -4862,14 +4861,14 @@ export default {
                 {
                     "contestantId": "198926",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198806",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4885,14 +4884,14 @@ export default {
                 {
                     "contestantId": "199046",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199251",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -4954,7 +4953,7 @@ export default {
             ],
             "order": 28,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS304",
@@ -4963,14 +4962,14 @@ export default {
                 {
                     "contestantId": "199031",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199271",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5018,7 +5017,7 @@ export default {
             ],
             "order": 18,
             "isLive": true,
-            
+
         },
         {
             "id": "MS207",
@@ -5063,7 +5062,7 @@ export default {
             ],
             "order": 6,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS232",
@@ -5072,14 +5071,14 @@ export default {
                 {
                     "contestantId": "198846",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199246",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5151,7 +5150,7 @@ export default {
             ],
             "order": 27,
             "isLive": false,
-            "matchStatus": "Complete"
+
         },
         {
             "id": "MS301",
@@ -5160,14 +5159,14 @@ export default {
                 {
                     "contestantId": "199291",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "199166",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5183,7 +5182,7 @@ export default {
                 {
                     "contestantId": "199036",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5199,14 +5198,14 @@ export default {
                 {
                     "contestantId": "199076",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 },
                 {
                     "contestantId": "198941",
                     "scores": [],
-                    
+
                     "isServing": false,
                     "isWinner": false
                 }
@@ -5222,7 +5221,6 @@ export default {
                 {
                     "title": "A. Molcan",
                     "nationality": "SK",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SK.svg"
                 }
             ]
         },
@@ -5231,7 +5229,6 @@ export default {
                 {
                     "title": "P. Andujar",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
         },
@@ -5241,7 +5238,6 @@ export default {
                 {
                     "title": "N. Basilashvili",
                     "nationality": "GE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GE.svg"
                 }
             ]
         },
@@ -5251,7 +5247,6 @@ export default {
                 {
                     "title": "A. Murray",
                     "nationality": "GB",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
                 }
             ]
         },
@@ -5261,7 +5256,6 @@ export default {
                 {
                     "title": "J. Sinner",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
         },
@@ -5270,7 +5264,6 @@ export default {
                 {
                     "title": "L. Musetti",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
                 }
             ]
         },
@@ -5280,7 +5273,6 @@ export default {
                 {
                     "title": "A. de Minaur",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
         },
@@ -5290,7 +5282,6 @@ export default {
                 {
                     "title": "T. Kokkinakis",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
                 }
             ]
         },
@@ -5299,7 +5290,6 @@ export default {
                 {
                     "title": "M. Giron",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
         },
@@ -5309,7 +5299,6 @@ export default {
                 {
                     "title": "R. Nadal",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
                 }
             ]
         },
@@ -5318,7 +5307,6 @@ export default {
                 {
                     "title": "S. Johnson",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
                 }
             ]
         },
@@ -5327,7 +5315,7 @@ export default {
                 {
                     "title": "J. Thompson",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -5336,7 +5324,7 @@ export default {
                 {
                     "title": "A. Seppi",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -5345,7 +5333,7 @@ export default {
                 {
                     "title": "K. Majchrzak",
                     "nationality": "PL",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/PL.svg"
+
                 }
             ]
         },
@@ -5354,7 +5342,7 @@ export default {
                 {
                     "title": "J. Duckworth",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -5363,7 +5351,7 @@ export default {
                 {
                     "title": "A. Mannarino",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -5372,7 +5360,7 @@ export default {
                 {
                     "title": "N. Kyrgios",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -5381,7 +5369,7 @@ export default {
                 {
                     "title": "J. Munar",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5391,7 +5379,7 @@ export default {
                 {
                     "title": "A. Karatsev",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+
                 }
             ]
         },
@@ -5400,7 +5388,7 @@ export default {
                 {
                     "title": "B. van de Zandschulp",
                     "nationality": "NED",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NED.svg"
+
                 }
             ]
         },
@@ -5409,7 +5397,7 @@ export default {
                 {
                     "title": "J. Struff",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -5418,7 +5406,7 @@ export default {
                 {
                     "title": "S. Baez",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -5427,7 +5415,7 @@ export default {
                 {
                     "title": "A. Ramos-Vinolas",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5436,7 +5424,7 @@ export default {
                 {
                     "title": "F. Delbonis",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -5445,7 +5433,7 @@ export default {
                 {
                     "title": "P. Martinez",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5455,7 +5443,7 @@ export default {
                 {
                     "title": "A. Vukic",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -5465,7 +5453,7 @@ export default {
                 {
                     "title": "L. Harris",
                     "nationality": "RSA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RSA.svg"
+
                 }
             ]
         },
@@ -5474,7 +5462,7 @@ export default {
                 {
                     "title": "D. Koepfer",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -5483,7 +5471,7 @@ export default {
                 {
                     "title": "C. Taberner",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5493,7 +5481,7 @@ export default {
                 {
                     "title": "G. Dimitrov",
                     "nationality": "BUL",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BUL.svg"
+
                 }
             ]
         },
@@ -5502,7 +5490,7 @@ export default {
                 {
                     "title": "F. Tiafoe",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5511,7 +5499,7 @@ export default {
                 {
                     "title": "T. Paul",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5521,7 +5509,7 @@ export default {
                 {
                     "title": "K. Khachanov",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+
                 }
             ]
         },
@@ -5530,7 +5518,7 @@ export default {
                 {
                     "title": "D. Kudla",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5539,7 +5527,7 @@ export default {
                 {
                     "title": "L. Djere",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+
                 }
             ]
         },
@@ -5549,7 +5537,7 @@ export default {
                 {
                     "title": "D. Shapovalov",
                     "nationality": "CA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
+
                 }
             ]
         },
@@ -5558,7 +5546,7 @@ export default {
                 {
                     "title": "M. Ymer",
                     "nationality": "SE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg"
+
                 }
             ]
         },
@@ -5568,16 +5556,16 @@ export default {
                 {
                     "title": "S. Tsitsipas",
                     "nationality": "GRE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GRE.svg"
+
                 }
             ]
         },
         "198956": {
             "players": [
                 {
-                    "title": "A. Davidovich Fokina",
+                    "title": "A. Dav. Fokina",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5587,7 +5575,7 @@ export default {
                 {
                     "title": "A. Bolt",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -5596,7 +5584,7 @@ export default {
                 {
                     "title": "O. Otte",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -5606,7 +5594,7 @@ export default {
                 {
                     "title": "C. Tseng",
                     "nationality": "TPE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/TPE.svg"
+
                 }
             ]
         },
@@ -5615,7 +5603,7 @@ export default {
                 {
                     "title": "A. Bublik",
                     "nationality": "KZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KZ.svg"
+
                 }
             ]
         },
@@ -5625,7 +5613,7 @@ export default {
                 {
                     "title": "C. O'Connell",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -5634,7 +5622,7 @@ export default {
                 {
                     "title": "H. Gaston",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -5644,7 +5632,7 @@ export default {
                 {
                     "title": "S. Kozlov",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5653,7 +5641,7 @@ export default {
                 {
                     "title": "J. Vesely",
                     "nationality": "CZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CZ.svg"
+
                 }
             ]
         },
@@ -5662,7 +5650,7 @@ export default {
                 {
                     "title": "F. Bagnis",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -5672,7 +5660,7 @@ export default {
                 {
                     "title": "C. Garin",
                     "nationality": "CHI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CHI.svg"
+
                 }
             ]
         },
@@ -5681,7 +5669,7 @@ export default {
                 {
                     "title": "Y. Nishioka",
                     "nationality": "JP",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+
                 }
             ]
         },
@@ -5691,7 +5679,7 @@ export default {
                 {
                     "title": "U. Humbert",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -5700,7 +5688,7 @@ export default {
                 {
                     "title": "R. Gasquet",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -5709,7 +5697,7 @@ export default {
                 {
                     "title": "J. Cerundolo",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -5719,7 +5707,7 @@ export default {
                 {
                     "title": "C. Alcaraz",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5729,7 +5717,7 @@ export default {
                 {
                     "title": "D. Evans",
                     "nationality": "GB",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
+
                 }
             ]
         },
@@ -5738,7 +5726,7 @@ export default {
                 {
                     "title": "D. Goffin",
                     "nationality": "BE",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BE.svg"
+
                 }
             ]
         },
@@ -5748,7 +5736,7 @@ export default {
                 {
                     "title": "R. Bautista Agut",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5757,7 +5745,7 @@ export default {
                 {
                     "title": "S. Travaglia",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -5766,7 +5754,7 @@ export default {
                 {
                     "title": "P. Kohlschreiber",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -5775,7 +5763,7 @@ export default {
                 {
                     "title": "M. Cecchinato",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -5785,7 +5773,7 @@ export default {
                 {
                     "title": "H. Hurkacz",
                     "nationality": "PL",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/PL.svg"
+
                 }
             ]
         },
@@ -5794,7 +5782,7 @@ export default {
                 {
                     "title": "E. Gerasimov",
                     "nationality": "BY",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BY.svg"
+
                 }
             ]
         },
@@ -5804,7 +5792,7 @@ export default {
                 {
                     "title": "R. Opelka",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5813,7 +5801,7 @@ export default {
                 {
                     "title": "K. Anderson",
                     "nationality": "RSA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RSA.svg"
+
                 }
             ]
         },
@@ -5822,7 +5810,7 @@ export default {
                 {
                     "title": "M. McDonald",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5831,7 +5819,7 @@ export default {
                 {
                     "title": "B. Bonzi",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -5840,7 +5828,7 @@ export default {
                 {
                     "title": "P. Gojowczyk",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -5850,7 +5838,7 @@ export default {
                 {
                     "title": "P. Carreno Busta",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -5859,7 +5847,7 @@ export default {
                 {
                     "title": "M. Cressy",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5869,7 +5857,7 @@ export default {
                 {
                     "title": "J. Isner",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5879,7 +5867,7 @@ export default {
                 {
                     "title": "D. Schwartzman",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -5888,7 +5876,7 @@ export default {
                 {
                     "title": "F. Krajinovic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+
                 }
             ]
         },
@@ -5897,7 +5885,7 @@ export default {
                 {
                     "title": "M. Fucsovics",
                     "nationality": "HU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/HU.svg"
+
                 }
             ]
         },
@@ -5906,7 +5894,7 @@ export default {
                 {
                     "title": "D. Lajovic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+
                 }
             ]
         },
@@ -5916,7 +5904,7 @@ export default {
                 {
                     "title": "A. Rublev",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+
                 }
             ]
         },
@@ -5925,7 +5913,7 @@ export default {
                 {
                     "title": "G. Mager",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -5935,7 +5923,7 @@ export default {
                 {
                     "title": "M. Cilic",
                     "nationality": "CRO",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CRO.svg"
+
                 }
             ]
         },
@@ -5944,7 +5932,7 @@ export default {
                 {
                     "title": "C. Moutet",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -5954,7 +5942,7 @@ export default {
                 {
                     "title": "L. Pouille",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -5963,7 +5951,7 @@ export default {
                 {
                     "title": "S. Querrey",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -5973,7 +5961,7 @@ export default {
                 {
                     "title": "L. Sonego",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -5982,7 +5970,7 @@ export default {
                 {
                     "title": "A. Popyrin",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -5991,7 +5979,7 @@ export default {
                 {
                     "title": "A. Rinderknech",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -6001,7 +5989,7 @@ export default {
                 {
                     "title": "A. Zverev",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -6010,7 +5998,7 @@ export default {
                 {
                     "title": "D. Altmaier",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -6019,7 +6007,7 @@ export default {
                 {
                     "title": "F. Lopez",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -6028,7 +6016,7 @@ export default {
                 {
                     "title": "J. Millman",
                     "nationality": "AU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg"
+
                 }
             ]
         },
@@ -6037,7 +6025,7 @@ export default {
                 {
                     "title": "T. Griekspoor",
                     "nationality": "NED",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/NED.svg"
+
                 }
             ]
         },
@@ -6046,7 +6034,7 @@ export default {
                 {
                     "title": "F. Fognini",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -6055,7 +6043,7 @@ export default {
                 {
                     "title": "B. Paire",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -6064,7 +6052,7 @@ export default {
                 {
                     "title": "T. Monteiro",
                     "nationality": "BR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BR.svg"
+
                 }
             ]
         },
@@ -6074,7 +6062,7 @@ export default {
                 {
                     "title": "C. Norrie",
                     "nationality": "GB",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
+
                 }
             ]
         },
@@ -6083,7 +6071,7 @@ export default {
                 {
                     "title": "S. Korda",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -6092,7 +6080,7 @@ export default {
                 {
                     "title": "E. Ruusuvuori",
                     "nationality": "FI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg"
+
                 }
             ]
         },
@@ -6102,7 +6090,7 @@ export default {
                 {
                     "title": "F. Auger-Aliassime",
                     "nationality": "CA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg"
+
                 }
             ]
         },
@@ -6111,7 +6099,7 @@ export default {
                 {
                     "title": "H. Laaksonen",
                     "nationality": "SUI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SUI.svg"
+
                 }
             ]
         },
@@ -6121,7 +6109,7 @@ export default {
                 {
                     "title": "D. Medvedev",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+
                 }
             ]
         },
@@ -6131,7 +6119,7 @@ export default {
                 {
                     "title": "T. Fritz",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -6141,7 +6129,7 @@ export default {
                 {
                     "title": "G. Monfils",
                     "nationality": "FR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg"
+
                 }
             ]
         },
@@ -6150,7 +6138,7 @@ export default {
                 {
                     "title": "F. Coria",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -6159,7 +6147,7 @@ export default {
                 {
                     "title": "B. Nakashima",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -6169,7 +6157,7 @@ export default {
                 {
                     "title": "M. Berrettini",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -6178,7 +6166,7 @@ export default {
                 {
                     "title": "H. Rune",
                     "nationality": "DEN",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/DEN.svg"
+
                 }
             ]
         },
@@ -6187,7 +6175,7 @@ export default {
                 {
                     "title": "S. Kwon",
                     "nationality": "KR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KR.svg"
+
                 }
             ]
         },
@@ -6196,7 +6184,7 @@ export default {
                 {
                     "title": "M. Kecmanovic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+
                 }
             ]
         },
@@ -6205,7 +6193,7 @@ export default {
                 {
                     "title": "R. Carballes Baena",
                     "nationality": "ES",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg"
+
                 }
             ]
         },
@@ -6214,7 +6202,7 @@ export default {
                 {
                     "title": "R. Berankis",
                     "nationality": "LT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/LT.svg"
+
                 }
             ]
         },
@@ -6224,7 +6212,7 @@ export default {
                 {
                     "title": "Y. Hanfmann",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -6234,7 +6222,7 @@ export default {
                 {
                     "title": "J. Lehecka",
                     "nationality": "CZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CZ.svg"
+
                 }
             ]
         },
@@ -6244,7 +6232,7 @@ export default {
                 {
                     "title": "M. Trungelliti",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -6254,7 +6242,7 @@ export default {
                 {
                     "title": "T. Daniel",
                     "nationality": "JP",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg"
+
                 }
             ]
         },
@@ -6264,7 +6252,7 @@ export default {
                 {
                     "title": "T. Barrios Vera",
                     "nationality": "CHI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CHI.svg"
+
                 }
             ]
         },
@@ -6274,7 +6262,7 @@ export default {
                 {
                     "title": "L. Broady",
                     "nationality": "GB",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
+
                 }
             ]
         },
@@ -6284,7 +6272,7 @@ export default {
                 {
                     "title": "T. Etcheverry",
                     "nationality": "AR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/AR.svg"
+
                 }
             ]
         },
@@ -6294,7 +6282,7 @@ export default {
                 {
                     "title": "A. Tabilo",
                     "nationality": "CHI",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CHI.svg"
+
                 }
             ]
         },
@@ -6304,7 +6292,7 @@ export default {
                 {
                     "title": "M. Marterer",
                     "nationality": "GER",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/GER.svg"
+
                 }
             ]
         },
@@ -6314,7 +6302,7 @@ export default {
                 {
                     "title": "E. Escobedo",
                     "nationality": "US",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+
                 }
             ]
         },
@@ -6324,7 +6312,7 @@ export default {
                 {
                     "title": "J. Sousa",
                     "nationality": "POR",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/POR.svg"
+
                 }
             ]
         },
@@ -6334,7 +6322,7 @@ export default {
                 {
                     "title": "T. Skatov",
                     "nationality": "KZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KZ.svg"
+
                 }
             ]
         },
@@ -6344,7 +6332,7 @@ export default {
                 {
                     "title": "N. Gombos",
                     "nationality": "SK",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/SK.svg"
+
                 }
             ]
         },
@@ -6354,7 +6342,7 @@ export default {
                 {
                     "title": "E. Gomez",
                     "nationality": "EC",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/EC.svg"
+
                 }
             ]
         },
@@ -6364,7 +6352,7 @@ export default {
                 {
                     "title": "T. Machac",
                     "nationality": "CZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/CZ.svg"
+
                 }
             ]
         },
@@ -6374,7 +6362,7 @@ export default {
                 {
                     "title": "R. Albot",
                     "nationality": "MD",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/MD.svg"
+
                 }
             ]
         },
@@ -6384,7 +6372,7 @@ export default {
                 {
                     "title": "M. Kukushkin",
                     "nationality": "KZ",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/KZ.svg"
+
                 }
             ]
         },
@@ -6394,7 +6382,7 @@ export default {
                 {
                     "title": "N. Milojevic",
                     "nationality": "RS",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg"
+
                 }
             ]
         },
@@ -6404,7 +6392,7 @@ export default {
                 {
                     "title": "S. Caruso",
                     "nationality": "IT",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg"
+
                 }
             ]
         },
@@ -6414,7 +6402,7 @@ export default {
                 {
                     "title": "D. Dzumhur",
                     "nationality": "BA",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/BA.svg"
+
                 }
             ]
         },
@@ -6424,7 +6412,7 @@ export default {
                 {
                     "title": "R. Safiullin",
                     "nationality": "RU",
-                    "flag_url": "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg"
+
                 }
             ]
         }

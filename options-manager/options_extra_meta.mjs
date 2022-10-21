@@ -2,12 +2,40 @@ import { BUTTONS_POSITIONS } from './options_meta.mjs'
 
 export const options_extra_meta = {
 
+    width: {
+        title: `Playoffs' total width`
+    },
+
+    height: {
+        title: `Playoffs' total height`
+    },
+
+    fullscreen: {
+        title: `Should playoffs be rendered in a fullscreen popup?`,
+        explanation: `If you set this option to true, it makes sense to render playoffs to the document.body (second argument of createPlayoffs).
+
+Setting width and height options will also make sense. Otherwise playoffs will take the entire viewport.
+
+Use rootBgColor and fullscreenBgColor to get an opaque background for your fullscreen playoffs.
+        
+"fullscreen" option is not updatable, i.e. it will be ignored when passed to applyNewOptions.`
+    },
+
+    fullscreenBgColor: {
+        title: `Fullscreen background color`,
+        explanation: `This color will be applied in fullscreen mode, i.e. when "fullscreen" option is set to true.
+"rootBgColor" will be painted on top of it.
+So fullscreenBgColor will be either:
+    a) painted across the entire viewport IF "rootBgColor" is "transparent" OR
+    b) painted only on the edges of the viewport IF "rootBgColor" is opaque`
+    },
+
     mainBorderColor: {
         title: 'Main border color',
         explanation: `Border around entire playoffs. (Basically it's the same as setting border on your wrapper element)`,
     },
 
-    rootBackgroundColor: {
+    rootBgColor: {
         title: 'Root background color',
     },
 

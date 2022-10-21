@@ -15,7 +15,7 @@ export const inputs_root_wrapper = () => create_element_from_Html(
             overflow: visible scroll;
             font-family: sans-serif;
             font-size: 14px;
-            z-index: 30;
+            z-index: 4;
             padding-bottom: 50px;
             box-sizing: border-box;
             background: white;

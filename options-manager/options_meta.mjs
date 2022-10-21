@@ -10,12 +10,33 @@ export const BUTTONS_POSITIONS = {
 
 const GENERAL_OPTIONS = {
 
+    width: {
+        type: 'string',
+        default_value: '100%'
+    },
+
+    height: {
+        type: 'string',
+        default_value: '100%'
+    },
+
+    fullscreen: {
+        type: 'boolean',
+        default_value: false,
+        non_updatable: true
+    },
+
+    fullscreenBgColor: {
+        type: 'string',
+        default_value: 'rgba(0,0,0,.3)'
+    },
+
     mainBorderColor: {
         type: 'string',
         default_value: default_border_gray
     },
 
-    rootBackgroundColor: {
+    rootBgColor: {
         type: 'string',
         default_value: 'transparent'
     },
