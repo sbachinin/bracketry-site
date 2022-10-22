@@ -26,10 +26,10 @@
         <span class="description">takes your data and draws a tree of a knockout tournament</span>
     </header>
 
+    <div class="heading-2" style="margin-top: 30px; margin-bottom: 14px;">Fullscreen mode</div>
 
-    <div class="heading-2">Fullscreen mode</div>
-
-    <div class="main-button open-fullscreen-button">Open</div>
+    <div class="main-button open-fullscreen-button" style="padding: 9px;
+    font-size: 28px;">Open</div>
 
     <div class="heading-3">How</div>
 
@@ -79,7 +79,14 @@ document.querySelector('.your-button').addEventListener('click', () => {
     <br>
     <br>
     If you need a 'small' playoffs which is expandable to fullscreen, then you need 2 instances, one 'static' and the second one which will be created in response to button click.
-    
+    <br>
+    <br>
+   
+
+    <div class="heading-4" style="color: red">Fullscreen functionality is not recommended for mobile devices</div>
+    That's because it's nearly impossible to make something 'fullscreen' look nice (and reliably) in all mobile browsers.
+    <br>
+    So consider hiding your open-fullscreen button on mobile devices.
 
     <div class="footer" style="
         background: #f2fae6;
