@@ -5,7 +5,7 @@ import finished_singles_2022 from './finished-singles-2022.js'
 import unfinished_tennis_doubles from './unfinished-tennis-doubles.js'
 import finished_ucl from './ucl-finished.js'
 
-export const INITIAL_TEST_DATA_INDEX = 4
+export const INITIAL_TEST_DATA_INDEX = 3
 
 // tennis data with second live round
 // finished tennis tournament

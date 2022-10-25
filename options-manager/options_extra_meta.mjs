@@ -2,12 +2,41 @@ import { BUTTONS_POSITIONS } from './options_meta.mjs'
 
 export const options_extra_meta = {
 
+    verticalScrollMode: {
+        title: `Vertical scroll mode`,
+        explanation: `` // TODO
+    },
+
+    scrollButtonsPosition: {
+        title: `Vertical scroll buttons position`,
+        explanation: `Applied when options.verticalScrollMode is "buttons" or "mixed". Or when options.fullscreen is true (because buttons are always there if it's fullscreen).
+Possible values:
+    - "gutters": above and below the matches, squeezing the matches' container.
+    - "overMatches": above and below the matches, not squeezing the matches' container but put on top of it`,
+        disable_if: options => options.verticalScrollMode !== 'buttons'
+            && options.verticalScrollMode !== 'mixed'
+            && fullscreen !== true
+    },
+
+    defaultScrollIconSize: {
+        title: `Default vertical scroll icon size`
+    },
+
+    syntheticScrollAmount: {
+        title: `Synthetic scroll amount on button clicks`,
+        explanation: `Applied to vertical scroll when it's triggered by buttons (i.e., when options.verticalScrollMode === "buttons")
+This amount is a number of pixels covered by this "synthetic scroll" per one button click`
+    },
+
     width: {
-        title: `Playoffs' total width`
+        title: `Playoffs' total width`,
+        explanation: ``
     },
 
     height: {
-        title: `Playoffs' total height`
+        title: `Playoffs' total height`,
+        explanation: `In most cases the default value of "100%" will be the most adequate choice.
+Your wrapper in such case should have explicit width and height. This will prevent height from jumping after playoffs' installation`
     },
 
     fullscreen: {
@@ -30,9 +59,47 @@ So fullscreenBgColor will be either:
     b) painted only on the edges of the viewport IF "rootBgColor" is opaque`
     },
 
-    mainBorderColor: {
-        title: 'Main border color',
-        explanation: `Border around entire playoffs. (Basically it's the same as setting border on your wrapper element)`,
+    rootBorderColor: {
+        title: 'Root border color',
+        explanation: `Border color to be inherited by all border-related options with an "" (empty string) value`
+    },
+
+    wrapperBorderColor: {
+        title: `Border around the main playoffs wrapper`,
+        explanation: `Basically it's the same as setting border on your wrapper element.
+Default "" (empty string) value means that the "rootBorderColor" option will be used for this border`,
+    },
+
+    liveMatchBorderColor: {
+        title: 'Live match border color',
+        explanation: `When this options is set to "" (empty string), "rootBorderColor" option will be used instead`
+    },
+
+    roundTitlesBorderBottomColor: {
+        title: 'Round titles bottom border-color',
+        explanation: `When this options is set to "" (empty string), "rootBorderColor" option will be used instead`
+    },
+
+    scrollGutterBorderColor: {
+        title: `Scroll gutter border color`,
+        explanation: `Applied when options.verticalScrollMode === "buttons" AND options.scrollButtonsPosition === "gutters".
+When this options is set to "" (empty string), "rootBorderColor" option will be used instead`,
+        disable_if: options => options.verticalScrollMode !== 'buttons'
+            || options.scrollButtonsPosition !== 'gutters'
+    },
+
+    hoveredMatchBorderColor: {
+        title: 'Hovered match border color (applied when options.onMatchClick is provided)',
+        explanation: `When this options is set to "" (empty string), "rootBorderColor" option will be used instead`
+    },
+
+    navigationGutterBorderColor: {
+        title: 'Navigation gutter border color',
+        explanation: `Applied only when navButtonsPosition is "gutters" or "overTitles" or "beforeTitles".
+When this options is set to "" (empty string), "rootBorderColor" option will be used instead`,
+        disable_if: options => options.navButtonsPosition !== 'gutters'
+            && options.navButtonsPosition !== 'overTitles'
+            && options.navButtonsPosition !== 'beforeTitles'
     },
 
     rootBgColor: {
@@ -107,11 +174,6 @@ Whatever you return from this function will be injected in the round titles bar.
         explanation: ``
     },
 
-    roundTitlesBorderBottomColor: {
-        title: 'Round titles bottom border-color',
-        explanation: ``
-    },
-
     roundTitleColor: {
         title: 'Round title color',
         explanation: ``
@@ -129,17 +191,14 @@ Whatever you return from this function will be injected in the round titles bar.
         ).join('<br />')
     },
 
-    navigationButtonsTopDistance: {
-        title: 'Navigation buttons distance from content top, in any units',
-        explanation: `Takes effect only when navButtonsPosition is set to "overMatches"`
+    navButtonsTopDistance: {
+        title: `Navigation buttons' distance from top`,
+        explanation: `Takes effect only when navButtonsPosition is set to "overMatches".
+Can be specified in any CSS units`,
+        disable_if: options => options.navButtonsPosition !== 'overMatches'
     },
 
-    navigationGutterBorderColor: {
-        title: 'Navigation gutter border color',
-        explanation: `Applied only when navButtonsPosition is 'gutters' or 'overTitles' or 'beforeTitles'`
-    },
-
-    defaultNavigationSvgSize: {
+    defaultNavigationIconSize: {
         title: 'Default navigation arrow size',
         explanation: ``
     },
@@ -148,24 +207,24 @@ Whatever you return from this function will be injected in the round titles bar.
         explanation: ``
     },
 
-    leftNavigationButtonBackground: {
-        title: 'Left navigation button background',
-        explanation: `Applied if navButtonsPosition is 'gutters' or 'overMatches'`
-    },
-
-    rightNavigationButtonBackground: {
-        title: 'Right navigation button background',
-        explanation: `Applied if navButtonsPosition is 'gutters' or 'overMatches'`
-    },
-
     leftNavigationButtonHTML: {
-        title: 'Inner HTML of LEFT navigation button (<svg> / <img> / whatever)',
-        explanation: ``
+        title: 'Inner HTML of LEFT navigation button',
+        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
     },
     rightNavigationButtonHTML: {
         title: 'Inner HTML of RIGHT navigation button (<svg> / <img> / whatever)',
-        explanation: ``
+        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
     },
+    
+    scrollUpButtonHTML: {
+        title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
+        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
+    },
+    scrollDownButtonHTML: {
+        title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
+        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
+    },
+    
     connectionLinesWidth: {
         title: 'Connection lines width',
         explanation: ``
@@ -232,11 +291,6 @@ getMatchElement will be called with 3 args:
         explanation: ``
     },
 
-    liveMatchBorderColor: {
-        title: 'Live match border color',
-        explanation: ``
-    },
-
     liveMatchBackgroundColor: {
         title: 'Live match background color',
         explanation: ``
@@ -249,11 +303,6 @@ getMatchElement will be called with 3 args:
 
     matchStatusBackgroundColor: {
         title: 'Background color of a match status badge',
-        explanation: ``
-    },
-
-    hoveredMatchBorderColor: {
-        title: 'Hovered match border color (applied when options.onMatchClick is provided)',
         explanation: ``
     },
 

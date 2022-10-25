@@ -83,18 +83,20 @@ export const get_option_input = (name, info, onchange) => {
             break
     }
 
-    const wrapper_el = elements.option_wrapper_el(name, info.type, options_extra_meta[name].title)
+
+    const extra = options_extra_meta[name]
+    const wrapper_el = elements.option_wrapper_el(name, info.type, extra?.title)
     wrapper_el.querySelector('.input-placeholder').replaceWith(input)
     wrapper_el.querySelector('.explanation-placeholder').replaceWith(
-        options_extra_meta[name]?.explanation
-            ? elements.option_explanation_button(options_extra_meta[name].explanation)
+        extra?.explanation
+            ? elements.option_explanation_button(extra.explanation)
             : ''
     )
 
     const update = (actual_options) => {
         update_the_value(actual_options)
 
-        if (info.disable_if?.(actual_options) || info.non_updatable === true) {
+        if (extra?.disable_if?.(actual_options) || info.non_updatable === true) {
             wrapper_el.classList.add('disabled')
             input.disabled = true
         } else {

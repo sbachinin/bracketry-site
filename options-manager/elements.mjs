@@ -3,47 +3,10 @@ import { escape_Html } from '../pages/utils.mjs'
 export { create_tooltip } from './tooltip.mjs'
 export { option_explanation_button } from './option_explanation_button.mjs'
 
-export const inputs_root_wrapper = () => create_element_from_Html(
-    `<div
-        class="options-manager-wrapper"
-        style='
-            position: fixed;
-            top: 0px;
-            right: -1000px;
-            width: 265px;
-            height: 100vh;
-            overflow: visible scroll;
-            font-family: sans-serif;
-            font-size: 14px;
-            z-index: 4;
-            padding-bottom: 50px;
-            box-sizing: border-box;
-            background: white;
-            border-left: 1px solid #ccc;
-            letter-spacing: 0.03em;
-        '
-    ></div>`
-)
 
 export const sidebar_close_button = () => {
     const button = create_element_from_Html(
-        `<div
-            class="sidebar-close-button"
-            style='
-                font-size: 35px;
-                box-sizing: border-box;
-                cursor: pointer;
-                float: right;
-                margin: 8px;
-                width: 27px;
-                height: 18px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                user-select: none;
-        }
-            '
-        >&#215;</div>`
+        `<div class="sidebar-close-button">&#215;</div>`
     )
     button.addEventListener('click', (e) => {
         e.preventDefault()

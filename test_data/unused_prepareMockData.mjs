@@ -44,7 +44,7 @@ const get_sides_data = (match_teams) => {
                     subscore: score.subscore && Number(score.subscore),
                     isWinner: score.winner
                 })),
-            current_score: team.point,
+            currentScore: team.point,
             isServing: team.isServing,
             isWinner: team.status === 'Winner'
         }

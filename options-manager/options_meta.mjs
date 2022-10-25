@@ -8,8 +8,9 @@ export const BUTTONS_POSITIONS = {
     hidden: 'hidden'
 }
 
-const GENERAL_OPTIONS = {
+const arrow_right = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>`
 
+const GENERAL_OPTIONS = {
     width: {
         type: 'string',
         default_value: '100%'
@@ -29,11 +30,6 @@ const GENERAL_OPTIONS = {
     fullscreenBgColor: {
         type: 'string',
         default_value: 'rgba(0,0,0,.3)'
-    },
-
-    mainBorderColor: {
-        type: 'string',
-        default_value: default_border_gray
     },
 
     rootBgColor: {
@@ -62,6 +58,140 @@ const GENERAL_OPTIONS = {
         default_value: false
     },
 
+    disableHighlight: {
+        type: 'boolean',
+        default_value: false
+    }
+}
+
+const BORDERS_OPTIONS = {
+
+    rootBorderColor: {
+        type: 'string',
+        default_value: default_border_gray
+    },
+
+    wrapperBorderColor: {
+        type: 'string',
+        default_value: ''
+    },
+
+    roundTitlesBorderBottomColor: {
+        type: 'string',
+        default_value: ''
+    },
+
+    scrollGutterBorderColor: {
+        type: 'string',
+        default_value: ''
+    },
+
+    navigationGutterBorderColor: {
+        type: 'string',
+        default_value: ''
+    },
+
+    liveMatchBorderColor: {
+        type: 'string',
+        default_value: '#44c985'
+    },
+
+    hoveredMatchBorderColor: {
+        type: 'string',
+        default_value: ''
+    }
+}
+
+const ROUND_TITLE_OPTIONS = {
+
+    getRoundTitleElement: {
+        type: 'function_or_null',
+        default_value: null
+    },
+
+    roundTitlesHeight: {
+        type: 'pixels',
+        default_value: '50'
+    },
+
+    roundTitleColor: {
+        type: 'string',
+        default_value: '#000'
+    },
+}
+
+const NAVIGATION_OPTIONS = {
+
+    navButtonsPosition: {
+        type: 'select',
+        options: [...Object.keys(BUTTONS_POSITIONS)],
+        default_value: 'gutters'
+    },
+
+    navButtonsTopDistance: {
+        type: 'string',
+        default_value: '50%'
+    },
+
+    defaultNavigationIconSize: {
+        type: 'pixels',
+        default_value: '34',
+    },
+    navigationSvgColor: {
+        type: 'string',
+        default_value: '#161616',
+    },
+
+    leftNavigationButtonHTML: {
+        type: 'multiline_string',
+        default_value: `<div class="default-nav-icon" style="transform: rotate(180deg)">${arrow_right}</div>`,
+    },
+
+    rightNavigationButtonHTML: {
+        type: 'multiline_string',
+        default_value: `<div class="default-nav-icon">${arrow_right}</div>`,
+    },
+}
+
+const SCROLL_OPTIONS = {
+    verticalScrollMode: {
+        type: 'select',
+        options: ['mousewheel', 'buttons'],
+        default_value: 'mousewheel',
+        non_updatable: true
+    },
+
+    syntheticScrollAmount: {
+        type: 'pixels',
+        default_value: 300
+    },
+
+    resetScrollOnNavigation: {
+        type: 'boolean',
+        default_value: false
+    },
+
+    scrollButtonsPosition: {
+        type: 'select',
+        options: ['gutters', 'overMatches'],
+        default_value: 'gutters'
+    },
+
+    scrollUpButtonHTML: {
+        type: 'multiline_string',
+        default_value: `<div class="default-scroll-icon" style="transform: rotate(-90deg)">${arrow_right}</div>`,
+    },
+
+    scrollDownButtonHTML: {
+        type: 'multiline_string',
+        default_value: `<div class="default-scroll-icon" style="transform: rotate(90deg)">${arrow_right}</div>`,
+    },
+
+    defaultScrollIconSize: {
+        type: 'pixels',
+        default_value: '34',
+    },
+
     showScrollbar: {
         type: 'boolean',
         default_value: true
@@ -76,100 +206,9 @@ const GENERAL_OPTIONS = {
         type: 'string',
         default_value: '#d3d3d3'
     },
-
-    disableHighlight: {
-        type: 'boolean',
-        default_value: false
-    }
 }
 
-export const ROUND_TITLE_OPTIONS = {
-
-    getRoundTitleElement: {
-        type: 'function_or_null',
-        default_value: null
-    },
-
-    roundTitlesHeight: {
-        type: 'pixels',
-        default_value: '50'
-    },
-
-    roundTitlesBorderBottomColor: {
-        type: 'string',
-        default_value: default_border_gray
-    },
-
-    roundTitleColor: {
-        type: 'string',
-        default_value: '#000'
-    },
-}
-
-export const NAVIGATION_OPTIONS = {
-    resetScrollOnNavigation: {
-        type: 'boolean',
-        default_value: false
-    },
-
-    navButtonsPosition: {
-        type: 'select',
-        options: [ ...Object.keys(BUTTONS_POSITIONS) ],
-        default_value: 'gutters'
-    },
-
-    navigationButtonsTopDistance: {
-        type: 'string',
-        default_value: '50%',
-        disable_if: options => options.navButtonsPosition !== 'overMatches'
-    },
-
-    navigationGutterBorderColor: {
-        type: 'string',
-        default_value: default_border_gray,
-        disable_if: options => options.navButtonsPosition !== 'gutters'
-            && options.navButtonsPosition !== 'overTitles'
-            && options.navButtonsPosition !== 'beforeTitles'
-    },
-
-    defaultNavigationSvgSize: {
-        type: 'pixels',
-        default_value: '40',
-    },
-    navigationSvgColor: {
-        type: 'string',
-        default_value:'#161616',
-    },
-
-    leftNavigationButtonBackground: {
-        type: 'string',
-        default_value: 'transparent',
-        disable_if: options => options.navButtonsPosition !== 'gutters'
-            && options.navButtonsPosition !== 'overMatches'
-    },
-
-    rightNavigationButtonBackground: {
-        type: 'string',
-        default_value: 'transparent',
-        disable_if: options => options.navButtonsPosition !== 'gutters'
-            && options.navButtonsPosition !== 'overMatches'
-    },
-
-    leftNavigationButtonHTML: {
-        type: 'multiline_string',
-        default_value: `
-            <svg class="default-navigation-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
-        `,
-    },
-    rightNavigationButtonHTML: {
-        type: 'multiline_string',
-        default_value: `
-            <svg class="default-navigation-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
-        `,
-    },
-}
-
-export const CONNECTION_LINES_OPTIONS = {
+const CONNECTION_LINES_OPTIONS = {
     connectionLinesWidth: {
         type: 'pixels',
         default_value: 2,
@@ -185,7 +224,7 @@ export const CONNECTION_LINES_OPTIONS = {
     }
 }
 
-export const MATCH_OPTIONS = {
+const MATCH_OPTIONS = {
     getMatchElement: {
         type: 'function_or_null',
         default_value: null
@@ -237,16 +276,11 @@ export const MATCH_OPTIONS = {
         default_value: 2,
     },
 
-    liveMatchBorderColor: {
-        type: 'string',
-        default_value: '#44c985'
-    },
-
     liveMatchBackgroundColor: {
         type: 'string',
         default_value: 'transparent'
     },
-    
+
     distanceBetweenScorePairs: {
         type: 'pixels',
         default_value: 14,
@@ -257,14 +291,9 @@ export const MATCH_OPTIONS = {
         type: 'string',
         default_value: '#fff',
     },
-
-    hoveredMatchBorderColor: {
-        type: 'string',
-        default_value: '#dcdcdc'
-    }
 }
 
-export const FONTS_OPTIONS = {
+const FONTS_OPTIONS = {
     rootFontFamily: {
         type: 'string',
         default_value: 'Open Sans, Roboto, sans-serif'
@@ -282,7 +311,7 @@ export const FONTS_OPTIONS = {
     },
 
 
-    
+
     matchTextColor: {
         type: 'string',
         default_value: '#000'
@@ -310,7 +339,7 @@ export const FONTS_OPTIONS = {
     },
 }
 
-export const CALLBACKS = {
+const CALLBACKS = {
     onMatchClick: {
         type: 'function_or_null',
         default_value: null
@@ -327,8 +356,10 @@ export const CALLBACKS = {
 
 export const OPTIONS = {
     GENERAL_OPTIONS,
+    BORDERS_OPTIONS,
     ROUND_TITLE_OPTIONS,
     NAVIGATION_OPTIONS,
+    SCROLL_OPTIONS,
     FONTS_OPTIONS,
     CONNECTION_LINES_OPTIONS,
     MATCH_OPTIONS,

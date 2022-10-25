@@ -7,7 +7,16 @@ import { get_default_options } from './options-manager/options-meta-getter.mjs'
 const default_playoffs_wrapper = document.querySelector('.default-playoffs')
 
 get_some_data().then(data => {
-    let playoffs = createPlayoffs(data, default_playoffs_wrapper, {})
+    let playoffs = createPlayoffs(data, default_playoffs_wrapper, {
+        getNationalityHTML: p => `
+            <img style="width: 16px; margin-right: 5px;" loading=lazy src="https://flagcdn.com/16x12/${p.nationality?.toLowerCase()}.png">
+        `,
+        getEntryStatusHTML: es => `<div style="
+        width: 23px;
+        font-size: 12px;
+        text-align: center;">${es || ''}</div>`,
+        verticalScrollMode: 'buttons'
+    })
 
     create_data_picker(
         document.querySelector('.default-playoffs-data-picker'),

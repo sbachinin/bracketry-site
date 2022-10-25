@@ -7,6 +7,7 @@ import { throttle_with_trailing } from '../utils.mjs'
 import { create_user_options_text } from './user_options_text.mjs'
 import { insert_styles } from '../pages/utils.mjs'
 import { options_manager_styles } from './options-manager-styles.mjs'
+import { create_element_from_Html } from '../pages/utils.mjs'
 
 const names_of_expanded_groups = []
 const all_inputs = []
@@ -79,7 +80,9 @@ export const add_options_manager = (
     opener_el,
     playoffs
 ) => {
-    const sidebar_el = elements.inputs_root_wrapper()
+    const sidebar_el = create_element_from_Html(
+        `<div class="options-manager-wrapper"></div>`
+    )
     insert_styles('', 'options-manager-styles', options_manager_styles)
 
     const handle_option_change = (option_name, option_value) => {
