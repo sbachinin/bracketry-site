@@ -4,7 +4,18 @@ export const options_extra_meta = {
 
     verticalScrollMode: {
         title: `Vertical scroll mode`,
-        explanation: `` // TODO
+        explanation: `Possible values:
+    - "native": matches are scrolled in a "native browser way" which can be mousewheel / keys / touchmove or whatever;
+    - "buttons": two buttons appear before and after the matches.
+        Clicking these buttons will scroll the content by a number of pixels defined by options.syntheticScrollAmount.
+        Buttons will be positioned according to options.scrollButtonsPosition.
+    - "mixed": buttons AND mousewheel. BUT NOT other native ways of scrolling like keyboard keys or touchmove. Thus in "mixed" scroll mode on MOBILE devices you get ONLY one way of scrolling the matches (clicking the buttons).
+
+With options.fullscreen set to true verticalScrollMode will always be "mixed".
+
+This option cannot be updated, i.e. it will be ignored when passed to applyNewOptions method.`,
+
+        disable_if: options => options.fullscreen === true
     },
 
     scrollButtonsPosition: {
@@ -15,11 +26,11 @@ Possible values:
     - "overMatches": above and below the matches, not squeezing the matches' container but put on top of it`,
         disable_if: options => options.verticalScrollMode !== 'buttons'
             && options.verticalScrollMode !== 'mixed'
-            && fullscreen !== true
+            && options.fullscreen !== true
     },
 
     defaultScrollIconSize: {
-        title: `Default vertical scroll icon size`
+        title: `Size of a default vertical scroll icon`
     },
 
     syntheticScrollAmount: {
@@ -41,6 +52,7 @@ Your wrapper in such case should have explicit width and height. This will preve
 
     fullscreen: {
         title: `Should playoffs be rendered in a fullscreen popup?`,
+        // TODO relavant?
         explanation: `If you set this option to true, it makes sense to render playoffs to the document.body (second argument of createPlayoffs).
 
 Setting width and height options will also make sense. Otherwise playoffs will take the entire viewport.
@@ -215,7 +227,7 @@ Can be specified in any CSS units`,
         title: 'Inner HTML of RIGHT navigation button (<svg> / <img> / whatever)',
         explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
     },
-    
+
     scrollUpButtonHTML: {
         title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
         explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
@@ -224,7 +236,7 @@ Can be specified in any CSS units`,
         title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
         explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
     },
-    
+
     connectionLinesWidth: {
         title: 'Connection lines width',
         explanation: ``

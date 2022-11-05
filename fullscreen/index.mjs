@@ -42,7 +42,8 @@ const adjust_options_to_width = () => {
             matchFontSize: 14,
             matchMinVerticalGap: 20,
             matchAxisMargin: 2,
-            matchHorMargin: 8
+            matchHorMargin: 8,
+            distanceBetweenScorePairs: 10
         })
     } else {
         const def = get_default_options()
@@ -52,7 +53,8 @@ const adjust_options_to_width = () => {
             matchFontSize: def.matchFontSize,
             matchMinVerticalGap: def.matchMinVerticalGap,
             matchAxisMargin: def.matchAxisMargin,
-            matchHorMargin: def.matchHorMargin
+            matchHorMargin: def.matchHorMargin,
+            distanceBetweenScorePairs: def.distanceBetweenScorePairs
         })
     }
 }

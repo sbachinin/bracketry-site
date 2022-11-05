@@ -15,7 +15,7 @@ get_some_data().then(data => {
         width: 23px;
         font-size: 12px;
         text-align: center;">${es || ''}</div>`,
-        verticalScrollMode: 'buttons'
+        verticalScrollMode: 'mixed'
     })
 
     create_data_picker(
@@ -41,7 +41,8 @@ get_some_data().then(data => {
                 matchFontSize: 14,
                 matchMinVerticalGap: 20,
                 matchAxisMargin: 2,
-                matchHorMargin: 8
+                matchHorMargin: 8,
+                distanceBetweenScorePairs: 10
             })
         } else {
             const def = get_default_options()
@@ -51,7 +52,8 @@ get_some_data().then(data => {
                 matchFontSize: def.matchFontSize,
                 matchMinVerticalGap: def.matchMinVerticalGap,
                 matchAxisMargin: def.matchAxisMargin,
-                matchHorMargin: def.matchHorMargin
+                matchHorMargin: def.matchHorMargin,
+                distanceBetweenScorePairs: def.distanceBetweenScorePairs
             })
         }
         options_manager.update_inputs(playoffs.getUserOptions())

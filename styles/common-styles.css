@@ -303,3 +303,19 @@ img {
     display: block;
     max-width: 85vw;
 }
+
+
+
+
+@media (max-width: 350px) {
+    .title {
+        font-size: 13vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .description {
+        margin-left: 0;
+        text-align: center;
+    }
+}

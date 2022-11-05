@@ -29,7 +29,7 @@ const GENERAL_OPTIONS = {
 
     fullscreenBgColor: {
         type: 'string',
-        default_value: 'rgba(0,0,0,.3)'
+        default_value: '#fff'
     },
 
     rootBgColor: {
@@ -156,8 +156,8 @@ const NAVIGATION_OPTIONS = {
 const SCROLL_OPTIONS = {
     verticalScrollMode: {
         type: 'select',
-        options: ['mousewheel', 'buttons'],
-        default_value: 'mousewheel',
+        options: ['native', 'buttons', 'mixed'],
+        default_value: 'native',
         non_updatable: true
     },
 

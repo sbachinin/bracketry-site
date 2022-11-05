@@ -1,8 +1,8 @@
 export const options_manager_styles = `
     .options-group-heading {
-        background: #e2e2e2;
-        font-size: 16px;
-        padding: 6px 20px 6px 10px;
+        background: #f3f3f3;
+        font-size: 18px;
+        padding: 8px 20px 8px 10px;
         cursor: pointer;
         user-select: none;
         display: flex;
@@ -11,7 +11,6 @@ export const options_manager_styles = `
         clear: both;
         color: black;
         text-transform: capitalize;
-        font-weight: bolder;
     }
     .options-group-heading {
         margin: 5px 0;
@@ -26,21 +25,22 @@ export const options_manager_styles = `
 
     .single-option-wrapper {
         padding: 9px 12px;
+        position: relative;
     }
 
 
-    .single-option-wrapper.disabled > * {
+    .single-option-wrapper.disabled input,
+    .single-option-wrapper.disabled select,
+    .single-option-wrapper.disabled textarea,
+    .single-option-wrapper.disabled .checkbox {
         filter: blur(0.6px);
+        pointer-events: none;
+        cursor: auto;
     }
 
     .single-option-wrapper.disabled .option-name,
     .single-option-wrapper.disabled .option-title {
         color: rgba(0,0,0,.35);
-    }
-
-    .single-option-wrapper.disabled input,
-    .single-option-wrapper.disabled textarea {
-        color: transparent;
     }
 
     .single-option-wrapper:not(:first-child) {
@@ -54,6 +54,7 @@ export const options_manager_styles = `
         font-style: italic;
         margin-bottom: 5px;
         font-size: 13px;
+        padding-right: 25px;
     }
 
     .single-option {
@@ -94,10 +95,14 @@ export const options_manager_styles = `
         cursor: pointer;
         display: flex;
         align-items: center;
+        position: absolute;
+        right: 0;
+        top: 7px;
     }
 
     .option-explanation-button svg {
-        height: 16px;
+        height: 14px;
+        fill: #787676;
     }
 
 
