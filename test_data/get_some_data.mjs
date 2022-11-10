@@ -5,7 +5,7 @@ import finished_singles_2022 from './finished-singles-2022.js'
 import unfinished_tennis_doubles from './unfinished-tennis-doubles.js'
 import finished_ucl from './ucl-finished.js'
 
-export const INITIAL_TEST_DATA_INDEX = 3
+export const INITIAL_TEST_DATA_INDEX = 0
 
 // tennis data with second live round
 // finished tennis tournament
@@ -16,21 +16,6 @@ export const INITIAL_TEST_DATA_INDEX = 3
 
 export const datas = [
     {
-        type: 'empty',
-        title: 'Empty (upcoming) 3-round tournament',
-        resolver: () => Promise.resolve(emptydata)
-    },
-    {
-        type: 'tennis',
-        title: 'Tennis ongoing tournament',
-        resolver: () => Promise.resolve(unfinished_singles)
-    },
-    {
-        type: 'tennis',
-        title: 'Tennis finished tournament',
-        resolver: () => Promise.resolve(finished_singles_2021)
-    },
-    {
         type: 'tennis',
         title: 'Another tennis singles finished tournament',
         resolver: () => Promise.resolve(finished_singles_2022)
@@ -40,11 +25,25 @@ export const datas = [
         title: 'Tennis DOUBLES unfinished tournament',
         resolver: () => Promise.resolve(unfinished_tennis_doubles)
     },
-    
+    {
+        type: 'tennis',
+        title: 'Tennis ongoing tournament',
+        resolver: () => Promise.resolve(unfinished_singles)
+    },
+    // {
+    //     type: 'tennis',
+    //     title: 'Tennis finished tournament',
+    //     resolver: () => Promise.resolve(finished_singles_2021)
+    // },
     {
         type: 'football',
         title: 'Champions League (football)',
         resolver: () => Promise.resolve(finished_ucl)
+    },
+    {
+        type: 'empty',
+        title: 'Empty (upcoming) 3-round tournament',
+        resolver: () => Promise.resolve(emptydata)
     },
 ]
 

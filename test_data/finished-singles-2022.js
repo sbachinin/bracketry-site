@@ -4098,7 +4098,6 @@ export default {
             ],
             "order": 30,
             "isLive": false,
-            "matchStatus": "Ret"
         },
         {
             "id": "MS303",

@@ -255,7 +255,9 @@ Can be specified in any CSS units`,
 getMatchElement will be called with 3 args:
     1) round index (0-based),
     2) match order (index of a match within a round) (0-based)
-    3) all data with which createPlayoffs() were called`
+    3) all data with which createPlayoffs() were called.
+
+If you want to prevent a given match from being rendered, return null from getMatchElement()`
     },
 
     getNationalityHTML: {

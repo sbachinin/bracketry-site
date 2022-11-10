@@ -18,8 +18,6 @@ export default {
         {
             "roundIndex": 0,
             "order": 0,
-            "isLive": true,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "benfica",
@@ -93,7 +91,6 @@ export default {
         {
             "roundIndex": 0,
             "order": 2,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "villarreal",
@@ -130,7 +127,6 @@ export default {
         {
             "roundIndex": 0,
             "order": 3,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "salzburg",
@@ -167,7 +163,6 @@ export default {
         {
             "roundIndex": 0,
             "order": 4,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "sporting",
@@ -205,7 +200,6 @@ export default {
         {
             "roundIndex": 0,
             "order": 5,
-            "matchStatus": "Compl",
             "sides": [
                 {
                     "contestantId": "atletico",
@@ -243,7 +237,6 @@ export default {
         {
             "roundIndex": 0,
             "order": 6,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "chelsea",
@@ -280,7 +273,6 @@ export default {
         {
             "roundIndex": 0,
             "order": 7,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "psg",
@@ -320,7 +312,6 @@ export default {
         {
             "roundIndex": 1,
             "order": 0,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "benfica",
@@ -356,7 +347,6 @@ export default {
         {
             "roundIndex": 1,
             "order": 1,
-            "matchStatus": "C",
             "sides": [
                 {
                     "contestantId": "villarreal",
@@ -430,8 +420,6 @@ export default {
         {
             "roundIndex": 1,
             "order": 3,
-            "isLive": true,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "chelsea",
@@ -468,7 +456,6 @@ export default {
         {
             "roundIndex": 2,
             "order": 0,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "liverpool",
@@ -504,7 +491,6 @@ export default {
         {
             "roundIndex": 2,
             "order": 1,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "city",
@@ -540,7 +526,6 @@ export default {
         {
             "roundIndex": 3,
             "order": 0,
-            "matchStatus": "Complete",
             "sides": [
                 {
                     "contestantId": "liverpool",
@@ -567,130 +552,146 @@ export default {
     ],
     "contestants": {
         "liverpool": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Liverpool",
-                    "nationality": "liverpool"
+                    "team_id": "liverpool"
                 }
             ]
         },
         "real": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Real Madrid",
-                    "nationality": "real"
+                    "team_id": "real"
                 }
             ]
         },
         "villarreal": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Villarreal",
-                    "nationality": "villarreal"
+                    "team_id": "villarreal"
                 }
             ]
         },
         "city": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Manchester City",
-                    "nationality": "city"
+                    "team_id": "city"
                 }
             ]
         },
         "benfica": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Benfica",
-                    "nationality": "benfica"
+                    "team_id": "benfica"
                 }
             ]
         },
         "bayern": {
+            "entryStatus": "none",
             "players": [
                 {
-                    "title": "Bayern Munich",
-                    "nationality": "bayern"
+                    "title": "Bayern Munich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+                    "team_id": "bayern"
                 }
             ]
         },
         "atletico": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Atletico",
-                    "nationality": "atletico"
+                    "team_id": "atletico"
                 }
             ]
         },
         "chelsea": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Chelsea",
-                    "nationality": "chelsea"
+                    "team_id": "chelsea"
                 }
             ]
         },
         "ajax": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Ajax",
-                    "nationality": "ajax"
+                    "team_id": "ajax"
                 }
             ]
         },
         "inter": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Inter",
-                    "nationality": "inter"
+                    "team_id": "inter"
                 }
             ]
         },
         "juventus": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Juventus",
-                    "nationality": "juventus"
+                    "team_id": "juventus"
                 }
             ]
         },
         "salzburg": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Salzburg",
-                    "nationality": "salzburg"
+                    "team_id": "salzburg"
                 }
             ]
         },
         "sporting": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Sporting",
-                    "nationality": "sporting"
+                    "team_id": "sporting"
                 }
             ]
         },
         "mu": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Manchester United",
-                    "nationality": "mu"
+                    "team_id": "mu"
                 }
             ]
         },
         "lille": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "Lille",
-                    "nationality": "lille"
+                    "team_id": "lille"
                 }
             ]
         },
         "psg": {
+            "entryStatus": "none",
             "players": [
                 {
                     "title": "PSG",
-                    "nationality": "psg"
+                    "team_id": "psg"
                 }
             ]
         }
