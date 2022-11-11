@@ -24,20 +24,6 @@ export default {
     ],
     "matches": [
         {
-            "id": "MS226",
-            "roundIndex": 1,
-            "order": 25,
-            "isLive": false,
-        },
-        {
-            "id": "MS222",
-            "roundIndex": 1,
-            "order": 21,
-            "isLive": false,
-
-        },
-        {
-            "id": "MS133",
             "roundIndex": 0,
             "sides": [
                 {
@@ -90,11 +76,8 @@ export default {
                 }
             ],
             "order": 32,
-            "isLive": false,
-
         },
         {
-            "id": "MS105",
             "roundIndex": 0,
             "sides": [
                 {
@@ -135,11 +118,8 @@ export default {
                 }
             ],
             "order": 4,
-            "isLive": false,
-
         },
         {
-            "id": "MS145",
             "roundIndex": 0,
             "sides": [
                 {
@@ -188,11 +168,8 @@ export default {
                 }
             ],
             "order": 44,
-            "isLive": false,
-
         },
         {
-            "id": "MS131",
             "roundIndex": 0,
             "sides": [
                 {
@@ -233,11 +210,8 @@ export default {
                 }
             ],
             "order": 30,
-            "isLive": false,
-
         },
         {
-            "id": "MS134",
             "roundIndex": 0,
             "sides": [
                 {
@@ -278,11 +252,8 @@ export default {
                 }
             ],
             "order": 33,
-            "isLive": false,
-
         },
         {
-            "id": "MS132",
             "roundIndex": 0,
             "sides": [
                 {
@@ -323,11 +294,8 @@ export default {
                 }
             ],
             "order": 31,
-            "isLive": false,
-
         },
         {
-            "id": "MS136",
             "roundIndex": 0,
             "sides": [
                 {
@@ -376,11 +344,8 @@ export default {
                 }
             ],
             "order": 35,
-            "isLive": false,
-
         },
         {
-            "id": "MS104",
             "roundIndex": 0,
             "sides": [
                 {
@@ -421,11 +386,8 @@ export default {
                 }
             ],
             "order": 3,
-            "isLive": false,
-
         },
         {
-            "id": "MS101",
             "roundIndex": 0,
             "sides": [
                 {
@@ -466,11 +428,8 @@ export default {
                 }
             ],
             "order": 0,
-            "isLive": false,
-
         },
         {
-            "id": "MS147",
             "roundIndex": 0,
             "sides": [
                 {
@@ -527,11 +486,8 @@ export default {
                 }
             ],
             "order": 46,
-            "isLive": false,
-
         },
         {
-            "id": "MS106",
             "roundIndex": 0,
             "sides": [
                 {
@@ -582,11 +538,8 @@ export default {
                 }
             ],
             "order": 5,
-            "isLive": false,
-
         },
         {
-            "id": "MS155",
             "roundIndex": 0,
             "sides": [
                 {
@@ -627,11 +580,8 @@ export default {
                 }
             ],
             "order": 54,
-            "isLive": false,
-
         },
         {
-            "id": "MS159",
             "roundIndex": 0,
             "sides": [
                 {
@@ -680,11 +630,8 @@ export default {
                 }
             ],
             "order": 58,
-            "isLive": false,
-
         },
         {
-            "id": "MS122",
             "roundIndex": 0,
             "sides": [
                 {
@@ -733,11 +680,8 @@ export default {
                 }
             ],
             "order": 21,
-            "isLive": false,
-
         },
         {
-            "id": "MS120",
             "roundIndex": 0,
             "sides": [
                 {
@@ -788,11 +732,8 @@ export default {
                 }
             ],
             "order": 19,
-            "isLive": false,
-
         },
         {
-            "id": "MS116",
             "roundIndex": 0,
             "sides": [
                 {
@@ -843,11 +784,8 @@ export default {
                 }
             ],
             "order": 15,
-            "isLive": false,
-
         },
         {
-            "id": "MS115",
             "roundIndex": 0,
             "sides": [
                 {
@@ -888,11 +826,8 @@ export default {
                 }
             ],
             "order": 14,
-            "isLive": false,
-
         },
         {
-            "id": "MS137",
             "roundIndex": 0,
             "sides": [
                 {
@@ -951,11 +886,8 @@ export default {
                 }
             ],
             "order": 36,
-            "isLive": false,
-
         },
         {
-            "id": "MS138",
             "roundIndex": 0,
             "sides": [
                 {
@@ -998,11 +930,8 @@ export default {
                 }
             ],
             "order": 37,
-            "isLive": false,
-
         },
         {
-            "id": "MS139",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1063,11 +992,8 @@ export default {
                 }
             ],
             "order": 38,
-            "isLive": false,
-
         },
         {
-            "id": "MS135",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1108,25 +1034,8 @@ export default {
                 }
             ],
             "order": 34,
-            "isLive": false,
-
         },
         {
-            "id": "MS221",
-            "roundIndex": 1,
-            "order": 20,
-            "isLive": false,
-
-        },
-        {
-            "id": "MS124",
-            "roundIndex": 0,
-            "order": 23,
-            "isLive": false,
-
-        },
-        {
-            "id": "MS153",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1167,11 +1076,8 @@ export default {
                 }
             ],
             "order": 52,
-            "isLive": false,
-
         },
         {
-            "id": "MS117",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1216,11 +1122,8 @@ export default {
                 }
             ],
             "order": 16,
-            "isLive": false,
-
         },
         {
-            "id": "MS110",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1269,11 +1172,8 @@ export default {
                 }
             ],
             "order": 9,
-            "isLive": false,
-
         },
         {
-            "id": "MS201",
             "roundIndex": 1,
             "sides": [
                 {
@@ -1288,7 +1188,7 @@ export default {
                             "mainScore": "5",
                         },
                     ],
-                    "currentScore": 'A',
+                    "currentScore": '40',
                     "isWinner": true
                 },
                 {
@@ -1303,23 +1203,14 @@ export default {
                             "mainScore": "5",
                         },
                     ],
-                    "currentScore": '40',
+                    "currentScore": 'A',
                     "isWinner": false
                 }
             ],
             "order": 0,
             "isLive": true,
-
         },
         {
-            "id": "MS210",
-            "roundIndex": 1,
-            "order": 9,
-            "isLive": false,
-
-        },
-        {
-            "id": "MS203",
             "roundIndex": 1,
             "sides": [
                 {
@@ -1360,11 +1251,8 @@ export default {
                 }
             ],
             "order": 2,
-            "isLive": false,
-
         },
         {
-            "id": "MS143",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1421,11 +1309,8 @@ export default {
                 }
             ],
             "order": 42,
-            "isLive": false,
-
         },
         {
-            "id": "MS102",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1466,11 +1351,8 @@ export default {
                 }
             ],
             "order": 1,
-            "isLive": false,
-
         },
         {
-            "id": "MS157",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1511,11 +1393,8 @@ export default {
                 }
             ],
             "order": 56,
-            "isLive": false,
-
         },
         {
-            "id": "MS156",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1572,11 +1451,8 @@ export default {
                 }
             ],
             "order": 55,
-            "isLive": false,
-
         },
         {
-            "id": "MS160",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1639,11 +1515,8 @@ export default {
                 }
             ],
             "order": 59,
-            "isLive": false,
-
         },
         {
-            "id": "MS149",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1684,11 +1557,8 @@ export default {
                 }
             ],
             "order": 48,
-            "isLive": false,
-
         },
         {
-            "id": "MS150",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1745,11 +1615,8 @@ export default {
                 }
             ],
             "order": 49,
-            "isLive": false,
-
         },
         {
-            "id": "MS119",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1798,11 +1665,8 @@ export default {
                 }
             ],
             "order": 18,
-            "isLive": false,
-
         },
         {
-            "id": "MS151",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1851,11 +1715,8 @@ export default {
                 }
             ],
             "order": 50,
-            "isLive": false,
-
         },
         {
-            "id": "MS164",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1898,11 +1759,8 @@ export default {
                 }
             ],
             "order": 63,
-            "isLive": false,
-
         },
         {
-            "id": "MS148",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1943,18 +1801,8 @@ export default {
                 }
             ],
             "order": 47,
-            "isLive": false,
-
         },
         {
-            "id": "MS223",
-            "roundIndex": 1,
-            "order": 22,
-            "isLive": true,
-
-        },
-        {
-            "id": "MS152",
             "roundIndex": 0,
             "sides": [
                 {
@@ -1995,11 +1843,8 @@ export default {
                 }
             ],
             "order": 51,
-            "isLive": false,
-
         },
         {
-            "id": "MS118",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2048,11 +1893,8 @@ export default {
                 }
             ],
             "order": 17,
-            "isLive": false,
-
         },
         {
-            "id": "MS111",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2093,11 +1935,8 @@ export default {
                 }
             ],
             "order": 10,
-            "isLive": false,
-
         },
         {
-            "id": "MS103",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2138,11 +1977,8 @@ export default {
                 }
             ],
             "order": 2,
-            "isLive": false,
-
         },
         {
-            "id": "MS144",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2185,11 +2021,8 @@ export default {
                 }
             ],
             "order": 43,
-            "isLive": false,
-
         },
         {
-            "id": "MS121",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2232,11 +2065,8 @@ export default {
                 }
             ],
             "order": 20,
-            "isLive": false,
-
         },
         {
-            "id": "MS113",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2277,11 +2107,8 @@ export default {
                 }
             ],
             "order": 12,
-            "isLive": false,
-
         },
         {
-            "id": "MS114",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2340,11 +2167,8 @@ export default {
                 }
             ],
             "order": 13,
-            "isLive": false,
-
         },
         {
-            "id": "MS107",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2395,11 +2219,8 @@ export default {
                 }
             ],
             "order": 6,
-            "isLive": false,
-
         },
         {
-            "id": "MS112",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2442,11 +2263,8 @@ export default {
                 }
             ],
             "order": 11,
-            "isLive": false,
-
         },
         {
-            "id": "MS140",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2487,11 +2305,8 @@ export default {
                 }
             ],
             "order": 39,
-            "isLive": false,
-
         },
         {
-            "id": "MS162",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2532,11 +2347,8 @@ export default {
                 }
             ],
             "order": 61,
-            "isLive": false,
-
         },
         {
-            "id": "MS125",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2589,11 +2401,8 @@ export default {
                 }
             ],
             "order": 24,
-            "isLive": false,
-
         },
         {
-            "id": "MS202",
             "roundIndex": 1,
             "sides": [
                 {
@@ -2642,11 +2451,8 @@ export default {
                 }
             ],
             "order": 1,
-            "isLive": false,
-
         },
         {
-            "id": "MS227",
             "roundIndex": 1,
             "sides": [
                 {
@@ -2661,11 +2467,9 @@ export default {
                 }
             ],
             "order": 26,
-            "isLive": false,
             "matchStatus": "Walk-Over"
         },
         {
-            "id": "MS231",
             "roundIndex": 1,
             "sides": [
                 {
@@ -2703,10 +2507,8 @@ export default {
             ],
             "order": 30,
             "isLive": true,
-
         },
         {
-            "id": "MS146",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2763,11 +2565,8 @@ export default {
                 }
             ],
             "order": 45,
-            "isLive": false,
-
         },
         {
-            "id": "MS158",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2818,11 +2617,8 @@ export default {
                 }
             ],
             "order": 57,
-            "isLive": false,
-
         },
         {
-            "id": "MS123",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2879,11 +2675,8 @@ export default {
                 }
             ],
             "order": 22,
-            "isLive": false,
-
         },
         {
-            "id": "MS154",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2940,11 +2733,8 @@ export default {
                 }
             ],
             "order": 53,
-            "isLive": false,
-
         },
         {
-            "id": "MS109",
             "roundIndex": 0,
             "sides": [
                 {
@@ -2985,11 +2775,8 @@ export default {
                 }
             ],
             "order": 8,
-            "isLive": false,
-
         },
         {
-            "id": "MS108",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3048,11 +2835,8 @@ export default {
                 }
             ],
             "order": 7,
-            "isLive": false,
-
         },
         {
-            "id": "MS141",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3103,11 +2887,8 @@ export default {
                 }
             ],
             "order": 40,
-            "isLive": false,
-
         },
         {
-            "id": "MS142",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3150,11 +2931,8 @@ export default {
                 }
             ],
             "order": 41,
-            "isLive": false,
-
         },
         {
-            "id": "MS161",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3207,11 +2985,8 @@ export default {
                 }
             ],
             "order": 60,
-            "isLive": false,
-
         },
         {
-            "id": "MS127",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3260,11 +3035,8 @@ export default {
                 }
             ],
             "order": 26,
-            "isLive": false,
-
         },
         {
-            "id": "MS126",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3321,11 +3093,8 @@ export default {
                 }
             ],
             "order": 25,
-            "isLive": false,
-
         },
         {
-            "id": "MS130",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3366,11 +3135,8 @@ export default {
                 }
             ],
             "order": 29,
-            "isLive": false,
-
         },
         {
-            "id": "MS163",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3411,11 +3177,8 @@ export default {
                 }
             ],
             "order": 62,
-            "isLive": false,
-
         },
         {
-            "id": "MS214",
             "roundIndex": 1,
             "sides": [
                 {
@@ -3464,11 +3227,8 @@ export default {
                 }
             ],
             "order": 13,
-            "isLive": false,
-
         },
         {
-            "id": "MS215",
             "roundIndex": 1,
             "sides": [
                 {
@@ -3509,11 +3269,8 @@ export default {
                 }
             ],
             "order": 14,
-            "isLive": false,
-
         },
         {
-            "id": "MS129",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3564,11 +3321,8 @@ export default {
                 }
             ],
             "order": 28,
-            "isLive": false,
-
         },
         {
-            "id": "MS207",
             "roundIndex": 1,
             "sides": [
                 {
@@ -3609,11 +3363,8 @@ export default {
                 }
             ],
             "order": 6,
-            "isLive": false,
-
         },
         {
-            "id": "MS232",
             "roundIndex": 1,
             "sides": [
                 {
@@ -3632,11 +3383,9 @@ export default {
                 }
             ],
             "order": 31,
-            "isLive": false,
             "matchStatus": "Scheduled"
         },
         {
-            "id": "MS128",
             "roundIndex": 0,
             "sides": [
                 {
@@ -3697,7 +3446,6 @@ export default {
                 }
             ],
             "order": 27,
-            "isLive": false,
 
         },
     ],

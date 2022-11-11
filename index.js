@@ -3,7 +3,7 @@ import { get_some_data } from './test_data/get_some_data.mjs'
 import { create_data_picker } from './test_data/create_data_picker.mjs'
 import { add_options_manager } from './options-manager/options-manager.mjs'
 import { get_default_options } from './options-manager/options-meta-getter.mjs'
-
+import { start_mock_matches_updates } from './start_mock_matches_updates.mjs'
 const default_playoffs_wrapper = document.querySelector('.default-playoffs')
 
 get_some_data().then(data => {
@@ -28,6 +28,8 @@ get_some_data().then(data => {
         },
         verticalScrollMode: 'mixed'
     })
+
+    start_mock_matches_updates(playoffs.applyMatchesUpdates)
 
     create_data_picker(
         document.querySelector('.default-playoffs-data-picker'),
