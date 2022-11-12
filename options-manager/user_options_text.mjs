@@ -8,7 +8,7 @@ const get_text = (options_to_values) => {
             .filter(([n, v]) => default_options[n] !== v)  
     )
     return JSON.stringify(non_default_options, null, 4)
-        .replace(/"([^"]+)":/g, '$1:')
+        .replace(/"([^"]+)":/g, '$1:') // remove quotes from object keys
 }
 
 export const create_user_options_text = () => {
@@ -45,11 +45,11 @@ export const create_user_options_text = () => {
     button.addEventListener('click', e => {
         e.target.innerHTML = '&#10003;'
         setTimeout(() => e.target.innerHTML = 'Copy to clipboard', 300)
-        navigator.clipboard.writeText(text_el.innerHTML)
+        navigator.clipboard.writeText(text_el.innerText)
     })
 
     const update_user_options_text = (options_to_values) => {
-        text_el.innerHTML = get_text(options_to_values)
+        text_el.innerText = get_text(options_to_values)
     }
 
     const wrapper = create_element_from_Html(`

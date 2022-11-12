@@ -24,7 +24,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
@@ -38,20 +38,17 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
-
-
         {
             "roundIndex": 0,
             "order": 1,
@@ -61,14 +58,14 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
                             "isWinner": true
                         },
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "liverpool",
@@ -79,15 +76,13 @@ export default {
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
                     "isWinner": true
                 }
             ]
         },
-
-
         {
             "roundIndex": 0,
             "order": 2,
@@ -97,7 +92,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
@@ -111,19 +106,17 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
-
         {
             "roundIndex": 0,
             "order": 3,
@@ -133,21 +126,21 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "bayern",
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -158,8 +151,6 @@ export default {
                 }
             ]
         },
-
-
         {
             "roundIndex": 0,
             "order": 4,
@@ -169,14 +160,14 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "city",
@@ -187,16 +178,13 @@ export default {
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
                     "isWinner": true
                 }
             ]
         },
-
-
-
         {
             "roundIndex": 0,
             "order": 5,
@@ -206,7 +194,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
@@ -220,20 +208,17 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
-
-
         {
             "roundIndex": 0,
             "order": 6,
@@ -257,19 +242,17 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
-
         {
             "roundIndex": 0,
             "order": 7,
@@ -283,17 +266,17 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "real",
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
@@ -304,11 +287,6 @@ export default {
                 }
             ]
         },
-
-
-
-
-
         {
             "roundIndex": 1,
             "order": 0,
@@ -318,11 +296,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                     ],
                     "isWinner": true
@@ -336,14 +314,13 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
         {
             "roundIndex": 1,
             "order": 1,
@@ -357,7 +334,7 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                     ],
                     "isWinner": true
@@ -367,19 +344,17 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
-
         {
             "roundIndex": 1,
             "order": 2,
@@ -393,7 +368,7 @@ export default {
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
                     "isWinner": true
@@ -403,20 +378,17 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
-
-
         {
             "roundIndex": 1,
             "order": 3,
@@ -426,14 +398,14 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
                             "isWinner":  true
                         },
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "real",
@@ -444,15 +416,13 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                     ],
                     "isWinner": true
                 }
             ]
         },
-
-
         {
             "roundIndex": 2,
             "order": 0,
@@ -476,18 +446,17 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 }
             ]
         },
-
         {
             "roundIndex": 2,
             "order": 1,
@@ -501,17 +470,17 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "real",
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
@@ -522,7 +491,6 @@ export default {
                 }
             ]
         },
-
         {
             "roundIndex": 3,
             "order": 0,
@@ -532,10 +500,10 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "real",

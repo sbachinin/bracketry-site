@@ -24,3425 +24,3425 @@ export default {
     ],
     "matches": [
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "202721",
-                    "scores": [
+                    contestantId: "202721",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 9,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 9,
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 6,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 6,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198756",
-                    "scores": [
+                    contestantId: "198756",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 11,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 11,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 8,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 8,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 32,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199256",
-                    "scores": [
+                    contestantId: "199256",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199261",
-                    "scores": [
+                    contestantId: "199261",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 4,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198911",
-                    "scores": [
+                    contestantId: "198911",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199916",
-                    "scores": [
+                    contestantId: "199916",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 44,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199911",
-                    "scores": [
+                    contestantId: "199911",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198796",
-                    "scores": [
+                    contestantId: "198796",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 30,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "201506",
-                    "scores": [
+                    contestantId: "201506",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198766",
-                    "scores": [
+                    contestantId: "198766",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 33,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198801",
-                    "scores": [
+                    contestantId: "198801",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198806",
-                    "scores": [
+                    contestantId: "198806",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 31,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198786",
-                    "scores": [
+                    contestantId: "198786",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198791",
-                    "scores": [
+                    contestantId: "198791",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 35,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199161",
-                    "scores": [
+                    contestantId: "199161",
+                    scores: [
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199166",
-                    "scores": [
+                    contestantId: "199166",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 3,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "201341",
-                    "scores": [
+                    contestantId: "201341",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199291",
-                    "scores": [
+                    contestantId: "199291",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 0,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198871",
-                    "scores": [
+                    contestantId: "198871",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198876",
-                    "scores": [
+                    contestantId: "198876",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 46,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198976",
-                    "scores": [
+                    contestantId: "198976",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199956",
-                    "scores": [
+                    contestantId: "199956",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 5,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 5,
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 5,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198956",
-                    "scores": [
+                    contestantId: "198956",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198961",
-                    "scores": [
+                    contestantId: "198961",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 54,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199981",
-                    "scores": [
+                    contestantId: "199981",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199026",
-                    "scores": [
+                    contestantId: "199026",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 58,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198901",
-                    "scores": [
+                    contestantId: "198901",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198906",
-                    "scores": [
+                    contestantId: "198906",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 21,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198891",
-                    "scores": [
+                    contestantId: "198891",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198896",
-                    "scores": [
+                    contestantId: "198896",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 3,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 3,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 19,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199266",
-                    "scores": [
+                    contestantId: "199266",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 5,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 5,
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199271",
-                    "scores": [
+                    contestantId: "199271",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 15,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198991",
-                    "scores": [
+                    contestantId: "198991",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198996",
-                    "scores": [
+                    contestantId: "198996",
+                    scores: [
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 14,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198771",
-                    "scores": [
+                    contestantId: "198771",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198776",
-                    "scores": [
+                    contestantId: "198776",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 5,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 5,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 36,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199926",
-                    "scores": [
+                    contestantId: "199926",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199931",
-                    "scores": [
+                    contestantId: "199931",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 5,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 5,
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 37,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198811",
-                    "scores": [
+                    contestantId: "198811",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 6,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 6,
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198816",
-                    "scores": [
+                    contestantId: "198816",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 5,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 5,
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 8,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 8,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 38,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198821",
-                    "scores": [
+                    contestantId: "198821",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198826",
-                    "scores": [
+                    contestantId: "198826",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 34,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199036",
-                    "scores": [
+                    contestantId: "199036",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199041",
-                    "scores": [
+                    contestantId: "199041",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 52,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199181",
-                    "scores": [
+                    contestantId: "199181",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199186",
-                    "scores": [
+                    contestantId: "199186",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 3,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 3,
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 1,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 1,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 16,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199151",
-                    "scores": [
+                    contestantId: "199151",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199156",
-                    "scores": [
+                    contestantId: "199156",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 9,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "199291",
-                    "scores": [
+                    contestantId: "199291",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 9,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 9,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
+                            mainScore: "5",
                         },
                     ],
-                    "currentScore": '40',
-                    "isWinner": true
+                    currentScore: '40',
+                    isServing: true
                 },
                 {
-                    "contestantId": "198921",
-                    "scores": [
+                    contestantId: "198921",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 7,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 7,
+                            
                         },
                         {
-                            "mainScore": "5",
+                            mainScore: "5",
                         },
                     ],
-                    "currentScore": 'A',
-                    "isWinner": false
+                    currentScore: 'A',
+                    
                 }
             ],
             "order": 0,
             "isLive": true,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "199256",
-                    "scores": [
+                    contestantId: "199256",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198976",
-                    "scores": [
+                    contestantId: "198976",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 2,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198916",
-                    "scores": [
+                    contestantId: "198916",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199921",
-                    "scores": [
+                    contestantId: "199921",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 42,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199991",
-                    "scores": [
+                    contestantId: "199991",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198921",
-                    "scores": [
+                    contestantId: "198921",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 1,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199116",
-                    "scores": [
+                    contestantId: "199116",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199121",
-                    "scores": [
+                    contestantId: "199121",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 56,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199231",
-                    "scores": [
+                    contestantId: "199231",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199236",
-                    "scores": [
+                    contestantId: "199236",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 55,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199106",
-                    "scores": [
+                    contestantId: "199106",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 4,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 4,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 4,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 4,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199111",
-                    "scores": [
+                    contestantId: "199111",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 2,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 2,
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 59,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199136",
-                    "scores": [
+                    contestantId: "199136",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199141",
-                    "scores": [
+                    contestantId: "199141",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 48,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199296",
-                    "scores": [
+                    contestantId: "199296",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199301",
-                    "scores": [
+                    contestantId: "199301",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 49,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199986",
-                    "scores": [
+                    contestantId: "199986",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199011",
-                    "scores": [
+                    contestantId: "199011",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 18,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199966",
-                    "scores": [
+                    contestantId: "199966",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199971",
-                    "scores": [
+                    contestantId: "199971",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 50,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199241",
-                    "scores": [
+                    contestantId: "199241",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 3,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 3,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199246",
-                    "scores": [
+                    contestantId: "199246",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 63,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198946",
-                    "scores": [
+                    contestantId: "198946",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198951",
-                    "scores": [
+                    contestantId: "198951",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 47,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199976",
-                    "scores": [
+                    contestantId: "199976",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199146",
-                    "scores": [
+                    contestantId: "199146",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 51,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199191",
-                    "scores": [
+                    contestantId: "199191",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199196",
-                    "scores": [
+                    contestantId: "199196",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 17,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199201",
-                    "scores": [
+                    contestantId: "199201",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199206",
-                    "scores": [
+                    contestantId: "199206",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 10,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198966",
-                    "scores": [
+                    contestantId: "198966",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198971",
-                    "scores": [
+                    contestantId: "198971",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 2,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199951",
-                    "scores": [
+                    contestantId: "199951",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 8,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 8,
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199251",
-                    "scores": [
+                    contestantId: "199251",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 10,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 10,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 43,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199076",
-                    "scores": [
+                    contestantId: "199076",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199081",
-                    "scores": [
+                    contestantId: "199081",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 3,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 3,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 20,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199031",
-                    "scores": [
+                    contestantId: "199031",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199946",
-                    "scores": [
+                    contestantId: "199946",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 12,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199126",
-                    "scores": [
+                    contestantId: "199126",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 8,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 8,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199131",
-                    "scores": [
+                    contestantId: "199131",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 6,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 6,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 13,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198881",
-                    "scores": [
+                    contestantId: "198881",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 15,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 15,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198886",
-                    "scores": [
+                    contestantId: "198886",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 17,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 17,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 6,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199941",
-                    "scores": [
+                    contestantId: "199941",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 2,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 2,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199101",
-                    "scores": [
+                    contestantId: "199101",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 11,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199961",
-                    "scores": [
+                    contestantId: "199961",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198781",
-                    "scores": [
+                    contestantId: "198781",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 39,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198861",
-                    "scores": [
+                    contestantId: "198861",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198866",
-                    "scores": [
+                    contestantId: "198866",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 61,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199066",
-                    "scores": [
+                    contestantId: "199066",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 5,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 5,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199071",
-                    "scores": [
+                    contestantId: "199071",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 3,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 3,
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 24,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "198966",
-                    "scores": [
+                    contestantId: "198966",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199166",
-                    "scores": [
+                    contestantId: "199166",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 1,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "199036",
+                    contestantId: "199036",
                     
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199176",
+                    contestantId: "199176",
                     
-                    "isWinner": false
+                    
                 }
             ],
             "order": 26,
             "matchStatus": "Walk-Over"
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "199021",
-                    "scores": [
+                    contestantId: "199021",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         }
                     ],
-                    "currentScore": "30",
+                    currentScore: "30",
                     "isServing": false,
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198861",
-                    "scores": [
+                    contestantId: "198861",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         }
                     ],
-                    "currentScore": "30",
+                    currentScore: "30",
                     "isServing": true,
-                    "isWinner": false
+                    
                 }
             ],
             "order": 30,
             "isLive": true,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199211",
-                    "scores": [
+                    contestantId: "199211",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199216",
-                    "scores": [
+                    contestantId: "199216",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 45,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198981",
-                    "scores": [
+                    contestantId: "198981",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198986",
-                    "scores": [
+                    contestantId: "198986",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 4,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 4,
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 57,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199276",
-                    "scores": [
+                    contestantId: "199276",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199281",
-                    "scores": [
+                    contestantId: "199281",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 22,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199171",
-                    "scores": [
+                    contestantId: "199171",
+                    scores: [
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199176",
-                    "scores": [
+                    contestantId: "199176",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 53,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199221",
-                    "scores": [
+                    contestantId: "199221",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199226",
-                    "scores": [
+                    contestantId: "199226",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 8,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199001",
-                    "scores": [
+                    contestantId: "199001",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199006",
-                    "scores": [
+                    contestantId: "199006",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 4,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 4,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 7,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199046",
-                    "scores": [
+                    contestantId: "199046",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199051",
-                    "scores": [
+                    contestantId: "199051",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "subscore": 2,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 2,
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 40,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199056",
-                    "scores": [
+                    contestantId: "199056",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199061",
-                    "scores": [
+                    contestantId: "199061",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 0,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 0,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 41,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199016",
-                    "scores": [
+                    contestantId: "199016",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 4,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 4,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 3,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 3,
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199021",
-                    "scores": [
+                    contestantId: "199021",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 60,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199996",
-                    "scores": [
+                    contestantId: "199996",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199086",
-                    "scores": [
+                    contestantId: "199086",
+                    scores: [
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 26,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198836",
-                    "scores": [
+                    contestantId: "198836",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198841",
-                    "scores": [
+                    contestantId: "198841",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 25,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199091",
-                    "scores": [
+                    contestantId: "199091",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199096",
-                    "scores": [
+                    contestantId: "199096",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 29,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "199936",
-                    "scores": [
+                    contestantId: "199936",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198846",
-                    "scores": [
+                    contestantId: "198846",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 62,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "199086",
-                    "scores": [
+                    contestantId: "199086",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198856",
-                    "scores": [
+                    contestantId: "198856",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 13,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "198926",
-                    "scores": [
+                    contestantId: "198926",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199091",
-                    "scores": [
+                    contestantId: "199091",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 14,
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198926",
-                    "scores": [
+                    contestantId: "198926",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "198931",
-                    "scores": [
+                    contestantId: "198931",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 2,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 2,
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 28,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "199031",
-                    "scores": [
+                    contestantId: "199031",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "199131",
-                    "scores": [
+                    contestantId: "199131",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 6,
         },
         {
-            "roundIndex": 1,
-            "sides": [
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "198846",
+                    contestantId: "198846",
                     
 
                     "isServing": false,
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "199246",
+                    contestantId: "199246",
                     
 
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
             "order": 31,
             "matchStatus": "Scheduled"
         },
         {
-            "roundIndex": 0,
-            "sides": [
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "198851",
-                    "scores": [
+                    contestantId: "198851",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 1,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 1,
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "198856",
-                    "scores": [
+                    contestantId: "198856",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "subscore": 7,
-                            "isWinner": true
+                            mainScore: "7",
+                            subscore: 7,
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "subscore": 3,
-                            "isWinner": false
+                            mainScore: "6",
+                            subscore: 3,
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
             "order": 27,

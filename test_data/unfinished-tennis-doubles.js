@@ -21,2265 +21,2207 @@ export default {
     ],
     "matches": [
         {
-            "id": "MD104",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200776",
-                    "scores": [
+                    contestantId: "200776",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200781",
-                    "scores": [
+                    contestantId: "200781",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 3,
-            "isLive": false
-
+            order: 3,
+            
         },
         {
-            "id": "MD106",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200846",
-                    "scores": [
+                    contestantId: "200846",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 8,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": true
+                            mainScore: "3",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200851",
-                    "scores": [
+                    contestantId: "200851",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 5,
-            "isLive": false,
-            "matchStatus": "Ret"
+            order: 5,
+            
+            matchStatus: "Ret"
         },
         {
-            "id": "MD112",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200906",
-                    "scores": [
+                    contestantId: "200906",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 10,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 10,
-                            "isWinner": true
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200911",
-                    "scores": [
+                    contestantId: "200911",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 8,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 8,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 11,
-            "isLive": false,
-
+            order: 11,
+            
         },
         {
-            "id": "MD119",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "204781",
-                    "scores": [
+                    contestantId: "204781",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 10,
-                            "isWinner": true
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200861",
-                    "scores": [
+                    contestantId: "200861",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 18,
-            "isLive": false,
-
+            order: 18,
+            
         },
         {
-            "id": "MD205",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200886",
-                    "scores": [
+                    contestantId: "200886",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200901",
-                    "scores": [
+                    contestantId: "200901",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 4,
-            "isLive": false,
-
+            order: 4,
+            
         },
         {
-            "id": "MD301",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200771",
-                    "scores": [
+                    contestantId: "200771",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
                     "currentScore": "15",
                     "isServing": true,
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200781",
-                    "scores": [
+                    contestantId: "200781",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
                     "currentScore": "15",
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 0,
+            order: 0,
             "isLive": true,
-            "matchStatus": "Live"
+            matchStatus: "Live"
         },
         {
-            "id": "MD214",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200931",
-                    "scores": [
+                    contestantId: "200931",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200941",
-                    "scores": [
+                    contestantId: "200941",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 13,
-            "isLive": false,
-
+            order: 13,
+            
         },
         {
-            "id": "MD130",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200916",
-                    "scores": [
+                    contestantId: "200916",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200921",
-                    "scores": [
+                    contestantId: "200921",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 29,
-            "isLive": false,
-
+            order: 29,
+            
         },
         {
-            "id": "MD118",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200806",
-                    "scores": [
+                    contestantId: "200806",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200811",
-                    "scores": [
+                    contestantId: "200811",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 17,
-            "isLive": false,
-
+            order: 17,
+            
         },
         {
-            "id": "MD126",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200716",
-                    "scores": [
+                    contestantId: "200716",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200721",
-                    "scores": [
+                    contestantId: "200721",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 25,
-            "isLive": false,
-
+            order: 25,
+            
         },
         {
-            "id": "MD127",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200926",
-                    "scores": [
+                    contestantId: "200926",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200931",
-                    "scores": [
+                    contestantId: "200931",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 26,
-            "isLive": false,
-
+            order: 26,
+            
         },
         {
-            "id": "MD204",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200671",
-                    "scores": [
+                    contestantId: "200671",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200741",
-                    "scores": [
+                    contestantId: "200741",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 3,
-            "isLive": false,
-
+            order: 3,
+            
         },
         {
-            "id": "MD115",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200816",
-                    "scores": [
+                    contestantId: "200816",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200821",
-                    "scores": [
+                    contestantId: "200821",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 14,
-            "isLive": false,
-
+            order: 14,
+            
         },
         {
-            "id": "MD124",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200706",
-                    "scores": [
+                    contestantId: "200706",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200711",
-                    "scores": [
+                    contestantId: "200711",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 23,
-            "isLive": false,
-
+            order: 23,
+            
         },
         {
-            "id": "MD302",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200846",
-                    "scores": [],
-                    "isWinner": false
+                    contestantId: "200846",
+                    scores: [],
+                    
                 },
                 {
-                    "contestantId": "200741",
-                    "scores": [],
-                    "isWinner": true
+                    contestantId: "200741",
+                    scores: [],
+                    isWinner: true
                 }
             ],
-            "order": 1,
-            "isLive": false,
-            "matchStatus": "Walk-Over"
+            order: 1,
+            
+            matchStatus: "Walk-Over"
         },
         {
-            "id": "MD303",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200886",
-                    "scores": [
+                    contestantId: "200886",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200796",
-                    "scores": [
+                    contestantId: "200796",
+                    scores: [
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 2,
-            "isLive": false,
-
+            order: 2,
+            
         },
         {
-            "id": "MD305",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200806",
-                    "scores": [],
-
+                    contestantId: "200806",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200791",
-                    "scores": [],
-
+                    contestantId: "200791",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 4,
-            "isLive": false,
-            "matchStatus": "Scheduled"
+            order: 4,
+            
+            matchStatus: "Scheduled"
         },
         {
-            "id": "MD206",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200796",
-                    "scores": [
+                    contestantId: "200796",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 8,
-                            "isWinner": true
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200906",
-                    "scores": [
+                    contestantId: "200906",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 5,
-            "isLive": false,
-
+            order: 5,
+            
         },
         {
-            "id": "MD210",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "204781",
-                    "scores": [
+                    contestantId: "204781",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200791",
-                    "scores": [
+                    contestantId: "200791",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 9,
-            "isLive": false,
-
+            order: 9,
+            
         },
         {
-            "id": "MD215",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200731",
-                    "scores": [
+                    contestantId: "200731",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 8,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200921",
-                    "scores": [
+                    contestantId: "200921",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 14,
-            "isLive": false,
-
+            order: 14,
+            
         },
         {
-            "id": "MD128",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200936",
-                    "scores": [
+                    contestantId: "200936",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200941",
-                    "scores": [
+                    contestantId: "200941",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 27,
-            "isLive": false,
-
+            order: 27,
+            
         },
         {
-            "id": "MD131",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200676",
-                    "scores": [
+                    contestantId: "200676",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": true
+                            mainScore: "0",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200681",
-                    "scores": [
+                    contestantId: "200681",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "0",
-                            "isWinner": false
+                            mainScore: "0",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 30,
-            "isLive": false,
-            "matchStatus": "Ret"
+            order: 30,
+            
+            matchStatus: "Ret"
         },
         {
-            "id": "MD201",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200686",
-                    "scores": [
+                    contestantId: "200686",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 8,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200771",
-                    "scores": [
+                    contestantId: "200771",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 10,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 0,
-            "isLive": false,
-
+            order: 0,
+            
         },
         {
-            "id": "MD101",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200686",
-                    "scores": [
+                    contestantId: "200686",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 10,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200691",
-                    "scores": [
+                    contestantId: "200691",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 8,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 0,
-            "isLive": false,
-
+            order: 0,
+            
         },
         {
-            "id": "MD109",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200886",
-                    "scores": [
+                    contestantId: "200886",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "202736",
-                    "scores": [
+                    contestantId: "202736",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 8,
-            "isLive": false,
-
+            order: 8,
+            
         },
         {
-            "id": "MD110",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200896",
-                    "scores": [
+                    contestantId: "200896",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200901",
-                    "scores": [
+                    contestantId: "200901",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 9,
-            "isLive": false,
-
+            order: 9,
+            
         },
         {
-            "id": "MD307",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200876",
-                    "scores": [
+                    contestantId: "200876",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 7,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200931",
-                    "scores": [
+                    contestantId: "200931",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 9,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 6,
-            "isLive": false,
-
+            order: 6,
+            
         },
         {
-            "id": "MD402",
-            "roundIndex": 3,
-            "sides": [
+            
+            roundIndex: 3,
+            sides: [
                 {
-                    "contestantId": "200886",
-                    "scores": [],
-
+                    contestantId: "200886",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200761",
-                    "scores": [],
-
+                    contestantId: "200761",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 1,
-            "isLive": false,
-            "matchStatus": "05.04.2020"
+            order: 1,
+            
+            matchStatus: "05.04.2020"
         },
         {
-            "id": "MD308",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200731",
-                    "scores": [],
-
+                    contestantId: "200731",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200751",
-                    "scores": [],
-
+                    contestantId: "200751",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 7,
-            "isLive": false,
-            "matchStatus": "Scheduled"
+            order: 7,
+            
+            matchStatus: "Scheduled"
         },
         {
-            "id": "MD208",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200821",
-                    "scores": [
+                    contestantId: "200821",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200761",
-                    "scores": [
+                    contestantId: "200761",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 7,
-            "isLive": false,
-
+            order: 7,
+            
         },
         {
-            "id": "MD401",
-            "roundIndex": 3,
-            "sides": [
+            
+            roundIndex: 3,
+            sides: [
                 {
-                    "contestantId": "200741",
-                    "scores": [],
-
+                    contestantId: "200741",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 0,
-            "isLive": false,
-            "matchStatus": "05.04.2020"
+            order: 0,
+            
+            matchStatus: "05.04.2020"
         },
         {
-            "id": "MD304",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200826",
-                    "scores": [
+                    contestantId: "200826",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200761",
-                    "scores": [
+                    contestantId: "200761",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 3,
-            "isLive": false,
-
+            order: 3,
+            
         },
         {
-            "id": "MD212",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200661",
-                    "scores": [
+                    contestantId: "200661",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200711",
-                    "scores": [
+                    contestantId: "200711",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 11,
-            "isLive": false,
-
+            order: 11,
+            
         },
         {
-            "id": "MD113",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200826",
-                    "scores": [
+                    contestantId: "200826",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 9,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200831",
-                    "scores": [
+                    contestantId: "200831",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 7,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 12,
-            "isLive": false,
-
+            order: 12,
+            
         },
         {
-            "id": "MD117",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200626",
-                    "scores": [
+                    contestantId: "200626",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200631",
-                    "scores": [
+                    contestantId: "200631",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 16,
-            "isLive": false,
-
+            order: 16,
+            
         },
         {
-            "id": "MD203",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "204776",
-                    "scores": [
+                    contestantId: "204776",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200846",
-                    "scores": [
+                    contestantId: "200846",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 2,
-            "isLive": false,
-
+            order: 2,
+            
         },
         {
-            "id": "MD105",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200636",
-                    "scores": [
+                    contestantId: "200636",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "204776",
-                    "scores": [
+                    contestantId: "204776",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 4,
-            "isLive": false,
-
+            order: 4,
+            
         },
         {
-            "id": "MD102",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200766",
-                    "scores": [
+                    contestantId: "200766",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200771",
-                    "scores": [
+                    contestantId: "200771",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 1,
-            "isLive": false,
-
+            order: 1,
+            
         },
         {
-            "id": "MD103",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200866",
-                    "scores": [
+                    contestantId: "200866",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200871",
-                    "scores": [
+                    contestantId: "200871",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 2,
-            "isLive": false,
-
+            order: 2,
+            
         },
         {
-            "id": "MD107",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200666",
-                    "scores": [
+                    contestantId: "200666",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200671",
-                    "scores": [
+                    contestantId: "200671",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 6,
-            "isLive": false,
-
+            order: 6,
+            
         },
         {
-            "id": "MD108",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200736",
-                    "scores": [
+                    contestantId: "200736",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200741",
-                    "scores": [
+                    contestantId: "200741",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 7,
-            "isLive": false,
-
+            order: 7,
+            
         },
         {
-            "id": "MD111",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200796",
-                    "scores": [
+                    contestantId: "200796",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200801",
-                    "scores": [
+                    contestantId: "200801",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 10,
-            "isLive": false,
-
+            order: 10,
+            
         },
         {
-            "id": "MD123",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200656",
-                    "scores": [
+                    contestantId: "200656",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200661",
-                    "scores": [
+                    contestantId: "200661",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 22,
-            "isLive": false,
-
+            order: 22,
+            
         },
         {
-            "id": "MD404",
-            "roundIndex": 3,
-            "sides": [
+            
+            roundIndex: 3,
+            sides: [
                 {
-                    "contestantId": "200931",
-                    "scores": [],
-
+                    contestantId: "200931",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 3,
-            "isLive": false,
-            "matchStatus": "05.04.2020"
+            order: 3,
+            
+            matchStatus: "05.04.2020"
         },
         {
-            "id": "MD120",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200786",
-                    "scores": [
+                    contestantId: "200786",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200791",
-                    "scores": [
+                    contestantId: "200791",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 19,
-            "isLive": false,
-
+            order: 19,
+            
         },
         {
-            "id": "MD207",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200826",
-                    "scores": [
+                    contestantId: "200826",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 7,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200841",
-                    "scores": [
+                    contestantId: "200841",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 9,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 6,
-            "isLive": false,
-
+            order: 6,
+            
         },
         {
-            "id": "MD122",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200696",
-                    "scores": [
+                    contestantId: "200696",
+                    scores: [
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200701",
-                    "scores": [
+                    contestantId: "200701",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 21,
-            "isLive": false,
-
+            order: 21,
+            
         },
         {
-            "id": "MD121",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200646",
-                    "scores": [
+                    contestantId: "200646",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200651",
-                    "scores": [
+                    contestantId: "200651",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 20,
-            "isLive": false,
-
+            order: 20,
+            
         },
         {
-            "id": "MD209",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200631",
-                    "scores": [
+                    contestantId: "200631",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 7,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200806",
-                    "scores": [
+                    contestantId: "200806",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 10,
-                            "isWinner": true
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 8,
-            "isLive": false,
-
+            order: 8,
+            
         },
         {
-            "id": "MD213",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200876",
-                    "scores": [
+                    contestantId: "200876",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200716",
-                    "scores": [
+                    contestantId: "200716",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 12,
-            "isLive": false,
-
+            order: 12,
+            
         },
         {
-            "id": "MD129",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200726",
-                    "scores": [
+                    contestantId: "200726",
+                    scores: [
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200731",
-                    "scores": [
+                    contestantId: "200731",
+                    scores: [
                         {
-                            "mainScore": "5",
-                            "isWinner": true
+                            mainScore: "5",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 28,
-            "isLive": false,
-            "matchStatus": "Ret"
+            order: 28,
+            
+            matchStatus: "Ret"
         },
         {
-            "id": "MD125",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200876",
-                    "scores": [
+                    contestantId: "200876",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200881",
-                    "scores": [
+                    contestantId: "200881",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 24,
-            "isLive": false,
-
+            order: 24,
+            
         },
         {
-            "id": "MD132",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200746",
-                    "scores": [
+                    contestantId: "200746",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200751",
-                    "scores": [
+                    contestantId: "200751",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 31,
-            "isLive": false,
-
+            order: 31,
+            
         },
         {
-            "id": "MD216",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200676",
-                    "scores": [
+                    contestantId: "200676",
+                    scores: [
                         {
-                            "mainScore": "1",
-                            "isWinner": false
+                            mainScore: "1",
+                            
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200751",
-                    "scores": [
+                    contestantId: "200751",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 15,
-            "isLive": false,
-
+            order: 15,
+            
         },
         {
-            "id": "MD114",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200836",
-                    "scores": [
+                    contestantId: "200836",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200841",
-                    "scores": [
+                    contestantId: "200841",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 13,
-            "isLive": false,
-
+            order: 13,
+            
         },
         {
-            "id": "MD306",
-            "roundIndex": 2,
-            "sides": [
+            
+            roundIndex: 2,
+            sides: [
                 {
-                    "contestantId": "200646",
-                    "scores": [],
-
+                    contestantId: "200646",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200661",
-                    "scores": [],
-
+                    contestantId: "200661",
+                    scores: [],
                     "isServing": false,
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 5,
-            "isLive": false,
-            "matchStatus": "Scheduled"
+            order: 5,
+            
+            matchStatus: "Scheduled"
         },
         {
-            "id": "MD211",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200646",
-                    "scores": [
+                    contestantId: "200646",
+                    scores: [
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 },
                 {
-                    "contestantId": "200696",
-                    "scores": [
+                    contestantId: "200696",
+                    scores: [
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         },
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
-            "order": 10,
-            "isLive": false,
-
+            order: 10,
+            
         },
         {
-            "id": "MD202",
-            "roundIndex": 1,
-            "sides": [
+            
+            roundIndex: 1,
+            sides: [
                 {
-                    "contestantId": "200866",
-                    "scores": [
+                    contestantId: "200866",
+                    scores: [
                         {
-                            "mainScore": "6",
+                            mainScore: "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "2",
-                            "isWinner": false
+                            mainScore: "2",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200781",
-                    "scores": [
+                    contestantId: "200781",
+                    scores: [
                         {
-                            "mainScore": "7",
+                            mainScore: "7",
                             "subscore": 7,
-                            "isWinner": true
+                            isWinner: true
                         },
                         {
-                            "mainScore": "4",
-                            "isWinner": false
+                            mainScore: "4",
+                            
                         },
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 1,
-            "isLive": false,
-
+            order: 1,
+            
         },
         {
-            "id": "MD116",
-            "roundIndex": 0,
-            "sides": [
+            
+            roundIndex: 0,
+            sides: [
                 {
-                    "contestantId": "200756",
-                    "scores": [
+                    contestantId: "200756",
+                    scores: [
                         {
-                            "mainScore": "3",
-                            "isWinner": false
+                            mainScore: "3",
+                            
                         },
                         {
-                            "mainScore": "5",
-                            "isWinner": false
+                            mainScore: "5",
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
-                    "contestantId": "200761",
-                    "scores": [
+                    contestantId: "200761",
+                    scores: [
                         {
-                            "mainScore": "6",
-                            "isWinner": true
+                            mainScore: "6",
+                            isWinner: true
                         },
                         {
-                            "mainScore": "7",
-                            "isWinner": true
+                            mainScore: "7",
+                            isWinner: true
                         }
                     ],
-                    "isWinner": true
+                    isWinner: true
                 }
             ],
-            "order": 15,
-            "isLive": false,
-
+            order: 15,
+            
         }
     ],
     "contestants": {
@@ -2289,12 +2231,10 @@ export default {
                 {
                     "title": "N. Mahut",
                     "nationality": "FR",
-
                 },
                 {
                     "title": "F. Martin",
                     "nationality": "FR",
-
                 }
             ]
         },
@@ -2303,12 +2243,10 @@ export default {
                 {
                     "title": "A. Nedovyesov",
                     "nationality": "KZ",
-
                 },
                 {
                     "title": "A. Qureshi",
                     "nationality": "PK",
-
                 }
             ]
         },
@@ -2318,12 +2256,10 @@ export default {
                 {
                     "title": "S. Gille",
                     "nationality": "BE",
-
                 },
                 {
                     "title": "J. Vliegen",
                     "nationality": "BE",
-
                 }
             ]
         },
@@ -2333,12 +2269,10 @@ export default {
                 {
                     "title": "R. Klaasen",
                     "nationality": "ZA",
-
                 },
                 {
                     "title": "B. McLachlan",
                     "nationality": "JP",
-
                 }
             ]
         },
@@ -2347,12 +2281,10 @@ export default {
                 {
                     "title": "M. Middelkoop",
                     "nationality": "NL",
-
                 },
                 {
                     "title": "P. Oswald",
                     "nationality": "AT",
-
                 }
             ]
         },
@@ -2361,12 +2293,10 @@ export default {
                 {
                     "title": "J. Erlich",
                     "nationality": "IL",
-
                 },
                 {
                     "title": "A. Goransson",
                     "nationality": "SE",
-
                 }
             ]
         },
@@ -2375,12 +2305,10 @@ export default {
                 {
                     "title": "M. Ebden",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "M. Purcell",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2389,12 +2317,10 @@ export default {
                 {
                     "title": "L. Djere",
                     "nationality": "RS",
-
                 },
                 {
                     "title": "S. Travaglia",
                     "nationality": "IT",
-
                 }
             ]
         },
@@ -2403,12 +2329,10 @@ export default {
                 {
                     "title": "R. Carballes Baena",
                     "nationality": "ES",
-
                 },
                 {
                     "title": "H. Gaston",
                     "nationality": "FR",
-
                 }
             ]
         },
@@ -2417,12 +2341,10 @@ export default {
                 {
                     "title": "M. Daniell",
                     "nationality": "NZ",
-
                 },
                 {
                     "title": "F. Nielsen",
                     "nationality": "DK",
-
                 }
             ]
         },
@@ -2431,12 +2353,10 @@ export default {
                 {
                     "title": "A. Karatsev",
                     "nationality": "RU",
-
                 },
                 {
                     "title": "A. Sitak",
                     "nationality": "NZ",
-
                 }
             ]
         },
@@ -2446,12 +2366,10 @@ export default {
                 {
                     "title": "N. Mektic",
                     "nationality": "HR",
-
                 },
                 {
                     "title": "M. Pavic",
                     "nationality": "HR",
-
                 }
             ]
         },
@@ -2460,12 +2378,10 @@ export default {
                 {
                     "title": "F. Bagnis",
                     "nationality": "AR",
-
                 },
                 {
                     "title": "F. Delbonis",
                     "nationality": "AR",
-
                 }
             ]
         },
@@ -2474,12 +2390,10 @@ export default {
                 {
                     "title": "D. Inglot",
                     "nationality": "GB",
-
                 },
                 {
                     "title": "K. Skupski",
                     "nationality": "GB",
-
                 }
             ]
         },
@@ -2488,12 +2402,10 @@ export default {
                 {
                     "title": "T. Griekspoor",
                     "nationality": "NL",
-
                 },
                 {
                     "title": "A. Vavassori",
                     "nationality": "IT",
-
                 }
             ]
         },
@@ -2502,12 +2414,10 @@ export default {
                 {
                     "title": "L. Harris",
                     "nationality": "ZA",
-
                 },
                 {
                     "title": "A. Popyrin",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2517,12 +2427,10 @@ export default {
                 {
                     "title": "J. Cabal",
                     "nationality": "CO",
-
                 },
                 {
                     "title": "R. Farah",
                     "nationality": "CO",
-
                 }
             ]
         },
@@ -2531,12 +2439,10 @@ export default {
                 {
                     "title": "L. Glasspool",
                     "nationality": "GB",
-
                 },
                 {
                     "title": "H. Heliovaara",
                     "nationality": "FI",
-
                 }
             ]
         },
@@ -2545,12 +2451,10 @@ export default {
                 {
                     "title": "F. Coria",
                     "nationality": "AR",
-
                 },
                 {
                     "title": "A. Ramos-Vinolas",
                     "nationality": "ES",
-
                 }
             ]
         },
@@ -2560,12 +2464,10 @@ export default {
                 {
                     "title": "A. Golubev",
                     "nationality": "KZ",
-
                 },
                 {
                     "title": "F. Skugor",
                     "nationality": "HR",
-
                 }
             ]
         },
@@ -2575,12 +2477,10 @@ export default {
                 {
                     "title": "D. Sweeny",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "L. Tu",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2589,12 +2489,10 @@ export default {
                 {
                     "title": "N. Monroe",
                     "nationality": "US",
-
                 },
                 {
                     "title": "F. Tiafoe",
                     "nationality": "US",
-
                 }
             ]
         },
@@ -2604,12 +2502,10 @@ export default {
                 {
                     "title": "T. Puetz",
                     "nationality": "DE",
-
                 },
                 {
                     "title": "M. Venus",
                     "nationality": "NZ",
-
                 }
             ]
         },
@@ -2618,12 +2514,10 @@ export default {
                 {
                     "title": "N. Basilashvili",
                     "nationality": "GE",
-
                 },
                 {
                     "title": "M. Kecmanovic",
                     "nationality": "RS",
-
                 }
             ]
         },
@@ -2633,12 +2527,10 @@ export default {
                 {
                     "title": "R. Ram",
                     "nationality": "US",
-
                 },
                 {
                     "title": "J. Salisbury",
                     "nationality": "GB",
-
                 }
             ]
         },
@@ -2647,12 +2539,10 @@ export default {
                 {
                     "title": "L. Saville",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "J. Smith",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2662,12 +2552,10 @@ export default {
                 {
                     "title": "J. Peers",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "F. Polasek",
                     "nationality": "SK",
-
                 }
             ]
         },
@@ -2677,12 +2565,10 @@ export default {
                 {
                     "title": "A. Bolt",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "J. McCabe",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2692,12 +2578,10 @@ export default {
                 {
                     "title": "T. Kokkinakis",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "N. Kyrgios",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2706,12 +2590,10 @@ export default {
                 {
                     "title": "T. Brkic",
                     "nationality": "BA",
-
                 },
                 {
                     "title": "N. Cacic",
                     "nationality": "RS",
-
                 }
             ]
         },
@@ -2721,12 +2603,10 @@ export default {
                 {
                     "title": "A. Behar",
                     "nationality": "UY",
-
                 },
                 {
                     "title": "G. Escobar",
                     "nationality": "EC",
-
                 }
             ]
         },
@@ -2735,12 +2615,10 @@ export default {
                 {
                     "title": "R. Arneodo",
                     "nationality": "MC",
-
                 },
                 {
                     "title": "B. Paire",
                     "nationality": "FR",
-
                 }
             ]
         },
@@ -2750,12 +2628,10 @@ export default {
                 {
                     "title": "W. Koolhof",
                     "nationality": "NL",
-
                 },
                 {
                     "title": "N. Skupski",
                     "nationality": "GB",
-
                 }
             ]
         },
@@ -2764,12 +2640,10 @@ export default {
                 {
                     "title": "P. Andujar",
                     "nationality": "ES",
-
                 },
                 {
                     "title": "P. Martinez",
                     "nationality": "ES",
-
                 }
             ]
         },
@@ -2778,12 +2652,10 @@ export default {
                 {
                     "title": "D. Lajovic",
                     "nationality": "RS",
-
                 },
                 {
                     "title": "I. Sabanov",
                     "nationality": "RS",
-
                 }
             ]
         },
@@ -2792,12 +2664,10 @@ export default {
                 {
                     "title": "M. Giron",
                     "nationality": "US",
-
                 },
                 {
                     "title": "S. Kwon",
                     "nationality": "KR",
-
                 }
             ]
         },
@@ -2806,12 +2676,10 @@ export default {
                 {
                     "title": "A. Bublik",
                     "nationality": "KZ",
-
                 },
                 {
                     "title": "J. Zielinski",
                     "nationality": "PL",
-
                 }
             ]
         },
@@ -2820,12 +2688,10 @@ export default {
                 {
                     "title": "M. Reid",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "J. Thompson",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2835,12 +2701,10 @@ export default {
                 {
                     "title": "R. Hijikata",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "T. Schoolkate",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2850,12 +2714,10 @@ export default {
                 {
                     "title": "K. Krawietz",
                     "nationality": "DE",
-
                 },
                 {
                     "title": "A. Mies",
                     "nationality": "DE",
-
                 }
             ]
         },
@@ -2864,12 +2726,10 @@ export default {
                 {
                     "title": "S. Gonzalez",
                     "nationality": "MX",
-
                 },
                 {
                     "title": "A. Molteni",
                     "nationality": "AR",
-
                 }
             ]
         },
@@ -2879,12 +2739,10 @@ export default {
                 {
                     "title": "A. Harris",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "A. Vukic",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2893,12 +2751,10 @@ export default {
                 {
                     "title": "A. Krajicek",
                     "nationality": "US",
-
                 },
                 {
                     "title": "S. Querrey",
                     "nationality": "US",
-
                 }
             ]
         },
@@ -2908,12 +2764,10 @@ export default {
                 {
                     "title": "J. Kubler",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "C. O'Connell",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -2922,12 +2776,10 @@ export default {
                 {
                     "title": "A. Davidovich Fokina",
                     "nationality": "ES",
-
                 },
                 {
                     "title": "J. Munar",
                     "nationality": "ES",
-
                 }
             ]
         },
@@ -2936,12 +2788,10 @@ export default {
                 {
                     "title": "G. Mager",
                     "nationality": "IT",
-
                 },
                 {
                     "title": "L. Musetti",
                     "nationality": "IT",
-
                 }
             ]
         },
@@ -2950,12 +2800,10 @@ export default {
                 {
                     "title": "D. Koepfer",
                     "nationality": "DE",
-
                 },
                 {
                     "title": "J. Struff",
                     "nationality": "DE",
-
                 }
             ]
         },
@@ -2964,12 +2812,10 @@ export default {
                 {
                     "title": "F. Krajinovic",
                     "nationality": "RS",
-
                 },
                 {
                     "title": "M. Sabanov",
                     "nationality": "RS",
-
                 }
             ]
         },
@@ -2979,12 +2825,10 @@ export default {
                 {
                     "title": "J. Murray",
                     "nationality": "GB",
-
                 },
                 {
                     "title": "B. Soares",
                     "nationality": "BR",
-
                 }
             ]
         },
@@ -2993,12 +2837,10 @@ export default {
                 {
                     "title": "J. Duckworth",
                     "nationality": "AU",
-
                 },
                 {
                     "title": "M. Polmans",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -3008,12 +2850,10 @@ export default {
                 {
                     "title": "M. Granollers",
                     "nationality": "ES",
-
                 },
                 {
                     "title": "H. Zeballos",
                     "nationality": "AR",
-
                 }
             ]
         },
@@ -3022,12 +2862,10 @@ export default {
                 {
                     "title": "M. McDonald",
                     "nationality": "US",
-
                 },
                 {
                     "title": "J. Millman",
                     "nationality": "AU",
-
                 }
             ]
         },
@@ -3036,12 +2874,10 @@ export default {
                 {
                     "title": "J. O'Mara",
                     "nationality": "GB",
-
                 },
                 {
                     "title": "A. Vasilevski",
                     "nationality": "BY",
-
                 }
             ]
         },
@@ -3050,12 +2886,10 @@ export default {
                 {
                     "title": "R. Haase",
                     "nationality": "NL",
-
                 },
                 {
                     "title": "B. van de Zandschulp",
                     "nationality": "NL",
-
                 }
             ]
         },
@@ -3065,12 +2899,10 @@ export default {
                 {
                     "title": "M. Arevalo",
                     "nationality": "ESA",
-
                 },
                 {
                     "title": "J. Rojer",
                     "nationality": "NL",
-
                 }
             ]
         },
@@ -3079,12 +2911,10 @@ export default {
                 {
                     "title": "R. Bopanna",
                     "nationality": "IN",
-
                 },
                 {
                     "title": "E. Roger-Vasselin",
                     "nationality": "FR",
-
                 }
             ]
         },
@@ -3094,12 +2924,10 @@ export default {
                 {
                     "title": "T. Huey",
                     "nationality": "PH",
-
                 },
                 {
                     "title": "C. Rungkat",
                     "nationality": "IN",
-
                 }
             ]
         },
@@ -3108,12 +2936,10 @@ export default {
                 {
                     "title": "R. Matos",
                     "nationality": "BR",
-
                 },
                 {
                     "title": "F. Meligeni Rodrigues Alves",
                     "nationality": "BR",
-
                 }
             ]
         },
@@ -3122,12 +2948,10 @@ export default {
                 {
                     "title": "S. Bolelli",
                     "nationality": "IT",
-
                 },
                 {
                     "title": "F. Fognini",
                     "nationality": "IT",
-
                 }
             ]
         },
@@ -3136,12 +2960,10 @@ export default {
                 {
                     "title": "A. Mannarino",
                     "nationality": "FR",
-
                 },
                 {
                     "title": "H. Nys",
                     "nationality": "MC",
-
                 }
             ]
         },
@@ -3151,12 +2973,10 @@ export default {
                 {
                     "title": "I. Dodig",
                     "nationality": "HR",
-
                 },
                 {
                     "title": "M. Melo",
                     "nationality": "BR",
-
                 }
             ]
         },
@@ -3166,12 +2986,10 @@ export default {
                 {
                     "title": "Y. Nishioka",
                     "nationality": "JP",
-
                 },
                 {
                     "title": "J. Vesely",
                     "nationality": "CZ",
-
                 }
             ]
         },
@@ -3181,12 +2999,10 @@ export default {
                 {
                     "title": "N. Lammons",
                     "nationality": "US",
-
                 },
                 {
                     "title": "J. Withrow",
                     "nationality": "US",
-
                 }
             ]
         },
@@ -3196,15 +3012,12 @@ export default {
                 {
                     "title": "D. Altmaier",
                     "nationality": "DE",
-
                 },
                 {
                     "title": "T. Monteiro",
                     "nationality": "BR",
-
                 }
             ]
         }
     }
 }
-

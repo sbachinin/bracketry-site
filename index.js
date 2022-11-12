@@ -2,7 +2,6 @@ import { createPlayoffs } from './easy-playoffs.min.js'
 import { get_some_data } from './test_data/get_some_data.mjs'
 import { create_data_picker } from './test_data/create_data_picker.mjs'
 import { add_options_manager } from './options-manager/options-manager.mjs'
-import { start_mock_matches_updates } from './start_mock_matches_updates.mjs'
 import { adjust_options_on_resize } from './options/adjust_options_on_resize.mjs'
 
 const default_playoffs_wrapper = document.querySelector('.default-playoffs')
@@ -29,8 +28,6 @@ get_some_data().then(data => {
         },
         verticalScrollMode: 'mixed'
     })
-
-    start_mock_matches_updates(playoffs.applyMatchesUpdates)
 
     create_data_picker(
         document.querySelector('.default-playoffs-data-picker'),

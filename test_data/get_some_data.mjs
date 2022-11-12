@@ -1,29 +1,22 @@
 import emptydata from './empty-tournament-data.mjs'
 import unfinished_singles from './unfinished-singles.js'
 import finished_singles_2021 from './finished-singles-2021.js'
-import finished_singles_2022 from './finished-singles-2022.js'
+// import finished_singles_2022 from './finished-singles-2022.js'
 import unfinished_tennis_doubles from './unfinished-tennis-doubles.js'
 import finished_ucl from './ucl-finished.js'
 
 export const INITIAL_TEST_DATA_INDEX = 0
 
-// tennis data with second live round
-// finished tennis tournament
-// doubles
-// football
-// empty tournament
-// with photo
-
 export const datas = [
-    {
-        type: 'tennis',
-        title: 'Tennis ongoing tournament',
-        resolver: () => Promise.resolve(unfinished_singles)
-    },
     {
         type: 'tennis',
         title: 'Tennis finished tournament',
         resolver: () => Promise.resolve(finished_singles_2021)
+    },
+    {
+        type: 'tennis',
+        title: 'Tennis ongoing tournament',
+        resolver: () => Promise.resolve(unfinished_singles)
     },
     // {
     //     type: 'tennis',

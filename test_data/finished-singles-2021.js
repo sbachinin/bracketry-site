@@ -24,7 +24,7 @@ export default {
     ],
     "matches": [
         {
-            "id": "MS701",
+            
             "roundIndex": 6,
             "sides": [
                 {
@@ -50,27 +50,27 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false,
+                            
                             subscore: 32
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 0,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS502",
+            
             "roundIndex": 4,
             "sides": [
                 {
@@ -82,25 +82,25 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164016",
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -119,11 +119,11 @@ export default {
                 }
             ],
             "order": 1,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS115",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -132,19 +132,19 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164116",
@@ -168,11 +168,11 @@ export default {
                 }
             ],
             "order": 14,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS146",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -198,26 +198,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 45,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS161",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -225,7 +225,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -233,14 +233,14 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164156",
@@ -251,7 +251,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -266,11 +266,11 @@ export default {
                 }
             ],
             "order": 60,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS215",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -278,18 +278,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164016",
@@ -311,11 +311,11 @@ export default {
                 }
             ],
             "order": 14,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS216",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -323,18 +323,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163986",
@@ -356,11 +356,11 @@ export default {
                 }
             ],
             "order": 15,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS104",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -369,7 +369,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -377,15 +377,15 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163926",
@@ -397,7 +397,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -413,11 +413,11 @@ export default {
                 }
             ],
             "order": 3,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS402",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -425,19 +425,19 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163896",
@@ -460,11 +460,11 @@ export default {
                 }
             ],
             "order": 1,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS116",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -478,18 +478,18 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163896",
@@ -497,7 +497,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 8,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -517,11 +517,11 @@ export default {
                 }
             ],
             "order": 15,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS144",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -529,19 +529,19 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163786",
@@ -564,11 +564,11 @@ export default {
                 }
             ],
             "order": 43,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS209",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -594,26 +594,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 8,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS602",
+            
             "roundIndex": 5,
             "sides": [
                 {
@@ -639,26 +639,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 1,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS212",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -666,12 +666,12 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -679,10 +679,10 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164226",
@@ -698,7 +698,7 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -709,11 +709,11 @@ export default {
                 }
             ],
             "order": 11,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS213",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -739,26 +739,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 12,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS501",
+            
             "roundIndex": 4,
             "sides": [
                 {
@@ -767,7 +767,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -795,27 +795,27 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 0,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS143",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -823,7 +823,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -849,26 +849,26 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 42,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS145",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -885,7 +885,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -900,11 +900,11 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -912,18 +912,18 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 44,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS147",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -935,7 +935,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -953,7 +953,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -961,22 +961,22 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 46,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS302",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -985,7 +985,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -993,14 +993,14 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164196",
@@ -1012,7 +1012,7 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1027,11 +1027,11 @@ export default {
                 }
             ],
             "order": 1,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS601",
+            
             "roundIndex": 5,
             "sides": [
                 {
@@ -1057,33 +1057,33 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 0,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS101",
+            
             "roundIndex": 0,
             "sides": [
                 {
                     "contestantId": "163911",
                     "scores": [
                         {
-                            "mainScore": "62",
+                            "mainScore": "6",
                             "isWinner": true
                         },
                         {
@@ -1102,26 +1102,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 0,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS164",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1129,18 +1129,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164396",
@@ -1162,11 +1162,11 @@ export default {
                 }
             ],
             "order": 63,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS138",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1174,19 +1174,19 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 0,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164166",
@@ -1209,11 +1209,11 @@ export default {
                 }
             ],
             "order": 37,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS220",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -1221,19 +1221,19 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 8,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164311",
@@ -1256,11 +1256,11 @@ export default {
                 }
             ],
             "order": 19,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS106",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1268,7 +1268,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1281,7 +1281,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1299,11 +1299,11 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -1312,18 +1312,18 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 5,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS108",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1331,18 +1331,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164196",
@@ -1364,11 +1364,11 @@ export default {
                 }
             ],
             "order": 7,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS111",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1376,11 +1376,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -1388,10 +1388,10 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164256",
@@ -1406,7 +1406,7 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1417,11 +1417,11 @@ export default {
                 }
             ],
             "order": 10,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS222",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -1437,7 +1437,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1451,11 +1451,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1463,18 +1463,18 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 21,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS149",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1500,26 +1500,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 48,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS225",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -1528,7 +1528,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1541,7 +1541,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1560,11 +1560,11 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -1573,18 +1573,18 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 24,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS226",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -1596,26 +1596,26 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164091",
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1635,11 +1635,11 @@ export default {
                 }
             ],
             "order": 25,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS314",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -1648,20 +1648,20 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164136",
@@ -1686,11 +1686,11 @@ export default {
                 }
             ],
             "order": 13,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS313",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -1716,26 +1716,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 12,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS163",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1749,11 +1749,11 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -1773,7 +1773,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -1787,22 +1787,22 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 62,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS217",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -1829,27 +1829,27 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 8,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 16,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS214",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -1857,18 +1857,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164126",
@@ -1890,11 +1890,11 @@ export default {
                 }
             ],
             "order": 13,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS141",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1906,7 +1906,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -1916,21 +1916,21 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164176",
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1939,7 +1939,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -1955,11 +1955,11 @@ export default {
                 }
             ],
             "order": 40,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS140",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -1968,7 +1968,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -1996,27 +1996,27 @@ export default {
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 39,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS201",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -2029,7 +2029,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2048,7 +2048,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2058,22 +2058,22 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 0,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS303",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -2086,18 +2086,18 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164266",
@@ -2105,7 +2105,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2124,11 +2124,11 @@ export default {
                 }
             ],
             "order": 2,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS202",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -2141,7 +2141,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2151,21 +2151,21 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163926",
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2175,7 +2175,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2191,11 +2191,11 @@ export default {
                 }
             ],
             "order": 1,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS304",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -2203,18 +2203,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163896",
@@ -2236,11 +2236,11 @@ export default {
                 }
             ],
             "order": 3,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS117",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2268,26 +2268,26 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 16,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS114",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2313,26 +2313,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 13,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS118",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2358,26 +2358,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 17,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS113",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2404,27 +2404,27 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 12,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS103",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2451,27 +2451,27 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 2,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS401",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -2484,7 +2484,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2503,7 +2503,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2511,22 +2511,22 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 0,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS102",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2554,26 +2554,26 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 1,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS218",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -2581,11 +2581,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2615,26 +2615,26 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 17,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS219",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -2642,7 +2642,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2668,26 +2668,26 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 18,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS107",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2700,11 +2700,11 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2722,7 +2722,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2735,22 +2735,22 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 6,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS110",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2763,18 +2763,18 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163826",
@@ -2782,7 +2782,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2801,11 +2801,11 @@ export default {
                 }
             ],
             "order": 9,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS210",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -2813,7 +2813,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2821,7 +2821,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -2844,7 +2844,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -2853,22 +2853,22 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 9,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS137",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -2884,7 +2884,7 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
                     "isWinner": true
@@ -2894,26 +2894,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 36,
-            "isLive": false,
+            
             "matchStatus": "Retired"
         },
         {
-            "id": "MS503",
+            
             "roundIndex": 4,
             "sides": [
                 {
@@ -2921,18 +2921,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163806",
@@ -2954,11 +2954,11 @@ export default {
                 }
             ],
             "order": 2,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS315",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -2984,26 +2984,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 14,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS504",
+            
             "roundIndex": 4,
             "sides": [
                 {
@@ -3011,11 +3011,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -3047,26 +3047,26 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 3,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS211",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -3094,26 +3094,26 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 10,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS316",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -3121,18 +3121,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164396",
@@ -3154,11 +3154,11 @@ export default {
                 }
             ],
             "order": 15,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS158",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3166,18 +3166,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164046",
@@ -3199,11 +3199,11 @@ export default {
                 }
             ],
             "order": 57,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS206",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -3211,12 +3211,12 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3224,10 +3224,10 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164266",
@@ -3243,7 +3243,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3254,11 +3254,11 @@ export default {
                 }
             ],
             "order": 5,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS203",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -3266,11 +3266,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3283,10 +3283,10 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 9,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163931",
@@ -3301,11 +3301,11 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -3317,11 +3317,11 @@ export default {
                 }
             ],
             "order": 2,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS403",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -3329,18 +3329,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164351",
@@ -3362,11 +3362,11 @@ export default {
                 }
             ],
             "order": 2,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS227",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -3392,26 +3392,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 26,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS126",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3423,21 +3423,21 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163996",
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3445,18 +3445,18 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
                     "isWinner": true
                 }
             ],
             "order": 25,
-            "isLive": false,
+            
             "matchStatus": "Retired"
         },
         {
-            "id": "MS160",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3464,18 +3464,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164336",
@@ -3497,11 +3497,11 @@ export default {
                 }
             ],
             "order": 59,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS127",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3509,18 +3509,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164006",
@@ -3542,11 +3542,11 @@ export default {
                 }
             ],
             "order": 26,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS130",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3554,18 +3554,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164016",
@@ -3587,11 +3587,11 @@ export default {
                 }
             ],
             "order": 29,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS305",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -3599,11 +3599,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3633,26 +3633,26 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 4,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS105",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3678,26 +3678,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 4,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS112",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3709,11 +3709,11 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -3721,17 +3721,17 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164266",
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3743,7 +3743,7 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3754,11 +3754,11 @@ export default {
                 }
             ],
             "order": 11,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS120",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3766,11 +3766,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -3779,10 +3779,10 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163966",
@@ -3798,7 +3798,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3809,11 +3809,11 @@ export default {
                 }
             ],
             "order": 19,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS228",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -3821,11 +3821,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3833,10 +3833,10 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164136",
@@ -3851,7 +3851,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3862,11 +3862,11 @@ export default {
                 }
             ],
             "order": 27,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS230",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -3874,18 +3874,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164336",
@@ -3907,11 +3907,11 @@ export default {
                 }
             ],
             "order": 29,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS129",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3919,7 +3919,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -3928,14 +3928,14 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164236",
@@ -3946,7 +3946,7 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -3962,11 +3962,11 @@ export default {
                 }
             ],
             "order": 28,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS121",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -3993,27 +3993,27 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 20,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS122",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4029,7 +4029,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4043,11 +4043,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4055,18 +4055,18 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 21,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS155",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4075,7 +4075,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -4087,7 +4087,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
                     "isWinner": true
@@ -4102,26 +4102,26 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 54,
-            "isLive": false,
-            "matchStatus": "Retired"
+            
+            "matchStatus": "R"
         },
         {
-            "id": "MS148",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4129,18 +4129,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163806",
@@ -4162,11 +4162,11 @@ export default {
                 }
             ],
             "order": 47,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS301",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -4183,11 +4183,11 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4202,11 +4202,11 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4218,18 +4218,18 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 0,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS162",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4237,18 +4237,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164306",
@@ -4270,11 +4270,11 @@ export default {
                 }
             ],
             "order": 61,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS139",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4303,27 +4303,27 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 38,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS306",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -4335,7 +4335,7 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
                     "isWinner": true
@@ -4345,22 +4345,22 @@ export default {
                     "scores": [
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 5,
-            "isLive": false,
+            
             "matchStatus": "Retired"
         },
         {
-            "id": "MS142",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4368,7 +4368,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4394,26 +4394,26 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 41,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS109",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4425,11 +4425,11 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4437,17 +4437,17 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163946",
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4459,7 +4459,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4470,11 +4470,11 @@ export default {
                 }
             ],
             "order": 8,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS408",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -4482,18 +4482,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164396",
@@ -4515,11 +4515,11 @@ export default {
                 }
             ],
             "order": 7,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS208",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -4527,18 +4527,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163896",
@@ -4560,11 +4560,11 @@ export default {
                 }
             ],
             "order": 7,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS310",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -4576,7 +4576,7 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4594,7 +4594,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -4602,22 +4602,22 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 9,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS309",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -4643,26 +4643,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 8,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS308",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -4688,26 +4688,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 7,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS128",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4715,18 +4715,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164126",
@@ -4748,11 +4748,11 @@ export default {
                 }
             ],
             "order": 27,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS407",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -4763,15 +4763,15 @@ export default {
                 {
                     "contestantId": "164136",
                     "scores": [],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 6,
-            "isLive": false,
+            
             "matchStatus": "Walk-Over"
         },
         {
-            "id": "MS119",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4779,18 +4779,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163956",
@@ -4812,11 +4812,11 @@ export default {
                 }
             ],
             "order": 18,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS152",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4824,7 +4824,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4832,7 +4832,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -4854,7 +4854,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4862,22 +4862,22 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 51,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS221",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -4885,7 +4885,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4893,7 +4893,7 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -4902,10 +4902,10 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164321",
@@ -4916,7 +4916,7 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4925,7 +4925,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -4936,11 +4936,11 @@ export default {
                 }
             ],
             "order": 20,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS154",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -4966,26 +4966,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 53,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS224",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -4993,18 +4993,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163806",
@@ -5026,11 +5026,11 @@ export default {
                 }
             ],
             "order": 23,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS223",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -5042,7 +5042,7 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5060,7 +5060,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -5068,22 +5068,22 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 22,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS204",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -5096,18 +5096,18 @@ export default {
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164196",
@@ -5115,7 +5115,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5134,11 +5134,11 @@ export default {
                 }
             ],
             "order": 3,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS307",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -5146,18 +5146,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164126",
@@ -5179,11 +5179,11 @@ export default {
                 }
             ],
             "order": 6,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS159",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5195,7 +5195,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5213,7 +5213,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5221,22 +5221,22 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 58,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS231",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -5244,7 +5244,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -5271,27 +5271,27 @@ export default {
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 30,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS311",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -5300,18 +5300,18 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 7,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163851",
@@ -5334,11 +5334,11 @@ export default {
                 }
             ],
             "order": 10,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS406",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -5346,18 +5346,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163806",
@@ -5379,11 +5379,11 @@ export default {
                 }
             ],
             "order": 5,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS151",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5391,18 +5391,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164386",
@@ -5424,11 +5424,11 @@ export default {
                 }
             ],
             "order": 50,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS123",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5436,7 +5436,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5449,14 +5449,14 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164066",
@@ -5467,12 +5467,12 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5487,11 +5487,11 @@ export default {
                 }
             ],
             "order": 22,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS157",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5517,26 +5517,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 56,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS156",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5545,18 +5545,18 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 9,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164136",
@@ -5579,11 +5579,11 @@ export default {
                 }
             ],
             "order": 55,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS132",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5592,11 +5592,11 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5604,10 +5604,10 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163986",
@@ -5623,7 +5623,7 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5634,11 +5634,11 @@ export default {
                 }
             ],
             "order": 31,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS131",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5646,7 +5646,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5672,26 +5672,26 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 30,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS150",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5717,26 +5717,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 49,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS124",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5744,19 +5744,19 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164226",
@@ -5779,11 +5779,11 @@ export default {
                 }
             ],
             "order": 23,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS405",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -5800,7 +5800,7 @@ export default {
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
                     "isWinner": true
@@ -5810,27 +5810,27 @@ export default {
                     "scores": [
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 3,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 4,
-            "isLive": false,
+            
             "matchStatus": "Retired"
         },
         {
-            "id": "MS404",
+            
             "roundIndex": 3,
             "sides": [
                 {
@@ -5846,29 +5846,29 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164016",
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5887,11 +5887,11 @@ export default {
                 }
             ],
             "order": 3,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS134",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5919,26 +5919,26 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 6,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 33,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS135",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -5951,19 +5951,19 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163976",
@@ -5971,7 +5971,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 1,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -5991,11 +5991,11 @@ export default {
                 }
             ],
             "order": 34,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS312",
+            
             "roundIndex": 2,
             "sides": [
                 {
@@ -6003,11 +6003,11 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6019,10 +6019,10 @@ export default {
                         },
                         {
                             "mainScore": "0",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163806",
@@ -6037,11 +6037,11 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6052,11 +6052,11 @@ export default {
                 }
             ],
             "order": 11,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS205",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -6068,26 +6068,26 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 5,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "163826",
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6107,11 +6107,11 @@ export default {
                 }
             ],
             "order": 4,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS153",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -6124,7 +6124,7 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 4,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -6143,7 +6143,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "7",
@@ -6153,22 +6153,22 @@ export default {
                         {
                             "mainScore": "6",
                             "subscore": 2,
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 52,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS125",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -6176,7 +6176,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6188,7 +6188,7 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6206,11 +6206,11 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6218,18 +6218,18 @@ export default {
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 24,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS207",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -6255,26 +6255,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 6,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS133",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -6300,26 +6300,26 @@ export default {
                     "scores": [
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 32,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS229",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -6327,7 +6327,7 @@ export default {
                     "scores": [
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6335,7 +6335,7 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6358,7 +6358,7 @@ export default {
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
@@ -6366,23 +6366,23 @@ export default {
                         },
                         {
                             "mainScore": "3",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "6",
                             "subscore": 12,
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 }
             ],
             "order": 28,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS232",
+            
             "roundIndex": 1,
             "sides": [
                 {
@@ -6390,18 +6390,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "1",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "2",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164396",
@@ -6423,11 +6423,11 @@ export default {
                 }
             ],
             "order": 31,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         },
         {
-            "id": "MS136",
+            
             "roundIndex": 0,
             "sides": [
                 {
@@ -6435,18 +6435,18 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         },
                         {
                             "mainScore": "4",
-                            "isWinner": false
+                            
                         }
                     ],
-                    "isWinner": false
+                    
                 },
                 {
                     "contestantId": "164216",
@@ -6468,8 +6468,8 @@ export default {
                 }
             ],
             "order": 35,
-            "isLive": false,
-            "matchStatus": "Complete"
+            
+            
         }
     ],
     "contestants": {
@@ -6502,7 +6502,7 @@ export default {
             "players": [
                 {
                     "title": "B. Coric",
-                    "nationality": "CRO",
+                    "nationality": "HR",
                 }
             ]
         },
@@ -6588,7 +6588,7 @@ export default {
             "players": [
                 {
                     "title": "Y. Lu",
-                    "nationality": "TPE",
+                    "nationality": "TW",
                     
                 }
             ]
@@ -6598,7 +6598,7 @@ export default {
             "players": [
                 {
                     "title": "S. Wawrinka",
-                    "nationality": "SUI",
+                    "nationality": "CH",
                     
                 }
             ]
@@ -6607,7 +6607,7 @@ export default {
             "players": [
                 {
                     "title": "P. Sousa",
-                    "nationality": "POR",
+                    "nationality": "PT",
                     
                 }
             ]
@@ -6795,7 +6795,7 @@ export default {
             "players": [
                 {
                     "title": "F. Ferreira Silva",
-                    "nationality": "POR",
+                    "nationality": "PT",
                     
                 }
             ]
@@ -6945,7 +6945,7 @@ export default {
             "players": [
                 {
                     "title": "P. Cuevas",
-                    "nationality": "URU",
+                    "nationality": "UY",
                 }
             ]
         },
@@ -6962,7 +6962,7 @@ export default {
             "players": [
                 {
                     "title": "H. Laaksonen",
-                    "nationality": "SUI",
+                    "nationality": "CH",
                 }
             ]
         },
@@ -7129,7 +7129,7 @@ export default {
             "players": [
                 {
                     "title": "K. Anderson",
-                    "nationality": "RSA",
+                    "nationality": "ZA",
                     
                 }
             ]
@@ -7347,7 +7347,7 @@ export default {
             "players": [
                 {
                     "title": "R. Haase",
-                    "nationality": "NED",
+                    "nationality": "NL",
                     
                 }
             ]
@@ -7356,7 +7356,7 @@ export default {
             "players": [
                 {
                     "title": "A. Bedene",
-                    "nationality": "SLO",
+                    "nationality": "SI",
                     
                 }
             ]
@@ -7490,7 +7490,7 @@ export default {
             "players": [
                 {
                     "title": "L. Harris",
-                    "nationality": "RSA",
+                    "nationality": "ZA",
                     
                 }
             ]
@@ -7500,7 +7500,7 @@ export default {
             "players": [
                 {
                     "title": "M. Torpegaard",
-                    "nationality": "DEN",
+                    "nationality": "DK",
                     
                 }
             ]
@@ -7557,7 +7557,7 @@ export default {
             "players": [
                 {
                     "title": "M. Cilic",
-                    "nationality": "CRO",
+                    "nationality": "HR",
                     
                 }
             ]
@@ -7606,7 +7606,7 @@ export default {
             "players": [
                 {
                     "title": "B. Van de Zandschulp",
-                    "nationality": "NED",
+                    "nationality": "NL",
                     
                 }
             ]
