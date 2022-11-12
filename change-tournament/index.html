@@ -2,14 +2,36 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Playoffs - How to apply live updates</title>
+    <title>Playoffs - How to replace all data</title>
 
     <script defer type="module" src="./index.mjs"></script>
     <link rel="stylesheet" href="../styles/atom-one-light.min.css">
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-        
+        .data-picker {
+            margin-right: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+
+        .data-picker .main-button {
+            margin-right: 13px;
+        }
+
+        .data-picker-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 8px;
+            background-color: #ccc;
+            margin-right: 7px;
+        }
+
+        .data-picker-dot.selected {
+            background-color: black;
+        }        
     </style>
 
 </head>
@@ -25,34 +47,32 @@
         </div>
         <span class="description">takes your data and draws a tree of a knockout tournament</span>
     </header>
-    
-    <div class="heading-2" style="margin-top: 30px; margin-bottom: 14px;">How to apply live updates</div>
+
+    <div class="heading-2">How to change a tournament <small><small>(replace all data)</small></small></div>
+
+    <div class="common-playoffs-wrapper"></div>
     <br>
-    <div class="common-playoffs-wrapper" style="height: 400px"></div>
+    <div class="data-picker default-playoffs-data-picker"></div>
 
 
 
-    <div class="heading-3">applyMatchesUpdates()</div>
+
+
+    <div class="heading-3">replaceData()</div>
     <p>
         It's one of the functions returned from <a href="../create-playoffs">createPlayoffs()</a>
         <br>
-        You can call it to add / remove / update any number of matches.
+        Calling this method is almost identical to installing playoffs (calling createPlayoffs) into the same wrapper element.
     </p>
     
     <div class="heading-4">Parameters</div>
         <ul><li>
-            <b>Matches</b>: an array of match objects that you want to update
+            <b>Data</b>: <a href="../data-shape">full data</a> of a tournament
         </li></ul>
     <div class="heading-4">Return value</div>
         &nbsp;&nbsp;&nbsp;&nbsp;undefined
     <br>
-    <br>
-    <p>
-        Every match object provided to applyMatchesUpdates must contain ALL data of a match
-        <br>
-        (It's not a merge but <b>replace</b>. If you omit some properties, on the next paint they will be treated as undefined)
-    </p>
-
+    
     <br>
 
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
@@ -62,21 +82,13 @@ const data = { ... }
 
 const playoffs = createPlayoffs(data, wrapper)
 
-playoffs.applyMatchesUpdates([
-    {
-        roundIndex: 0,
-        order: 0,
-        ...any match data
-    }
-])
+playoffs.replaceData(someNewData)
 </code></pre>
 
 <br>
 <p>
-    If you want to update not individual matches but the entire data (switch to a different tournament perhaps), then use <a href="../change-tournament">replaceData()</a> method
+    If you want to update individual matches (e.g., only some scores), replaceData will NOT be the best idea. Use <a href="../live-updates">applyMatchesUpdates</a> instead.
 </p>
-
-
 
 
     <div class="footer"></div>

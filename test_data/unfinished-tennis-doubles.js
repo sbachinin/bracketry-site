@@ -273,8 +273,7 @@ export default {
                 }
             ],
             order: 0,
-            "isLive": true,
-            matchStatus: "Live"
+            "isLive": true
         },
         {
             
