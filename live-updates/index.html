@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - How to apply live updates</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/sheep.jpg" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+    
+    <div class="heading-2" style="margin-top: 30px; margin-bottom: 14px;">How to apply live updates</div>
+    <br>
+    <div class="common-playoffs-wrapper" style="height: 400px"></div>
+
+
+
+    <div class="heading-3">applyMatchesUpdates()</div>
+    <p>
+        It's one of the functions returned from <a href="../create-playoffs">createPlayoffs()</a>
+        <br>
+        You can call it to add / remove / update any number of matches.
+    </p>
+    
+    <div class="heading-4">Parameters</div>
+        <ul><li>
+            <b>Matches</b>: an array of match objects that you want to update
+        </li></ul>
+    <div class="heading-4">Return value</div>
+        &nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <br>
+    <br>
+    <p>
+        Every match object provided to applyMatchesUpdates must contain ALL data of a match
+        <br>
+        (It's not a merge but <b>replace</b>. If you omit some properties, on the next paint they will be treated as undefined)
+    </p>
+
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const wrapper = document.querySelector('#your-wrapper-element')
+const data = { ... }
+
+const playoffs = createPlayoffs(data, wrapper)
+
+playoffs.applyMatchesUpdates([
+    {
+        roundIndex: 0,
+        order: 0,
+        ...any match data
+    }
+])
+</code></pre>
+
+
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

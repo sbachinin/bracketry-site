@@ -17,24 +17,25 @@ export const INITIAL_TEST_DATA_INDEX = 0
 export const datas = [
     {
         type: 'tennis',
-        title: 'Another tennis singles finished tournament',
-        resolver: () => Promise.resolve(finished_singles_2022)
+        title: 'Tennis ongoing tournament',
+        resolver: () => Promise.resolve(unfinished_singles)
     },
+    {
+        type: 'tennis',
+        title: 'Tennis finished tournament',
+        resolver: () => Promise.resolve(finished_singles_2021)
+    },
+    // {
+    //     type: 'tennis',
+    //     title: 'Another tennis singles finished tournament',
+    //     resolver: () => Promise.resolve(finished_singles_2022)
+    // },
     {
         type: 'tennis',
         title: 'Tennis DOUBLES unfinished tournament',
         resolver: () => Promise.resolve(unfinished_tennis_doubles)
     },
-    {
-        type: 'tennis',
-        title: 'Tennis ongoing tournament',
-        resolver: () => Promise.resolve(unfinished_singles)
-    },
-    // {
-    //     type: 'tennis',
-    //     title: 'Tennis finished tournament',
-    //     resolver: () => Promise.resolve(finished_singles_2021)
-    // },
+    
     {
         type: 'football',
         title: 'Champions League (football)',
