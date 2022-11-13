@@ -49,7 +49,7 @@ const options_html = `
                                         
                                         </td></tr>` +
         Object.entries(options_of_group).map(([name, meta]) => `
-                                <tr>
+                                <tr id=${name}>
                                     <td align="left">${name}</td>
                                     <td align="left" class="td-essence">${escapeHtml(options_extra_meta[name]?.title) || ''}</td>
                                     <td align="left">${get_option_type_label(meta.type)}</td>
