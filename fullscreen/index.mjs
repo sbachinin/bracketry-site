@@ -11,12 +11,10 @@ document.querySelector('.open-fullscreen-button').addEventListener('click', () =
         width: '90vw',
         height: '90vh',
         getNationalityHTML: p => `<div style="
-        width: 30px;
         text-align: center;
         font-size: 14px;
         background: #f0f0f0;">${p.nationality}</div>`,
         getEntryStatusHTML: es => `<div style="
-        width: 30px;
         font-size: 14px;
         text-align: center;">${es || ''}</div>`
     }

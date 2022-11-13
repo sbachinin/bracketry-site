@@ -32,7 +32,7 @@
     font-size: 28px;">Open</div>
 
     <div class="heading-3">How</div>
-
+    <p>Set <b>fullscreen</b> option to true:</p>
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
 
 const options = {
@@ -45,47 +45,42 @@ document.querySelector('.your-button').addEventListener('click', () => {
     createPlayoffs(yourData, document.body, options)
 })</code></pre>
 
-    It's recommended to render fullscreen playoffs to the <b>document.body.</b>
-    <br>
-    <br>
-    Setting <b>width</b> and <b>height</b> options will also make sense. Otherwise playoffs will take the entire viewport.
-    <br>
-    (Width and height may be provided in any units, not only vw or vh).
-    <br>
-    <br>
-    <b>rootBgColor</b> is 'transparent' by default so please provide something opaque instead.
-    <br>
-    Use <b>fullscreenBgColor</b> to change the background color of the margins outside playoffs' "body".
-    <br>
-    Or you can set <b>fullscreenBgColor</b> alone. In such case you will get the same color across the entire viewport.
-    <br>
-    <br>
-    <div class="heading-4">Ways to exit fullscreen mode</div>
-        &nbsp;&nbsp; - click on the cross button
+    <div class="heading-3">Size</div>
+    <p>
+        By default Playoffs content will take the entire viewport.
+        <br> Though you may want to have some nice paddings on the edges of viewport. There is no such option as fullscreen padding but there are good old <a href="../options#width"><b>width</b></a> and <a href="../options#height"><b>height</b></a> options which may be set to some <i>vw</i> or <i>vh</i> value or something with <i>calc</i>.
+        <br> These paddings will be filled with <a href="../options#fullscreenBgColor"><b>fullscreenBgColor</b></a>. Actually this color will fill the entire viewport if no <a href="../options#rootBgColor"><b>rootBgColor</b></a> option is provided.
+    </p>
+    
+    <div class="heading-3">"Mixed" vertical scroll mode will be forced</div>
+    <p>
+        <a href="../scroll-modes"><b>verticalScrollMode</b></a> option will be automatically set to "mixed" when "fullscreen" is true.
+        <br> Setting verticalScrollMode to any other value will not work here.
+        <br> Vertical scroll buttons will be shown and mousewheel will also scroll the matches.
+        <br> On mobile screens only buttons will work; <b>touchmove is disabled</b> in fullscreen mode.
+    </p>
+
+    <div class="heading-3">Ways to exit fullscreen mode</div>
+    <p>
+        &nbsp;&nbsp; - click the cross button
         <br>
         &nbsp;&nbsp; - click anywhere outside the playoffs' "body"
         <br>
         &nbsp;&nbsp; - press Esc
         <br>
-        &nbsp;&nbsp; - (programmatically) call <b>uninstall</b> method on a playoffs' instance
+        &nbsp;&nbsp; - (programmatically) call <a href="../create-playoffs#uninstall">uninstall</a> method on a playoffs' instance
+    </p>
 
-    <br>
-    <br>
-    <div class="heading-4">"fullscreen" option is not updatable</div>
-    This option will be <b>ignored</b> when passed to <b>applyNewOptions</b>.
-    <br>
-    It means that there's no easy way to switch between 'fullscreen' and 'static' mode within one instance of playoffs.
-    <br>
-    <br>
-    If you need a 'small' playoffs which is expandable to fullscreen, then you need 2 instances, one 'static' and the second one which will be created in response to button click.
-    <br>
-    <br>
+    <div class="heading-3">"fullscreen" option is not updatable</div>
+    <p>
+        This option will be <b>ignored</b> when passed to <a href="../change-options"><b>applyNewOptions</b></a>.
+        <br>
+        It means you can't switch between "fullscreen" and "static" mode within one instance of playoffs.
+        <br>
+        If you need "small" playoffs which are expandable to fullscreen, then you need 2 instances, one "static" and one "fullscreen" which should be created in response to some ui events (like button click. But you have to make this button yourself. So yeah, it's difficult).
+    </p>
    
 
-    <div class="heading-4" style="color: red">Fullscreen functionality is not recommended for mobile devices</div>
-    That's because it's nearly impossible to make something 'fullscreen' look nice (and reliably) in all mobile browsers.
-    <br>
-    So consider hiding your open-fullscreen button on mobile devices.
 
     <div class="footer"></div>
 
