@@ -4,16 +4,19 @@ import { get_option_input } from './get-option-input.mjs'
 import * as elements from './elements.mjs'
 import { get_options_group_heading } from './get_options_group_heading.mjs'
 import { throttle_with_trailing } from '../utils.mjs'
+import { insert_styles, create_element_from_Html } from '../pages/utils.mjs'
 import { create_user_options_text } from './user_options_text.mjs'
-import { insert_styles } from '../pages/utils.mjs'
 import { options_manager_styles } from './options-manager-styles.mjs'
-import { create_element_from_Html } from '../pages/utils.mjs'
+import { add_options_search } from './add_options_search.mjs'
 
 const names_of_expanded_groups = []
 const all_inputs = []
 
-const toggle_group_expand = (group_name) => {
-    const should_expand = !names_of_expanded_groups.includes(group_name)
+const toggle_group_expand = (group_name, should_expand) => {
+
+    if (should_expand === undefined) {
+        should_expand = !names_of_expanded_groups.includes(group_name)
+    }
 
     if (should_expand) {
         names_of_expanded_groups.push(group_name)
@@ -93,6 +96,8 @@ export const add_options_manager = (
     const update_inputs = create_inputs(sidebar_el, handle_option_change)
 
     update_inputs(playoffs.getUserOptions())
+
+    add_options_search(sidebar_el, toggle_group_expand)
 
     sidebar_el.prepend(elements.sidebar_close_button())
 

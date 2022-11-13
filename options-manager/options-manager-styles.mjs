@@ -1,4 +1,32 @@
 export const options_manager_styles = `
+
+
+    .search-input {
+        margin: 10px;
+        width: calc(100% - 30px);
+        border: 2px solid #41aaca;
+        border-radius: 4px;
+    }
+
+    .found-names {
+        margin-bottom: 20px;
+    }
+
+    .found-name {
+        padding: 2px 10px;
+        cursor: pointer;
+    }
+
+    .found-name.selected {
+        background: #ffffc5;
+    }
+
+
+
+
+
+
+
     .options-group-heading {
         background: #f3f3f3;
         font-size: 18px;
@@ -27,7 +55,9 @@ export const options_manager_styles = `
         padding: 9px 12px;
         position: relative;
     }
-
+    .single-option-wrapper.selected {
+        background: #ffffc5;
+    }
 
     .single-option-wrapper.disabled input,
     .single-option-wrapper.disabled select,

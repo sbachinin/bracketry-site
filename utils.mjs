@@ -1,3 +1,7 @@
+export function insertAfter(newNode, referenceNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
 export const throttle_with_trailing = (callback, delay) => {
     var ready = true,
         args = null;

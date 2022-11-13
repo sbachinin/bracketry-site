@@ -32,7 +32,7 @@ export const options_group_heading = (
 `)
 
 export const option_wrapper_el = (name, type, title) => create_element_from_Html(
-    `<div class="single-option-wrapper">
+    `<div class="single-option-wrapper" option-name=${name}>
         <span class="option-name">${name}</span>
             
         <div class="single-option ${type}">
