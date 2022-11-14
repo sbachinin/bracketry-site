@@ -5,12 +5,13 @@
     <title>Playoffs - createPlayoffs()</title>
 
 
-    <script defer type="module" src="./index.mjs"></script>
     <link rel="stylesheet" href="../styles/atom-one-light.min.css">
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-        
+        li {
+            line-height: 2em;
+        }
     </style>
 
 </head>
@@ -27,28 +28,74 @@
         <span class="description">takes your data and draws a tree of a knockout tournament</span>
     </header>
 
-    <div class="common-playoffs-wrapper"></div>
+    <div class="heading-2">CreatePlayoffs()</div>
+    <p>
+        It's a single entry point to Playoffs.
+    </p>
 
-    <div class="options-manager-opener main-button" style="margin: 25px auto">manage options</div>
-
-
-*** it may be called MULTIPLE times on a page
-*** if you want to switch to another tournament, you should better call replaceData instead of createPlayoffs
-
-In most cases it makes sense to set explicit height on your wrapper element and keep 'width' and 'height' options at a default of '100%'. It will help to prevent a height jump when playoffs are installed
-
-
-    <div class="heading-3">Some heading</div>
 
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
 
-const wrapper = document.querySelector('#your-wrapper-element')
-const data = { ... } // data of specific shape
+const lifecycle_methods = createPlayoffs(data, wrapper, options)</code></pre>
+    <br>
+    <div class="heading-3">Parameters</div>
+    <ul>
+        <li>
+            <b>Data</b> (required): a data of <a href="../data-shape">certain shape</a> that describes rounds and
+            matches
+        </li>
+        <li>
+            <a href="#wrapper-element">Wrapper element</a> (required): an element in which playoffs' markup will be
+            installed.
+        </li>
+        <li>
+            <a href="../options"><b>Options</b></a> (optional)
+        </li>
+    </ul>
+    <div class="heading-3">Return value</div>
+    <ul>
+        <li>
+            An object containing <a href="../lifecycle-methods">lifecycle methods</a>:
+            <ul>
+                <li><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></li>
+                <li><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a></li>
+                <li><a href="../lifecycle-methods#moveToLastRound">moveToLastRound</a></li>
+                <li><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></li>
+                <li><a href="../lifecycle-methods#getNavigationState">getNavigationState</a></li>
+                <li><a href="../lifecycle-methods#applyNewOptions">applyNewOptions</a></li>
+                <li><a href="../lifecycle-methods#getUserOptions">getUserOptions</a></li>
+                <li><a href="../lifecycle-methods#replaceData">replaceData</a></li>
+                <li><a href="../lifecycle-methods#applyMatchesUpdates">applyMatchesUpdates</a></li>
+                <li><a href="../lifecycle-methods#getAllData">getAllData</a></li>
+                <li><a href="../lifecycle-methods#highlightContestantHistory">highlightContestantHistory</a></li>
+                <li><a href="../lifecycle-methods#uninstall">uninstall</a></li>
+            </ul>
+        </li>
+    </ul>
 
-const options = {
-}
+    <br>
+    <div class="heading-3">You can call it many times</div>
+    <p>
+        You may install as much Playoffs on your page as you like.
+        <br> It's also possible to call createPlayoffs() with the same wrapper element twice, in such case a new instance will be
+        installed in place of an old one. Though doing so makes little sense. If you need to <a
+            href="../change-tournament">switch to another tournament</a>, better use <a
+            href="../lifecycle-methods#replaceData">replaceData</a> method instead of calling createPlayoffs() again.
+    </p>
 
-createPlayoffs(data, wrapper, options)</code></pre>
+
+    <div class="heading-3" id="wrapper-element">About wrapper element</div>
+    <p>
+        In most cases it makes sense to set <b>explicit</b> height on your wrapper element and keep "<b><a href="../options#width">width</a></b>" and "<b><a href="../options#height">height</a></b>"
+        options at
+        a default of '100%'. It will help prevent a height jump when playoffs are installed
+        <br>
+        If you render a <a href="../fullscreen">fullscreen</a> Playoffs (options.fullscreen === true), make sure to provide document.body as a wrapper element (well, it's obvious 😒).
+    </p>
+
+
+
+
 
 
 
