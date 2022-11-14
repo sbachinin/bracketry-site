@@ -46,43 +46,37 @@ const get_option_type_label = (type) => {
     return type
 }
 
+const get_options_group = ([options_group_name, options_of_group], i) => {
+
+    let html = ''
+
+    if (i > 0) {
+        html += `<div style="grid-column: 1/-1">
+            <div class="option-group-title">${options_group_name.toLowerCase().replace(/_/g, ' ')}</div>
+        </div>`
+    }
+
+    html += Object.entries(options_of_group).map(([name, meta]) => `
+        <div class="name-cell">${name}</div>
+        <div>${escapeHtml(options_extra_meta[name]?.title) || ''}</div>
+        <div class="type-cell">${get_option_type_label(meta.type)}</div>
+        <div class="default-value-cell">${meta.default_value}</div>
+        <div class="explanation-cell">${escapeHtml(options_extra_meta[name]?.explanation || '')}</div>
+    `).join('\n')
+
+    return html
+}
+
 const options_html = `
             <div class="option-group-title">General options</div>
-            <table>
-                <thead>
-                    <tr>
-                        <th align="left">Name</th>
-                        <th align="left">Essence</th>
-                        <th align="left">Type</th>
-                        <th align="left">Default</th>
-                        <th align="left">Explanation</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${Object.entries(OPTIONS).map(([options_group_name, options_of_group], i) => {
-
-    return `<tr><td colspan=10>
-
-                                        ${i === 0
-            ? ''
-            : `<div class="option-group-title">
-                                                ${options_group_name.toLowerCase().replace(/_/g, ' ')}
-                                            </div>`
-        }
-                                        
-                                        </td></tr>` +
-        Object.entries(options_of_group).map(([name, meta]) => `
-                                <tr id=${name}>
-                                    <td align="left">${name}</td>
-                                    <td align="left" class="td-essence">${escapeHtml(options_extra_meta[name]?.title) || ''}</td>
-                                    <td align="left">${get_option_type_label(meta.type)}</td>
-                                    <td align="left">${meta.default_value}</td>
-                                    <td align="left" class="td-explanation">${options_extra_meta[name]?.explanation || ''}</td>
-                                </tr>
-                            `).join('\n')
-}).join('')}
-                </tbbody>
-            </table>
+            <div class="options-table">
+                <div>Name</div>
+                <div>Essence</div>
+                <div>Type</div>
+                <div>Default</div>
+                <div>Explanation</div>
+                ${Object.entries(OPTIONS).map(get_options_group).join('')}
+            </div>
         `
 
 document.querySelector('.list-of-options').innerHTML = options_html

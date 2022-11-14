@@ -199,8 +199,8 @@ Whatever you return from this function will be injected in the round titles bar.
     navButtonsPosition: {
         title: 'Navigation (switch rounds) buttons position',
         explanation: Object.entries(BUTTONS_POSITIONS).map(
-            ([pos_name, pos_title]) => `<span style="text-decoration: underline;">${pos_name}</span>: ${pos_title}`
-        ).join('<br />')
+            ([pos_name, pos_title]) => `${pos_name}:    ${pos_title}`
+        ).join('\n')
     },
 
     navButtonsTopDistance: {
@@ -367,32 +367,31 @@ If you want to prevent a given match from being rendered, return null from getMa
     onMatchClick: {
         title: 'What happens when a user clicks a match',
         explanation: `Your function will be called with a data of a match that was clicked.
-        <br /><br />
-        Example:
-        <div class="code">{
-onMatchClick: (match) => {
-    location.href = \`/matches/\${match.id}\`
-}
-}
-</div>
-<br />
+Example:
+    {
+        onMatchClick: (match) => {
+            location.href = \`/matches/\${match.id}\`
+        }
+    }
 If you provide this function, contestant's match history will not be highlighted when you click a match's side`
     },
 
     onMatchSideClick: {
         title: 'What happens when a user clicks a side of a match',
         explanation: `Your function will be called with
-    1) data of a contestant which was clicked,
-    2) this contestant's id,
-    3) data of a match within which a side was clicked
-        
-<div class="code">{
-    onMatchSideClick: (contestant, contestantId, match) => {
+    1) data of a match within which a side was clicked
+    2) data of a contestant which was clicked,
+    3) this contestant's id,
+Example:
+{
+    onMatchSideClick: (
+        match,
+        contestant,
+        contestantId
+    ) => {
         location.href = \`/teams/\${contestantId}\`
     }
 }
-</div>
-    
-If you provide this function, it will discard the default behaviour: contestant's match history will not be highlighted when you click a match's side`
+If you provide this function, it will discard the default behaviour: contestant's match history will not be highlighted when you click a side of a match`
     }
 }

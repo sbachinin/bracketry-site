@@ -10,51 +10,63 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
+        
+        .options-table {
+            display: grid;
+            grid-template-columns: minmax(150px, auto) minmax(150px, 1fr) 80px 100px minmax(200px, 2fr);
+            grid-row-gap: 24px;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+
+        .options-table .default-nav-icon,
+        .options-table .default-scroll-icon {
+            text-align: center;
+        }
+
         .option-group-title {
             color: #ff5722;
             font-size: 32px;
-            margin-top: 66px;
-            margin-bottom: 42px;
+            margin-top: 49px;
+            margin-bottom: 17px;
         }
 
         .option-group-title:first-letter {
             text-transform: uppercase;
         }
 
-        table {
-            border-collapse: collapse;
-        }
-
-        tbody tr {
-            border-bottom: 1px solid #ccc !important;
-        }
-
-        td {
-            padding-right: 20px;
-        }
-
-        td:not(:first-child) {
-            padding-top: 20px;
+        .options-table>div {
+            padding: 0 10px;
+            border-bottom: 1px solid #ccc;
             padding-bottom: 20px;
         }
 
-
-        .td-essence {
-            width: 250px;
-            overflow: hidden;
-            display: inline-block;
+        .options-table>div:nth-child(-n+5) {
+            background: #e2f2ff;
+            padding: 15px;
+            margin-left: -5px;
+            font-size: 18px;
+            border: none;
         }
 
-        .td-explanation {
-            width: 400px;
-            overflow: hidden;
-            display: inline-block;
+        .options-table>div.name-cell {
+            color: #ababab;
+            word-wrap: anywhere;
+            font-style: italic;
+            font-size: 13px;
+        }
+
+        .options-table>div.default-value-cell {
+            word-wrap: anywhere;
+        }
+
+        .options-table>div.explanation-cell {
             white-space: pre-wrap;
-            font-size: 14px;
             line-height: 1.6em;
         }
 
-        td:first-child {
+        .options-table>div.type-cell {
+            color: #4ee83f;
             font-size: 14px;
         }
     </style>
@@ -78,9 +90,9 @@
     <div class="options-manager-opener main-button" style="margin: 25px auto">manage options</div>
 
 
-    <div class="heading-3">How to apply options</div>
+    <div class="heading-3">How to set options on installation</div>
 
-    Options can be passed to <b><a href="/create-playoffs">createPlayoffs</a></b> as a 3rd argument
+    <p>Options can be passed to <b><a href="/create-playoffs">createPlayoffs</a></b> as a 3rd argument</p>
 
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
 
@@ -93,18 +105,12 @@ const options = {
 
 createPlayoffs(data, wrapper, options)</code></pre>
 
-    <br>
-    Options can be changed later via <b><a href="/lifecycle-methods#applyNewOptions">applyNewOptions</a></b> lifecycle
-    method
 
-    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
-
-const wrapper = document.querySelector('#your-wrapper-element')
-const data = { ... } // data of specific shape
-
-const options = {
-    matchMaxWidth: '200px'
-}
+    <div class="heading-3">How to set options later</div>
+    <p>Options can be changed later via <b><a href="/lifecycle-methods#applyNewOptions">applyNewOptions</a></b>
+        lifecycle
+        method</p>
+    <pre><code class="language-javascript">...
 
 const { applyNewOptions } = createPlayoffs(data, wrapper, options)
 
@@ -112,13 +118,24 @@ applyNewOptions({
     matchMaxWidth: '100px'
 })</code></pre>
 
-    Options passed to applyNewOptions will be merged with those which were passed to createPlayoffs()
-    <br>
+    <p>
+        Options passed to applyNewOptions will not replace the original ones (passed to createPlayoffs) but will be <b>merged</b>.
+        <br>
+        <b>Some</b> options are <b>not updatable</b> (ignored when passed to applyNewOptions):
+        <br>
+        &nbsp;&nbsp;&nbsp; - "fullscreen"
+        <br>
+        &nbsp;&nbsp;&nbsp; - "verticalScrollMode"
+        <br>
+        &nbsp;&nbsp;&nbsp; - options of type "function" (such as "getMatchElement")
+        <br>
+        The most likely case for applyNewOptions is <b><a href="../mobile">handling different screen sizes</a></b>. (You may respond to <b>resize</b> by setting more "compact" playoffs' layout)
 
-    Options of functional type (such as getMatchElement) are <i>not changeable</i> by applyNewOptions
-    <br>
-    <br>
-    You can get current options via <b><a href="/lifecycle-methods#getUserOptions">getUserOptions</a></b> method
+        <br>
+        <br>
+        Use <b><a href="/lifecycle-methods#getUserOptions">getUserOptions</a></b> method to get current options.
+    </p>
+
 
 
 
