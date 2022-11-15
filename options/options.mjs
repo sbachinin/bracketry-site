@@ -57,7 +57,7 @@ const get_options_group = ([options_group_name, options_of_group], i) => {
     }
 
     html += Object.entries(options_of_group).map(([name, meta]) => `
-        <div class="name-cell">${name}</div>
+        <div id=${name} class="name-cell">${name}</div>
         <div>${escapeHtml(options_extra_meta[name]?.title) || ''}</div>
         <div class="type-cell">${get_option_type_label(meta.type)}</div>
         <div class="default-value-cell">${meta.default_value}</div>

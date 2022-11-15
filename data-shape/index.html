@@ -4,11 +4,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Playoffs - Shape of data</title>
 
+    <script defer type="module" src="./index.mjs"></script>
     <link rel="stylesheet" href="../styles/atom-one-light.min.css">
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
+        .common-playoffs-wrapper {
+            width: 600px;
+            height: 200px;
+        }
 
+        .example-data {
+            position: relative;
+        }
+
+        .example-data .overlay {
+            position: absolute;
+            inset: 0;
+            box-shadow: 0px -67px 31px 0px inset #fff;
+            display: none;
+        }
+
+        .toggle-data {
+            display: flex;
+            border: 1px solid;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            font-size: 18px;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+
+        .example-data.collapsed {
+            height: 100px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .example-data.collapsed .overlay {
+            display: block;
+        }
     </style>
 
 </head>
@@ -28,7 +65,8 @@
     <div class="heading-2">Shape of data</div>
 
     <p>
-        The only possible shape of data (one which can be passed to <a href="../create-playoffs">createPlayoffs()</a>) is described in this d.ts file:
+        The only possible shape of data (one which can be passed to <a href="../create-playoffs">createPlayoffs()</a>)
+        is described in this d.ts file:
     </p>
 
 
@@ -79,89 +117,122 @@ export type Player = {
     title: string,
     nationality?: string
 }</code></pre>
-    
-<br><br>
-<div class="heading-3">Some clarifications</div>
 
-<img src="./props.jpg">
+    <br><br>
 
+    <div class="heading-3">Example</div>
+    <p>
+        Here is some (almost) real data:
+    </p>
+    <div class="toggle-data">+</div>
+    <pre class="example-data collapsed"><code language-javascript"></code><div class="overlay"></div></pre>
+    <p>
+        And here's what you get from this data:
+    </p>
 
+    <div class="common-playoffs-wrapper"></div>
+    <br><br>
+    <div class="heading-3">Some clarifications</div>
 
-<div class="heading-4">rounds</div>
-<p>
-A number of rounds will determine the overall match structure.
-To get the right structure please provide a FULL number of rounds (even for the rounds which weren't played yet).
-The most minimal data that can be provided to Playoffs is:</p>
-<pre><code class="language-javascript">{ rounds: [ {}, {}, {} ] }</code></pre>
-<p>
-This data will produce an empty 3-rounds tournament (without matches but with connecting lines).
-Omitting the 'name' property of a round means that a reasonable default names will be used ('Final', 'Semifinal' etc)
-</p>
-
-
-<br>
-<div class="heading-4">Match.order</div>
-<p>
-    This 0-based index defines the order in which matches are rendered within a round.
-    <br>Match with an index 0 will appear at the very top, below it will be a match with index 1, etc.
-    <br>Match.order together with <b>Match.roundIndex</b> is what defines the overall position of a match.
-    <br>Order of items in the <b>matches</b> array makes no difference.
-</p>
+    <img src="./props.jpg">
 
 
-<br>
-<div class="heading-4">Match.matchStatus</div>
-<p>
-Meant for any general information like 'Scheduled' or 'Cancelled', 'Retired', datetime of an upcoming match etc.
-<br> Be careful not to provide very long matchStatuses. Match with <i>both scores and matchStatus</i> may become too wide and this will affect the entire layout, leading to inefficient usage of screen space.
-<img src="./matchStatus.jpg">
-<br>You may change a background color of matchStatus badge using <a href="../options#matchStatusBackgroundColor">matchStatusBackgroundColor</a> option
-</p>
+
+    <div class="heading-4">rounds</div>
+    <p>
+        A number of rounds will determine the overall match structure.
+        To get the right structure please provide a FULL number of rounds (even for the rounds which weren't played
+        yet).
+        The most minimal data that can be provided to Playoffs is:</p>
+    <pre><code class="language-javascript">{ rounds: [ {}, {}, {} ] }</code></pre>
+    <p>
+        This data will produce an empty 3-rounds tournament (without matches but with connecting lines).
+        Omitting the 'name' property of a round means that a reasonable default names will be used ('Final', 'Semifinal'
+        etc)
+    </p>
 
 
-<br>
-<div class="heading-4">"Contestant", "Player", "Side" - wtf?</div>
-<p>
-It could be wonderful to just use a single term "team" but I decided to make it more complex 😎.
-<br> "Contestant" is basically <i>"a team that takes part in a tournament"</i>.
-<br> But contestant may consist of several "Players"... The most obvious case is "doubles" in tennis. There we have teams that are not one but two. For this reason <b>Contestant.players</b> property exists and it's an array.
-<br> Actually this array may contain not only 2 but any number of items. All players will be stacked vertically.
-<br> <b>Side</b> is a match-specific data for a contestant: its score, subscore, isWinner etc.
-<br> For lazy developers it's possible to have a Side <i>without contestant</i> (no Side.contestantId). It means that such side won't have entry status, nationality and multiple players. But it still may have a title if you provide a <b>Side.title</b>. (This property will be rendered in a title field only IF there is no contestantId for this side)
-</p>
+    <br>
+    <div class="heading-4">Match.order</div>
+    <p>
+        This 0-based index defines the order in which matches are rendered within a round.
+        <br>Match with an index 0 will appear at the very top, below it will be a match with index 1, etc.
+        <br>Match.order together with <b>Match.roundIndex</b> is what defines the overall position of a match.
+        <br>Order of items in the <b>matches</b> array makes no difference.
+    </p>
 
 
-<br>
-<div class="heading-4">Contestant.entryStatus, Player.nationality</div>
-<p>
-These props will be rendered as such on the very left.
-<br>But, rendered as such, in most cases they won't look great. What's worse, they are likely to cause problems with horizontal alignment within a match.
-<br>To improve this situation provide <a href="../inject-markup#getEntryStatusHTML">getEntryStatusHTML</a> and <a href="../inject-markup#getNationalityHTML">getNationalityHTML</a> options where you can set some useful inline styles, especially width.
-<br>GetNationalityHTML is where you can set nationality flags.
-</p>
+    <br>
+    <div class="heading-4">Match.matchStatus</div>
+    <p>
+        Meant for any general information like 'Scheduled' or 'Cancelled', 'Retired', datetime of an upcoming match etc.
+        <br> Be careful not to provide very long matchStatuses. Match with <i>both scores and matchStatus</i> may become
+        too wide and this will affect the entire layout, leading to inefficient usage of screen space.
+        <img src="./matchStatus.jpg">
+        <br>You may change a background color of matchStatus badge using <b>matchStatusBackgroundColor</b> option
+    </p>
 
 
-<br>
-<div class="heading-4">Player.title</div>
-<p>
-By default it is too rendered as such. (And that's ok in most cases).
-<br> But if for instance you want to make it a link to player's profile, then provide your custom HTML using <a href="../inject-markup#getPlayerTitleHTML">options.getPlayerTitleHTML</a>.
-<br> You can also just change its font-family using <a href="../options#playerTitleFontFamily">playerTitleFontFamily</a>
-</p>
+    <br>
+    <div class="heading-4">"Contestant", "Player", "Side" - wtf?</div>
+    <p>
+        It could be wonderful to just use a single term "team" but I decided to make it more complex 😎.
+        <br> "Contestant" is basically <i>"a team that takes part in a tournament"</i>.
+        <br> But contestant may consist of several "Players"... The most obvious case is "doubles" in tennis. There we
+        have teams that are not one but two. For this reason <b>Contestant.players</b> property exists and it's an
+        array.
+        <br> Actually this array may contain not only 2 but any number of items. All players will be stacked vertically.
+        <br> <b>Side</b> is a match-specific data for a contestant: its score, subscore, isWinner etc.
+        <br> For lazy developers it's possible to have a Side <i>without contestant</i> (no Side.contestantId). It means
+        that such side won't have entry status, nationality and multiple players. But it still may have a title if you
+        provide a <b>Side.title</b>. (This property will be rendered in a title field only IF there is no contestantId
+        for this side)
+    </p>
 
 
-<br>
-<div class="heading-4">Side.scores</div>
-<img src="./scores.jpg">
-<p>
-Side.scores is an array that contains individual Score entries.
-<br> Individual entries may refer to a <b>single set</b> in tennis or to a single football match within a couple of matches played at a knockout stage.
-<br> Points within a game in tennis (like "<b>40:30</b>") should be provided by Side.currentScore (these points are not a part of Side.scores).
-<br> You can render scores however you like using <a href="../inject-markup#getScoresHTML">options.getScoresHTML</a>.
-<br> Or just change the scores' font-family using <a href="../options#scoreFontFamily">options.scoreFontFamily</a>.
-<br> Or just change the horizontal <a href="../options#distanceBetweenScorePairs">distance between score pairs</a>.
+    <br>
+    <div class="heading-4">Contestant.entryStatus, Player.nationality</div>
+    <p>
+        These props will be rendered as such on the very left.
+        <br>But, rendered as such, in most cases they won't look great (like in the example above). What's worse, they
+        are likely to cause problems
+        with horizontal alignment within a match.
+        <br>To improve this situation provide <a href="../inject-markup#getEntryStatusHTML">getEntryStatusHTML</a> and
+        <a href="../inject-markup#getNationalityHTML">getNationalityHTML</a> options where you can set some useful
+        inline styles, especially width. Or you can prevent entryStatus and nationality from rendering at all by
+        returning <b>an empty string</b> from these functions.
+        <br>GetNationalityHTML is where you can set nationality flags.
+    </p>
 
-</p>
+
+    <br>
+    <div class="heading-4">Player.title</div>
+    <p>
+        By default it is too rendered as such. (And that's ok in most cases).
+        <br> But if for instance you want to make it a link to player's profile, then provide your custom HTML using <a
+            href="../inject-markup#getPlayerTitleHTML">options.getPlayerTitleHTML</a>.
+        <br> You can also just change its font-family using <a
+            href="../options#playerTitleFontFamily">playerTitleFontFamily</a>
+    </p>
+
+
+    <br>
+    <div class="heading-4">Side.scores</div>
+    <img src="./scores.jpg">
+    <p>
+        Side.scores is an array that contains individual Score entries.
+        <br> Individual entries may refer to a <b>single set</b> in tennis or to a single football match within a couple
+        of matches played at a knockout stage.
+        <br> Points within a game in tennis (like "<b>40:30</b>") should be provided by Side.currentScore (these points
+        are not a part of Side.scores).
+        <br> You can render scores however you like using <a
+            href="../inject-markup#getScoresHTML">options.getScoresHTML</a>.
+        <br> Or just change the scores' font-family using <a
+            href="../options#scoreFontFamily">options.scoreFontFamily</a>.
+        <br> Or just change the horizontal <a href="../options#distanceBetweenScorePairs">distance between score
+            pairs</a>.
+
+    </p>
 
 
     <div class="footer"></div>
