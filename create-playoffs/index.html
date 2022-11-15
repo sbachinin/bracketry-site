@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-        li {
-            line-height: 2em;
-        }
+
     </style>
 
 </head>
@@ -84,13 +82,19 @@ const lifecycle_methods = createPlayoffs(data, wrapper, options)</code></pre>
     </p>
 
 
-    <div class="heading-3" id="wrapper-element">About wrapper element</div>
+    <div class="heading-3" id="wrapper-element">Problem of height</div>
     <p>
-        In most cases it makes sense to set <b>explicit</b> height on your wrapper element and keep "<b><a href="../options#width">width</a></b>" and "<b><a href="../options#height">height</a></b>"
-        options at
-        a default of '100%'. It will help prevent a height jump when playoffs are installed
+        In most cases it makes sense to set <b>explicit height</b> on your wrapper element and keep "width" and "height"
+        options at a default <b>"100%"</b>.
         <br>
-        If you render a <a href="../fullscreen">fullscreen</a> Playoffs (options.fullscreen === true), make sure to provide document.body as a wrapper element (well, it's obvious 😒).
+        You can also provide an auto-sized wrapper and set more explicit <b>width</b> and <b>height</b> options. But in such case you are likely to get a <b>height jump</b> during playoffs' installation.
+        <br>
+        <br>
+        If you don't provide any heights (neither on your wrapper nor in playoffs' options), playoffs will expand to the <b>full height</b> of its content.
+        <br>
+        If this is what you need, mind one little problem: "full height" is <b>not stable</b>, i.e. it will change when you navigate to later rounds (it will get <i>twice smaller</i> with every next round). Thus all content <i>after</i> playoffs will be pushed back and forth.
+        <br>
+        So if you really want this auto height, a solution to the problem of jumping height will be <b><a href="../options#useClassicalLayout">useClassicalLayout</a></b> option. When set to true, it guarantees that the height will remain stable.
     </p>
 
 

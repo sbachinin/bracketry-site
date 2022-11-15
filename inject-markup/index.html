@@ -9,7 +9,27 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-        
+        .side-info-item.entry-status .estatus {
+            width: 25px;
+            background: #ff9e8c;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .side-info-item .nationality {
+            font-size: 20px;
+        }
+
+        .player-title .link-svg {
+            height: 20px;
+            vertical-align: text-top;
+            margin-left: 5px;
+        }
+
+        .playoffs-wrapper-getMatchElement {
+            max-width: 800px;
+            height: 300px;
+        }
     </style>
 
 </head>
@@ -26,31 +46,298 @@
         <span class="description">takes your data and draws a tree of a knockout tournament</span>
     </header>
 
+    <div class="heading-2">Inject your markup</div>
+
+    <p>You can replace match element or some of its parts using several handy options.</p>
+
     <div class="common-playoffs-wrapper"></div>
 
-    <div class="options-manager-opener main-button" style="margin: 25px auto">manage options</div>
+    <p><i>^ in this example <b>getRoundTitleElement</b>, <b>getEntryStatusHTML</b>, <b>getNationalityHTML</b> and
+            <b>getPlayerTitleHTML</b> options
+            were used to change the respective parts of the markup</i></p>
 
-
-    <div class="heading-3" id="getEntryStatusHTML">getMatchElement()</div>
-    return null to prevent rendering a given match
-    <div class="heading-3" id="getEntryStatusHTML">getEntryStatusHTML()</div>
-    return empty string to prevent rendering entry status
-    <div class="heading-3" id="getNationalityHTML">getNationalityHTML()</div>
-    return empty string to prevent rendering nationality
-    <div class="heading-3" id="getPlayerTitleHTML">getPlayerTitleHTML()</div>
-    <div class="heading-3" id="getScoresHTML">getScoresHTML()</div>
+    <br>
 
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
 
-const wrapper = document.querySelector('#your-wrapper-element')
-const data = { ... } // data of specific shape
-
 const options = {
+
+    getRoundTitleElement: (roundData, roundIndex) => { /* ...return an Element for round title */ },
+
+    getMatchElement: (roundIndex, matchOrder) => { /* ...return an Element for a whole match OR null */ },
+    
+    getEntryStatusHTML: (entryStatus, context) => { /* ...return an HTML string for contestant's entryStatus */ },
+
+    getNationalityHTML: (player, context) => { /* ...return an HTML string for player's nationality */ },
+
+    getPlayerTitleHTML: (player, context) => { /* ...return an HTML string for player's title */ },
+    
+    getScoresHTML: (side, match) => { /* ...return an HTML string for side's scores */ },
 }
 
-createPlayoffs(data, wrapper, options)</code></pre>
+createPlayoffs(your_data, your_wrapper, options)</code></pre>
+
+    <br>
+    <br>
+
+    <img src="./layout.jpg">
+
+    <br>
+    <br>
 
 
+    <div class="heading-3" id="getRoundTitleElement">getRoundTitleElement()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">roundData</div> - an object containing <a href="../data-shape">data</a> of a round
+        </li>
+        <li>
+            <div class="parameter">roundIndex</div> - 0-based index of a round
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;HTMLElement that will be inserted into the round titles bar instead of default title
+    <p>
+
+        getRoundTitleElement will be called for each round specified in your data (which was passed to <a
+            href="../create-playoffs">createPlayoffs</a>).
+        <br>
+        <br>
+        getRoundTitleElement will be called with a data of a given round as the first parameter. Although by design a
+        Round has only a "name" property, you are not limited to that. All <b>extra properties</b> of a Round object
+        (e.g., "prize money" or whatever) will persist.
+        <br>
+        <br>
+        <span style="font-size: 24px; line-height: 24px;">💩</span> Unfortunately round titles' bar <i>can't
+            automatically expand</i> to the height of your custom round Element. (Yes, it's annoying). So you will
+        probably need to adjust the <b>roundTitlesHeight</b> option if you want to make it look nice.
+    </p>
+
+    <br><br>
+    <hr>
+    <br>
+
+
+    <div class="heading-3" id="getMatchElement">getMatchElement()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">roundIndex</div> - 0-based index of a round
+        </li>
+        <li>
+            <div class="parameter">matchOrder</div> - 0-based index of a match within a round
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;HTMLElement that will replace the default match layout. Or null, if you want to prevent
+        rendering a match at a given roundIndex and matchOrder
+    </p>
+    <p>
+        Please set explicit <b>width and height to images</b> and other asynchronously loaded content within your custom
+        match element.
+    </p>
+    <p>
+        If getMatchElement is provided, then NONE of the <b>other</b> render functions listed here will be called.
+    </p>
+    <pre><code class="language-javascript">{
+    getMatchElement: (roundIndex, matchOrder) => {
+        const el = document.createElement('div')
+        el.style.display = "flex"
+        el.style.alignItems = "center"
+        el.style.fontSize = "50px"
+        el.innerHTML = `
+            ${roundIndex}
+            ${matchOrder}
+            &amp;nbsp;
+            &lt;img style="width: 150px" src="matches.jpg"&gt;
+        `
+        return el
+    }
+}</code></pre>
+    <br>
+
+    <div class="playoffs-wrapper-getMatchElement"></div>
+    <br>
+
+
+    <br><br>
+    <hr>
+
+
+    <br>
+    <div class="heading-3" id="getNationalityHTML">getNationalityHTML()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">player</div>
+            An object containing data of a Player whose nationality is being rendered (<span
+                class="inline-code">contestants[contestantId].players[playerIndex]</span>), if such data was provided to
+            createPlayoffs()
+        </li>
+        <li>
+            <div class="parameter">context</div>
+            An object that tells you where (for which player etc) nationality is rendered. Contains these properties:
+            <ul>
+                <li>
+                    <b>roundIndex</b> - 0-based index of a round
+                </li>
+                <li>
+                    <b>matchOrder</b> - 0-based index of a match within a round
+                </li>
+                <li>
+                    <b>contestantId</b> - string that refers to an entry within Contestants dictionary
+                </li>
+                <li>
+                    <b>playerIndex</b> - (number) an index of a player within Contestant.players array
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text that will be injected into the nationality field.
+        <br>
+        <br>
+        If getNationalityHTML option is not provided (or if it fails to return a string), then "nationality" column will
+        be filled with a bare string from <span class="inline-code">contestants[id].players[i].nationality</span> (if such property will be found). In most cases it won't look nice and will lead to a subtle horizontal <b>misalignment</b> within a
+        match. So it's highly recommended to provide getNationalityHTML and return an HTML string where root element has
+        an <b>explicit width</b> (equal for all players).
+    </p>
+    <pre><code class="language-javascript">{
+        getNationalityHTML: player => {
+            return `&lt;img style="width: 40px;" src=".../${player.nationality}"&gt;`
+        }
+    }</code></pre>
+    <p>
+        Feel free to use getNationalityHTML to display any info you want. Think of it as just a way to populate "the second column on the left". There you can render a player's photo or whatever.
+    </p>
+    <br><br>
+    <hr>
+    <br>
+
+
+    <div class="heading-3" id="getEntryStatusHTML">getEntryStatusHTML()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">entryStatus</div>
+            A string containing an entry status of a given Contestant (<span
+            class="inline-code">contestants[contestantId].entryStatus</span>), if such value will be found in data provided to createPlayoffs()
+        </li>
+        <li>
+            <div class="parameter">context</div>
+            An object that tells you where (for which contestant etc) entry status is being rendered. Contains these properties:
+            <ul>
+                <li>
+                    <b>roundIndex</b> - 0-based index of a round
+                </li>
+                <li>
+                    <b>matchOrder</b> - 0-based index of a match within a round
+                </li>
+                <li>
+                    <b>contestantId</b> - string that refers to an entry within Contestants dictionary
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text that will be injected into the entry status field.
+    <br>
+        <br>
+        If getEntryStatusHTML option is not provided (or if it fails to return a string), then the corresponding column (first on the left) will be filled with a bare string from <span class="inline-code">contestants[id].entryStatus</span> (if such property will be found). In most cases it won't look nice and will lead to a subtle horizontal <b>misalignment</b> within a
+        match. So it's highly recommended to provide getEntryStatusHTML and return an HTML string where root element has
+        an <b>explicit width</b> (equal for all players).
+    </p>
+    <pre><code class="language-javascript">{
+        getEntryStatusHTML: entryStatus => {
+            return `&lt;div style="width: 24px"&gt;${entryStatus}&lt;div&gt;`
+        }
+    }</code></pre>
+    <p>
+        Feel free to use getEntryStatusHTML to display any info you want. Think of it as just a way to populate "the first column on the left".
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+    <div class="heading-3" id="getPlayerTitleHTML">getPlayerTitleHTML()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">player</div>
+            An object containing data of a Player whose title is being rendered (<span
+                class="inline-code">contestants[contestantId].players[playerIndex]</span>), if such data was provided to createPlayoffs()
+        </li>
+        <li>
+            <div class="parameter">context</div>
+            An object with properties:
+            <ul>
+                <li>
+                    <b>roundIndex</b> - 0-based index of a round
+                </li>
+                <li>
+                    <b>matchOrder</b> - 0-based index of a match within a round
+                </li>
+                <li>
+                    <b>contestantId</b> - string that refers to an entry within Contestants dictionary
+                </li>
+                <li>
+                    <b>playerIndex</b> - (number) an index of a player within Contestant.players array
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text that will be injected into the player title field.
+    </p>
+    <p>
+        Mind that getPlayerTitleHTML is NOT called (and bare Player.title is NOT rendered either) IF a given <b>Side</b> has a '<b>title</b>' property
+    </p>
+    <p>
+        getPlayerTitleHTML is the recommended way to turn your players' titles into <b>links</b>.
+    </p>
+    <pre><code class="language-javascript">{
+    getPlayerTitleHTML: player => {
+        // let's say you provided an extra propery "link_to_profile" to your players' data
+        return `&lt;a href="${player.link_to_profile}"&gt;${player.title}&lt;/a&gt;`
+    }
+}</code></pre>
+    <br><br>
+    <hr>
+    <br>
+
+
+
+
+
+    <div class="heading-3" id="getScoresHTML">getScoresHTML()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">side</div>
+            Object containing data of a Side of a match
+        </li>
+        <li>
+            <div class="parameter">match</div>
+            Object containing data of a Match which contains a Side whose score is being rendered
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be injected into the "scores" section of match layout.
+    <p>
+getScoresHTML is called for each side of a match separately. The output string is used to render scores of a <b>single side</b> of a match, not both sides.
+</p>
+    <br><br>
+    <hr>
+    <br>
+    <br>
+    <p>All options listed here are <b>not updatable</b>. It means they can only be passed to createPlayoffs but not to
+        <a href="/lifecycle-methods#applyNewOptions">applyNewOptions</a> lifecycle method.
+    </p>
 
 
 

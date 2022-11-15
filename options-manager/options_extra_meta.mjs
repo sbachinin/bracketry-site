@@ -134,7 +134,9 @@ This options may be useful if you want to make playoffs "responsive", i.e. to re
     displayWholeRounds: {
         title: `Display a whole number of rounds`,
         explanation: `When set to true, rounds are slightly stretched in order to hide the partly visible round on the right.
-Not applied if "visibleRoundsCount" option is set to something other than 0`
+Mind that in some cases rounds (and matches too) can become TOO wide. To prevent this use matchMaxWidth option.
+
+displayWholeRounds is not applied if "visibleRoundsCount" option is set to something other than 0.`
     },
 
     useClassicalLayout: {
@@ -178,7 +180,8 @@ getRoundTitleElement will be called with:
 1) data of a round which is being rendered,
 2) index of a round which is being rendered (0-based).
 
-Whatever you return from this function will be injected in the round titles bar.`
+Whatever you return from this function will be injected in the round titles bar.`,
+        more_link: '../inject-markup#getRoundTitleElement'
     },
 
     roundTitlesHeight: {
@@ -252,32 +255,81 @@ Can be specified in any CSS units`,
     getMatchElement: {
         title: 'Match Element getter',
         explanation: `Here you can provide your own match element which will be injected in place of the built-in match markup.
+
 getMatchElement will be called with 3 args:
     1) round index (0-based),
     2) match order (index of a match within a round) (0-based)
-    3) all data with which createPlayoffs() were called.
 
 If you want to prevent a given match from being rendered, return null from getMatchElement()`
     },
 
     getNationalityHTML: {
         title: 'Nationality HTML getter',
-        explanation: ``
+        explanation: `A string (hopefully containing HTML code) returned from getNationalityHTML will be injected into the nationality column (second column) of a match.
+
+getNationalityHTML will be called with:
+    1) "player":
+        An object containing data of a Player whose nationality is being rendered (contestants[contestantId].players[playerIndex]), if such property was provided to createPlayoffs()
+    2) "context": 
+        An object that tells you where (for which player etc) nationality is rendered. Contains these properties:
+            - roundIndex - 0-based index of a round
+            - matchOrder - 0-based index of a match within a round
+            - contestantId - string that refers to an entry within Contestants dictionary
+            - playerIndex - (number) an index of a player within Contestant.players array
+    
+getNationalityHTML must return a string. Ideally it has to be a string of HTML where the root element has an explicit width (equal for all players). This will help with horizontal alignment within a match.`,
+
     },
 
     getEntryStatusHTML: {
         title: 'Entry status HTML getter',
-        explanation: ``
+        explanation: `A string (hopefully containing HTML code) returned from getEntryStatusHTML will be injected into the corresponding (leftmost) column of a match.
+
+getEntryStatusHTML will be called with:
+            1) "entryStatus":
+                A string containing an entryStatus of a Contestant which is being rendered (contestants[contestantId].entryStatus), if such property was provided to createPlayoffs()
+            2) "context": 
+                An object that tells you where (for which player etc) entry status is rendered. Contains these properties:
+                    - roundIndex - 0-based index of a round
+                    - matchOrder - 0-based index of a match within a round
+                    - contestantId - string that refers to an entry within Contestants dictionary
+            
+getEntryStatusHTML must return a string. Ideally it has to be a string of HTML where the root element has an explicit width (equal for all sides). This will help with horizontal alignment within a match.`,
+        
     },
 
     getPlayerTitleHTML: {
         title: 'Player title HTML getter',
-        explanation: ``
+        explanation: `A string (hopefully containing HTML code) returned from getPlayerTitleHTML will be injected into the corresponding column of a match.
+        
+getPlayerTitleHTML will be called with:
+            1) "player"
+                An object containing data of a Player whose title is being rendered (contestants[contestantId].players[playerIndex]), if such data was provided to createPlayoffs()
+            2) "context"
+                An object with properties:
+                    - roundIndex - 0-based index of a round
+                    - matchOrder - 0-based index of a match within a round
+                    - contestantId - string that refers to an entry within Contestants dictionary
+                    - playerIndex - (number) an index of a player within Contestant.players array
+
+Return value: HTML string or just a string
+        
+Mind that getPlayerTitleHTML is NOT called (and bare Player.title is NOT rendered either) IF a given Side has a 'title' property
+        
+getPlayerTitleHTML is the recommended way to turn your players' titles into links.`
     },
 
     getScoresHTML: {
         title: 'Side scores HTML getter',
-        explanation: ``
+        explanation: `A string returned from getScoresHTML will be injected into the "scores" section of match layout.
+
+getScoresHTML is called for each side of a match separately. The output string is used to render scores of a single side, not both sides.
+
+getScoresHTML is called with:
+            1) "side"
+                An object containing data of a Side of a match
+            2) "match"
+                An object containing data of a Match which contains a Side whose score is being rendered`
     },
 
     matchMaxWidth: {

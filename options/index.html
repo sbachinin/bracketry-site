@@ -10,11 +10,9 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-        
         .options-table {
             display: grid;
             grid-template-columns: minmax(150px, auto) minmax(150px, 1fr) 80px 100px minmax(200px, 2fr);
-            grid-row-gap: 24px;
             font-size: 15px;
             margin-top: 30px;
         }
@@ -38,7 +36,7 @@
         .options-table>div {
             padding: 0 10px;
             border-bottom: 1px solid #ccc;
-            padding-bottom: 20px;
+            padding: 10px 0;
         }
 
         .options-table>div:nth-child(-n+5) {
@@ -68,6 +66,16 @@
         .options-table>div.type-cell {
             color: #4ee83f;
             font-size: 14px;
+        }
+
+
+        .more-link {
+            border: 1px solid #373737;
+            font-size: 18px;
+            padding: 2px 6px;
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 10px;
         }
     </style>
 
@@ -121,7 +129,8 @@ applyNewOptions({
 })</code></pre>
 
     <p>
-        Options passed to applyNewOptions will not replace the original ones (passed to createPlayoffs) but will be <b>merged</b>.
+        Options passed to applyNewOptions will not replace the original ones (passed to createPlayoffs) but will be
+        <b>merged</b>.
         <br>
         <b>Some</b> options are <b>not updatable</b> (ignored when passed to applyNewOptions):
         <br>
@@ -131,7 +140,8 @@ applyNewOptions({
         <br>
         &nbsp;&nbsp;&nbsp; - options of type "function" (such as "getMatchElement")
         <br>
-        The most likely case for applyNewOptions is <b><a href="../mobile">handling different screen sizes</a></b>. (You may respond to <b>resize</b> by setting more "compact" playoffs' layout)
+        The most likely case for applyNewOptions is <b><a href="../mobile">handling different screen sizes</a></b>. (You
+        may respond to <b>resize</b> by setting more "compact" playoffs' layout)
 
         <br>
         <br>

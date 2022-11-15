@@ -56,13 +56,20 @@ const get_options_group = ([options_group_name, options_of_group], i) => {
         </div>`
     }
 
-    html += Object.entries(options_of_group).map(([name, meta]) => `
-        <div id=${name} class="name-cell">${name}</div>
-        <div>${escapeHtml(options_extra_meta[name]?.title) || ''}</div>
-        <div class="type-cell">${get_option_type_label(meta.type)}</div>
-        <div class="default-value-cell">${meta.default_value}</div>
-        <div class="explanation-cell">${escapeHtml(options_extra_meta[name]?.explanation || '')}</div>
-    `).join('\n')
+    html += Object.entries(options_of_group).map(([name, meta]) => {
+        const extra = options_extra_meta[name]
+        return `
+            <div id=${name} class="name-cell">${name}</div>
+            <div>${escapeHtml(extra?.title) || ''}</div>
+            <div class="type-cell">${get_option_type_label(meta.type)}</div>
+            <div class="default-value-cell">${meta.default_value}</div>
+            <div class="explanation-cell">${
+                escapeHtml(extra?.explanation || '')
+            }${
+                extra?.more_link ? `<br><a class="more-link" href=${extra.more_link}>More</a>` : ''
+            }</div>
+        `
+    }).join('\n')
 
     return html
 }
