@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - "Lifecycle" methods</title>
+
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        .nav-function {
+            background: #e5ffff;
+            padding: 5px;
+        }
+
+        .data-function {
+            background: #ffecec;
+            padding: 5px;
+        }
+
+        .options-function {
+            background: #eeffe8;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/sheep.jpg" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+
+    <div class="heading-2">Lifecycle methods</div>
+    <p>These are the members of an object returned from <a href="../create-playoffs"><b>createPlayoffs()</b></a>:</p>
+    <ul>
+        <li><a class="nav-function" href="#moveToPreviousRound">moveToPreviousRound</a></li>
+        <li><a class="nav-function" href="#moveToNextRound">moveToNextRound</a></li>
+        <li><a class="nav-function" href="#moveToLastRound">moveToLastRound</a></li>
+        <li><a class="nav-function" href="#setBaseRoundIndex">setBaseRoundIndex</a></li>
+        <li><a class="nav-function" href="#getNavigationState">getNavigationState</a></li>
+        <br>
+        <li><a class="data-function" href="#replaceData">replaceData</a></li>
+        <li><a class="data-function" href="#applyMatchesUpdates">applyMatchesUpdates</a></li>
+        <li><a class="data-function" href="#getAllData">getAllData</a></li>
+        <br>
+        <li><a class="options-function" href="#applyNewOptions">applyNewOptions</a></li>
+        <li><a class="options-function" href="#getUserOptions">getUserOptions</a></li>
+        <br>
+        <li><a href="#highlightContestantHistory">highlightContestantHistory</a></li>
+        <li><a href="#uninstall">uninstall</a></li>
+    </ul>
+
+    <br><br>
+
+
+    <pre><code class="language-javascript" style="font-size: 18px;">// for example
+
+import { createPlayoffs } from 'playoffs'
+
+const playoffs = createPlayoffs(your_data, your_wrapper_element, your_options)
+
+playoffs.setBaseRoundIndex(2)</code></pre>
+    <br>
+
+
+    <div class="heading-3 nav-function" id="moveToPreviousRound">moveToPreviousRound()</div>
+    <div class="heading-4">Parameters</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        Calling this method will increment the <b>base round index</b>.
+        <br>
+        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        a default one.
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3 nav-function" id="moveToNextRound">moveToNextRound()</div>
+    <div class="heading-4">Parameters</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        Calling this method will decrement the <b>base round index</b>.
+        <br>
+        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        a default one.
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3 nav-function" id="moveToLastRound">moveToLastRound()</div>
+    <div class="heading-4">Parameters</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        Calling this method will set the <b>base round index</b> to a maximum possible number.
+        <br>
+        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        a default one.
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3 nav-function" id="setBaseRoundIndex">setBaseRoundIndex()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">baseRoundIndex</div>
+            A 0-based index of a "base" round, i.e. round which will become the <b>leftmost</b> visible one.
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        Calling this method will set the <b>base round index</b> to a given number.
+        <br>
+        This number can be fractional if you like.
+        <br>
+        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        a default one.
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3 nav-function" id="getNavigationState">getNavigationState()</div>
+    <div class="heading-4">Parameters</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object containing some navigation info:
+    <ul>
+        <li>lastRoundIsFullyVisible (boolean)</li>
+        <li>allRoundsAreVisible (boolean)</li>
+        <li>baseRoundIndex (numbe)</li>
+    </ul>
+    <p>
+
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+
+
+    <div class="heading-3 data-function" id="replaceData">replaceData()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">data</div> - all tournament data of the same <a href="../data-shape">format</a> as the data passed to createPlayoffs()
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        This method replaces the old data entirely. It's NOT a merge of old and new.
+        If you need to update not the entire tournament but individual matches, then you probably need <a
+            href="#applyMatchesUpdates">applyMatchesUpdates</a> method instead of replaceData.
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3 data-function" id="applyMatchesUpdates">applyMatchesUpdates()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>matches</li>
+        <p style="margin-top: 0">An array of matches that you want to update.
+            <br>Every such match must be a complete <a href="../data-shape">Match</a> object because an old match (that
+            with the same roundIndex and matchOrder) will be <b>replaced</b> by a new match data, i.e. it's NOT a merge
+            of old and new.
+        </p>
+    </ul>
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        See this method in action <a href="../live-updates">here</a>
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3 data-function" id="getAllData">getAllData()</div>
+    <div class="heading-4">Parameters</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
+    <div class="heading-4">Return value</div>
+    <p style="margin-top: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An object containing all the tournament <a
+            href="../data-shape">data</a> which was previously provided to createPlayoffs() or replaceData()</p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+
+
+
+    <div class="heading-3 options-function" id="applyNewOptions">applyNewOptions()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">options</div>
+        </li>
+        <p style="margin-top: 0">
+            An object where keys are names of options (like "visibleRoundsCount") and values are... option values! In
+            short, it's the same type of object that you pass to createPlayoffs() as the third argument.
+            <br>
+            This object will be <b>merged</b> to the existing options.
+        </p>
+    </ul>
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+
+        Some options are not updatable, i.e. they will be <b>ignored</b> when passed to applyNewOptions:
+        <br>
+        &nbsp;&nbsp;&nbsp;- all functional options (like getMatchElement)
+        <br>
+        &nbsp;&nbsp;&nbsp;- verticalScrollMode
+        <br>
+        &nbsp;&nbsp;&nbsp;- fullscreen
+    </p>
+
+    <pre><code class="language-javascript" style="font-size: 18px;">import { createPlayoffs } from 'playoffs'
+        
+const playoffs = createPlayoffs(your_data, your_wrapper_element, your_options)
+
+playoffs.applyNewOptions({ visibleRoundsCount: 1 })</code></pre>
+
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3 options-function" id="getUserOptions">getUserOptions()</div>
+    <div class="heading-4">Parameters</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
+    <div class="heading-4">Return value</div>
+    <p style="margin-top: 0">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An object containing all the options provided to
+        createPlayoffs() and (if applyNewOptions was called) merged with options provided to applyNewOptions()
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+    <div class="heading-3" id="highlightContestantHistory">highlightContestantHistory()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">contestantId</div> - id of a Contestant whose history needs to be highlighted
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        If a Contestant will be found for a given contestantId, such contestant's path within a tournament will be highlighted (connecting lines will obtain a color specified by "highlightedConnectionLinesColor" option and contestant's title will obtain a color specified by "highlightedPlayerTitleColor" option)
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <br>
+
+
+
+    <div class="heading-3" id="uninstall">uninstall()</div>
+    <div class="heading-4">Parameters</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;None
+    <div class="heading-4">Return value</div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
+    <p>
+        Calling this method is recommended if you decide to install another playoffs into the same wrapper element. Calling uninstall() in such cases will help release some precious memory. 
+        <br>
+        Though in most cases the best decision will be NOT to install another playoffs into the same wrapper. If you need to switch to another tournament, better use <a href="#replaceData">replaceData()</a> instead.
+    </p>
+    <br><br>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

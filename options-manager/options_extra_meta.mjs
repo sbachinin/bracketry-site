@@ -177,8 +177,8 @@ For instance, if you want to make team titles behave like links`
         title: 'Round title Element getter',
         explanation: `Here you can provide your own round title element.
 getRoundTitleElement will be called with:
-1) data of a round which is being rendered,
-2) index of a round which is being rendered (0-based).
+    1) data of a round which is being rendered,
+    2) index of a round which is being rendered (0-based).
 
 Whatever you return from this function will be injected in the round titles bar.`,
         more_link: '../inject-markup#getRoundTitleElement'
@@ -202,7 +202,7 @@ Whatever you return from this function will be injected in the round titles bar.
     navButtonsPosition: {
         title: 'Navigation (switch rounds) buttons position',
         explanation: Object.entries(BUTTONS_POSITIONS).map(
-            ([pos_name, pos_title]) => `${pos_name}:    ${pos_title}`
+            ([pos_name, pos_title]) => `"${pos_name}":    ${pos_title}`
         ).join('\n')
     },
 
@@ -286,13 +286,13 @@ getNationalityHTML must return a string. Ideally it has to be a string of HTML w
         explanation: `A string (hopefully containing HTML code) returned from getEntryStatusHTML will be injected into the corresponding (leftmost) column of a match.
 
 getEntryStatusHTML will be called with:
-            1) "entryStatus":
-                A string containing an entryStatus of a Contestant which is being rendered (contestants[contestantId].entryStatus), if such property was provided to createPlayoffs()
-            2) "context": 
-                An object that tells you where (for which player etc) entry status is rendered. Contains these properties:
-                    - roundIndex - 0-based index of a round
-                    - matchOrder - 0-based index of a match within a round
-                    - contestantId - string that refers to an entry within Contestants dictionary
+        1) "entryStatus":
+            A string containing an entryStatus of a Contestant which is being rendered (contestants[contestantId].entryStatus), if such property was provided to createPlayoffs()
+        2) "context": 
+            An object that tells you where (for which player etc) entry status is rendered. Contains these properties:
+                - roundIndex - 0-based index of a round
+                - matchOrder - 0-based index of a match within a round
+                - contestantId - string that refers to an entry within Contestants dictionary
             
 getEntryStatusHTML must return a string. Ideally it has to be a string of HTML where the root element has an explicit width (equal for all sides). This will help with horizontal alignment within a match.`,
         
@@ -303,14 +303,14 @@ getEntryStatusHTML must return a string. Ideally it has to be a string of HTML w
         explanation: `A string (hopefully containing HTML code) returned from getPlayerTitleHTML will be injected into the corresponding column of a match.
         
 getPlayerTitleHTML will be called with:
-            1) "player"
-                An object containing data of a Player whose title is being rendered (contestants[contestantId].players[playerIndex]), if such data was provided to createPlayoffs()
-            2) "context"
-                An object with properties:
-                    - roundIndex - 0-based index of a round
-                    - matchOrder - 0-based index of a match within a round
-                    - contestantId - string that refers to an entry within Contestants dictionary
-                    - playerIndex - (number) an index of a player within Contestant.players array
+        1) "player"
+            An object containing data of a Player whose title is being rendered (contestants[contestantId].players[playerIndex]), if such data was provided to createPlayoffs()
+        2) "context"
+            An object with properties:
+                - roundIndex - 0-based index of a round
+                - matchOrder - 0-based index of a match within a round
+                - contestantId - string that refers to an entry within Contestants dictionary
+                - playerIndex - (number) an index of a player within Contestant.players array
 
 Return value: HTML string or just a string
         
@@ -326,10 +326,10 @@ getPlayerTitleHTML is the recommended way to turn your players' titles into link
 getScoresHTML is called for each side of a match separately. The output string is used to render scores of a single side, not both sides.
 
 getScoresHTML is called with:
-            1) "side"
-                An object containing data of a Side of a match
-            2) "match"
-                An object containing data of a Match which contains a Side whose score is being rendered`
+        1) "side"
+            An object containing data of a Side of a match
+        2) "match"
+            An object containing data of a Match which contains a Side whose score is being rendered`
     },
 
     matchMaxWidth: {

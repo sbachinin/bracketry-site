@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - "External" navigation</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/sheep.jpg" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">"External" navigation</div>
+
+    <i>("Navigation" means switching between rounds in a tournament which is <b>too wide</b> to be fully visible)</i>
+
+    <p>
+        Here is the detailed description of several "lifecycle" methods (those returned from createPlayoffs()) which can
+        be used to implement your own navigation mechanism.
+        <br>
+        An approach described here will make more sense if you want to change how navigation <b>behaves</b>. If you just
+        want to change how navigation buttons <b>look</b> or how they are <b>positioned</b>, an easier solution might be
+        to adjust some of the navigation-related options:
+    </p>
+    <ul>
+        <li><a href="../options#navButtonsPosition">navButtonsPosition</a></li> (this one will surely be of use. Set it to "hidden" in case you want to replace the default nav buttons completely)
+        <li><a href="../options#navButtonsTopDistance">navButtonsTopDistance</a></li>
+        <li><a href="../options#defaultNavigationIconSize">defaultNavigationIconSize</a></li>
+        <li><a href="../options#navigationSvgColor">navigationSvgColor</a></li>
+        <li><a href="../options#leftNavigationButtonHTML">leftNavigationButtonHTML</a></li>
+        <li><a href="../options#rightNavigationButtonHTML">rightNavigationButtonHTML</a></li>
+        <li><a href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a></li>
+        <li><a href="../options#resetScrollOnNavigation">resetScrollOnNavigation</a></li>
+    </ul>
+    <br>
+    You may also define how much rounds will be visible at a time using these options:
+    <ul>
+        <li><a href="../options#visibleRoundsCount">visibleRoundsCount</a></li>
+        <li><a href="../options#displayWholeRounds">displayWholeRounds</a></li>
+    </ul>
+
+
+
+
+    <div class="common-playoffs-wrapper"></div>
+
+
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const wrapper = document.querySelector('#your-wrapper-element')
+const data = { ... } // data of specific shape
+
+const options = {
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+
+
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>
