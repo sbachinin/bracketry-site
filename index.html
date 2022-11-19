@@ -53,8 +53,17 @@
             margin: 50px 0 10px 0;
         }
 
-        ul a {
+        ul.links-list a {
             display: list-item;
+            color: #0350af;
+            text-decoration: none;
+            width: max-content;
+            border-bottom: 1px solid transparent;
+            max-width: 100%;
+        }
+
+        ul.links-list a:hover {
+            border-bottom: 1px solid #0350af;
         }
     </style>
 
@@ -96,7 +105,7 @@ createPlayoffs(data, wrapper)</code></pre>
 
     <div class="heading-3">How to...</div>
 
-    <ul>
+    <ul class="links-list">
 
         <a href="data-shape">Prepare your <big><b>data</b></big></a>
         <br>
@@ -104,7 +113,7 @@ createPlayoffs(data, wrapper)</code></pre>
         <a href="fonts-colors-sizes">Adjust <big><b>fonts & colors & sizes</b></big></a>
         <br>
 
-        <a href="adjust-buttons">Change the position of <big><b>navigation buttons</b></big></a>
+        <a href="adjust-nav-buttons">Change the position of <big><b>navigation buttons</b></big></a>
         <br>
 
         <a href="external-navigation">Build your own <big><b>"external" navigation</b></big></a>
@@ -134,7 +143,8 @@ createPlayoffs(data, wrapper)</code></pre>
         <a href="live-updates">Apply <big><b>live updates</b></big></a>
         <br>
 
-        <a href="highlight-history"><big><b>Highlight</b></big> team's path within a tournament (or disable highlighting)</a>
+        <a href="highlight-history"><big><b>Highlight</b></big> team's path within a tournament (or disable
+            highlighting)</a>
         <br>
 
         <a href="live-match">Highlight a <big><b>'Live' match</b></big></a>
@@ -163,7 +173,7 @@ createPlayoffs(data, wrapper)</code></pre>
 
     <div class="heading-3">API</div>
 
-    <ul>
+    <ul class="links-list" style="font-size: 18px;">
         <a href="create-playoffs">createPlayoffs()</a>
         <br>
 

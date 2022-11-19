@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - How to adjust navigation buttons' position</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        .heading-4 {
+            background: #c3e9ee;
+            padding: 4px 10px;
+            width: max-content;
+        }
+
+        .wr1,
+        .wr2,
+        .wr3,
+        .wr4,
+        .wr5 {
+            height: 250px;
+            max-width: 700px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/logo.png" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">How to adjust navigation buttons</div>
+
+    <p><i>(Navigation buttons are those "left" and "right" button that switch rounds back and forth)</i></p>
+
+    <div class="heading-3">navButtonsPosition<span style="font-size: 18px;"> option allows you to choose between these
+            buttons' positions:</span></div>
+
+    <br>
+    <div class="heading-4">a) "gutters"</div>
+    <p>
+        The default one. Stretches the buttons along the left and right edges of the matches area.
+        <br>Width of the matches area is reduced by the width of the buttons.
+    </p>
+
+    <div class="wr1"></div>
+
+    <br>
+    <br>
+    <br>
+    <div class="heading-4">b) "overMatches"</div>
+    <p>
+        Same as 'gutters' but it doesn't consume the width, allowing the matches area expand to the full width.
+        <br>
+        Clickable area of the button in this case is only the small area around the button's icon.
+        <br>
+        You can adjust a vertical position of this icon using <a
+            href="../options#navButtonsTopDistance"><b>navButtonsTopDistance</b></a> option.
+    </p>
+
+    <div class="wr2"></div>
+
+    <br>
+    <br>
+    <br>
+    <div class="heading-4">c) "beforeTitles"</div>
+    <p>
+        Buttons appear at the very top, pushing the round titles down.
+    </p>
+    <div class="wr3"></div>
+
+    <br>
+    <br>
+    <br>
+    <div class="heading-4">d) "overTitles"</div>
+    <p>
+        Buttons are assimilated into the round titles bar.
+    </p>
+    <div class="wr4"></div>
+
+
+    <br>
+    <br>
+    <br>
+    <div class="heading-4">e) "hidden"</div>
+    <p>
+        They are hidden. Makes sense if you want to replace the default buttons with some "<a
+            href="../external-navigation">external</a>" ones. (Otherwise there will be no way to navigate).
+    </p>
+
+
+
+
+
+    <br>
+    <br>
+    <div class="heading-3">How</div>
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+...
+
+const options = {
+    navButtonsPosition: 'overMatches'
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+
+    <br>
+
+    <div class="heading-3">Some other navigation-related options</div>
+    <ul>
+        <li><a href="../options#leftNavigationButtonHTML">leftNavigationButtonHTML</a></li>
+        <li><a href="../options#rightNavigationButtonHTML">rightNavigationButtonHTML</a></li>
+        <li><a href="../options#defaultNavigationIconSize">defaultNavigationIconSize</a></li>
+        <li><a href="../options#navigationSvgColor">navigationSvgColor</a></li>
+        <li><a href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a></li>
+    </ul>
+    <br>
+    <p><i>Here <b>leftNavigationButtonHTML</b> and <b>rightNavigationButtonHTML</b> options were used:</i></p>
+    <div class="wr5"></div>
+
+    <br>
+    <br>
+
+    <div class="heading-3">You can replace the built-in buttons with any "external" stuff</div>
+    <p>
+        There are several <big><b><a href="../external-navigation">methods</a></b></big> which allow you to "manually" navigate between
+        rounds. So you can navigate in response to any events on a page.
+    </p>
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

@@ -5,7 +5,7 @@ const get_text = (options_to_values) => {
     const default_options = get_default_options()
     const non_default_options = Object.fromEntries(
         Object.entries(options_to_values)
-            .filter(([n, v]) => default_options[n] !== v)  
+            .filter(([n, v]) => default_options[n] !== v)
     )
     return JSON.stringify(non_default_options, null, 4)
         .replace(/"([^"]+)":/g, '$1:') // remove quotes from object keys
@@ -55,8 +55,9 @@ export const create_user_options_text = () => {
     const wrapper = create_element_from_Html(`
         <div style='
             margin: 70px 10px 0;
-            background: #cfffe9;
+            background: #e5fdfc;
             padding: 10px;
+            font-family: monospace;
         '>
             Resulting object of non-default options:
         </div>
