@@ -15,14 +15,15 @@ export const adjust_options_on_resize = (playoffs, options_manager) => {
                 matchHorMargin: 8
             })
         } else {
-            const def = get_default_options()
+            const d_o = get_default_options()
+            const u_o = playoffs.getUserOptions()
             playoffs.applyNewOptions({
-                visibleRoundsCount: def.visibleRoundsCount,
-                navButtonsPosition: def.navButtonsPosition,
-                matchFontSize: def.matchFontSize,
-                matchMinVerticalGap: def.matchMinVerticalGap,
-                matchAxisMargin: def.matchAxisMargin,
-                matchHorMargin: def.matchHorMargin
+                visibleRoundsCount: u_o.visibleRoundsCount || d_o.visibleRoundsCount,
+                navButtonsPosition: u_o.navButtonsPosition || d_o.navButtonsPosition,
+                matchFontSize: u_o.matchFontSize || d_o.matchFontSize,
+                matchMinVerticalGap: u_o.matchMinVerticalGap || d_o.matchMinVerticalGap,
+                matchAxisMargin: u_o.matchAxisMargin || d_o.matchAxisMargin,
+                matchHorMargin: u_o.matchHorMargin || d_o.matchHorMargin
             })
         }
         options_manager?.update_inputs(playoffs.getUserOptions())

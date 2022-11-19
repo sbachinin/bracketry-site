@@ -29,7 +29,7 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/sheep.jpg" />
+        <img class="logo" src="../images/logo.png" />
         <div class="title">
             <a href="../">
                 PLAYOFFS<span class="subtitle">js</span>
@@ -163,8 +163,8 @@ playoffs.setBaseRoundIndex(2)</code></pre>
     <div class="heading-4">Parameters</div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
     <div class="heading-4">Return value</div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object containing some navigation info:
-    <ul>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An object containing some navigation info:
+    <ul style="margin: 10px 0 0 30px;">
         <li>lastRoundIsFullyVisible (boolean)</li>
         <li>allRoundsAreVisible (boolean)</li>
         <li>baseRoundIndex (numbe)</li>
@@ -209,7 +209,7 @@ playoffs.setBaseRoundIndex(2)</code></pre>
     <div class="heading-3 data-function" id="applyMatchesUpdates">applyMatchesUpdates()</div>
     <div class="heading-4">Parameters</div>
     <ul>
-        <li>matches</li>
+        <li><div class="parameter">matches</div></li>
         <p style="margin-top: 0">An array of matches that you want to update.
             <br>Every such match must be a complete <a href="../data-shape">Match</a> object because an old match (that
             with the same roundIndex and matchOrder) will be <b>replaced</b> by a new match data, i.e. it's NOT a merge

@@ -4,14 +4,13 @@ html {
 
 body {
     width: 100%;
-    max-width: 1200px;
-
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 3%;
     box-sizing: border-box;
-
     font-family: Open Sans, Roboto, sans-serif;
     letter-spacing: 0.05em;
+    background: rgba(247,250,341, 0.6);
 }
 
 
@@ -26,7 +25,7 @@ header>* {
 }
 
 .logo {
-    height: 100px;
+    height: 120px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 24px;
@@ -35,13 +34,12 @@ header>* {
 
 .title {
     display: inline-block;
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 0.07em;
     font-weight: bold;
     line-height: 0.85;
     word-wrap: break-word;
     vertical-align: middle;
-    color: #117181;
 }
 
 .pixels-badge {
@@ -52,20 +50,23 @@ header>* {
 
 .title a {
     text-decoration: none;
-    color: #117181;
+    color: black;
 }
 
 .subtitle {
-    color: #c3c300;
-    margin-left: 3px;
+    color: #ffff40;
+    margin-left: 12px;
     font-size: 18px;
+    background: #ba3e3e;
     margin-top: -18px;
+    vertical-align: middle;
+    padding: 1px 1px 3px 5px;
 }
 
 .description {
     margin-left: 47px;
-    font-size: 16px;
-    color: #868686;
+    font-size: 18px;
+    color: #484848;
     font-weight: normal;
     font-family: unset;
     letter-spacing: 0.03em;
@@ -77,9 +78,10 @@ header>* {
 }
 
 pre code.hljs {
-    background: #f6f6f6;
-    font-size: 16px;
-    padding: 1em 0.5em;
+    background: #ffffff;
+    font-size: 17px;
+    padding: 1em;
+    border: 1px solid #e3e3e3;
 }
 
 .common-playoffs-wrapper {
@@ -89,7 +91,7 @@ pre code.hljs {
 
 
 .parameter {
-    background: #f2f1f1;
+    background: #ededed;
     padding: 0 0.25rem;
     line-height: 1.7em;
     width: fit-content;
@@ -106,14 +108,18 @@ pre code.hljs {
 }
 
 
-
+.note {
+    background: #fffef0;
+    color: #031654;
+    padding: 1px 27px;
+}
 
 
 
 
 .main-button {
-    background: black;
-    color: white;
+    background: #cddc39b8;
+    font-weight: bold;
     padding: 3px 7px;
     user-select: none;
     cursor: pointer;
@@ -153,6 +159,7 @@ pre code.hljs {
     background: white;
     border-left: 1px solid #ccc;
     letter-spacing: 0.03em;
+    box-shadow: 6px 2px 20px 0px rgb(0 0 0 / 50%);
 }
 
 .sidebar-close-button {

@@ -28,9 +28,10 @@ export const options_manager_styles = `
 
 
     .options-group-heading {
-        background: #f3f3f3;
+        background: #00eadd1a;
         font-size: 18px;
         padding: 8px 20px 8px 10px;
+        font-family: monospace;
         cursor: pointer;
         user-select: none;
         display: flex;
@@ -39,9 +40,7 @@ export const options_manager_styles = `
         clear: both;
         color: black;
         text-transform: capitalize;
-    }
-    .options-group-heading {
-        margin: 5px 0;
+        margin: 8px;
     }
 
     .options-group-heading span {

@@ -9,7 +9,38 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
+        .nav-functions a {
+            font-weight: bold;
+        }
 
+        .buttons {
+            user-select: none;
+        }
+
+        .buttons>div {
+            display: inline-block;
+            margin: 5px;
+            background: rgb(228 182 255);
+            font-size: 24px;
+            padding: 5px 12px;
+            cursor: pointer;
+            user-select: none;
+            opacity: 0.7;
+        }
+
+        .buttons>div.disabled {
+            pointer-events: none;
+            opacity: 0.3;
+        }
+
+        .buttons>div.selected {
+            pointer-events: none;
+            opacity: 1;
+        }
+
+        .common-playoffs-wrapper {
+            height: 400px;
+        }
     </style>
 
 </head>
@@ -17,7 +48,7 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/sheep.jpg" />
+        <img class="logo" src="../images/logo.png" />
         <div class="title">
             <a href="../">
                 PLAYOFFS<span class="subtitle">js</span>
@@ -28,49 +59,254 @@
 
     <div class="heading-2">"External" navigation</div>
 
-    <i>("Navigation" means switching between rounds in a tournament which is <b>too wide</b> to be fully visible)</i>
+    <i>(<b>"Navigation"</b> means switching between rounds in a tournament which is <b>too wide</b> to be fully
+        visible)</i>
 
-    <p>
-        Here is the detailed description of several "lifecycle" methods (those returned from createPlayoffs()) which can
-        be used to implement your own navigation mechanism.
-        <br>
-        An approach described here will make more sense if you want to change how navigation <b>behaves</b>. If you just
-        want to change how navigation buttons <b>look</b> or how they are <b>positioned</b>, an easier solution might be
-        to adjust some of the navigation-related options:
+    <p style="margin-bottom: 0">
+        The following "lifecycle" methods (those returned from createPlayoffs()) can
+        help you implement your own navigation mechanism:
     </p>
-    <ul>
-        <li><a href="../options#navButtonsPosition">navButtonsPosition</a></li> (this one will surely be of use. Set it to "hidden" in case you want to replace the default nav buttons completely)
-        <li><a href="../options#navButtonsTopDistance">navButtonsTopDistance</a></li>
-        <li><a href="../options#defaultNavigationIconSize">defaultNavigationIconSize</a></li>
-        <li><a href="../options#navigationSvgColor">navigationSvgColor</a></li>
-        <li><a href="../options#leftNavigationButtonHTML">leftNavigationButtonHTML</a></li>
-        <li><a href="../options#rightNavigationButtonHTML">rightNavigationButtonHTML</a></li>
-        <li><a href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a></li>
-        <li><a href="../options#resetScrollOnNavigation">resetScrollOnNavigation</a></li>
+    <ul class="nav-functions" style="font-size: 18px; margin-top: 0">
+        <li><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound()</a></li>
+        <li><a href="../lifecycle-methods#moveToNextRound">moveToNextRound()</a></li>
+        <li><a href="../lifecycle-methods#moveToLastRound">moveToLastRound()</a></li>
+        <li><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex( index )</a></li>
+        <li><a href="../lifecycle-methods#getNavigationState">
+                getNavigationState()</a>
+            <span style="color: #959595; font-size: 16px;">
+                => { lastRoundIsFullyVisible, allRoundsAreVisible, baseRoundIndex }
+            </span>
+        </li>
     </ul>
     <br>
-    You may also define how much rounds will be visible at a time using these options:
-    <ul>
-        <li><a href="../options#visibleRoundsCount">visibleRoundsCount</a></li>
-        <li><a href="../options#displayWholeRounds">displayWholeRounds</a></li>
-    </ul>
 
+    <div class="note">
+        <p>
+            An approach described here will make more sense if you want to change how navigation <b>behaves</b>. If you
+            just
+            want to change how navigation buttons <b>look</b> or how they are <b>positioned</b>, an easier solution
+            might be
+            to adjust some of the navigation-related options:
+        </p>
+        <ul>
+            <li><a href="../options#navButtonsPosition">navButtonsPosition</a></li> (this one will surely be of use. Set
+            it
+            to "<b>hidden</b>" in case you want to replace the default nav buttons completely)
+            <li><a href="../options#navButtonsTopDistance">navButtonsTopDistance</a></li>
+            <li><a href="../options#defaultNavigationIconSize">defaultNavigationIconSize</a></li>
+            <li><a href="../options#navigationSvgColor">navigationSvgColor</a></li>
+            <li><a href="../options#leftNavigationButtonHTML">leftNavigationButtonHTML</a></li>
+            <li><a href="../options#rightNavigationButtonHTML">rightNavigationButtonHTML</a></li>
+            <li><a href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a></li>
+            <li><a href="../options#resetScrollOnNavigation">resetScrollOnNavigation</a></li>
+        </ul>
+        <br>
+        You may also want to define how much rounds will be visible at a time using these options:
+        <ul>
+            <li><a href="../options#visibleRoundsCount">visibleRoundsCount</a></li>
+            <li><a href="../options#displayWholeRounds">displayWholeRounds</a></li>
+        </ul>
+    </div> <!-- END NOTE -->
 
+    <br>
 
+    <div class="heading-3">Example</div>
+    <div class="heading-2" style="margin-top: 0;">1</div>
 
-    <div class="common-playoffs-wrapper"></div>
+    <p>You may add for example some buttons which will change the playoffs' navigation state.</p>
 
+    <div class="buttons first">
+        <div class="button-prev">prev</div>
+        <div class="button-next">next</div>
+    </div>
+    <br>
 
+    <div class="common-playoffs-wrapper first"></div>
+    <br>
+
+    <p>Example above utilizes <b><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></b> and
+        <b><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a></b> methods:
+    </p>
 
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
 
-const wrapper = document.querySelector('#your-wrapper-element')
-const data = { ... } // data of specific shape
+const playoffs = createPlayoffs(
+    data,
+    document.querySelector('.some-wrapper')
+)
 
-const options = {
-}
+document.querySelector('.button-prev').addEventListener('click', () => {
+    playoffs.moveToPreviousRound()
+})
 
-createPlayoffs(data, wrapper, options)</code></pre>
+document.querySelector('.button-next').addEventListener('click', () => {
+    playoffs.moveToNextRound()
+})</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <hr>
+    <div class="heading-2" style="margin-top: 0;">2</div>
+
+    <p style="font-size: 20px;">Let's add more buttons</p>
+
+    <div class="buttons second">
+        <div class="button-first">first</div>
+        <div class="button-prev">prev</div>
+        <div class="button-0">0</div>
+        <div class="button-1">1</div>
+        <div class="button-2">2</div>
+        <div class="button-3">3</div>
+        <div class="button-4">4</div>
+        <div class="button-5">5</div>
+        <div class="button-6">6</div>
+        <div class="button-next">next</div>
+        <div class="button-last">last</div>
+    </div>
+    <br>
+
+    <div class="common-playoffs-wrapper second"></div>
+    <br>
+
+    <p>Here <b><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></b> and <b><a
+                href="../lifecycle-methods#moveToLastRound">moveToLastRound</a></b> methods are also employed:</p>
+
+    <pre><code class="language-javascript">...
+
+document.querySelector('.button-first').addEventListener('click', () => {
+    playoffs.setBaseRoundIndex(0)
+})
+
+document.querySelector('.button-last').addEventListener('click', () => {
+    playoffs.moveToLastRound()
+})
+
+document.querySelector('.button-2').addEventListener('click', () => {
+    playoffs.setBaseRoundIndex(2)
+})
+
+document.querySelector('.button-4').addEventListener('click', () => {
+    playoffs.setBaseRoundIndex(4)
+})
+
+...</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <hr>
+    <div class="heading-2" style="margin-top: 0;">3</div>
+
+    <p style="font-size: 18px;">Now we can use <b><a
+                href="../lifecycle-methods#getNavigationState">getNavigationState</a></b> to highlight / enable /
+        disable the buttons.
+        <br>
+        And meanwhile let's hide the default buttons (using an option <code
+            style="background: white">{navButtonsPosition: 'hidden'}</code>) because they are kind of useless now.
+    </p>
+
+    <div class="buttons third">
+        <div class="button-first">first</div>
+        <div class="button-prev">prev</div>
+        <div class="button-0 num-button">0</div>
+        <div class="button-1 num-button">1</div>
+        <div class="button-2 num-button">2</div>
+        <div class="button-3 num-button">3</div>
+        <div class="button-4 num-button">4</div>
+        <div class="button-5 num-button">5</div>
+        <div class="button-6 num-button">6</div>
+        <div class="button-next">next</div>
+        <div class="button-last">last</div>
+    </div>
+    <br>
+
+    <div class="common-playoffs-wrapper third"></div>
+    <br>
+
+    <pre><code class="language-javascript">...
+
+const playoffs = createPlayoffs(
+    data,
+    wrapper,
+    { navButtonsPosition: 'hidden' }
+)
+
+...
+
+buttonNext.addEventListener('click', () => {
+    playoffs.moveToNextRound()
+    const {
+        lastRoundIsFullyVisible,
+        allRoundsAreVisible,
+        baseRoundIndex
+    } = playffs.getNavigationState()
+
+    if (lastRoundIsFullyVisible) {
+        buttonLast.classList.add('disabled')
+    }
+
+    if (baseRoundIndex === 0) {
+        button0.classList.add('disabled', 'selected')
+    }
+
+    if (allRoundsAreVisible) {
+        // perhaps hide the buttons or disable them all
+    }
+
+    ...
+})
+
+...</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
