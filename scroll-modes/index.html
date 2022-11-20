@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - Vertical scroll modes</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        .heading-4 {
+            background: #c3e9ee;
+            padding: 4px 10px;
+            width: max-content;
+        }
+
+        .wr1,
+        .wr2,
+        .wr3 {
+            height: 400px;
+            max-width: 700px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/logo.png" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">Vertical scroll modes</div>
+
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+...
+const options = {
+    verticalScrollMode: 'buttons'
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+
+
+    <br>
+    <p><big><big><b>
+                    verticalScrollMode
+                </b></big></big> option allows you to choose between 3 ways of vertical scrolling:</p>
+    <br>
+
+    <div class="heading-4">a) "native" (default)</div>
+    <p>
+        Matches are scrolled in a "native browser way" which can be mousewheel / keys / touchmove or whatever
+    </p>
+
+    <div class="wr1"></div>
+
+    <br>
+    <br>
+    <br>
+    <div class="heading-4">b) "buttons"</div>
+    <p>
+        "Up" and "down" buttons appear above and below the matches.
+        <br>
+        Clicking these buttons will scroll the content by a number of pixels defined by <a
+            href="../options#syntheticScrollAmount">syntheticScrollAmount</a> option.
+        <br>
+        Buttons will be positioned according to <a href="../options#scrollButtonsPosition">scrollButtonsPosition</a>.
+    </p>
+    <div class="wr2"></div>
+
+    <br>
+    <br>
+    <div class="heading-4">c) "mixed"</div>
+    <p>
+        Buttons AND mousewheel together.
+        <br>
+        But ONLY buttons and mousewheel and NOT OTHER native ways of scrolling like keyboard keys or touchmove.
+        Therefore in "mixed" scroll mode on MOBILE devices you get only <b>one way</b> of scrolling the matches
+        (clicking the buttons).
+    </p>
+    <div class="wr3"></div>
+
+
+    <br>
+    <br>
+    <br>
+    <div class="heading-3">Only "mixed" on <a href="../fullscreen">fullscreen</a></div>
+    <p>With options.fullscreen set to true verticalScrollMode will always be "mixed". Setting it to "native" or
+        "buttons" won't work in this case.</p>
+
+    <div class="heading-3">It's non-updatable</div>
+    <p>This option cannot be updated, i.e. it will be ignored when passed to applyNewOptions method.</p>
+
+
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

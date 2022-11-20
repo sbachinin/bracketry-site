@@ -41,7 +41,7 @@ const options_manager = add_options_manager(
 
 const get_option_type_label = (type) => {
     if (type === 'function_or_null') return 'function or null'
-    if (type === 'multiline_string') return 'string'
+    if (type === 'multiline_string' || type === 'select') return 'string'
     if (type === 'pixels') return 'number'
     return type
 }

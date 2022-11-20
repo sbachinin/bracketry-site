@@ -29,15 +29,13 @@ export const create_user_options_text = () => {
         <div style='
             border: 2px solid #ccc;
             display: inline-block;
-            padding: 3px 0;
+            padding: 3px 6px;
             text-align: center;
             font-weight: bold;
             cursor: pointer;
             margin-top: 5px;
             background: #ebebeb;
             user-select: none;
-            width: 150px;
-            height: 30px;
             line-height: 22px;
             box-sizing: border-box;
         '>Copy to clipboard</div>

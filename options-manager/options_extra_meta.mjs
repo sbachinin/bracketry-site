@@ -5,17 +5,21 @@ export const options_extra_meta = {
     verticalScrollMode: {
         title: `Vertical scroll mode`,
         explanation: `Possible values:
+    
     - "native": matches are scrolled in a "native browser way" which can be mousewheel / keys / touchmove or whatever;
+    
     - "buttons": two buttons appear before and after the matches.
         Clicking these buttons will scroll the content by a number of pixels defined by options.syntheticScrollAmount.
         Buttons will be positioned according to options.scrollButtonsPosition.
+    
     - "mixed": buttons AND mousewheel. BUT NOT other native ways of scrolling like keyboard keys or touchmove. Thus in "mixed" scroll mode on MOBILE devices you get ONLY one way of scrolling the matches (clicking the buttons).
 
 With options.fullscreen set to true verticalScrollMode will always be "mixed".
 
 This option cannot be updated, i.e. it will be ignored when passed to applyNewOptions method.`,
 
-        disable_if: options => options.fullscreen === true
+        disable_if: options => options.fullscreen === true,
+        more_link: '../scroll-modes'
     },
 
     scrollButtonsPosition: {
