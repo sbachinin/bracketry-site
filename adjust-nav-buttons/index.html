@@ -46,11 +46,19 @@
     <div class="heading-3">navButtonsPosition<span style="font-size: 18px;"> option allows you to choose between these
             buttons' positions:</span></div>
 
+    <pre><code class="language-javascript">...
+const options = {
+    navButtonsPosition: 'overMatches'
+}
+createPlayoffs(data, wrapper, options)</code></pre>
+
     <br>
     <div class="heading-4">a) "gutters"</div>
     <p>
         The default one. Stretches the buttons along the left and right edges of the matches area.
         <br>Width of the matches area is reduced by the width of the buttons.
+        <br>You can adjust the color of the gutters using <a
+            href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a> option
     </p>
 
     <div class="wr1"></div>
@@ -76,6 +84,8 @@
     <div class="heading-4">c) "beforeTitles"</div>
     <p>
         Buttons appear at the very top, pushing the round titles down.
+        <br>You can adjust the color of the top buttons area using <a
+            href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a> option
     </p>
     <div class="wr3"></div>
 
@@ -104,39 +114,37 @@
 
     <br>
     <br>
-    <div class="heading-3">How</div>
-
-    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
-
-...
-
+    <div class="heading-2">Icons</div>
+    <p>
+        Use <b>leftNavigationButtonHTML</b> and <b>rightNavigationButtonHTML</b> options to get whatever you like
+        instead of the default navigation buttons:
+    </p>
+    <pre><code class="language-javascript">...
 const options = {
-    navButtonsPosition: 'overMatches'
+    navButtonsPosition: 'beforeTitles',
+    leftNavigationButtonHTML: '<div style="padding: 5px;">< PREV ROUND</div>',
+    rightNavigationButtonHTML: '<div style="padding: 5px;">NEXT ROUND ></div>',
 }
-
 createPlayoffs(data, wrapper, options)</code></pre>
-
     <br>
-
-    <div class="heading-3">Some other navigation-related options</div>
-    <ul>
-        <li><a href="../options#leftNavigationButtonHTML">leftNavigationButtonHTML</a></li>
-        <li><a href="../options#rightNavigationButtonHTML">rightNavigationButtonHTML</a></li>
-        <li><a href="../options#defaultNavigationIconSize">defaultNavigationIconSize</a></li>
-        <li><a href="../options#navigationSvgColor">navigationSvgColor</a></li>
-        <li><a href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a></li>
-    </ul>
-    <br>
-    <p><i>Here <b>leftNavigationButtonHTML</b> and <b>rightNavigationButtonHTML</b> options were used:</i></p>
     <div class="wr5"></div>
+    <br>
+    <p>
+        ...Or just change the color and size of the <i>default</i> navigation buttons by setting
+        <b>defaultNavigationIconSize</b> and <b>navButtonSvgColor</b> options
+        </ul>
 
-    <br>
-    <br>
+
+        <br>
+        <br>
 
     <div class="heading-3">You can replace the built-in buttons with any "external" stuff</div>
     <p>
-        There are several <big><b><a href="../external-navigation">methods</a></b></big> which allow you to "manually" navigate between
-        rounds. So you can navigate in response to any events on a page.
+        There are several <big><b><a href="../external-navigation">methods</a></b></big> that allow you to "manually"
+        navigate between rounds. So you can navigate in response to any events on a page.
+        <br>
+        I.e. you can render your own buttons anywhere on a page and use them for navigation instead of (or in addition
+        to) the default playoffs' buttons.
     </p>
 
 

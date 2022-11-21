@@ -149,6 +149,15 @@ playoffs.setBaseRoundIndex(2)</code></pre>
         <br>
         You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
         a default one.
+        <br>
+        <br>
+        You can also use this method to show <b>Nth round</b> at the very beginning (the last contentful round perhaps. But it will be your job to define the last contentful round):
+        <br>
+        <pre><code class="language-javascript" style="font-size: 16px;">import { createPlayoffs } from 'playoffs'
+        
+const playoffs = createPlayoffs(data, wrapper)
+
+playoffs.setBaseRoundIndex(4)</code></pre>
     </p>
     <br><br>
     <hr>

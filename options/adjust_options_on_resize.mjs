@@ -1,20 +1,20 @@
-import { get_default_options } from '../options-manager/options-meta-getter.mjs'
+// import { get_default_options } from '../options-manager/options-meta-getter.mjs'
 
 export const adjust_options_on_resize = (playoffs, options_manager) => {
 
     const mediaQuery = window.matchMedia('(max-width: 600px)')
 
-    const adjust = () => {
-        if (mediaQuery.matches) {
-            playoffs.applyNewOptions({
-                visibleRoundsCount: 1,
-                navButtonsPosition: 'overTitles',
-                matchFontSize: 14,
-                matchMinVerticalGap: 20,
-                matchAxisMargin: 2,
-                matchHorMargin: 8
-            })
-        } else {
+    // const adjust = () => {
+    if (mediaQuery.matches) {
+        playoffs.applyNewOptions({
+            visibleRoundsCount: 1,
+            navButtonsPosition: 'overTitles',
+            matchFontSize: 14,
+            matchMinVerticalGap: 20,
+            matchAxisMargin: 2,
+            matchHorMargin: 8
+        })
+    }/*  else {
             const d_o = get_default_options()
             const u_o = playoffs.getUserOptions()
             playoffs.applyNewOptions({
@@ -25,11 +25,11 @@ export const adjust_options_on_resize = (playoffs, options_manager) => {
                 matchAxisMargin: u_o.matchAxisMargin || d_o.matchAxisMargin,
                 matchHorMargin: u_o.matchHorMargin || d_o.matchHorMargin
             })
-        }
-        options_manager?.update_inputs(playoffs.getUserOptions())
-    }
+        } */
+    options_manager?.update_inputs(playoffs.getUserOptions())
+    // }
 
-    adjust()
+    // adjust()
 
-    mediaQuery.addEventListener('change', adjust)
+    // mediaQuery.addEventListener('change', adjust)
 }

@@ -1,5 +1,3 @@
-import { BUTTONS_POSITIONS } from './options_meta.mjs'
-
 export const options_extra_meta = {
 
     verticalScrollMode: {
@@ -205,9 +203,11 @@ Whatever you return from this function will be injected in the round titles bar.
 
     navButtonsPosition: {
         title: 'Navigation (switch rounds) buttons position',
-        explanation: Object.entries(BUTTONS_POSITIONS).map(
-            ([pos_name, pos_title]) => `"${pos_name}":    ${pos_title}`
-        ).join('\n')
+        explanation: `"overMatches": left and right (on top of matches)
+"gutters": left and right (in the gutters)
+"beforeTitles": header (before round titles)
+"overTitles": header (on top of round titles)
+"hidden": hidden`
     },
 
     navButtonsTopDistance: {
@@ -221,8 +221,13 @@ Can be specified in any CSS units`,
         title: 'Default navigation arrow size',
         explanation: ``
     },
-    navigationSvgColor: {
+    navButtonSvgColor: {
         title: 'Navigation buttons svg color',
+        explanation: ``
+    },
+
+    scrollButtonSvgColor: {
+        title: 'Scroll buttons svg color',
         explanation: ``
     },
 
@@ -338,7 +343,8 @@ getScoresHTML is called with:
 
     matchMaxWidth: {
         title: 'Maximum match width',
-        explanation: `Specifying smaller width here will help Playoffs draw a greater number of rounds within a given width`
+        explanation: `Can be specified in any units.
+Providing smaller width here will help Playoffs draw a greater number of rounds within a given width`
     },
 
     matchMinVerticalGap: {
@@ -371,7 +377,7 @@ getScoresHTML is called with:
         explanation: ``
     },
 
-    matchStatusBackgroundColor: {
+    matchStatusBgColor: {
         title: 'Background color of a match status badge',
         explanation: ``
     },

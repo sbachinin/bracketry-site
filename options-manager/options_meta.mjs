@@ -1,13 +1,5 @@
 export const default_border_gray = '#bbbbbb'
 
-export const BUTTONS_POSITIONS = {
-    overMatches: 'left and right (on top of matches)',
-    gutters: 'left and right (in the gutters)',
-    beforeTitles: 'header (before round titles)',
-    overTitles: 'header (on top of round titles)',
-    hidden: 'hidden'
-}
-
 const arrow_right = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>`
 
 const GENERAL_OPTIONS = {
@@ -124,7 +116,13 @@ const NAVIGATION_OPTIONS = {
 
     navButtonsPosition: {
         type: 'select',
-        options: [...Object.keys(BUTTONS_POSITIONS)],
+        options: [
+            'overMatches',
+            'gutters',
+            'beforeTitles',
+            'overTitles',
+            'hidden'
+        ],
         default_value: 'gutters'
     },
 
@@ -137,7 +135,7 @@ const NAVIGATION_OPTIONS = {
         type: 'pixels',
         default_value: '34',
     },
-    navigationSvgColor: {
+    navButtonSvgColor: {
         type: 'string',
         default_value: '#161616',
     },
@@ -191,7 +189,10 @@ const SCROLL_OPTIONS = {
         type: 'pixels',
         default_value: '34',
     },
-
+    scrollButtonSvgColor: {
+        type: 'string',
+        default_value: '#161616',
+    },
     showScrollbar: {
         type: 'boolean',
         default_value: true
@@ -287,7 +288,7 @@ const MATCH_OPTIONS = {
         min_value: 0,
     },
 
-    matchStatusBackgroundColor: {
+    matchStatusBgColor: {
         type: 'string',
         default_value: '#fff',
     },
@@ -349,9 +350,6 @@ const CALLBACKS = {
         type: 'function_or_null',
         default_value: null
     }
-
-
-
 }
 
 export const OPTIONS = {

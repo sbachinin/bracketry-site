@@ -18,15 +18,6 @@ export const insert_styles = (root_id, styles_id, styles) => {
     )
 }
 
-export const escape_Html = unsafe => {
-    return String(unsafe)
-        ?.replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-}
-
 
 export const get_n_things = (n, cb) => {
     return Array.from(Array(n)).map((_, i) => cb(i))

@@ -1,4 +1,5 @@
 import { create_element_from_Html } from '../pages/utils.mjs'
+import { escapeHtml } from '../utils.mjs'
 
 export const option_explanation_button = (explanation) => {
     const el = create_element_from_Html(`
@@ -9,7 +10,7 @@ export const option_explanation_button = (explanation) => {
     el.addEventListener('click', () => {
         const tooltip = document.querySelector('#option-input-tooltip')
         tooltip.style.display = 'block'
-        tooltip.querySelector('div').innerHTML = explanation
+        tooltip.querySelector('div').innerHTML = escapeHtml(explanation)
     })
     return el
 }

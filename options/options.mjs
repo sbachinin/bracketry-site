@@ -52,7 +52,9 @@ const get_options_group = ([options_group_name, options_of_group], i) => {
 
     if (i > 0) {
         html += `<div style="grid-column: 1/-1">
-            <div class="option-group-title">${options_group_name.toLowerCase().replace(/_/g, ' ')}</div>
+            <div class="option-group-title" id="${options_group_name.toLowerCase().replace(/_/g, '-')}">${
+                options_group_name.toLowerCase().replace(/_/g, ' ')
+            }</div>
         </div>`
     }
 

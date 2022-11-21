@@ -1,5 +1,5 @@
 import { create_element_from_Html, is_object } from '../pages/utils.mjs'
-import { escape_Html } from '../pages/utils.mjs'
+import { escapeHtml } from '../utils.mjs'
 import * as elements from './elements.mjs'
 import { options_extra_meta } from './options_extra_meta.mjs'
 
@@ -34,7 +34,7 @@ export const get_option_input = (name, info, onchange) => {
             input.addEventListener('input', e => {
                 onchange(name, e.target.value)
             })
-            update_the_value = (options) => input.value = escape_Html(options[name])
+            update_the_value = (options) => input.value = escapeHtml(options[name])
             break
 
         case 'function_or_null':

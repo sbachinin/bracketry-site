@@ -7,7 +7,8 @@ createPlayoffs(
     document.querySelector('.wr1'),
     {
         navButtonsPosition: 'gutters',
-        getEntryStatusHTML: () => ''
+        getEntryStatusHTML: () => '',
+        navigationGutterBorderColor: 'orangered'
     }
 )
 
@@ -25,7 +26,8 @@ createPlayoffs(
     document.querySelector('.wr3'),
     {
         navButtonsPosition: 'beforeTitles',
-        getEntryStatusHTML: () => ''
+        getEntryStatusHTML: () => '',
+        navigationGutterBorderColor: 'orangered'
     }
 )
 

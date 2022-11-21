@@ -1,5 +1,5 @@
 import { create_element_from_Html } from '../pages/utils.mjs'
-import { escape_Html } from '../pages/utils.mjs'
+import { escapeHtml } from '../utils.mjs'
 export { create_tooltip } from './tooltip.mjs'
 export { option_explanation_button } from './option_explanation_button.mjs'
 
@@ -37,7 +37,7 @@ export const option_wrapper_el = (name, type, title) => create_element_from_Html
             
         <div class="single-option ${type}">
             <div class="option-info">
-                <span class="option-title">${escape_Html(title)}</span>
+                <span class="option-title">${escapeHtml(title)}</span>
                 <span class="explanation-placeholder"></span>
             </div>
             <span class="input-placeholder"></span>
