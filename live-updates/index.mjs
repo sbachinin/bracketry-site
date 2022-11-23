@@ -6,7 +6,7 @@ const playoffs = createPlayoffs(
     data,
     document.querySelector('.common-playoffs-wrapper'),
     {
-        matchMaxWidth: '400px',
+        matchMaxWidth: 400,
         getEntryStatusHTML: (es) => {
             return `<div style="color: #ccc; width: 15px;">${es || ''}</div>`
         },

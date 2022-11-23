@@ -68,7 +68,7 @@ const BORDERS_OPTIONS = {
         default_value: ''
     },
 
-    roundTitlesBorderBottomColor: {
+    roundTitlesBorderColor: {
         type: 'string',
         default_value: ''
     },
@@ -252,9 +252,9 @@ const MATCH_OPTIONS = {
     },
 
     matchMaxWidth: {
-        type: 'string',
-        /* setting it to specific value by default may lead to very puzzling layout problems on wide matches */
-        default_value: 'unset'
+        type: 'pixels',
+        /* setting it to specific small value by default may lead to very puzzling layout problems on wide matches */
+        default_value: 1000
     },
 
     matchMinVerticalGap: {
@@ -277,7 +277,7 @@ const MATCH_OPTIONS = {
         default_value: 2,
     },
 
-    liveMatchBackgroundColor: {
+    liveMatchBgColor: {
         type: 'string',
         default_value: 'transparent'
     },

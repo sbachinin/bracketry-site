@@ -50,8 +50,6 @@ export default {
                     "scores": [
                         {
                             "mainScore": "5",
-                            
-                            subscore: 32
                         },
                         {
                             "mainScore": "2",

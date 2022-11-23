@@ -89,7 +89,7 @@ Default "" (empty string) value means that the "rootBorderColor" option will be 
         explanation: `When this options is set to "" (empty string), "rootBorderColor" option will be used instead`
     },
 
-    roundTitlesBorderBottomColor: {
+    roundTitlesBorderColor: {
         title: 'Round titles bottom border-color',
         explanation: `When this options is set to "" (empty string), "rootBorderColor" option will be used instead`
     },
@@ -343,7 +343,7 @@ getScoresHTML is called with:
 
     matchMaxWidth: {
         title: 'Maximum match width',
-        explanation: `Can be specified in any units.
+        explanation: `Only pixels here.
 Providing smaller width here will help Playoffs draw a greater number of rounds within a given width`
     },
 
@@ -367,9 +367,9 @@ Providing smaller width here will help Playoffs draw a greater number of rounds 
         explanation: ``
     },
 
-    liveMatchBackgroundColor: {
+    liveMatchBgColor: {
         title: 'Live match background color',
-        explanation: ``
+        explanation: `Better provide a semi-transparent color because it's painted on top of the connection line. Therefore connection line will disappear behind the live background if the latter is opaque.`
     },
 
     distanceBetweenScorePairs: {

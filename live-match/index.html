@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - Live match</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/logo.png" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">Live match</div>
+
+    <div style="padding: 30px 0 0 0">
+        <img src="./live-match.png" style="max-width: 100%;
+    margin: 0 auto;">
+    </div>
+
+    <p>
+        A "live" match is such that has "isLive" property set to true. (See <a href="../data-shape">data</a>). For such
+        a match <a href="../options#liveMatchBorderColor"><b>liveMatchBorderColor</b></a> and <a
+            href="../options#liveMatchBgColor"><b>liveMatchBgColor</b></a> options will be applied.
+        <br>
+        <br>
+        For a "live" match in <b>tennis</b> you will also need the following properties:
+        <br>
+        &nbsp;&nbsp;&nbsp; - "<b>isServing</b>": a side which has this property set to true will get a green circle on
+        the very right.
+        <br>
+        &nbsp;&nbsp;&nbsp; - "<b>currentScore</b>": a side which has this propery set to a <i>number or string</i> will
+        get this number painted next to the "main" scores.
+        <br>
+        <br>
+        To update the live match in real time use <b>applyMatchesUpdates</b> method as described <a
+            href="../live-updates">here</a>.
+    </p>
+
+
+    <br>
+    <br>
+    <div class="heading-3">Example</div>
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const data = {
+    rounds: [{}],
+    matches: [
+        {
+            roundIndex: 0,
+            order: 0,
+            isLive: true,
+            sides: [
+                {
+                    contestantId: "c1",
+                    scores: [ ... ],
+                    currentScore: "40",
+                    isServing: true
+                },
+                {
+                    contestantId: "c2",
+                    scores: [ ... ],
+                    currentScore: "A",
+
+                }
+            ]
+        }
+    ],
+    contestants: { ... }
+}
+
+const options = {
+    liveMatchBorderColor: "#f38bff",
+    liveMatchBgColor: "rgb(117 244 180 / 20%)"
+}
+
+const playoffs = createPlayoffs(data, wrapper)</code></pre>
+    <br>
+
+    <div class="wr1"></div>
+
+
+
+
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>
