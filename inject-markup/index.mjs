@@ -16,7 +16,6 @@ const playoffs = createPlayoffs(
                 <div style="text-align: center; font-size: 16px; background: #fff6aa; padding: 2px 4px;">Prize money: ${100 * Math.pow(2, i)}$</div>
             </div>`
         ),
-        roundTitlesHeight: 74,
         getEntryStatusHTML: (es) => `<div class="estatus">${es || ''}</div>`,
         getNationalityHTML: () => em[Math.floor(Math.random() * 10)],
         getPlayerTitleHTML: p => `<a href="http://google.com/search?q=${p.title}" target="blank">

@@ -10,7 +10,7 @@ const playoffs = createPlayoffs(
         rootBgColor: "#316581",
         mainVerticalPadding: 40,
         rootBorderColor: "#c54343",
-        roundTitlesHeight: 36,
+        roundTitlesVerticalPadding: 0,
         roundTitleColor: "orangered",
         defaultNavigationIconSize: 25,
         navButtonSvgColor: "#a8ff75",

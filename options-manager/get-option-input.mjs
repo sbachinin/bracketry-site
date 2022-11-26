@@ -85,6 +85,7 @@ export const get_option_input = (name, info, onchange) => {
 
 
     const extra = options_extra_meta[name]
+    if (!extra) throw 'no meta for an option called ' + name
     const wrapper_el = elements.option_wrapper_el(name, info.type, extra?.title)
     wrapper_el.querySelector('.input-placeholder').replaceWith(input)
     wrapper_el.querySelector('.explanation-placeholder').replaceWith(

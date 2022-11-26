@@ -101,9 +101,9 @@ const ROUND_TITLE_OPTIONS = {
         default_value: null
     },
 
-    roundTitlesHeight: {
+    roundTitlesVerticalPadding: {
         type: 'pixels',
-        default_value: '50'
+        default_value: 8
     },
 
     roundTitleColor: {
@@ -131,10 +131,6 @@ const NAVIGATION_OPTIONS = {
         default_value: '50%'
     },
 
-    defaultNavigationIconSize: {
-        type: 'pixels',
-        default_value: '34',
-    },
     navButtonSvgColor: {
         type: 'string',
         default_value: '#161616',
@@ -142,13 +138,25 @@ const NAVIGATION_OPTIONS = {
 
     leftNavigationButtonHTML: {
         type: 'multiline_string',
-        default_value: `<div class="default-nav-icon" style="transform: rotate(180deg)">${arrow_right}</div>`,
+        default_value: `<div class="default-nav-icon">
+            <div style="transform: rotate(180deg); display: flex;">${arrow_right}</div>
+        </div>`,
     },
 
     rightNavigationButtonHTML: {
         type: 'multiline_string',
         default_value: `<div class="default-nav-icon">${arrow_right}</div>`,
     },
+
+    defaultNavigationIconSize: {
+        type: 'pixels',
+        default_value: '34',
+    },
+
+    navButtonPadding: {
+        type: 'string',
+        default_value: '4px'
+    }
 }
 
 const SCROLL_OPTIONS = {
@@ -175,24 +183,35 @@ const SCROLL_OPTIONS = {
         default_value: 'gutters'
     },
 
+    scrollButtonSvgColor: {
+        type: 'string',
+        default_value: '#161616',
+    },
+
     scrollUpButtonHTML: {
         type: 'multiline_string',
-        default_value: `<div class="default-scroll-icon" style="transform: rotate(-90deg)">${arrow_right}</div>`,
+        default_value: `<div class="default-scroll-icon">
+            <div style="transform: rotate(-90deg); display: flex;">${arrow_right}</div>
+        </div>`,
     },
 
     scrollDownButtonHTML: {
         type: 'multiline_string',
-        default_value: `<div class="default-scroll-icon" style="transform: rotate(90deg)">${arrow_right}</div>`,
+        default_value: `<div class="default-scroll-icon">
+            <div style="transform: rotate(90deg); display: flex;">${arrow_right}</div>
+        </div>`,
     },
 
     defaultScrollIconSize: {
         type: 'pixels',
         default_value: '34',
     },
-    scrollButtonSvgColor: {
+
+    scrollButtonPadding: {
         type: 'string',
-        default_value: '#161616',
+        default_value: '4px'
     },
+
     showScrollbar: {
         type: 'boolean',
         default_value: true

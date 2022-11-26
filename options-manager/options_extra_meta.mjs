@@ -186,8 +186,8 @@ Whatever you return from this function will be injected in the round titles bar.
         more_link: '../inject-markup#getRoundTitleElement'
     },
 
-    roundTitlesHeight: {
-        title: 'Round titles height',
+    roundTitlesVerticalPadding: {
+        title: `Round titles' vertical padding`,
         explanation: ``
     },
 
@@ -345,6 +345,16 @@ getScoresHTML is called with:
         title: 'Maximum match width',
         explanation: `Only pixels here.
 Providing smaller width here will help Playoffs draw a greater number of rounds within a given width`
+    },
+
+    scrollButtonPadding: {
+        title: 'Scroll button padding',
+        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc' 
+    },
+
+    navButtonPadding: {
+        title: 'Navigation button padding',
+        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc' 
     },
 
     matchMinVerticalGap: {

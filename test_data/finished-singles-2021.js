@@ -43,7 +43,7 @@ export default {
                             "isWinner": true
                         }
                     ],
-                    "isWinner": 4234234234
+                    "isWinner": true
                 },
                 {
                     "contestantId": "163806",
@@ -4755,12 +4755,10 @@ export default {
             "sides": [
                 {
                     "contestantId": "164021",
-                    "scores": [],
                     "isWinner": true
                 },
                 {
                     "contestantId": "164136",
-                    "scores": [],
                     
                 }
             ],
