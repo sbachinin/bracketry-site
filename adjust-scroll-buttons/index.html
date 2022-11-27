@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - How to adjust scroll buttons</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        .heading-4 {
+            background: #c3e9ee;
+            padding: 4px 10px;
+            width: max-content;
+        }
+
+        .wr1,
+        .wr2,
+        .wr3 {
+            height: 250px;
+            max-width: 700px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/logo.png" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">How to adjust scroll buttons</div>
+
+    <p>
+        <i>(scroll buttons will be rendered only when <b>verticalScrollMode</b> option is set to "buttons" or "mixed")</i>
+        <br>
+        <br>
+        Actually scroll buttons aren't extremely flexible. They are always located above and below the matches area.
+        <br>
+        Though you can choose whether these buttons will <b>"eat"</b> the vertical space, making the matches area shorter, or <b>"float"</b> above the matches area.
+    </p>
+
+    <pre><code class="language-javascript">...
+const options = {
+    verticalScrollMode: "buttons",
+    scrollButtonsPosition: "overMatches" // or "gutters" which is default
+}
+createPlayoffs(data, wrapper, options)</code></pre>
+<br>
+
+    <div class="heading-3">scrollButtonsPosition<span style="font-size: 18px;"> option allows you to choose between 2 positions:</span></div>
+
+    <br>
+
+    <div class="heading-4">a) "gutters"</div>
+    <p>
+        Default one. Buttons take the full width of the matches area.
+        <br>
+        Height of the matches area is <b>reduced</b> by the buttons' height.
+        <br>
+        You can adjust the border-color of the gutters using <a
+            href="../options#scrollGutterBorderColor">scrollGutterBorderColor</a> option
+    </p>
+
+    <div class="wr1"></div>
+
+    <br>
+    <br>
+    <div class="heading-4">b) "overMatches"</div>
+    <p>
+        Clickable area of a button is "floating" over the matches area.
+        <br>
+        Clickable area of a button is not expanded to the full width but limited to the small space around the icon.
+        <br>
+        (Though you can override this using two options: scrollUpButtonHTML and scrollDownButtonHTML. They allow you to inject a tag with a width of 100% or whatever)
+        <br>
+        Height of the matches area is NOT reduced by the buttons' height.
+        <br>
+    </p>
+
+    <div class="wr2"></div>
+
+
+    
+
+
+
+
+
+    <br>
+    <br>
+    <div class="heading-2">Icons</div>
+    <p>
+        Use <b>scrollUpButtonHTML</b> and <b>scrollDownButtonHTML</b> options to get whatever you like
+        instead of default scroll buttons. Note that this HTML must be <b>wrapped in a tag</b>.
+    </p>
+    <pre><code class="language-javascript">...
+const options = {
+    verticalScrollMode: 'buttons',
+    scrollButtonsPosition: 'gutters',
+    scrollUpButtonHTML: 'scroll up',
+    scrollDownButtonHTML: 'scroll down',
+}
+createPlayoffs(data, wrapper, options)</code></pre>
+    <br>
+    <div class="wr3"></div>
+    <br>
+    <p>
+        ...Or just change the color and size of the <i>default</i> scroll buttons by setting
+        <b>scrollIconSize</b> and <b>scrollButtonSvgColor</b> options.
+        <br>
+        You can also add (or reduce) some space around an icon by setting <b>scrollButtonPadding</b>.
+
+        <br>
+        <br>
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

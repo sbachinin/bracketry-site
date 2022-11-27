@@ -11,10 +11,20 @@ body {
     font-family: Open Sans, Roboto, sans-serif;
     letter-spacing: 0.05em;
     background: #fafcff;
+
 }
 
-
-
+/* dark theme
+body {
+    background: #18374b;
+}
+body * {
+    color: #9fd97c !important;
+}
+pre code.hljs {
+    background: #583333 !important;
+}
+ */
 
 header {
     text-align: center;

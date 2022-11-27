@@ -8,7 +8,7 @@ createPlayoffs(
     {
         navButtonsPosition: 'gutters',
         getEntryStatusHTML: () => '',
-        navigationGutterBorderColor: 'orangered'
+        navGutterBorderColor: 'orangered'
     }
 )
 
@@ -27,7 +27,7 @@ createPlayoffs(
     {
         navButtonsPosition: 'beforeTitles',
         getEntryStatusHTML: () => '',
-        navigationGutterBorderColor: 'orangered'
+        navGutterBorderColor: 'orangered'
     }
 )
 
@@ -45,8 +45,8 @@ createPlayoffs(
     document.querySelector('.wr5'),
     {
         navButtonsPosition: 'beforeTitles',
-        leftNavigationButtonHTML: '<div style="padding: 5px;">< PREV ROUND</div>',
-        rightNavigationButtonHTML: '<div style="padding: 5px;">NEXT ROUND ></div>',
+        leftNavButtonHTML: '<div style="padding: 5px;">< PREV ROUND</div>',
+        rightNavButtonHTML: '<div style="padding: 5px;">NEXT ROUND ></div>',
         getEntryStatusHTML: () => ''
     }
 )

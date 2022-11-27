@@ -31,8 +31,8 @@ Possible values:
             && options.fullscreen !== true
     },
 
-    defaultScrollIconSize: {
-        title: `Size of a default vertical scroll icon`
+    scrollIconSize: {
+        title: `Size of a default scroll arrow`
     },
 
     syntheticScrollAmount: {
@@ -107,7 +107,7 @@ When this options is set to "" (empty string), "rootBorderColor" option will be 
         explanation: `When this options is set to "" (empty string), "rootBorderColor" option will be used instead`
     },
 
-    navigationGutterBorderColor: {
+    navGutterBorderColor: {
         title: 'Navigation gutter border color',
         explanation: `Applied only when navButtonsPosition is "gutters" or "overTitles" or "beforeTitles".
 When this options is set to "" (empty string), "rootBorderColor" option will be used instead`,
@@ -217,36 +217,36 @@ Can be specified in any CSS units`,
         disable_if: options => options.navButtonsPosition !== 'overMatches'
     },
 
-    defaultNavigationIconSize: {
-        title: 'Default navigation arrow size',
+    navButtonSize: {
+        title: 'Size of the default navigation arrow',
         explanation: ``
     },
     navButtonSvgColor: {
-        title: 'Navigation buttons svg color',
+        title: 'Color of the default navigation arrow',
         explanation: ``
     },
 
     scrollButtonSvgColor: {
-        title: 'Scroll buttons svg color',
+        title: 'Color of the default scroll arrow',
         explanation: ``
     },
 
-    leftNavigationButtonHTML: {
+    leftNavButtonHTML: {
         title: 'Inner HTML of LEFT navigation button',
-        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
     },
-    rightNavigationButtonHTML: {
+    rightNavButtonHTML: {
         title: 'Inner HTML of RIGHT navigation button (<svg> / <img> / whatever)',
-        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
     },
 
     scrollUpButtonHTML: {
         title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
-        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
     },
     scrollDownButtonHTML: {
         title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
-        explanation: `Can be a normal HTML string (<svg> / <img> / whatever) or just a text`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
     },
 
     connectionLinesWidth: {
@@ -348,12 +348,12 @@ Providing smaller width here will help Playoffs draw a greater number of rounds 
     },
 
     scrollButtonPadding: {
-        title: 'Scroll button padding',
+        title: 'Padding around the default scroll arrow',
         explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc' 
     },
 
     navButtonPadding: {
-        title: 'Navigation button padding',
+        title: 'Padding around the default navigation arrow',
         explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc' 
     },
 

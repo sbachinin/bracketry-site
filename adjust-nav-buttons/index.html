@@ -2,7 +2,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Playoffs - How to adjust navigation buttons' position</title>
+    <title>Playoffs - How to adjust navigation buttons</title>
 
     <script defer type="module" src="./index.mjs"></script>
     <link rel="stylesheet" href="../styles/atom-one-light.min.css">
@@ -57,8 +57,8 @@ createPlayoffs(data, wrapper, options)</code></pre>
     <p>
         The default one. Stretches the buttons along the left and right edges of the matches area.
         <br>Width of the matches area is reduced by the width of the buttons.
-        <br>You can adjust the color of the gutters using <a
-            href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a> option
+        <br>You can adjust the border-color of the gutters using <a
+            href="../options#navGutterBorderColor">navGutterBorderColor</a> option
     </p>
 
     <div class="wr1"></div>
@@ -85,7 +85,7 @@ createPlayoffs(data, wrapper, options)</code></pre>
     <p>
         Buttons appear at the very top, pushing the round titles down.
         <br>You can adjust the color of the top buttons area using <a
-            href="../options#navigationGutterBorderColor">navigationGutterBorderColor</a> option
+            href="../options#navGutterBorderColor">navGutterBorderColor</a> option
     </p>
     <div class="wr3"></div>
 
@@ -116,14 +116,14 @@ createPlayoffs(data, wrapper, options)</code></pre>
     <br>
     <div class="heading-2">Icons</div>
     <p>
-        Use <b>leftNavigationButtonHTML</b> and <b>rightNavigationButtonHTML</b> options to get whatever you like
-        instead of the default navigation buttons:
+        Use <b>leftNavButtonHTML</b> and <b>rightNavButtonHTML</b> options to get whatever you like
+        instead of default navigation buttons. Note that this HTML must be <b>wrapped in a tag</b>.
     </p>
     <pre><code class="language-javascript">...
 const options = {
     navButtonsPosition: 'beforeTitles',
-    leftNavigationButtonHTML: '&lt;div style=&quot;padding: 5px;&quot;&gt;&lt; PREV ROUND&lt;/div&gt;',
-    rightNavigationButtonHTML: '&lt;div style=&quot;padding: 5px;&quot;&gt;&lt; PREV ROUND&lt;/div&gt;',
+    leftNavButtonHTML: '&lt;div style=&quot;padding: 5px;&quot;&gt;&lt; PREV ROUND&lt;/div&gt;',
+    rightNavButtonHTML: '&lt;div style=&quot;padding: 5px;&quot;&gt;NEXT ROUND &gt;&lt;/div&gt;',
 }
 createPlayoffs(data, wrapper, options)</code></pre>
     <br>
@@ -131,7 +131,7 @@ createPlayoffs(data, wrapper, options)</code></pre>
     <br>
     <p>
         ...Or just change the color and size of the <i>default</i> navigation buttons by setting
-        <b>defaultNavigationIconSize</b> and <b>navButtonSvgColor</b> options.
+        <b>navButtonSize</b> and <b>navButtonSvgColor</b> options.
         <br>
         You can also add (or reduce) some space around an icon by setting <b>navButtonPadding</b>.
 
