@@ -1,4 +1,4 @@
-import { create_element_from_Html } from '../pages/utils.mjs'
+import { create_element_from_Html } from '../utils.mjs'
 
 export const create_tooltip = () => {
     const tooltip = create_element_from_Html(`

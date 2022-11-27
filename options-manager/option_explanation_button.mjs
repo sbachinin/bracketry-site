@@ -1,5 +1,4 @@
-import { create_element_from_Html } from '../pages/utils.mjs'
-import { escapeHtml } from '../utils.mjs'
+import { create_element_from_Html, escapeHtml } from '../utils.mjs'
 
 export const option_explanation_button = (explanation) => {
     const el = create_element_from_Html(`

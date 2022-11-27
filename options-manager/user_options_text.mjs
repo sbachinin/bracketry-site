@@ -1,4 +1,4 @@
-import { create_element_from_Html } from '../pages/utils.mjs'
+import { create_element_from_Html } from '../utils.mjs'
 import { get_default_options } from './options-meta-getter.mjs'
 
 const get_text = (options_to_values) => {

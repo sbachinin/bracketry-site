@@ -1,7 +1,7 @@
 import { OPTIONS } from './options_meta.mjs'
 import { get_all_options_names } from './options-meta-getter.mjs'
 import { insertAfter } from '../utils.mjs'
-import { create_element_from_Html } from '../pages/utils.mjs'
+import { create_element_from_Html } from '../utils.mjs'
 
 export const add_options_search = (
     sidebar_el,

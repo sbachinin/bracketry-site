@@ -1,7 +1,7 @@
 import { createPlayoffs } from '../easy-playoffs.min.js'
 import data from '../test_data/finished-singles-2021.js'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
-import { create_element_from_Html } from '../pages/utils.mjs'
+import { create_element_from_Html } from '../utils.mjs'
 
 
 const em = ['🤗', '🤢', '🤫', '🥸', '🤐', '🤨', '😐', '😑', '😈', '🥶']

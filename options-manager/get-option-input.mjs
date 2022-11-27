@@ -1,5 +1,4 @@
-import { create_element_from_Html, is_object } from '../pages/utils.mjs'
-import { escapeHtml } from '../utils.mjs'
+import { create_element_from_Html, escapeHtml, is_object } from '../utils.mjs'
 import * as elements from './elements.mjs'
 import { options_extra_meta } from './options_extra_meta.mjs'
 

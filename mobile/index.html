@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - Small screens</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/logo.png" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">Layout tricks for small screens</div>
+
+    <div class="common-playoffs-wrapper"></div>
+    
+    <p style="background: red">
+        TODO continue
+        here i should properly implement adjust on resize;
+        but it means NO options manager (because there shouldn't be two sources of options change, manager & resize)
+    </p>
+    <div class="heading-3">Provide flexible styles</div>
+    <p>
+        To make playoffs shrink on smaller screens you have to set appropriate styles.
+        <br>
+        First of all, make sure that your wrapper element (that in which playoffs are installed) has a 'fluid' width,
+        i.e. it has for example a style of { max-width: 100vw } or something of this sort.
+        <br>
+        Width can also be set on Playoffs via <b>width</b> option but still it makes more sense to set width on your
+        wrapper (and playoffs by default will take 100% of its width).
+    </p>
+
+    <div class="heading-3">Adjust options according to screen size</div>
+    <p>
+        matchMedia -> visibleRoundsCount etc. Nav. Buttons positions (both nav & scroll)
+        1 vrc -> perhaps will need matchMaxWidth
+    </p>
+
+
+
+
+
+
+
+
+    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const wrapper = document.querySelector('#your-wrapper-element')
+const data = { ... } // data of specific shape
+
+const options = {
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+
+
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

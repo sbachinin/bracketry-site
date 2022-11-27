@@ -1,4 +1,4 @@
-import { create_element_from_Html, get_n_things } from '../pages/utils.mjs'
+import { create_element_from_Html, get_n_things } from '../utils.mjs'
 import { datas, INITIAL_TEST_DATA_INDEX } from './get_some_data.mjs'
 
 const update_dots = (dots, current_index) => {

@@ -1,5 +1,4 @@
-import { create_element_from_Html } from '../pages/utils.mjs'
-import { escapeHtml } from '../utils.mjs'
+import { escapeHtml, create_element_from_Html } from '../utils.mjs'
 export { create_tooltip } from './tooltip.mjs'
 export { option_explanation_button } from './option_explanation_button.mjs'
 
