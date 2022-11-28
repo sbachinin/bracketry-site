@@ -31,7 +31,7 @@ Possible values:
             && options.fullscreen !== true
     },
 
-    scrollIconSize: {
+    scrollButtonArrowSize: {
         title: `Size of a default scroll arrow`
     },
 
@@ -54,10 +54,9 @@ Your wrapper in such case should have explicit width and height. This will preve
 
     fullscreen: {
         title: `Should playoffs be rendered in a fullscreen popup?`,
-        // TODO relavant?
         explanation: `If you set this option to true, it makes sense to render playoffs to the document.body (second argument of createPlayoffs).
 
-Setting width and height options will also make sense. Otherwise playoffs will take the entire viewport.
+Setting width and height options will also make sense. Otherwise playoffs may take the entire viewport without nice paddings around.
 
 Use rootBgColor and fullscreenBgColor to get an opaque background for your fullscreen playoffs.
         
@@ -98,8 +97,7 @@ Default "" (empty string) value means that the "rootBorderColor" option will be 
         title: `Scroll gutter border color`,
         explanation: `Applied when options.verticalScrollMode === "buttons" AND options.scrollButtonsPosition === "gutters".
 When this options is set to "" (empty string), "rootBorderColor" option will be used instead`,
-        disable_if: options => options.verticalScrollMode !== 'buttons'
-            || options.scrollButtonsPosition !== 'gutters'
+        disable_if: options => options.verticalScrollMode === 'native' || options.scrollButtonsPosition !== 'gutters'
     },
 
     hoveredMatchBorderColor: {
@@ -217,7 +215,7 @@ Can be specified in any CSS units`,
         disable_if: options => options.navButtonsPosition !== 'overMatches'
     },
 
-    navButtonSize: {
+    navButtonArrowSize: {
         title: 'Size of the default navigation arrow',
         explanation: ``
     },

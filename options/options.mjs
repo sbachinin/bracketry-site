@@ -14,7 +14,7 @@ const options = {
         } else {
             url = `https://flagcdn.com/16x12/${p.nationality?.toLowerCase()}.png`
         }
-        return `<img style="width: 16px; margin-right: 5px;" loading=lazy src="${url}">`
+        return `<img style="width: 16px; margin-right: 5px;" src="${url}">`
     },
     getEntryStatusHTML: es => {
         if (es === 'none') {

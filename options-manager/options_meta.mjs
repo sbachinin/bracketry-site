@@ -123,15 +123,19 @@ const NAVIGATION_OPTIONS = {
         ],
         default_value: 'gutters'
     },
-
-    navButtonsTopDistance: {
-        type: 'string',
-        default_value: '50%'
-    },
-
     navButtonSvgColor: {
         type: 'string',
         default_value: '#161616',
+    },
+
+    navButtonArrowSize: {
+        type: 'pixels',
+        default_value: '34',
+    },
+
+    navButtonPadding: {
+        type: 'string',
+        default_value: '4px'
     },
 
     leftNavButtonHTML: {
@@ -144,14 +148,9 @@ const NAVIGATION_OPTIONS = {
         default_value: `<svg class="default-nav-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>`
     },
 
-    navButtonSize: {
-        type: 'pixels',
-        default_value: '34',
-    },
-
-    navButtonPadding: {
+    navButtonsTopDistance: {
         type: 'string',
-        default_value: '4px'
+        default_value: '50%'
     }
 }
 
@@ -184,6 +183,16 @@ const SCROLL_OPTIONS = {
         default_value: '#161616',
     },
 
+    scrollButtonArrowSize: {
+        type: 'pixels',
+        default_value: '34',
+    },
+
+    scrollButtonPadding: {
+        type: 'string',
+        default_value: '4px'
+    },
+
     scrollUpButtonHTML: {
         type: 'multiline_string',
         default_value: `<svg class="default-scroll-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"/></svg>`,
@@ -192,16 +201,6 @@ const SCROLL_OPTIONS = {
     scrollDownButtonHTML: {
         type: 'multiline_string',
         default_value: `<svg class="default-scroll-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>`,
-    },
-
-    scrollIconSize: {
-        type: 'pixels',
-        default_value: '34',
-    },
-
-    scrollButtonPadding: {
-        type: 'string',
-        default_value: '4px'
     },
 
     showScrollbar: {

@@ -1,21 +1,31 @@
 import { createPlayoffs } from '../easy-playoffs.min.js'
 import data from '../test_data/finished-singles-2021.js'
-import { add_options_manager } from '../options-manager/options-manager.mjs'
-import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
+
+const options = {
+    getEntryStatusHTML: (es) => {
+        return `<div style="color: #ccc; width: 15px;">${es || ''}</div>`
+    },
+    getNationalityHTML: (p) => {
+        return `<div style="background: #f1f1f1;
+            padding: 0 5px;
+            font-size: 12px;">${p.nationality}</div>`
+    }
+}
 
 createPlayoffs(
     data,
-    document.querySelector('.wr1')
+    document.querySelector('.wr1'),
+    options
 )
 
 createPlayoffs(
     data,
     document.querySelector('.wr2'),
-    { verticalScrollMode: 'buttons'}
+    { ...options, verticalScrollMode: 'buttons'}
 )
 
 createPlayoffs(
     data,
     document.querySelector('.wr3'),
-    { verticalScrollMode: 'mixed'}
+    { ...options, verticalScrollMode: 'mixed'}
 )

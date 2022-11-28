@@ -19,7 +19,8 @@
         .wr2,
         .wr3,
         .wr4,
-        .wr5 {
+        .wr5,
+        .wr6 {
             height: 250px;
             max-width: 700px;
         }
@@ -119,19 +120,34 @@ createPlayoffs(data, wrapper, options)</code></pre>
         Use <b>leftNavButtonHTML</b> and <b>rightNavButtonHTML</b> options to get whatever you like
         instead of default navigation buttons. Note that this HTML must be <b>wrapped in a tag</b>.
     </p>
-    <pre><code class="language-javascript">...
+    <pre style="margin-bottom: 0"><code class="language-javascript">...
 const options = {
     navButtonsPosition: 'beforeTitles',
     leftNavButtonHTML: '&lt;div style=&quot;padding: 5px;&quot;&gt;&lt; PREV ROUND&lt;/div&gt;',
     rightNavButtonHTML: '&lt;div style=&quot;padding: 5px;&quot;&gt;NEXT ROUND &gt;&lt;/div&gt;',
 }
 createPlayoffs(data, wrapper, options)</code></pre>
-    <br>
+    <div style="font-size: 40px; margin: 0 0 10px 20px;">&#8595;</div>
     <div class="wr5"></div>
+
+    <div style="font-size: 30px; margin: 10px 0 0 20px;">OR</div>
+    <p>Add a gradient background to buttons in "overTitles" position to make them more distinct from the titles, in case of overlap:</p>
+    <pre style="margin-bottom: 0"><code class="language-javascript icons">...
+const options = {
+    navButtonsPosition: 'overTitles',
+    leftNavButtonHTML: `LNBHTML`,
+    rightNavButtonHTML: `RNBHTML`,
+}
+createPlayoffs(data, wrapper, options)</code></pre>
+    <div style="font-size: 40px; margin: 0 0 10px 20px;">&#8595;</div>
+    <div class="wr6"></div>
+
+
+
     <br>
     <p>
         ...Or just change the color and size of the <i>default</i> navigation buttons by setting
-        <b>navButtonSize</b> and <b>navButtonSvgColor</b> options.
+        <b>navButtonArrowSize</b> and <b>navButtonSvgColor</b> options.
         <br>
         You can also add (or reduce) some space around an icon by setting <b>navButtonPadding</b>.
 

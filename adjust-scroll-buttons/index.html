@@ -40,12 +40,14 @@
     <div class="heading-2">How to adjust scroll buttons</div>
 
     <p>
-        <i>(scroll buttons will be rendered only when <b>verticalScrollMode</b> option is set to "buttons" or "mixed")</i>
+        <i>(scroll buttons will be rendered only when <b>verticalScrollMode</b> option is set to "buttons" or
+            "mixed")</i>
         <br>
         <br>
         Actually scroll buttons aren't extremely flexible. They are always located above and below the matches area.
         <br>
-        Though you can choose whether these buttons will <b>"eat"</b> the vertical space, making the matches area shorter, or <b>"float"</b> above the matches area.
+        Though you can choose whether these buttons will <b>"eat"</b> the vertical space, making the matches area
+        shorter, or <b>"float"</b> above the matches area.
     </p>
 
     <pre><code class="language-javascript">...
@@ -54,9 +56,10 @@ const options = {
     scrollButtonsPosition: "overMatches" // or "gutters" which is default
 }
 createPlayoffs(data, wrapper, options)</code></pre>
-<br>
+    <br>
 
-    <div class="heading-3">scrollButtonsPosition<span style="font-size: 18px;"> option allows you to choose between 2 positions:</span></div>
+    <div class="heading-3">scrollButtonsPosition<span style="font-size: 18px;"> option allows you to choose between 2
+            positions:</span></div>
 
     <br>
 
@@ -80,7 +83,8 @@ createPlayoffs(data, wrapper, options)</code></pre>
         <br>
         Clickable area of a button is not expanded to the full width but limited to the small space around the icon.
         <br>
-        (Though you can override this using two options: scrollUpButtonHTML and scrollDownButtonHTML. They allow you to inject a tag with a width of 100% or whatever)
+        <span style="background: #e1ffe2;">(Though you can inject a <b>full-width</b> "floating" buttons using
+            <b>scrollUpButtonHTML</b> and <b>scrollDownButtonHTML</b> options)</span>
         <br>
         Height of the matches area is NOT reduced by the buttons' height.
         <br>
@@ -89,7 +93,7 @@ createPlayoffs(data, wrapper, options)</code></pre>
     <div class="wr2"></div>
 
 
-    
+
 
 
 
@@ -101,21 +105,26 @@ createPlayoffs(data, wrapper, options)</code></pre>
     <p>
         Use <b>scrollUpButtonHTML</b> and <b>scrollDownButtonHTML</b> options to get whatever you like
         instead of default scroll buttons. Note that this HTML must be <b>wrapped in a tag</b>.
+        <br>
+        For example let's replace the default arrows with emoji and add a full-width gradient background to it
+        (hopefully it will make buttons more distinct from the underlying matches):
     </p>
-    <pre><code class="language-javascript">...
+    <pre><code class="language-javascript icons">...
 const options = {
-    verticalScrollMode: 'buttons',
-    scrollButtonsPosition: 'gutters',
-    scrollUpButtonHTML: 'scroll up',
-    scrollDownButtonHTML: 'scroll down',
+    verticalScrollMode: "buttons",
+    scrollButtonsPosition: "gutters",
+    scrollUpButtonHTML: `SUBHTML
+    `,
+    scrollDownButtonHTML: `SDBHTML
+    `
 }
 createPlayoffs(data, wrapper, options)</code></pre>
     <br>
     <div class="wr3"></div>
     <br>
     <p>
-        ...Or just change the color and size of the <i>default</i> scroll buttons by setting
-        <b>scrollIconSize</b> and <b>scrollButtonSvgColor</b> options.
+        Or just change the <b>color and size</b> of the <i>default</i> scroll buttons by setting
+        <b>scrollButtonArrowSize</b> and <b>scrollButtonSvgColor</b> options.
         <br>
         You can also add (or reduce) some space around an icon by setting <b>scrollButtonPadding</b>.
 

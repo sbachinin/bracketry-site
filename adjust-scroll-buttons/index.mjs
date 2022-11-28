@@ -1,5 +1,6 @@
 import { createPlayoffs } from '../easy-playoffs.min.js'
 import data from '../test_data/ucl-finished.js'
+import { escapeHtml } from '../utils.mjs'
 
 createPlayoffs(
     data,
@@ -23,42 +24,32 @@ createPlayoffs(
     }
 )
 
+const scrollUpButtonHTML = `<div style="
+        width: 100%;
+        background: linear-gradient(#fafcff, #fafcff 32%, transparent);
+        text-align: center;
+        font-size: 24px;">⬆️</div>`
+
+const scrollDownButtonHTML = `<div style="
+        width: 100%;
+        background: linear-gradient(transparent, #fafcff 68%, #fafcff);
+        text-align: center;
+        font-size: 24px;">⬇️</div>`
+
 createPlayoffs(
     data,
     document.querySelector('.wr3'),
     {
         verticalScrollMode: 'buttons',
         getEntryStatusHTML: () => '',
-        scrollUpButtonHTML: `
-            <div style="
-                width: 100%;
-                background: linear-gradient(#fafcff, transparent);
-                display: flex;
-                height: 34px;
-                align-items: center;
-                justify-content: center;
-                opacity: 1;
-                font-size: 24px;
-            ">
-                ⬆️
-            </div>
-        `,
-        scrollDownButtonHTML: `
-            <div style="
-                width: 100%;
-                background: linear-gradient(transparent, #fafcff);
-                display: flex;
-                height: 34px;
-                align-items: center;
-                justify-content: center;
-                opacity: 1;
-                font-size: 24px;
-            ">
-                ⬇️
-            </div>
-        `,
+        scrollUpButtonHTML,
+        scrollDownButtonHTML,
         scrollButtonPadding: '0',
         scrollButtonsPosition: 'overMatches',
         syntheticScrollAmount: 100
     }
 )
+
+document.querySelector('code.icons').innerHTML = document.querySelector('code.icons').innerHTML
+    .replace('SUBHTML', escapeHtml(scrollUpButtonHTML))
+    .replace('SDBHTML', escapeHtml(scrollDownButtonHTML))
