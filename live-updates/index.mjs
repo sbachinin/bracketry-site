@@ -36,6 +36,6 @@ setTimeout(() => {
             "order": 0,
         }
     ])
-}, 6000)
+}, 3000)
 
 adjust_options_on_resize(playoffs)

@@ -9,7 +9,47 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
+        .wr {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
+        .wr1 {
+            max-width: 340px;
+            height: 640px;
+            margin: 0 36px 36px 0;
+        }
+
+        .wr2 {
+            height: 640px;
+        }
+
+
+        @media (max-width: 500px) {
+            .wr1 {
+                margin-right: 0;
+            }
+        }
+
+        .explain {
+            flex: 1;
+        }
+
+        .code1 {
+            min-width: 400px;
+        }
+
+        ul {
+            margin: 0;
+            background: #e8feff;
+            color: #686868;
+            padding-right: 15px;
+        }
+
+        ul li {
+            line-height: 1.7em;
+            margin-bottom: 0.7em;
+        }
     </style>
 
 </head>
@@ -28,28 +68,9 @@
 
     <div class="heading-2">Layout tricks for small screens</div>
 
-    <div class="common-playoffs-wrapper"></div>
-    
-    <p style="background: red">
-        TODO continue
-        here i should properly implement adjust on resize;
-        but it means NO options manager (because there shouldn't be two sources of options change, manager & resize)
-    </p>
-    <div class="heading-3">Provide flexible styles</div>
     <p>
-        To make playoffs shrink on smaller screens you have to set appropriate styles.
-        <br>
-        First of all, make sure that your wrapper element (that in which playoffs are installed) has a 'fluid' width,
-        i.e. it has for example a style of { max-width: 100vw } or something of this sort.
-        <br>
-        Width can also be set on Playoffs via <b>width</b> option but still it makes more sense to set width on your
-        wrapper (and playoffs by default will take 100% of its width).
-    </p>
-
-    <div class="heading-3">Adjust options according to screen size</div>
-    <p>
-        matchMedia -> visibleRoundsCount etc. Nav. Buttons positions (both nav & scroll)
-        1 vrc -> perhaps will need matchMaxWidth
+        Here's some advice on how you can change the playoffs' <a href="../options">options</a> for narrow screens.
+        And how to respond to changing viewport size on the fly, providing a decent experience for all users.
     </p>
 
 
@@ -59,15 +80,121 @@
 
 
 
-    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+    <br>
+    <br>
+    <div class="heading-3">Example 1. Mobile layout (not flexible)</div>
 
-const wrapper = document.querySelector('#your-wrapper-element')
-const data = { ... } // data of specific shape
+    <br>
 
+    <div class="wr">
+        <div class="wr1"></div>
+        <div class="explain">
+            <ul>
+                <li>
+                    navigation buttons are placed "before round titles" to release some width (<a
+                        href="../adjust-nav-buttons">navButtonsPosition</a>)
+                </li>
+                <li>
+                    only 1 round is displayed (via <a href="../options#visibleRoundsCount">visibleRoundsCount</a>)
+                </li>
+                <li>
+                    scroll with buttons click/tap is enabled (<a href="../scroll-modes">verticalScrollMode</a>)
+                </li>
+                <li>
+                    entry status column is hidden (<a href="../inject-markup#getEntryStatusHTML">getEntryStatusHTML</a>)
+                </li>
+                <li>
+                    contestant's tournament path is not highlighted on click (<a
+                        href="../highlight-history">disableHighlight</a>) (because anyway we see only 1 round)
+                </li>
+            </ul>
+
+
+            <pre><code class="language-javascript code1">...
 const options = {
+    navButtonsPosition: 'beforeTitles',
+    visibleRoundsCount: 1,
+    leftNavButtonHTML: `<div style="padding: 7px;">< PREV ROUND</div>`,
+    rightNavButtonHTML: `<div style="padding: 7px;">NEXT ROUND ></div>`,
+    roundTitlesFontSize: 26,
+    roundTitlesVerticalPadding: 4,
+    matchFontSize: 14,
+    matchHorMargin: 14,
+    distanceBetweenScorePairs: 10,
+    getEntryStatusHTML: () => '',
+    disableHighlight: true,
+    verticalScrollMode: 'mixed',
+    scrollButtonPadding: 0px,
+    maxMatchWidth: 360
 }
 
-createPlayoffs(data, wrapper, options)</code></pre>
+createPlayoffs(your_data, your_wrapper_element, options)</code></pre>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="heading-3">Example 2. Adjust options according to screen size</div>
+    <p>
+        You can switch between a mobile and desktop "preset" within one instance of playoffs, thus providing a
+        reasonable layout on all screens.
+        <br>
+        For that use <b><a href="../options/#applyNewOptions">applyNewOptions</a></b> method returned from
+        createPlayoffs.
+        You can call it whenever the screen size changes, setting appropriate options.
+        <br>
+        To detect such a change let's use <b>window.matchMedia</b>:
+    </p>
+
+    <pre><code class="language-javascript">...
+const playoffs = createPlayoffs(your_data, your_wrapper_element)
+
+const mediaQuery = window.matchMedia('(max-width: 600px)')
+
+const adjust = () => {
+    if (mediaQuery.matches) {
+        playoffs.applyNewOptions(some_mobile_options)
+    } else {
+        playoffs.applyNewOptions(some_default_options)
+    }
+}
+
+mediaQuery.addEventListener('change', adjust)
+
+adjust()</code></pre>
+
+    <p>Now the layout will change when your browser hits the 600px threshold:</p>
+
+    <div class="wr2"></div>
+
+
+    <br>
+    <div class="heading-3">Provide flexible styles</div>
+    <p>
+        No matter which playoffs' layout you choose, it's always a good idea to make <b>your wrapper element</b>
+        flexible.
+        <br>
+        First of all, make sure that this element (that in which playoffs are installed) has a style of <i>{ max-width:
+            100vw }</i> or something of this sort.
+        <br>
+        Playoffs by default will take 100% of your wrapper's width and height so it will shrink on a narrow screen (if
+        your wrapper is flexible).
+    </p>
+
+
+
 
 
 
