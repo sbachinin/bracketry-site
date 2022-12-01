@@ -2,14 +2,16 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Playoffs - How to highlight team's history</title>
+    <title>Playoffs - How to (un)highlight team's history</title>
 
     <script defer type="module" src="./index.mjs"></script>
     <link rel="stylesheet" href="../styles/atom-one-light.min.css">
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-        
+        .wr1 {
+            height: 400px;
+        }
     </style>
 
 </head>
@@ -26,67 +28,62 @@
         <span class="description">takes your data and draws a tree of a knockout tournament</span>
     </header>
 
-    <div class="common-playoffs-wrapper"></div>
+    <div class="heading-2">How to (un)highlight team's history</div>
 
-    <div class="options-manager-opener main-button" style="margin: 25px auto">manage options</div>
+    <p>Well, highlight works by default. It means that corresponding connecting lines will attain a "highlighted" color when
+        you click a side of a match.
+        <br>
+        This page describes some subtle aspects of this stuff.
+    </p>
+    <br>
+
+    <div class="heading-4">You can disable it</div>
+    <p>
+        For this set "<b>disableHighlight</b>" option to true.
+        <br>
+        This may be useful for instance if you want to make the players' titles behave like links to players' profiles.
+        (See <b><a href="../inject-markup#getPlayerTitleHTML">getPlayerTitleHTML</a></b> option).
+    </p>
+
+    <br>
+
+    <div class="heading-4">It is auto-disabled when custom match (or side) click handlers is provided</div>
+    <p>
+        See <b><a href="../click-handlers">onMatchClick and onMatchSideCLick</a></b>
+    </p>
+
+    <br>
 
 
+    <div class="heading-4">You can highlight programmatically</div>
+    <p>
+        <b><a href="../lifecycle-methods#highlightContestantHistory">highlightContestantHistory</a></b> lifecycle method
+        is responsible for this.
+    </p>
+
+    <br>
+
+    <div class="heading-4">Colors are adjustable</div>
+    <p>
+        Highlighted connection lines will attain the color of <b>highlightedConnectionLinesColor</b>.
+        <br>
+        (And the width will be the same as that of a regular connection line - <b>connectionLinesWidth</b>).
+        <br>
+        Players' titles of a highlighted team will attain a color of <b>highlightedPlayerTitleColor</b>
+    </p>
 
 
-    <div class="heading-3">Some heading</div>
-
-    <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
-
-const wrapper = document.querySelector('#your-wrapper-element')
-const data = { ... } // data of specific shape
-
+    <pre style="margin-bottom: 0;"><code class="language-javascript">...
 const options = {
+    highlightedConnectionLinesColor: 'pink',
+    highlightedPlayerTitleColor: '#8f04ff',
+    connectionLinesWidth: 5
 }
 
 createPlayoffs(data, wrapper, options)</code></pre>
+    <div style="font-size: 40px; margin: 0 0 10px 20px;">&#8595;</div>
 
-
-
-
-# Highlight contestants's matches
-
-## on click
-
-When you click on a side of match, by default it will "highlight" all matches where such contestant was a side.  
-"Highlighted" means that connection lines of such a match attain a color of options.highlightedConnectionLinesColor (**** by default)  
-And player titles of a highlighted contesant will attain a color of ****
-
-Matches will be unhighlighted if you click something other than match side.
-
-Highlight on click will not work if options.onMatchClick or options.onMatchSideClick is provided
-
-
-## highlightContestantHistory
-
-You can do the same thing programmatically using highlightContestantHistory lifecycle method
-
-Accepts one argument: **contestantId** which can be a string or null
-
-When called with a valid contestantId (for which a side is found in data.matches), it will highlight such contestant's matches.
-
-When called with null, it will unhighlight what was highlighted before
-
-When called with something else, will do nothing
-
-If called with a valid contestantId, it will highlight matches *even if options.onMatchClick or options.onMatchSideClick is provided*
-
-## disableHighlight
-
-Useful for instance if you want to make the player titles behave like links to players' profiles. (This can be achieved using getPlayerTitleElement option).
-
-
-
-## highlightedConnectionLinesColor
-
-## highlightedPlayerTitleColor
-
-## connectionLinesWidth
-
+    <div class="wr1"></div>
 
     <div class="footer"></div>
 
