@@ -86,11 +86,11 @@ createPlayoffs(data, wrapper_element, options)</code></pre>
     <p>
         If you provide onMatchClick, a border will be drawn around a match under cursor. Width of this border will be
         determined by <b>connectionLinesWidth</b> option, color of this border - <b>hoveredMatchBorderColor</b>.
-        <br><br>
+        <img>
         If you provide onMatchClick, it will automatically "<b><a href="../highlight-history">disable
                 highlight</a></b>": contestant's tournament path will not be highlighted on click (as if
         "disableHighlight" option was set to true).
-        <br><br>
+        <img>
         Another (but surely more laborious) way to get a custom click behaviour is via <b><a
                 href="../inject-markup#getMatchElement">getMatchElement</a></b> option. You can attach whatever handlers
         you like to an Element returned from this function.
@@ -114,7 +114,7 @@ createPlayoffs(data, wrapper_element, options)</code></pre>
             data.contestants dictionary
         </li>
     </ul>
-    <br>
+    <img>
 
     <p>The following code makes matches' sides bahave as links to google search:</p>
 
@@ -140,7 +140,7 @@ createPlayoffs(data, wrapper_element, options)</code></pre>
         Though if you only need a link to some URL, you may better use <b><a
                 href="../inject-markup#getPlayerTitleHTML">getPlayerTitleHTML</a></b> option. It allows you for instance
         to inject an &lt;a&gt; tag instead a of bare title.
-        <br><br>
+        <img>
 
         If you provide onMatchSideClick, it will automatically "<b><a href="../highlight-history">disable
                 highlight</a></b>": contestant's tournament path will not be highlighted on click (as if

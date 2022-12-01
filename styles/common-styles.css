@@ -239,6 +239,10 @@ pre code.hljs {
 /* AUXILIARY STUFF */
 
 
+img:not([src]) {
+    display: block;
+    height: 10px;
+}
 
 p {
     font-size: 16px;

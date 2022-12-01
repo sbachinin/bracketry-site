@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - How to fix the number of visible rounds</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        .wr1 {
+            width: 600px;
+            height: 400px;
+        }
+
+        .wr2 {
+            height: 400px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/logo.png" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">How to fix the number of visible rounds</div>
+
+    <p>
+        By default playoffs is trying to display as much rounds as possible.
+        <img>
+        But it means that most of the time there will be a <b>partly visible round</b> on the right.
+        <img>
+        If it doesn't look good to you, there are <b>visibleRoundsCount</b> and <b>displayWholeRounds</b> options which
+        can fix the number of rounds visible at a time.
+    </p>
+    <br>
+
+    <div class="heading-3">visibleRoundsCount
+        <small><small><small><span class="parameter">(number)</span></small></small></small>
+    </div>
+
+    <p>
+        This option forces playoffs to display N number of rounds independently of actual content width.
+        <img>
+        Value <b>0</b> (which is a default) means "display as much rounds as possible, without compressing them".
+        <img>
+        Setting a reasonable <b>matchMaxWidth</b> may be a good idea in case of a small visibleRoundsCount. Otherwise
+        matches <b>may become too wide</b>.
+        <img>
+        It's advisable to set visibleRoundsCount to 1 when you address narrow <b><a href="../mobile">mobile
+                screens</a></b>.
+    </p>
+
+
+    <pre><code class="language-javascript">...
+    
+const options = {
+    visibleRoundsCount: 1
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+    <p>... results in ...</p>
+    <div class="wr1"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+
+    <div class="heading-3">displayWholeRounds
+        <small><small><small><span class="parameter">(boolean)</span></small></small></small>
+    </div>
+
+    <p>
+        This option forces playoffs to widen the rounds slightly so that the partly visible round on the right
+        disappears.
+        <img>
+        Setting displayWholeRounds to true is another solution for creating a decent <b><a
+                href="../mobile">mobile</a></b> experience.
+        <img>
+        Setting a reasonable <b>matchMaxWidth</b> may be a good idea to avoid unduly wide matches.
+        <img>
+        displayWholeRounds is <b>not applied</b> if "visibleRoundsCount" option is set to something other than 0.
+    </p>
+
+
+    <pre><code class="language-javascript">...
+    
+const options = {
+    displayWholeRounds: true
+}
+
+createPlayoffs(data, wrapper, options)</code></pre>
+    <p>... results in ...</p>
+    <div class="wr2"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>

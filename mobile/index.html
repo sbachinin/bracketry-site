@@ -78,10 +78,8 @@
 
 
 
+    <img>
 
-
-    <br>
-    <br>
     <div class="heading-3">Example 1. Mobile layout (not flexible)</div>
 
     <br>
@@ -150,11 +148,11 @@ createPlayoffs(your_data, your_wrapper_element, options)</code></pre>
     <p>
         You can switch between a mobile and desktop "preset" within one instance of playoffs, thus providing a
         reasonable layout on all screens.
-        <br>
+        <img>
         For that use <b><a href="../options/#applyNewOptions">applyNewOptions</a></b> method returned from
         createPlayoffs.
         You can call it whenever the screen size changes, setting appropriate options.
-        <br>
+        <img>
         To detect such a change let's use <b>window.matchMedia</b>:
     </p>
 
@@ -185,10 +183,10 @@ adjust()</code></pre>
     <p>
         No matter which playoffs' layout you choose, it's always a good idea to make <b>your wrapper element</b>
         flexible.
-        <br>
+        <img>
         First of all, make sure that this element (that in which playoffs are installed) has a style of <i>{ max-width:
             100vw }</i> or something of this sort.
-        <br>
+        <img>
         Playoffs by default will take 100% of your wrapper's width and height so it will shrink on a narrow screen (if
         your wrapper is flexible).
     </p>

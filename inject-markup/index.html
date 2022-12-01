@@ -98,18 +98,19 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
     </ul>
     <div class="heading-4">Return value</div>
     &nbsp;&nbsp;&nbsp;&nbsp;HTMLElement that will be inserted into the round titles bar instead of default title
+    <img>
+    <img>
     <p>
 
         getRoundTitleElement will be called for each round specified in your data (which was passed to <a
             href="../create-playoffs">createPlayoffs</a>).
-        <br>
-        <br>
+        <img>
         getRoundTitleElement will be called with a data of a given round as the first parameter. Although by design a
         Round has only a "name" property, you are not limited to that. All <b>extra properties</b> of a Round object
         (e.g., "prize money" or whatever) will persist.
-        <br>
-        <br>
-        Mind the <b>roundTitlesVerticalPadding</b> option. This padding is not discarded by your Element but will be drawn around your Element.
+        <img>
+        Mind the <b>roundTitlesVerticalPadding</b> option. This padding is not discarded by your Element but will be
+        drawn around your Element.
     </p>
 
     <br><br>
@@ -197,7 +198,9 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         <br>
         <br>
         If getNationalityHTML option is not provided (or if it fails to return a string), then "nationality" column will
-        be filled with a bare string from <span class="inline-code">contestants[id].players[i].nationality</span> (if such property will be found). In most cases it won't look nice and will lead to a subtle horizontal <b>misalignment</b> within a
+        be filled with a bare string from <span class="inline-code">contestants[id].players[i].nationality</span> (if
+        such property will be found). In most cases it won't look nice and will lead to a subtle horizontal
+        <b>misalignment</b> within a
         match. So it's highly recommended to provide getNationalityHTML and return an HTML string where root element has
         an <b>explicit width</b> (equal for all players).
     </p>
@@ -207,9 +210,12 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         }
     }</code></pre>
     <p>
-        Feel free to use getNationalityHTML to display any info you want. Think of it as just a way to populate "the second column on the left". There you can render a player's photo or whatever.
-        <br>
-        If you want to prevent nationality from rendering, return an <b>empty string</b> from getNationalityHTML. In such case the corresponding element <b>will not be visible</b> even if "nationality" is provided in Players's data.
+        Feel free to use getNationalityHTML to display any info you want. Think of it as just a way to populate "the
+        second column on the left". There you can render a player's photo or whatever.
+        <img>
+        If you want to prevent nationality from rendering, return an <b>empty string</b> from getNationalityHTML. In
+        such case the corresponding element <b>will not be visible</b> even if "nationality" is provided in Players's
+        data.
     </p>
     <br><br>
     <hr>
@@ -222,11 +228,13 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         <li>
             <div class="parameter">entryStatus</div>
             A string containing an entry status of a given Contestant (<span
-            class="inline-code">contestants[contestantId].entryStatus</span>), if such value will be found in data provided to createPlayoffs()
+                class="inline-code">contestants[contestantId].entryStatus</span>), if such value will be found in data
+            provided to createPlayoffs()
         </li>
         <li>
             <div class="parameter">context</div>
-            An object that tells you where (for which contestant etc) entry status is being rendered. Contains these properties:
+            An object that tells you where (for which contestant etc) entry status is being rendered. Contains these
+            properties:
             <ul>
                 <li>
                     <b>roundIndex</b> - 0-based index of a round
@@ -242,10 +250,13 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
     </ul>
     <div class="heading-4">Return value</div>
     <p>
-    &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text that will be injected into the entry status field.
-    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text that will be injected into the entry status field.
         <br>
-        If getEntryStatusHTML option is not provided (or if it fails to return a string), then the corresponding column (first on the left) will be filled with a bare string from <span class="inline-code">contestants[id].entryStatus</span> (if such property will be found). In most cases it won't look nice and will lead to a subtle horizontal <b>misalignment</b> within a
+        <br>
+        If getEntryStatusHTML option is not provided (or if it fails to return a string), then the corresponding column
+        (first on the left) will be filled with a bare string from <span
+            class="inline-code">contestants[id].entryStatus</span> (if such property will be found). In most cases it
+        won't look nice and will lead to a subtle horizontal <b>misalignment</b> within a
         match. So it's highly recommended to provide getEntryStatusHTML and return an HTML string where root element has
         an <b>explicit width</b> (equal for all players).
     </p>
@@ -255,9 +266,12 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         }
     }</code></pre>
     <p>
-        Feel free to use getEntryStatusHTML to display any info you want. Think of it as just a way to populate "the first column on the left".
-        <br>
-        If you want to prevent entry status from rendering, return an <b>empty string</b> from getEntryStatusHTML. In such case the corresponding element <b>will not be visible</b> even if "entryStatus" was provided in Contestant's data.
+        Feel free to use getEntryStatusHTML to display any info you want. Think of it as just a way to populate "the
+        first column on the left".
+        <img>
+        If you want to prevent entry status from rendering, return an <b>empty string</b> from getEntryStatusHTML. In
+        such case the corresponding element <b>will not be visible</b> even if "entryStatus" was provided in
+        Contestant's data.
     </p>
     <br><br>
     <hr>
@@ -271,7 +285,8 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         <li>
             <div class="parameter">player</div>
             An object containing data of a Player whose title is being rendered (<span
-                class="inline-code">contestants[contestantId].players[playerIndex]</span>), if such data was provided to createPlayoffs()
+                class="inline-code">contestants[contestantId].players[playerIndex]</span>), if such data was provided to
+            createPlayoffs()
         </li>
         <li>
             <div class="parameter">context</div>
@@ -297,9 +312,9 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text that will be injected into the player title field.
     </p>
     <p>
-        Mind that getPlayerTitleHTML is NOT called (and bare Player.title is NOT rendered either) IF a given <b>Side</b> has a '<b>title</b>' property
-    </p>
-    <p>
+        Mind that getPlayerTitleHTML is NOT called (and bare Player.title is NOT rendered either) IF a given <b>Side</b>
+        has a '<b>title</b>' property
+        <img>
         getPlayerTitleHTML is the recommended way to turn your players' titles into <b>links</b>.
     </p>
     <pre><code class="language-javascript">{
@@ -329,10 +344,12 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         </li>
     </ul>
     <div class="heading-4">Return value</div>
-    &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be injected into the "scores" section of match layout.
+    &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be injected into the "scores" section of
+    match layout.
     <p>
-getScoresHTML is called for each side of a match separately. The output string is used to render scores of a <b>single side</b> of a match, not both sides.
-</p>
+        getScoresHTML is called for each side of a match separately. The output string is used to render scores of a
+        <b>single side</b> of a match, not both sides.
+    </p>
     <br><br>
     <hr>
     <br>

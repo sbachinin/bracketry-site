@@ -75,7 +75,7 @@ const lifecycle_methods = createPlayoffs(data, wrapper, options)</code></pre>
     <div class="heading-3">You can call it many times</div>
     <p>
         You may install as much Playoffs on your page as you like.
-        <br> It's also possible to call createPlayoffs() with the same wrapper element twice, in such case a new instance will be
+        <img> It's also possible to call createPlayoffs() with the same wrapper element twice, in such case a new instance will be
         installed in place of an old one. Though doing so makes little sense. If you need to <a
             href="../change-tournament">switch to another tournament</a>, better use <a
             href="../lifecycle-methods#replaceData">replaceData</a> method instead of calling createPlayoffs() again.
@@ -86,14 +86,14 @@ const lifecycle_methods = createPlayoffs(data, wrapper, options)</code></pre>
     <p>
         In most cases it makes sense to set <b>explicit height</b> on your wrapper element and keep "width" and "height"
         options at a default <b>"100%"</b>.
-        <br>
+        <img>
         You can also provide an auto-sized wrapper and set more explicit <b>width</b> and <b>height</b> options. But in such case you are likely to get a <b>height jump</b> during playoffs' installation.
-        <br>
-        <br>
+        <img>
+        <img>
         If you don't provide any heights (neither on your wrapper nor in playoffs' options), playoffs will expand to the <b>full height</b> of its content.
-        <br>
+        <img>
         If this is what you need, mind one little problem: "full height" is <b>not stable</b>, i.e. it will change when you navigate to later rounds (it will get <i>twice smaller</i> with every next round). Thus all content <i>after</i> playoffs will be pushed back and forth.
-        <br>
+        <img>
         So if you really want this auto height, a solution to the problem of jumping height will be <b><a href="../options#useClassicalLayout">useClassicalLayout</a></b> option. When set to true, it guarantees that the height will remain stable.
     </p>
 

@@ -48,35 +48,35 @@ document.querySelector('.your-button').addEventListener('click', () => {
     <div class="heading-3">Size</div>
     <p>
         By default Playoffs content will take the entire viewport.
-        <br> Though you may want to have some nice paddings on the edges of viewport. There is no such option as fullscreen padding but there are good old <a href="../options#width"><b>width</b></a> and <a href="../options#height"><b>height</b></a> options which may be set to some <i>vw</i> or <i>vh</i> value or something with <i>calc</i>.
-        <br> These paddings will be filled with <a href="../options#fullscreenBgColor"><b>fullscreenBgColor</b></a>. Actually this color will fill the entire viewport if no <a href="../options#rootBgColor"><b>rootBgColor</b></a> option is provided.
+        <img> Though you may want to have some nice paddings on the edges of viewport. There is no such option as fullscreen padding but there are good old <a href="../options#width"><b>width</b></a> and <a href="../options#height"><b>height</b></a> options which may be set to some <i>vw</i> or <i>vh</i> value or something with <i>calc</i>.
+        <img> These paddings will be filled with <a href="../options#fullscreenBgColor"><b>fullscreenBgColor</b></a>. Actually this color will fill the entire viewport if no <a href="../options#rootBgColor"><b>rootBgColor</b></a> option is provided.
     </p>
     
     <div class="heading-3">"Mixed" vertical scroll mode will be forced</div>
     <p>
         <a href="../scroll-modes"><b>verticalScrollMode</b></a> option will be automatically set to "mixed" when "fullscreen" is true.
-        <br> Setting verticalScrollMode to any other value will not work here.
-        <br> Vertical scroll buttons will be shown and mousewheel will also scroll the matches.
-        <br> On mobile screens only buttons will work; <b>touchmove is disabled</b> in fullscreen mode.
+        <img> Setting verticalScrollMode to any other value will not work here.
+        <img> Vertical scroll buttons will be shown and mousewheel will also scroll the matches.
+        <img> On mobile screens only buttons will work; <b>touchmove is disabled</b> in fullscreen mode.
     </p>
 
     <div class="heading-3">Ways to exit fullscreen mode</div>
     <p>
         &nbsp;&nbsp; - click the cross button
-        <br>
+        <img>
         &nbsp;&nbsp; - click anywhere outside the playoffs' "body"
-        <br>
+        <img>
         &nbsp;&nbsp; - press Esc
-        <br>
+        <img>
         &nbsp;&nbsp; - (programmatically) call <a href="../create-playoffs#uninstall">uninstall</a> method on a playoffs' instance
     </p>
 
     <div class="heading-3">"fullscreen" option is not updatable</div>
     <p>
         This option will be <b>ignored</b> when passed to <a href="../change-options"><b>applyNewOptions</b></a>.
-        <br>
+        <img>
         It means you can't switch between "fullscreen" and "static" mode within one instance of playoffs.
-        <br>
+        <img>
         If you need "small" playoffs which are expandable to fullscreen, then you need 2 instances, one "static" and one "fullscreen" which should be created in response to some ui events (like button click. But you have to make this button yourself. So yeah, it's difficult).
     </p>
    
