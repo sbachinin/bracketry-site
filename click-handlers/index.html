@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playoffs - Match / Side click handlers</title>
+
+    <script defer type="module" src="./index.mjs"></script>
+    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <style>
+        .wr1,
+        .wr2 {
+            height: 400px;
+        }
+
+        .modal {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 200;
+            background: rgb(0 0 0 / 30%);
+        }
+
+        .modal.hidden {
+            display: none;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 33px;
+            border-radius: 12px;
+            max-width: 90vw;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/logo.png" />
+        <div class="title">
+            <a href="../">
+                PLAYOFFS<span class="subtitle">js</span>
+            </a>
+        </div>
+        <span class="description">takes your data and draws a tree of a knockout tournament</span>
+    </header>
+
+    <div class="heading-2">How to handle clicks on a match / side</div>
+
+    <p><b>onMatchClick</b> and <b>onMatchSideClick</b> options allow you to do whatever you need when a user clicks a
+        match or one of its sides (teams)</p>
+
+    <div class="wr1"></div>
+
+    <br>
+    <br>
+
+
+    <div class="heading-3" id="onMatchClick">options.onMatchClick()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">match</div> - an object containing <a href="../data-shape">data</a> of a match that
+            was clicked
+        </li>
+    </ul>
+    <p>Here's a slightly simplified code for an example above:</p>
+
+    <pre><code class="language-javascript">...
+
+const options = {
+    onMatchClick: match => {
+        const name1 = data.contestants[match.sides[0].contestantId].players[0].title
+        const name2 = data.contestants[match.sides[1].contestantId].players[0].title
+        displayPopup(`...Some details of the match between ${name1} and ${name2}`)
+    },
+}
+
+createPlayoffs(data, wrapper_element, options)</code></pre>
+
+    <p>
+        If you provide onMatchClick, a border will be drawn around a match under cursor. Width of this border will be
+        determined by <b>connectionLinesWidth</b> option, color of this border - <b>hoveredMatchBorderColor</b>.
+        <br><br>
+        If you provide onMatchClick, it will automatically "<b><a href="../highlight-history">disable
+                highlight</a></b>": contestant's tournament path will not be highlighted on click (as if
+        "disableHighlight" option was set to true).
+        <br><br>
+        Another (but surely more laborious) way to get a custom click behaviour is via <b><a
+                href="../inject-markup#getMatchElement">getMatchElement</a></b> option. You can attach whatever handlers
+        you like to an Element returned from this function.
+    </p>
+
+    <br><br>
+
+    <div class="heading-3" id="onMatchClick">options.onMatchSideClick()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">match</div> - an object containing <a href="../data-shape">data</a> of a match whose
+            side was clicked
+        </li>
+        <li>
+            <div class="parameter">contestant</div> - an object containing data of a <a
+                href="../data-shape#contestant-player-side">contestant</a> to whom a clicked side refers
+        </li>
+        <li>
+            <div class="parameter">contestantId</div> - an id by which a corresponding contestant can be found within
+            data.contestants dictionary
+        </li>
+    </ul>
+    <br>
+
+    <p>The following code makes matches' sides bahave as links to google search:</p>
+
+    <pre style="margin-bottom: 0;"><code class="language-javascript">...
+
+const options = {
+    onMatchSideClick: (match, contestant) => {
+        window.open(
+            `http://google.com/search?q=${contestant.players[0].title}`,
+            '_blank'
+        ).focus()
+    },
+}
+
+createPlayoffs(data, wrapper_element, options)</code></pre>
+    <div style="font-size: 40px; margin: 0 0 10px 20px;">&#8595;</div>
+
+    <div class="wr2"></div>
+
+    <br>
+
+    <p>
+        Though if you only need a link to some URL, you may better use <b><a
+                href="../inject-markup#getPlayerTitleHTML">getPlayerTitleHTML</a></b> option. It allows you for instance
+        to inject an &lt;a&gt; tag instead a of bare title.
+        <br><br>
+
+        If you provide onMatchSideClick, it will automatically "<b><a href="../highlight-history">disable
+                highlight</a></b>": contestant's tournament path will not be highlighted on click (as if
+        "disableHighlight" option was set to true).
+        <br><br>
+
+    </p>
+
+    <br><br>
+
+
+
+    <div class="modal hidden">
+        <div class="modal-content">content</div>
+    </div>
+
+    <div class="footer"></div>
+
+
+
+
+
+
+    <script>hljs.highlightAll()</script>
+</body>
