@@ -203,13 +203,7 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         <b>misalignment</b> within a
         match. So it's highly recommended to provide getNationalityHTML and return an HTML string where root element has
         an <b>explicit width</b> (equal for all players).
-    </p>
-    <pre><code class="language-javascript">{
-        getNationalityHTML: player => {
-            return `&lt;img style="width: 40px;" src=".../${player.nationality}"&gt;`
-        }
-    }</code></pre>
-    <p>
+        <img>
         Feel free to use getNationalityHTML to display any info you want. Think of it as just a way to populate "the
         second column on the left". There you can render a player's photo or whatever.
         <img>
@@ -217,6 +211,16 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         such case the corresponding element <b>will not be visible</b> even if "nationality" is provided in Players's
         data.
     </p>
+
+    <div class="heading-4">Flags</div>
+    <p>
+        getNationalityHTML is where you can inject nationality flags. But it's your job to provide flag images and valid links to them.
+    </p>
+    <pre><code class="language-javascript">{
+    getNationalityHTML: player => {
+        return `&lt;img style="width: 40px;" src="your-flags-url/${player.nationality}"&gt;`
+    }
+}</code></pre>
     <br><br>
     <hr>
     <br>
