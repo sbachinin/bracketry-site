@@ -166,7 +166,8 @@ export type Player = {
     <div class="heading-4">Match.matchStatus</div>
     <p>
         Meant for any general information like 'Scheduled' or 'Cancelled', 'Retired', datetime of an upcoming match etc.
-        <img> Be careful not to provide very long matchStatuses. Match with <i>both scores and matchStatus</i> may become
+        <img> Be careful not to provide very long matchStatuses. Match with <i>both scores and matchStatus</i> may
+        become
         too wide and this will affect the entire layout, leading to inefficient usage of screen space.
         <img>
         <img src="./matchStatus.jpg">
@@ -175,16 +176,37 @@ export type Player = {
 
 
     <br>
-    <div class="heading-4" id="contestant-player-side">"Contestant", "Player", "Side" - wtf?</div>
+    <div class="heading-4" id="contestant-player-side">"Contestant", "Player", "Side" - what?</div>
     <p>
         It could be wonderful to just use a single term "team" but I decided to make it more complex 😎.
         <img> "<b>Contestant</b>" is basically <i>"a team that takes part in a tournament"</i>.
-        <img> But contestant may consist of several "<b>Players</b>"... The most obvious case is "doubles" in tennis. There we
+        <img> But contestant may consist of several "<b>Players</b>"... The most obvious case is "doubles" in tennis.
+        There we
         have teams that are not one but two. For this reason <b>Contestant.players</b> property exists and it's an
         array.
-        <img> Actually this array may contain not only 2 but any number of items. All players will be stacked vertically.
+    <pre><code class="language-javascript">// example of tennis' doubles
+...
+matches: [
+    ...
+    {
+        roundIndex: 0,
+        order: 0
+        sides: [ contestantId: 'id123' ]
+    }
+    ...
+]
+...
+contestants: {
+    id123: {
+        players: [ { title: "T. Huey" }, { title: "C. Rungkat" } ]
+    }
+}</code></pre>
+    <p>
+        <img> Actually the .players array may contain not only 2 but any number of items. All players will be stacked
+        vertically.
         <img> <b>Side</b> is a match-specific data for a contestant: its score, subscore, isWinner etc.
-        <img> For lazy developers it's possible to have a Side <i>without contestant</i> (no Side.contestantId). It means
+        <img> For lazy developers it's possible to have a Side <i>without contestant</i> (no Side.contestantId). It
+        means
         that such side won't have entry status, nationality and multiple players. But it still may have a title if you
         provide a <b>Side.title</b>. (This property will be rendered in a title field only IF there is no contestantId
         for this side)
@@ -218,14 +240,37 @@ export type Player = {
 
 
     <br>
-    <div class="heading-4">Side.scores</div>
-    <img src="./scores.jpg">
+    <div class="heading-4">Scores</div>
+
     <p>
         Side.scores is an array that contains individual Score entries.
-        <img> Individual entries may refer to a <b>single set</b> in tennis or to a single football match within a couple
+        <img> Individual entries may refer to a <b>single set</b> in tennis or to a single football match within a
+        couple
         of matches played at a knockout stage.
         <img> Points within a game in tennis (like "<b>40:30</b>") should be provided by Side.currentScore (these points
         are not a part of Side.scores).
+    </p>
+    <div style="background: white; padding: 30px 0">
+        <img src="./scores.png" style="max-width: 100%;
+        margin: 0 auto;">
+    </div>
+    <pre><code class="language-javascript">matches: [
+    {
+        roundIndex: 0,
+        order: 0
+        sides: [
+            { // upper side
+                scores: [
+                    { mainScore: 7, subscore: 9 },
+                    { mainScore: 5 }
+                ],
+                currentScore: 40
+            },
+            ... // lower side
+        ]
+    }
+]</code></pre>
+    <p>
         <img> You can render scores however you like using <a
             href="../inject-markup#getScoresHTML">options.getScoresHTML</a>.
         <img> Or just change the scores' font-family using <a
