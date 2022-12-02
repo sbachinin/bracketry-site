@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Playoffs - createPlayoffs()</title>
+    <script defer type="module" src="./index.mjs"></script>
 
 
     <link rel="stylesheet" href="../styles/atom-one-light.min.css">
@@ -82,21 +83,37 @@ const lifecycle_methods = createPlayoffs(data, wrapper, options)</code></pre>
     </p>
 
 
-    <div class="heading-3">Problem of height</div>
+    <div class="heading-3" id="problem-of-height">Problem of height</div>
     <p>
         In most cases it makes sense to set <b>explicit height</b> on your wrapper element and keep "width" and "height"
         options at a default <b>"100%"</b>.
         <img>
-        You can also provide an auto-sized wrapper and set more explicit <b>width</b> and <b>height</b> options. But in such case you are likely to get a <b>height jump</b> during playoffs' installation.
+        You can also provide a wrapper without height but set more explicit <b>width</b> and <b>height</b> options on playoffs. In such case you will also get the desired height but there's a caveat: you will likely get a <b>height jump</b> during playoffs' installation.
         <img>
         <img>
-        If you don't provide any heights (neither on your wrapper nor in playoffs' options), playoffs will expand to the <b>full height</b> of its content.
+        If you don't provide any heights (neither on your wrapper nor in playoffs' options), playoffs will expand to the <b><big>full height</big></b> of its content.
         <img>
-        If this is what you need, mind one little problem: "full height" is <b>not stable</b>, i.e. it will change when you navigate to later rounds (it will get <i>twice smaller</i> with every next round). Thus all content <i>after</i> playoffs will be pushed back and forth.
+        If this is what you need, mind one little problem: "full height" is <b>volatile</b>, i.e. it changes when you navigate to later rounds (it gets <i>twice shorter</i> with every next round in order to use vertical space more efficiently). And it means that all content <i>after</i> playoffs will be pushed back and forth.
         <img>
-        So if you really want this auto height, a solution to the problem of jumping height will be <b><a href="../options#useClassicalLayout">useClassicalLayout</a></b> option. When set to true, it guarantees that the height will remain stable.
+        So if you really want "full height", make sure to set <b><a href="../options#useClassicalLayout">useClassicalLayout</a></b> option to true. When set to true, it will instruct playoffs not to change height on navigation.
     </p>
+    <img>
 
+    <pre><code class="language-javascript">// example of full-height playoffs
+        
+...
+
+createPlayoffs(
+    some_data,
+    wrapper_element, // element without explicit height,
+    { useClassicalLayout: true }
+)
+    </code></pre>
+    <img>
+    ... results in ...
+    <img>
+    <img>
+    <div class="wr1"></div>
 
 
 
