@@ -47,14 +47,21 @@ const get_option_type_label = (type) => {
 }
 
 const get_options_group = ([options_group_name, options_of_group], i) => {
-
     let html = ''
 
     if (i > 0) {
         html += `<div style="grid-column: 1/-1">
-            <div class="option-group-title" id="${options_group_name.toLowerCase().replace(/_/g, '-')}">${
-                options_group_name.toLowerCase().replace(/_/g, ' ')
-            }</div>
+            <div class="option-group-title" id="${options_group_name.toLowerCase().replace(/_/g, '-')}">
+                ${options_group_name.toLowerCase().replace(/_/g, ' ')}
+                
+                ${options_group_name === 'BORDERS_OPTIONS'
+                    ? `(<a href="../fonts-colors-sizes#borders">see diagram</a>)`
+                    : ''}
+
+                ${options_group_name === 'FONTS_OPTIONS'
+                    ? `(<a href="../fonts-colors-sizes#fonts">see diagram</a>)`
+                    : ''}
+            </div>
         </div>`
     }
 
@@ -62,13 +69,11 @@ const get_options_group = ([options_group_name, options_of_group], i) => {
         const extra = options_extra_meta[name]
         return `
             <div id=${name} class="name-cell">${name}</div>
-            <div>${escapeHtml(extra?.title) || ''}</div>
+            <div class="summary-cell">${escapeHtml(extra?.title) || ''}</div>
             <div class="type-cell">${get_option_type_label(meta.type)}</div>
             <div class="default-value-cell">${meta.default_value}</div>
-            <div class="explanation-cell">${
-                escapeHtml(extra?.explanation || '')
-            }${
-                extra?.more_link ? `<br><a class="more-link" href=${extra.more_link}>More</a>` : ''
+            <div class="explanation-cell">${escapeHtml(extra?.explanation || '')
+            }${extra?.more_link ? `<br><a class="more-link" href=${extra.more_link}>More</a>` : ''
             }</div>
         `
     }).join('\n')

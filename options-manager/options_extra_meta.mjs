@@ -22,13 +22,14 @@ This option cannot be updated, i.e. it will be ignored when passed to applyNewOp
 
     scrollButtonsPosition: {
         title: `Vertical scroll buttons position`,
-        explanation: `Applied when options.verticalScrollMode is "buttons" or "mixed". Or when options.fullscreen is true (because buttons are always there if it's fullscreen).
+        explanation: `Applied only when options.verticalScrollMode is "buttons" or "mixed". Or when options.fullscreen is true (because buttons are always there if it's fullscreen).
 Possible values:
     - "gutters": above and below the matches, squeezing the matches' container.
     - "overMatches": above and below the matches, not squeezing the matches' container but put on top of it`,
         disable_if: options => options.verticalScrollMode !== 'buttons'
             && options.verticalScrollMode !== 'mixed'
-            && options.fullscreen !== true
+            && options.fullscreen !== true,
+        more_link: '../adjust-scroll-buttons#position'
     },
 
     scrollButtonArrowSize: {
@@ -37,7 +38,7 @@ Possible values:
 
     syntheticScrollAmount: {
         title: `Synthetic scroll amount on button clicks`,
-        explanation: `Applied to vertical scroll when it's triggered by buttons (i.e., when options.verticalScrollMode === "buttons")
+        explanation: `Applied to vertical scroll when it's triggered by buttons (i.e. when options.verticalScrollMode === "buttons")
 This amount is a number of pixels covered by this "synthetic scroll" per one button click`
     },
 
@@ -48,8 +49,10 @@ This amount is a number of pixels covered by this "synthetic scroll" per one but
 
     height: {
         title: `Playoffs' total height`,
-        explanation: `In most cases the default value of "100%" will be the most adequate choice.
-Your wrapper in such case should have explicit width and height. This will prevent height from jumping after playoffs' installation`
+        explanation: `This option may help when you want to display fullscreen playoffs (options.fullscreen === true). In such case it's a good idea to set width and height options to something like "90%". It will ensure nice paddings at the edges of viewport.
+
+In most other cases a default value of "100%" will be the most adequate choice. But make sure to set explicit width and height on your wrapper element in which you install playoffs. This will prevent height from jumping after playoffs' installation.`,
+        more_link: '../create-playoffs#problem-of-height'
     },
 
     fullscreen: {
@@ -60,7 +63,8 @@ Setting width and height options will also make sense. Otherwise playoffs may ta
 
 Use rootBgColor and fullscreenBgColor to get an opaque background for your fullscreen playoffs.
         
-"fullscreen" option is not updatable, i.e. it will be ignored when passed to applyNewOptions.`
+"fullscreen" option is not updatable, i.e. it will be ignored when passed to applyNewOptions.`,
+        more_link: '../fullscreen'
     },
 
     fullscreenBgColor: {
@@ -120,7 +124,8 @@ When this options is set to "" (empty string), "rootBorderColor" option will be 
 
     mainVerticalPadding: {
         title: `Main vertical padding`,
-        explanation: `It's a padding before the first match and after the last match of the base round`
+        explanation: `It's a padding before the first match and after the last match of the base round`,
+        more_link: '../fonts-colors-sizes#sizes'
     },
 
     visibleRoundsCount: {
@@ -129,6 +134,7 @@ When this options is set to "" (empty string), "rootBorderColor" option will be 
 Automatic means a natural width of a widest match (if not adjusted by "displayWholeRounds" option).
 Fractional is possible.
 This options may be useful if you want to make playoffs "responsive", i.e. to respond to changing viewport size. On mobile screen it makes sense to set visibleRoundsCount to 1`,
+        more_link: `../rounds-count`
     },
 
     displayWholeRounds: {
@@ -136,7 +142,8 @@ This options may be useful if you want to make playoffs "responsive", i.e. to re
         explanation: `When set to true, rounds are slightly stretched in order to hide the partly visible round on the right.
 Mind that in some cases rounds (and matches too) can become TOO wide. To prevent this use matchMaxWidth option.
 
-displayWholeRounds is not applied if "visibleRoundsCount" option is set to something other than 0.`
+displayWholeRounds is not applied if "visibleRoundsCount" option is set to something other than 0.`,
+        more_link: `../rounds-count`
     },
 
     useClassicalLayout: {
@@ -149,12 +156,12 @@ Thus the base round (the leftmost visible one) always attains the smallest possi
 Margins between matches of a base round are defined by options.matchMinVerticalGap).
 
 useClassicalLayout might be useful if you want to render playoffs with 'auto' (full) height.
-In such case you should set NO height on your wrapper element and set { useClassicalLayout: true }.`
+In such case you should set NO height on your wrapper element and { useClassicalLayout: true }.`
     },
 
     showScrollbar: {
         title: 'Should show scrollbar',
-        explanation: ``
+        explanation: `Set this to false to remove scrollbar`
     },
 
     scrollbarWidth: {
@@ -196,7 +203,7 @@ Whatever you return from this function will be injected in the round titles bar.
 
     resetScrollOnNavigation: {
         title: 'Reset vertical scroll on navigation?',
-        explanation: ``
+        explanation: `With this option set to true, scroll position will be reset to 0 every time a user navigates to previous/next round`
     },
 
     navButtonsPosition: {
@@ -205,7 +212,8 @@ Whatever you return from this function will be injected in the round titles bar.
 "gutters": left and right (in the gutters)
 "beforeTitles": header (before round titles)
 "overTitles": header (on top of round titles)
-"hidden": hidden`
+"hidden": hidden`,
+        more_link: '../adjust-nav-buttons#position'
     },
 
     navButtonsTopDistance: {
@@ -231,20 +239,24 @@ Can be specified in any CSS units`,
 
     leftNavButtonHTML: {
         title: 'Inner HTML of LEFT navigation button',
-        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
+        more_link: '../adjust-nav-buttons#icons'
     },
     rightNavButtonHTML: {
         title: 'Inner HTML of RIGHT navigation button (<svg> / <img> / whatever)',
-        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
+        more_link: '../adjust-nav-buttons#icons'
     },
 
     scrollUpButtonHTML: {
         title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
-        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
+        more_link: '../adjust-scroll-buttons#icons'
     },
     scrollDownButtonHTML: {
         title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
-        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
+        more_link: '../adjust-scroll-buttons#icons'
     },
 
     connectionLinesWidth: {
@@ -252,7 +264,7 @@ Can be specified in any CSS units`,
         explanation: ``
     },
     connectionLinesColor: {
-        title: 'Connection lines color',
+        title: 'Regular connection lines color',
         explanation: ``
     },
     highlightedConnectionLinesColor: {
@@ -267,7 +279,8 @@ getMatchElement will be called with 3 args:
     1) round index (0-based),
     2) match order (index of a match within a round) (0-based)
 
-If you want to prevent a given match from being rendered, return null from getMatchElement()`
+If you want to prevent a given match from being rendered, return null from getMatchElement()`,
+        more_link: '../inject-markup#getMatchElement'
     },
 
     getNationalityHTML: {
@@ -275,16 +288,13 @@ If you want to prevent a given match from being rendered, return null from getMa
         explanation: `A string (hopefully containing HTML code) returned from getNationalityHTML will be injected into the nationality column (second column) of a match.
 
 getNationalityHTML will be called with:
-    1) "player":
-        An object containing data of a Player whose nationality is being rendered (contestants[contestantId].players[playerIndex]), if such property was provided to createPlayoffs()
-    2) "context": 
-        An object that tells you where (for which player etc) nationality is rendered. Contains these properties:
-            - roundIndex - 0-based index of a round
-            - matchOrder - 0-based index of a match within a round
-            - contestantId - string that refers to an entry within Contestants dictionary
-            - playerIndex - (number) an index of a player within Contestant.players array
-    
-getNationalityHTML must return a string. Ideally it has to be a string of HTML where the root element has an explicit width (equal for all players). This will help with horizontal alignment within a match.`,
+    1) "player" - an object containing data of a Player whose nationality is being rendered
+    2) "context" - an object that tells you where (for which player etc) nationality is rendered. Contains these properties:
+        - roundIndex
+        - matchOrder
+        - contestantId
+        - playerIndex`,
+        more_link: '../inject-markup#getNationalityHTML'
 
     },
 
@@ -293,16 +303,13 @@ getNationalityHTML must return a string. Ideally it has to be a string of HTML w
         explanation: `A string (hopefully containing HTML code) returned from getEntryStatusHTML will be injected into the corresponding (leftmost) column of a match.
 
 getEntryStatusHTML will be called with:
-        1) "entryStatus":
-            A string containing an entryStatus of a Contestant which is being rendered (contestants[contestantId].entryStatus), if such property was provided to createPlayoffs()
-        2) "context": 
-            An object that tells you where (for which player etc) entry status is rendered. Contains these properties:
-                - roundIndex - 0-based index of a round
-                - matchOrder - 0-based index of a match within a round
-                - contestantId - string that refers to an entry within Contestants dictionary
-            
-getEntryStatusHTML must return a string. Ideally it has to be a string of HTML where the root element has an explicit width (equal for all sides). This will help with horizontal alignment within a match.`,
-        
+        1) "entryStatus" - a string containing an entryStatus of a Contestant which is being rendered
+        2) "context" - an object that tells you where (for which player etc) entry status is rendered. Contains these properties:
+            - roundIndex
+            - matchOrder
+            - contestantId`,
+        more_link: '../inject-markup#getEntryStatusHTML'
+
     },
 
     getPlayerTitleHTML: {
@@ -310,20 +317,14 @@ getEntryStatusHTML must return a string. Ideally it has to be a string of HTML w
         explanation: `A string (hopefully containing HTML code) returned from getPlayerTitleHTML will be injected into the corresponding column of a match.
         
 getPlayerTitleHTML will be called with:
-        1) "player"
-            An object containing data of a Player whose title is being rendered (contestants[contestantId].players[playerIndex]), if such data was provided to createPlayoffs()
-        2) "context"
-            An object with properties:
-                - roundIndex - 0-based index of a round
-                - matchOrder - 0-based index of a match within a round
-                - contestantId - string that refers to an entry within Contestants dictionary
-                - playerIndex - (number) an index of a player within Contestant.players array
+        1) "player" - an object containing data of a Player whose title is being rendered
+        2) "context" - an object with properties:
+            - roundIndex
+            - matchOrder
+            - contestantId
+            - playerIndex`,
+        more_link: '../inject-markup#getPlayerTitleHTML'
 
-Return value: HTML string or just a string
-        
-Mind that getPlayerTitleHTML is NOT called (and bare Player.title is NOT rendered either) IF a given Side has a 'title' property
-        
-getPlayerTitleHTML is the recommended way to turn your players' titles into links.`
     },
 
     getScoresHTML: {
@@ -333,10 +334,8 @@ getPlayerTitleHTML is the recommended way to turn your players' titles into link
 getScoresHTML is called for each side of a match separately. The output string is used to render scores of a single side, not both sides.
 
 getScoresHTML is called with:
-        1) "side"
-            An object containing data of a Side of a match
-        2) "match"
-            An object containing data of a Match which contains a Side whose score is being rendered`
+        1) "side" - data of a Side of a match
+        2) "match" - data of a Match which contains a Side whose score is being rendered`
     },
 
     matchMaxWidth: {
@@ -347,12 +346,12 @@ Providing smaller width here will help Playoffs draw a greater number of rounds 
 
     scrollButtonPadding: {
         title: 'Padding around the default scroll arrow',
-        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc' 
+        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc'
     },
 
     navButtonPadding: {
         title: 'Padding around the default navigation arrow',
-        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc' 
+        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc'
     },
 
     matchMinVerticalGap: {

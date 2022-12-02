@@ -137,7 +137,7 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         match element.
     </p>
     <p>
-        If getMatchElement is provided, then NONE of the <b>other</b> render functions listed here will be called.
+        To prevent a given match from rendering return null from getMatchElement
     </p>
     <pre><code class="language-javascript">{
     getMatchElement: (roundIndex, matchOrder) => {

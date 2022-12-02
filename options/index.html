@@ -33,6 +33,10 @@
             text-transform: uppercase;
         }
 
+        .option-group-title a {
+            font-size: 16px;
+        }
+
         .options-table>div {
             border-bottom: 1px solid #ccc;
             padding: 10px 6px;
@@ -47,10 +51,17 @@
         }
 
         .options-table>div.name-cell {
-            color: #ababab;
+            color: #909090;
             word-wrap: anywhere;
             font-style: italic;
             font-size: 13px;
+            padding-top: 12px;
+            background: #ecfeff;
+            max-width: 160px;
+        }
+
+        .options-table>div.summary-cell {
+            padding-left: 20px;
         }
 
         .options-table>div.default-value-cell {
@@ -65,18 +76,20 @@
         .options-table>div.type-cell {
             color: #4ee83f;
             font-size: 14px;
+            margin-top: 2px;
         }
 
 
         .more-link {
+            float: right;
+            margin-right: 10%;
+            font-size: 16px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            padding: 1px 4px;
+
             border: 1px solid #373737;
-            font-size: 18px;
-            padding: 2px 6px;
-            display: inline-block;
             text-decoration: none;
-            margin-top: 10px;
-            margin-bottom: 15px;
-            margin-left: 10px;
             background: #dff5ff;
         }
     </style>
