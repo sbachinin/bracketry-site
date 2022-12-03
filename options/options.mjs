@@ -72,9 +72,15 @@ const get_options_group = ([options_group_name, options_of_group], i) => {
             <div class="summary-cell">${escapeHtml(extra?.title) || ''}</div>
             <div class="type-cell">${get_option_type_label(meta.type)}</div>
             <div class="default-value-cell">${meta.default_value}</div>
-            <div class="explanation-cell">${escapeHtml(extra?.explanation || '')
-            }${extra?.more_link ? `<br><a class="more-link" href=${extra.more_link}>More</a>` : ''
-            }</div>
+            <div class="explanation-cell">${
+                    escapeHtml(extra?.explanation || '')
+                }${
+                    extra.image === true ? `<img src="./${name}.png">` : ''
+                }${
+                    extra?.more_link ? `<a class="more-link" href=${extra.more_link}>${
+                        extra.more_link_text || 'More'
+                    }</a>` : ''
+                }</div>
         `
     }).join('\n')
 

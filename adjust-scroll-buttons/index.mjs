@@ -7,7 +7,7 @@ createPlayoffs(
     document.querySelector('.wr1'),
     {
         verticalScrollMode: 'buttons',
-        syntheticScrollAmount: 100,
+        buttonScrollAmount: 100,
         getEntryStatusHTML: () => '',
         scrollGutterBorderColor: 'orangered'
     }
@@ -18,7 +18,7 @@ createPlayoffs(
     document.querySelector('.wr2'),
     {
         verticalScrollMode: 'buttons',
-        syntheticScrollAmount: 100,
+        buttonScrollAmount: 100,
         scrollButtonsPosition: 'overMatches',
         getEntryStatusHTML: () => ''
     }
@@ -46,7 +46,7 @@ createPlayoffs(
         scrollDownButtonHTML,
         scrollButtonPadding: '0',
         scrollButtonsPosition: 'overMatches',
-        syntheticScrollAmount: 100
+        buttonScrollAmount: 100
     }
 )
 

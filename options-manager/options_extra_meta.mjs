@@ -1,20 +1,24 @@
+const scroll_buttons_are_hidden = options => {
+    return (
+        options.verticalScrollMode !== 'buttons'
+        && options.verticalScrollMode !== 'mixed'
+        && options.fullscreen !== true
+    )
+}
+
 export const options_extra_meta = {
 
     verticalScrollMode: {
         title: `Vertical scroll mode`,
         explanation: `Possible values:
     
-    - "native": matches are scrolled in a "native browser way" which can be mousewheel / keys / touchmove or whatever;
+    - "native": matches are scrolled in a "native browser way"
     
-    - "buttons": two buttons appear before and after the matches.
-        Clicking these buttons will scroll the content by a number of pixels defined by options.syntheticScrollAmount.
-        Buttons will be positioned according to options.scrollButtonsPosition.
+    - "buttons": two buttons appear before and after the matches. They scroll the content by a number of pixels defined by options.buttonScrollAmount.
     
-    - "mixed": buttons AND mousewheel. BUT NOT other native ways of scrolling like keyboard keys or touchmove. Thus in "mixed" scroll mode on MOBILE devices you get ONLY one way of scrolling the matches (clicking the buttons).
+    - "mixed": buttons AND mousewheel. BUT NOT other native ways of scrolling like keyboard keys or touchmove.
 
-With options.fullscreen set to true verticalScrollMode will always be "mixed".
-
-This option cannot be updated, i.e. it will be ignored when passed to applyNewOptions method.`,
+With options.fullscreen set to true verticalScrollMode will always be "mixed".`,
 
         disable_if: options => options.fullscreen === true,
         more_link: '../scroll-modes'
@@ -26,20 +30,20 @@ This option cannot be updated, i.e. it will be ignored when passed to applyNewOp
 Possible values:
     - "gutters": above and below the matches, squeezing the matches' container.
     - "overMatches": above and below the matches, not squeezing the matches' container but put on top of it`,
-        disable_if: options => options.verticalScrollMode !== 'buttons'
-            && options.verticalScrollMode !== 'mixed'
-            && options.fullscreen !== true,
+        disable_if: scroll_buttons_are_hidden,
         more_link: '../adjust-scroll-buttons#position'
     },
 
     scrollButtonArrowSize: {
-        title: `Size of a default scroll arrow`
+        title: `Size of a default scroll arrow`,
+        disable_if: scroll_buttons_are_hidden,
     },
 
-    syntheticScrollAmount: {
-        title: `Synthetic scroll amount on button clicks`,
-        explanation: `Applied to vertical scroll when it's triggered by buttons (i.e. when options.verticalScrollMode === "buttons")
-This amount is a number of pixels covered by this "synthetic scroll" per one button click`
+    buttonScrollAmount: {
+        title: `Scroll amount on button clicks`,
+        explanation: `Applied to vertical scroll when it's triggered by buttons clicks (when options.verticalScrollMode === "buttons" or "mixed")
+This amount is a number of pixels covered by this "synthetic scroll" per one button click`,
+        disable_if: scroll_buttons_are_hidden
     },
 
     width: {
@@ -73,7 +77,8 @@ Use rootBgColor and fullscreenBgColor to get an opaque background for your fulls
 "rootBgColor" will be painted on top of it.
 So fullscreenBgColor will be either:
     a) painted across the entire viewport IF "rootBgColor" is "transparent" OR
-    b) painted only on the edges of the viewport IF "rootBgColor" is opaque`
+    b) painted only on the edges of the viewport IF "rootBgColor" is opaque`,
+        disable_if: o => o.fullscreen !== true
     },
 
     rootBorderColor: {
@@ -125,15 +130,15 @@ When this options is set to "" (empty string), "rootBorderColor" option will be 
     mainVerticalPadding: {
         title: `Main vertical padding`,
         explanation: `It's a padding before the first match and after the last match of the base round`,
-        more_link: '../fonts-colors-sizes#sizes'
+        image: true
     },
 
     visibleRoundsCount: {
         title: `How many rounds to display`,
-        explanation: `Provide 0 for "automatic" width.
+        explanation: `Provide 0 for "automatic" width (but it's a default anyway).
 Automatic means a natural width of a widest match (if not adjusted by "displayWholeRounds" option).
-Fractional is possible.
-This options may be useful if you want to make playoffs "responsive", i.e. to respond to changing viewport size. On mobile screen it makes sense to set visibleRoundsCount to 1`,
+This options may be useful if you want to make playoffs "responsive", i.e. to respond to changing viewport size. On mobile screen it makes sense to set visibleRoundsCount to 1.
+Fractional visibleRoundsCount is possible (but do you need it? 🚽)`,
         more_link: `../rounds-count`
     },
 
@@ -143,20 +148,14 @@ This options may be useful if you want to make playoffs "responsive", i.e. to re
 Mind that in some cases rounds (and matches too) can become TOO wide. To prevent this use matchMaxWidth option.
 
 displayWholeRounds is not applied if "visibleRoundsCount" option is set to something other than 0.`,
+        disable_if: o => o.visibleRoundsCount > 0,
         more_link: `../rounds-count`
     },
 
     useClassicalLayout: {
         title: 'Use classical layout',
-        explanation: `When set to true, it instructs playoffs to preserve the original vertical margins between matches when navigating to later rounds.
-
-(By default playoffs tries to be smart and display matches in the most condensed way. For that it reduces the rounds' height by 2 on each next navigation step (i.e. on each click on the right button).
-
-Thus the base round (the leftmost visible one) always attains the smallest possible height.
-Margins between matches of a base round are defined by options.matchMinVerticalGap).
-
-useClassicalLayout might be useful if you want to render playoffs with 'auto' (full) height.
-In such case you should set NO height on your wrapper element and { useClassicalLayout: true }.`
+        explanation: `When set to true, it instructs playoffs to preserve the original vertical margins between matches when navigating between rounds.`,
+        more_link: `../options#useClassicalLayout-more`
     },
 
     showScrollbar: {
@@ -193,7 +192,8 @@ Whatever you return from this function will be injected in the round titles bar.
 
     roundTitlesVerticalPadding: {
         title: `Round titles' vertical padding`,
-        explanation: ``
+        explanation: ``,
+        image: true
     },
 
     roundTitleColor: {
@@ -220,7 +220,8 @@ Whatever you return from this function will be injected in the round titles bar.
         title: `Navigation buttons' distance from top`,
         explanation: `Takes effect only when navButtonsPosition is set to "overMatches".
 Can be specified in any CSS units`,
-        disable_if: options => options.navButtonsPosition !== 'overMatches'
+        disable_if: options => options.navButtonsPosition !== 'overMatches',
+        image: true
     },
 
     navButtonArrowSize: {
@@ -234,7 +235,8 @@ Can be specified in any CSS units`,
 
     scrollButtonSvgColor: {
         title: 'Color of the default scroll arrow',
-        explanation: ``
+        explanation: ``,
+        disable_if: scroll_buttons_are_hidden,
     },
 
     leftNavButtonHTML: {
@@ -251,12 +253,14 @@ Can be specified in any CSS units`,
     scrollUpButtonHTML: {
         title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-scroll-buttons#icons'
+        more_link: '../adjust-scroll-buttons#icons',
+        disable_if: scroll_buttons_are_hidden
     },
     scrollDownButtonHTML: {
         title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-scroll-buttons#icons'
+        more_link: '../adjust-scroll-buttons#icons',
+        disable_if: scroll_buttons_are_hidden
     },
 
     connectionLinesWidth: {
@@ -341,52 +345,64 @@ getScoresHTML is called with:
     matchMaxWidth: {
         title: 'Maximum match width',
         explanation: `Only pixels here.
-Providing smaller width here will help Playoffs draw a greater number of rounds within a given width`
+A reasonable matchMaxWidth may help for example if you use visibleRoundsCount or displayWholeRounds options - in such cases there is a risk of getting overly wide matches on certain screens.`,
+        image: true
     },
 
     scrollButtonPadding: {
         title: 'Padding around the default scroll arrow',
-        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc'
+        explanation: 'This value will be assigned as "padding" CSS property so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc',
+        disable_if: scroll_buttons_are_hidden,
     },
 
     navButtonPadding: {
         title: 'Padding around the default navigation arrow',
-        explanation: 'This value will be assigned as "padding" CSS propery so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc'
+        explanation: 'This value will be assigned as "padding" CSS property so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc'
     },
 
     matchMinVerticalGap: {
         title: 'Minimal vertical distance between matches',
-        explanation: `Minimal distance means a distance between matches of the leftmost visible round when the visible height isn't enough to contain all matches of this round`
+        explanation: `Minimal distance means a distance between matches of the leftmost visible round when the visible height isn't enough to contain all matches of this round`,
+        image: true,
+        more_link: '../options#useClassicalLayout-more'
     },
 
     matchHorMargin: {
         title: `Matches' horizontal margins`,
-        explanation: `Note that in "mobile" (1-round) layout this option will take no effect. Instead a margin of 1.5% will be used`
+        explanation: ``,
+        image: true
     },
 
     matchAxisMargin: {
         title: `Vertical distance between match axis and each side of a match`,
-        explanation: ``
+        explanation: ``,
+        image: true
     },
 
     oneSidePlayersGap: {
         title: 'Vertical distance between players of one side of a match (e.g. of tennis doubles)',
-        explanation: ``
+        explanation: ``,
+        image: true
     },
 
     liveMatchBgColor: {
         title: 'Live match background color',
-        explanation: `Better provide a semi-transparent color because it's painted on top of the connection line. Therefore connection line will disappear behind the live background if the latter is opaque.`
+        explanation: `Better provide a semi-transparent color because it's painted on top of the connection line. Therefore connection line will disappear behind the live background if the latter is opaque.`,
+        more_link: '../live-match',
+        more_link_text: 'More about live matches'
     },
 
     distanceBetweenScorePairs: {
         title: 'Distance between scores (e.g. between sets in tennis)',
-        explanation: ``
+        explanation: ``,
+        image: true,
+        disable_if: o => o.getScoresHTML !== null
     },
 
     matchStatusBgColor: {
         title: 'Background color of a match status badge',
-        explanation: ``
+        explanation: ``,
+        image: true
     },
 
     rootFontFamily: {
@@ -430,37 +446,18 @@ Providing smaller width here will help Playoffs draw a greater number of rounds 
 
     scoreFontFamily: {
         title: 'Score font-family',
-        explanation: `Provide "inherit" to use rootFontFamily option`
+        explanation: ``
     },
 
     onMatchClick: {
         title: 'What happens when a user clicks a match',
-        explanation: `Your function will be called with a data of a match that was clicked.
-Example:
-    {
-        onMatchClick: (match) => {
-            location.href = \`/matches/\${match.id}\`
-        }
-    }
-If you provide this function, contestant's match history will not be highlighted when you click a match's side`
+        explanation: `Here you can provide a function that will be called when user clicks on a match.`,
+        more_link: `../click-handlers#onMatchClick`
     },
 
     onMatchSideClick: {
         title: 'What happens when a user clicks a side of a match',
-        explanation: `Your function will be called with
-    1) data of a match within which a side was clicked
-    2) data of a contestant which was clicked,
-    3) this contestant's id,
-Example:
-{
-    onMatchSideClick: (
-        match,
-        contestant,
-        contestantId
-    ) => {
-        location.href = \`/teams/\${contestantId}\`
-    }
-}
-If you provide this function, it will discard the default behaviour: contestant's match history will not be highlighted when you click a side of a match`
+        explanation: `Here you can provide a function that will be called when user clicks on a side of a match.`,
+        more_link: `../click-handlers#onMatchSideClick`
     }
 }

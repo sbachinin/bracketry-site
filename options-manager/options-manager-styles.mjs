@@ -65,6 +65,7 @@ export const options_manager_styles = `
         filter: blur(0.6px);
         pointer-events: none;
         cursor: auto;
+        color: transparent;
     }
 
     .single-option-wrapper.disabled .option-name,

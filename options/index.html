@@ -40,6 +40,7 @@
         .options-table>div {
             border-bottom: 1px solid #ccc;
             padding: 10px 6px;
+            line-height: 24px;
         }
 
         .options-table>div:nth-child(-n+5) {
@@ -64,33 +65,38 @@
             padding-left: 20px;
         }
 
+        .options-table>div.type-cell {
+            text-align: center;
+            background: #ecfeff;
+        }
+
         .options-table>div.default-value-cell {
+            text-align: center;
             word-wrap: anywhere;
+            font-size: 14px;
         }
 
         .options-table>div.explanation-cell {
             white-space: pre-wrap;
-            line-height: 1.6em;
+        }
+
+        .options-table>div.explanation-cell img {
+            margin: 10px 0;
         }
 
         .options-table>div.type-cell {
-            color: #4ee83f;
             font-size: 14px;
-            margin-top: 2px;
         }
 
 
         .more-link {
-            float: right;
+            display: flex;
             margin-right: 10%;
             font-size: 16px;
-            margin-top: 15px;
-            margin-bottom: 10px;
+            margin-top: 9px;
+            margin-bottom: 3px;
             padding: 1px 4px;
-
-            border: 1px solid #373737;
-            text-decoration: none;
-            background: #dff5ff;
+            font-weight: bold;
         }
     </style>
 
@@ -170,6 +176,34 @@ applyNewOptions({
     <br>
     <div class="list-of-options"></div>
 
+
+    <div class="heading-3" id="useClassicalLayout-more">
+        useClassicalLayout
+        <small><small><small><span class="parameter">(boolean)</span></small></small></small>
+    </div>
+    <p>When set to true, it instructs playoffs to preserve the original vertical margins between matches when navigating
+        between rounds.
+        <img src="./useClassicalLayout.png">
+        <img>
+        <img>
+        By default playoffs tries to be smart and display matches in a <b>most condensed</b> way. For that it reduces
+        the rounds' height by 2 on each next navigation step (i.e. on each click on the right button).
+        <img>
+        The "base round" (the leftmost visible one) always attains the smallest possible height.
+        Margins between matches of a base round are defined by <b>matchMinVerticalGap</b>.
+        <img>
+        Therefore each time the "base round" changes (i.e. user navigates left or right) all vertical margins are
+        redefined.
+        <img>
+        <b>{ useClassicalLayout: true }</b> cancels this smart behaviour and leaves the margins as they are.
+        <img>
+        useClassicalLayout might be useful if you want to render playoffs with <b>'auto' (full) height</b>.
+        In such case you should set NO height on your wrapper element and set useClassicalLayout to true. Read more <a
+            href="../create-playoffs#problem-of-height">here</a>.
+    </p>
+
+
+    </div>
 
 
 
