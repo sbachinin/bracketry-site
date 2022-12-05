@@ -88,8 +88,8 @@ export const get_option_input = (name, info, onchange) => {
     const wrapper_el = elements.option_wrapper_el(name, info.type, extra?.title)
     wrapper_el.querySelector('.input-placeholder').replaceWith(input)
     wrapper_el.querySelector('.explanation-placeholder').replaceWith(
-        extra?.explanation
-            ? elements.option_explanation_button(extra.explanation)
+        (extra?.explanation || extra.image || extra.more_link)
+            ? elements.option_explanation_button(name)
             : ''
     )
 
