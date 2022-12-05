@@ -45,11 +45,14 @@ const playoffs2 = createPlayoffs(
     data,
     document.querySelector('.wr2'),
     {
-        onMatchSideClick: (match, contestant) => {
-            window.open(
-                `http://google.com/search?q=${contestant.players[0].title}`,
-                '_blank'
-            ).focus()
+        onMatchSideClick: (match, sideIndex) => {
+            const contestant = data.contestants[match.sides[sideIndex]?.contestantId]
+            if (contestant !== undefined) {
+                window.open(
+                    `http://google.com/search?q=${contestant.players[0].title}`,
+                    '_blank'
+                ).focus()
+            }
         },
 
         ...options

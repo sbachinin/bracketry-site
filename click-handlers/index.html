@@ -106,12 +106,7 @@ createPlayoffs(data, wrapper_element, options)</code></pre>
             side was clicked
         </li>
         <li>
-            <div class="parameter">contestant</div> - an object containing data of a <a
-                href="../data-shape#contestant-player-side">contestant</a> to whom a clicked side refers
-        </li>
-        <li>
-            <div class="parameter">contestantId</div> - an id by which a corresponding contestant can be found within
-            data.contestants dictionary
+            <div class="parameter">sideIndex</div> - number 0 or 1 that indicates which side of a match was clicked
         </li>
     </ul>
     <img>
@@ -121,11 +116,14 @@ createPlayoffs(data, wrapper_element, options)</code></pre>
     <pre style="margin-bottom: 0;"><code class="language-javascript">...
 
 const options = {
-    onMatchSideClick: (match, contestant) => {
-        window.open(
-            `http://google.com/search?q=${contestant.players[0].title}`,
-            '_blank'
-        ).focus()
+    onMatchSideClick: (match, sideIndex) => {
+        const contestant = data.contestants[match.sides[sideIndex]?.contestantId]
+        if (contestant !== undefined) {
+            window.open(
+                `http://google.com/search?q=${contestant.players[0].title}`,
+                '_blank'
+            ).focus()
+        }
     },
 }
 
