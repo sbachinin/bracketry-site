@@ -34,6 +34,18 @@ header>* {
     margin-bottom: 10px;
 }
 
+header a.github {
+    display: inline-block;
+    height: 36px;
+    color: black;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+header a.github * {
+    fill: currentColor !important;
+}
+
 .logo {
     height: 120px;
     display: inline-block;
