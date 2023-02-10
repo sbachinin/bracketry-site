@@ -20,7 +20,12 @@ export const options_extra_meta = {
 
 With options.fullscreen set to true verticalScrollMode will always be "mixed".`,
 
-        disable_if: options => options.fullscreen === true,
+        disable_if: options => {
+            if (options.fullscreen === true) {
+                return 'mixed'
+            }
+            return options.verticalScrollMode // if not fullscreen, disable anyway because it's not updatable
+        },
         more_link: '../scroll-modes'
     },
 
@@ -30,21 +35,48 @@ With options.fullscreen set to true verticalScrollMode will always be "mixed".`,
 Possible values:
     - "gutters": above and below the matches, squeezing the matches' container.
     - "overMatches": above and below the matches, not squeezing the matches' container but put on top of it`,
-        disable_if: scroll_buttons_are_hidden,
+        disable_if: o => { if (scroll_buttons_are_hidden(o)) return '' },
         more_link: '../adjust-scroll-buttons#position'
     },
 
     scrollButtonArrowSize: {
         title: `Size of a default scroll arrow`,
-        disable_if: scroll_buttons_are_hidden,
+        disable_if: o => { if (scroll_buttons_are_hidden(o)) return 0 }
     },
 
     buttonScrollAmount: {
         title: `Scroll amount on button clicks`,
         explanation: `Applied to vertical scroll when it's triggered by buttons clicks (when options.verticalScrollMode === "buttons" or "mixed")
 This amount is a number of pixels covered by this "synthetic scroll" per one button click`,
-        disable_if: scroll_buttons_are_hidden
+        disable_if: o => { if (scroll_buttons_are_hidden(o)) return 0 }
     },
+
+    scrollButtonSvgColor: {
+        title: 'Color of the default scroll arrow',
+        explanation: ``,
+        disable_if: o => { if (scroll_buttons_are_hidden(o)) return '' }
+    },
+
+    scrollUpButtonHTML: {
+        title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
+        more_link: '../adjust-scroll-buttons#icons',
+        disable_if: o => { if (scroll_buttons_are_hidden(o)) return '' }
+    },
+    scrollDownButtonHTML: {
+        title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
+        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
+        more_link: '../adjust-scroll-buttons#icons',
+        disable_if: o => { if (scroll_buttons_are_hidden(o)) return '' }
+    },
+
+    scrollButtonPadding: {
+        title: 'Padding around the default scroll arrow',
+        explanation: 'This value will be assigned as "padding" CSS property so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc',
+        disable_if: o => { if (scroll_buttons_are_hidden(o)) return 0 }
+    },
+
+
 
     width: {
         title: `Playoffs' total width`,
@@ -68,7 +100,8 @@ Setting width and height options will also make sense. Otherwise playoffs may ta
 Use rootBgColor and fullscreenBgColor to get an opaque background for your fullscreen playoffs.
         
 "fullscreen" option is not updatable, i.e. it will be ignored when passed to applyNewOptions.`,
-        more_link: '../fullscreen'
+        more_link: '../fullscreen',
+        disable_if: o => o.fullscreen // always disable
     },
 
     fullscreenBgColor: {
@@ -78,7 +111,11 @@ Use rootBgColor and fullscreenBgColor to get an opaque background for your fulls
 So fullscreenBgColor will be either:
     a) painted across the entire viewport IF "rootBgColor" is "transparent" OR
     b) painted only on the edges of the viewport IF "rootBgColor" is opaque`,
-        disable_if: o => o.fullscreen !== true
+        disable_if: o => {
+            if (o.fullscreen !== true) {
+                return ''
+            }
+        }
     },
 
     rootBorderColor: {
@@ -106,21 +143,38 @@ Default "" (empty string) value means that the "rootBorderColor" option will be 
         title: `Scroll gutter border color`,
         explanation: `Applied when options.verticalScrollMode === "buttons" AND options.scrollButtonsPosition === "gutters".
 When this options is set to "" (empty string), "rootBorderColor" option will be used instead`,
-        disable_if: options => options.verticalScrollMode === 'native' || options.scrollButtonsPosition !== 'gutters'
+        disable_if: options => {
+            if (
+                options.verticalScrollMode === 'native'
+                || options.scrollButtonsPosition !== 'gutters'
+            ) {
+                return ''
+            }
+        }
     },
 
     hoveredMatchBorderColor: {
-        title: 'Hovered match border color (applied when options.onMatchClick is provided)',
-        explanation: `When this options is set to "" (empty string), "rootBorderColor" option will be used instead`
+        title: 'Hovered match border color',
+        explanation: `This color is applied only when options.onMatchClick is provided.
+When this option is set to "" (empty string), "rootBorderColor" option will be used instead`,
+        disable_if: o => {
+            if (typeof o.onMatchClick !== 'function') {
+                return ''
+            }
+        }
     },
 
     navGutterBorderColor: {
         title: 'Navigation gutter border color',
         explanation: `Applied only when navButtonsPosition is "gutters" or "overTitles" or "beforeTitles".
 When this options is set to "" (empty string), "rootBorderColor" option will be used instead`,
-        disable_if: options => options.navButtonsPosition !== 'gutters'
-            && options.navButtonsPosition !== 'overTitles'
-            && options.navButtonsPosition !== 'beforeTitles'
+        disable_if: options => {
+            if (options.navButtonsPosition !== 'gutters'
+                && options.navButtonsPosition !== 'overTitles'
+                && options.navButtonsPosition !== 'beforeTitles') {
+                return ''
+            }
+        }
     },
 
     rootBgColor: {
@@ -148,7 +202,11 @@ Fractional visibleRoundsCount is possible (but do you need it? 🚽)`,
 Mind that in some cases rounds (and matches too) can become TOO wide. To prevent this use matchMaxWidth option.
 
 displayWholeRounds is not applied if "visibleRoundsCount" option is set to something other than 0.`,
-        disable_if: o => o.visibleRoundsCount > 0,
+        disable_if: o => {
+            if (o.visibleRoundsCount > 0) {
+                return true
+            }
+        },
         more_link: `../rounds-count`
     },
 
@@ -176,17 +234,25 @@ displayWholeRounds is not applied if "visibleRoundsCount" option is set to somet
     disableHighlight: {
         title: `Don't highlight contestant history on click`,
         explanation: `Might be useful if you have different plans for clicks.
-For instance, if you want to make team titles behave like links`
+For instance, if you want to make team titles behave like links (perhaps using "getPlayerTitleHTML" option).
+
+disableHighlight is automatically set to true if you provide "onMatchClick" or "onMatchSideCLick" options`,
+        disable_if: o => {
+            if (typeof o.onMatchClick === 'function' || typeof o.onMatchSideClick === 'function') {
+                return true
+            }
+        }
     },
 
     getRoundTitleElement: {
         title: 'Round title Element getter',
         explanation: `Here you can provide your own round title element.
+
 getRoundTitleElement will be called with:
     1) data of a round which is being rendered,
     2) index of a round which is being rendered (0-based).
 
-Whatever you return from this function will be injected in the round titles bar.`,
+Whatever you return from this function will be injected into the round titles bar.`,
         more_link: '../inject-markup#getRoundTitleElement'
     },
 
@@ -220,48 +286,64 @@ Whatever you return from this function will be injected in the round titles bar.
         title: `Navigation buttons' distance from top`,
         explanation: `Takes effect only when navButtonsPosition is set to "overMatches".
 Can be specified in any CSS units`,
-        disable_if: options => options.navButtonsPosition !== 'overMatches',
+        disable_if: o => {
+            if (o.navButtonsPosition !== 'overMatches') {
+                return ''
+            }
+        },
         image: true
     },
 
     navButtonArrowSize: {
         title: 'Size of the default navigation arrow',
-        explanation: ``
+        explanation: ``,
+        disable_if: o => {
+            if (o.navButtonsPosition === 'hidden') {
+                return 0
+            }
+        }
     },
     navButtonSvgColor: {
         title: 'Color of the default navigation arrow',
-        explanation: ``
-    },
-
-    scrollButtonSvgColor: {
-        title: 'Color of the default scroll arrow',
         explanation: ``,
-        disable_if: scroll_buttons_are_hidden,
+        disable_if: o => {
+            if (o.navButtonsPosition === 'hidden') {
+                return ''
+            }
+        }
     },
 
     leftNavButtonHTML: {
         title: 'Inner HTML of LEFT navigation button',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-nav-buttons#icons'
+        more_link: '../adjust-nav-buttons#icons',
+        disable_if: o => {
+            if (o.navButtonsPosition === 'hidden') {
+                return ''
+            }
+        }
     },
     rightNavButtonHTML: {
         title: 'Inner HTML of RIGHT navigation button (<svg> / <img> / whatever)',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-nav-buttons#icons'
+        more_link: '../adjust-nav-buttons#icons',
+        disable_if: o => {
+            if (o.navButtonsPosition === 'hidden') {
+                return ''
+            }
+        }
     },
 
-    scrollUpButtonHTML: {
-        title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
-        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-scroll-buttons#icons',
-        disable_if: scroll_buttons_are_hidden
+    navButtonPadding: {
+        title: 'Padding around the default navigation arrow',
+        explanation: 'This value will be assigned as "padding" CSS property so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc',
+        disable_if: o => {
+            if (o.navButtonsPosition === 'hidden') {
+                return 0
+            }
+        }
     },
-    scrollDownButtonHTML: {
-        title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
-        explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-scroll-buttons#icons',
-        disable_if: scroll_buttons_are_hidden
-    },
+
 
     connectionLinesWidth: {
         title: 'Connection lines width',
@@ -349,17 +431,6 @@ A reasonable matchMaxWidth may help for example if you use visibleRoundsCount or
         image: true
     },
 
-    scrollButtonPadding: {
-        title: 'Padding around the default scroll arrow',
-        explanation: 'This value will be assigned as "padding" CSS property so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc',
-        disable_if: scroll_buttons_are_hidden,
-    },
-
-    navButtonPadding: {
-        title: 'Padding around the default navigation arrow',
-        explanation: 'This value will be assigned as "padding" CSS property so it accepts all possible variations of such property: "10px", "0 10px", "0 10px 0 0" etc'
-    },
-
     matchMinVerticalGap: {
         title: 'Minimal vertical distance between matches',
         explanation: `Minimal distance means a distance between matches of the leftmost visible round when the visible height isn't enough to contain all matches of this round`,
@@ -395,8 +466,7 @@ A reasonable matchMaxWidth may help for example if you use visibleRoundsCount or
     distanceBetweenScorePairs: {
         title: 'Distance between scores (e.g. between sets in tennis)',
         explanation: ``,
-        image: true,
-        disable_if: o => o.getScoresHTML !== null
+        image: true
     },
 
     matchStatusBgColor: {

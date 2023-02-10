@@ -12,7 +12,7 @@ export const get_option_input = (name, info, onchange) => {
             input.addEventListener('input', e => {
                 onchange(name, Number(e.target.value))
             })
-            update_the_value = (options) => input.value = options[name]
+            update_the_value = (v) => input.value = v
             break
 
         case 'pixels':
@@ -25,7 +25,7 @@ export const get_option_input = (name, info, onchange) => {
             input.addEventListener('input', e => {
                 onchange(name, Number(e.target.value))
             })
-            update_the_value = (options) => input.querySelector('input').value = options[name]
+            update_the_value = (v) => input.querySelector('input').value = v
             break
 
         case 'string':
@@ -33,7 +33,7 @@ export const get_option_input = (name, info, onchange) => {
             input.addEventListener('input', e => {
                 onchange(name, e.target.value)
             })
-            update_the_value = (options) => input.value = escapeHtml(options[name])
+            update_the_value = (v) => input.value = escapeHtml(v)
             break
 
         case 'function_or_null':
@@ -50,7 +50,7 @@ export const get_option_input = (name, info, onchange) => {
             input.addEventListener('input', e => {
                 onchange(name, e.target.value)
             })
-            update_the_value = (options) => input.value = options[name]
+            update_the_value = (v) => input.value = v
             break
 
         case 'select':
@@ -66,14 +66,14 @@ export const get_option_input = (name, info, onchange) => {
             input.addEventListener('change', e => {
                 onchange(name, e.target.value)
             })
-            update_the_value = (options) => input.value = options[name]
+            update_the_value = (v) => input.value = v
             break
 
         case 'boolean':
             input = create_element_from_Html(`<div class="checkbox">V</div>`)
             input.addEventListener('click', () => { onchange(name, !input.classList.contains('checked')) })
-            update_the_value = (options) => {
-                if (options[name] === true) {
+            update_the_value = (v) => {
+                if (v === true) {
                     input.classList.add('checked')
                 } else {
                     input.classList.remove('checked')
@@ -94,14 +94,19 @@ export const get_option_input = (name, info, onchange) => {
     )
 
     const update = (actual_options) => {
-        update_the_value(actual_options)
+        const disabled_value = extra?.disable_if?.(actual_options)
 
-        if (extra?.disable_if?.(actual_options) || info.non_updatable === true) {
+        // if disable_if returns undefined, it means "don't disable and don't alter the actual value"
+        // if disable-if returns non-undefined (including false), it means "disable and set the input value to this returned value"
+
+        if (disabled_value !== undefined) {
             wrapper_el.classList.add('disabled')
-            input.disabled = true
+            update_the_value(disabled_value)
+            input.readOnly = true
         } else {
             wrapper_el.classList.remove('disabled')
-            input.disabled = false
+            update_the_value(actual_options[name])
+            input.readOnly = false
         }
     }
 

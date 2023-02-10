@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-        .common-playoffs-wrapper {
-            width: 600px;
-            height: 200px;
+        .wr1 {
+            width: 450px;
+            max-width: 100%;
         }
 
         .example-data {
@@ -130,7 +130,7 @@ export type Player = {
         And here's what you get from this data:
     </p>
 
-    <div class="common-playoffs-wrapper"></div>
+    <div class="wr1"></div>
     <br><br>
     <div class="heading-3">Some clarifications</div>
 
@@ -168,7 +168,7 @@ export type Player = {
         Meant for any general information like 'Scheduled' or 'Cancelled', 'Retired', datetime of an upcoming match etc.
         <img> Be careful not to provide very long matchStatuses. Match with <i>both scores and matchStatus</i> may
         become
-        too wide and this will affect the entire layout, leading to inefficient usage of screen space.
+        too wide and this will affect the entire layout, leading to inefficient use of screen space.
         <img>
         <img src="./matchStatus.jpg">
         <br>You may change a background color of matchStatus badge using <b>matchStatusBgColor</b> option
@@ -231,7 +231,7 @@ contestants: {
     <br>
     <div class="heading-4">Player.title</div>
     <p>
-        By default it is too rendered as such. (And that's ok in most cases).
+        By default it's also rendered as such. (And that's ok in most cases).
         <img> But if for instance you want to make it a link to player's profile, then provide your custom HTML using <a
             href="../inject-markup#getPlayerTitleHTML">options.getPlayerTitleHTML</a>.
         <img> You can also just change its font-family using <a

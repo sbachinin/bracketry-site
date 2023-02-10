@@ -4,7 +4,7 @@ import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mj
 
 const playoffs = createPlayoffs(
     data,
-    document.querySelector('.common-playoffs-wrapper')
+    document.querySelector('.wr1')
 )
 
 adjust_options_on_resize(playoffs)

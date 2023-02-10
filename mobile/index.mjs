@@ -19,7 +19,7 @@ const mobile_options = {
     scrollButtonPadding: '0px',
 
 
-    getNationalityHTML: (p) => `<div style="width:24px; background: #ddd; text-align: center;">${p.nationality}</div>`
+    getNationalityHTML: (p) => `<div style="width:24px; background: #ddd; text-align: center;">${p.nationality || ''}</div>`
 }
 
 createPlayoffs(
@@ -32,11 +32,15 @@ createPlayoffs(
 
 
 
-
+const user_options = {
+    getEntryStatusHTML: (es) => `<div style="width:24px; font-size: 12px; text-align: center;">${es || ''}</div>`,
+    getNationalityHTML: (p) => `<div style="width:24px; font-size: 12px; background: #ddd; text-align: center;">${p.nationality || ''}</div>`
+}
 
 const playoffs = createPlayoffs(
     data,
-    document.querySelector('.wr2')
+    document.querySelector('.wr2'),
+    user_options
 )
 const mediaQuery = window.matchMedia('(max-width: 600px)')
 
@@ -44,7 +48,7 @@ const adjust = () => {
     if (mediaQuery.matches) {
         playoffs.applyNewOptions(mobile_options)
     } else {
-        playoffs.applyNewOptions(get_default_options())
+        playoffs.applyNewOptions({ ...user_options, ...get_default_options() })
     }
 }
 

@@ -22,6 +22,9 @@
             background: #eeffe8;
             padding: 5px;
         }
+        .heading-3 {
+            word-wrap: break-word;
+        }
     </style>
 
 </head>
@@ -176,7 +179,7 @@ playoffs.setBaseRoundIndex(4)</code></pre>
     <ul style="margin: 10px 0 0 30px;">
         <li>lastRoundIsFullyVisible (boolean)</li>
         <li>allRoundsAreVisible (boolean)</li>
-        <li>baseRoundIndex (numbe)</li>
+        <li>baseRoundIndex (number)</li>
     </ul>
     <p>
 
@@ -281,11 +284,11 @@ playoffs.setBaseRoundIndex(4)</code></pre>
 
         Some options are not updatable, i.e. they will be <b>ignored</b> when passed to applyNewOptions:
         <br>
-        &nbsp;&nbsp;&nbsp;- all functional options (like getMatchElement)
+        &nbsp;&nbsp;&nbsp;- all functional options (like "getMatchElement")
         <br>
-        &nbsp;&nbsp;&nbsp;- verticalScrollMode
+        &nbsp;&nbsp;&nbsp;- "verticalScrollMode"
         <br>
-        &nbsp;&nbsp;&nbsp;- fullscreen
+        &nbsp;&nbsp;&nbsp;- "fullscreen"
     </p>
 
     <pre><code class="language-javascript" style="font-size: 18px;">import { createPlayoffs } from 'playoffs'

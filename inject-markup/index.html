@@ -30,6 +30,9 @@
             max-width: 800px;
             height: 300px;
         }
+        .heading-3 {
+            word-wrap: break-word;
+        }
     </style>
 
 </head>
@@ -137,7 +140,7 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         match element.
     </p>
     <p>
-        To prevent a given match from rendering return null from getMatchElement
+        To prevent a given match from rendering return null from getMatchElement.
     </p>
     <pre><code class="language-javascript">{
     getMatchElement: (roundIndex, matchOrder) => {
@@ -265,10 +268,10 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         an <b>explicit width</b> (equal for all players).
     </p>
     <pre><code class="language-javascript">{
-        getEntryStatusHTML: entryStatus => {
-            return `&lt;div style="width: 24px"&gt;${entryStatus}&lt;div&gt;`
-        }
-    }</code></pre>
+    getEntryStatusHTML: entryStatus => {
+        return `&lt;div style="width: 24px"&gt;${entryStatus}&lt;div&gt;`
+    }
+}</code></pre>
     <p>
         Feel free to use getEntryStatusHTML to display any info you want. Think of it as just a way to populate "the
         first column on the left".

@@ -14,7 +14,6 @@ const GENERAL_OPTIONS = {
     fullscreen: {
         type: 'boolean',
         default_value: false,
-        non_updatable: true
     },
 
     fullscreenBgColor: {
@@ -130,7 +129,7 @@ const NAVIGATION_OPTIONS = {
 
     navButtonArrowSize: {
         type: 'pixels',
-        default_value: '34',
+        default_value: 34,
     },
 
     navButtonPadding: {
@@ -158,8 +157,7 @@ const SCROLL_OPTIONS = {
     verticalScrollMode: {
         type: 'select',
         options: ['native', 'buttons', 'mixed'],
-        default_value: 'native',
-        non_updatable: true
+        default_value: 'native'
     },
 
     buttonScrollAmount: {
@@ -185,7 +183,7 @@ const SCROLL_OPTIONS = {
 
     scrollButtonArrowSize: {
         type: 'pixels',
-        default_value: '34',
+        default_value: 34,
     },
 
     scrollButtonPadding: {
@@ -210,7 +208,7 @@ const SCROLL_OPTIONS = {
 
     scrollbarWidth: {
         type: 'pixels',
-        default_value: '5',
+        default_value: 5,
     },
 
     scrollbarColor: {

@@ -115,6 +115,9 @@ pre code.hljs {
     background: #f6f6f6;
     font-size: 16px;
     padding: 0.3em;
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 
