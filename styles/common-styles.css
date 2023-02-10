@@ -74,7 +74,7 @@ header>* {
 }
 
 .description {
-    margin-left: 47px;
+    margin-left: 37px;
     font-size: 18px;
     color: #484848;
     font-weight: normal;
@@ -84,7 +84,7 @@ header>* {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
-    max-width: 367px;
+    max-width: 251px;
 }
 
 pre code.hljs {
