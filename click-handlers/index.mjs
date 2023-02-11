@@ -18,7 +18,10 @@ const options = {
     width: 24px;
     font-size: 14px;
     text-align: center;">${es || ''}</div>`,
-    verticalScrollMode: 'mixed'
+    verticalScrollMode: 'mixed',
+    displayWholeRounds: true,
+    navButtonsPosition: 'overTitles',
+    matchMaxWidth: 400
 }
 
 const playoffs = createPlayoffs(

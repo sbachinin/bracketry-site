@@ -64,16 +64,15 @@ const data = {
     }
 }
 
-const playoffs = createPlayoffs(
+createPlayoffs(
     data,
     document.querySelector('.wr1'),
     {
         disableHighlight: true,
-        width: '600px',
         matchMaxWidth: 400,
         liveMatchBorderColor: '#f38bff',
-        liveMatchBgColor: `rgb(117 244 180 / 20%)`
+        liveMatchBgColor: `rgb(117 244 180 / 20%)`,
+        navButtonsPosition: 'hidden',
+        displayWholeRounds: true
     }
 )
-
-adjust_options_on_resize(playoffs, options_manager)

@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
-
+        .wr1 {
+            max-width: 100%;
+        }
     </style>
 
 </head>
@@ -41,18 +43,17 @@
     </div>
 
     <p>
-        A "live" match is such that has "isLive" property set to true. (See <a href="../data-shape">data</a>). For such
-        a match <a href="../options#liveMatchBorderColor"><b>liveMatchBorderColor</b></a> and <a
+        A "live" match is such that has "isLive" property set to true. (See <a href="../data-shape">data</a>). For such match <a href="../options#liveMatchBorderColor"><b>liveMatchBorderColor</b></a> and <a
             href="../options#liveMatchBgColor"><b>liveMatchBgColor</b></a> options will be applied.
         <br>
         <br>
-        For a "live" match in <b>tennis</b> you will also need the following properties:
+        For a "live" match in <b>tennis</b> you also need the following properties:
         <br>
         &nbsp;&nbsp;&nbsp; - "<b>isServing</b>": a side which has this property set to true will get a green circle on
         the very right.
         <br>
         &nbsp;&nbsp;&nbsp; - "<b>currentScore</b>": a side which has this property set to a <i>number or string</i> will
-        get this number painted next to the "main" scores.
+        get this number (something like "30:40") painted next to the "main" scores.
         <br>
         <br>
         To update the live match in real time use <b>applyMatchesUpdates</b> method as described <a

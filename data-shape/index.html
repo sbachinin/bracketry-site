@@ -212,11 +212,7 @@ contestants: {
         <img> Actually the .players array may contain not only 2 but any number of items. All players will be stacked
         vertically.
         <img> <b>Side</b> is a match-specific data for a contestant: its score, subscore, isWinner etc.
-        <img> For lazy developers it's possible to have a Side <i>without contestant</i> (no Side.contestantId). It
-        means
-        that such side won't have entry status, nationality and multiple players. But it still may have a title if you
-        provide a <b>Side.title</b>. (This property will be rendered in a title field only IF there is no contestantId
-        for this side)
+        <img>In case you need ONLY team titles (and don't need entry status, nationality or multiple players within a team) it's doable without contestants. Just provide a "<b>title</b>" field for every side of every match and do NOT provide "contestantId".
     </p>
 
 
