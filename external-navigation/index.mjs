@@ -6,7 +6,9 @@ const playoffs1 = createPlayoffs(
     data,
     document.querySelector('.common-playoffs-wrapper.first'),
     {
-        rootBgColor: '#fff'
+        rootBgColor: '#fff',
+        navButtonsPosition: 'hidden',
+        verticalScrollMode: 'mixed'
     }
 )
 
@@ -31,7 +33,9 @@ const playoffs2 = createPlayoffs(
     data,
     document.querySelector('.common-playoffs-wrapper.second'),
     {
-        rootBgColor: '#fff'
+        rootBgColor: '#fff',
+        navButtonsPosition: 'hidden',
+        verticalScrollMode: 'mixed'
     }
 )
 
@@ -83,7 +87,8 @@ const playoffs3 = createPlayoffs(
     document.querySelector('.common-playoffs-wrapper.third'),
     {
         rootBgColor: '#fff',
-        navButtonsPosition: 'hidden'
+        navButtonsPosition: 'hidden',
+        verticalScrollMode: 'mixed'
     }
 )
 

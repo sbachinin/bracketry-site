@@ -99,11 +99,12 @@ header a.github * {
     max-width: 251px;
 }
 
-pre code.hljs {
+pre code {
     background: #ffffff;
-    font-size: 17px;
     padding: 1em;
     border: 1px solid #e3e3e3;
+    font-size: 17px;
+    font-family: monospace;
 }
 
 .common-playoffs-wrapper {

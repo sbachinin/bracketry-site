@@ -38,6 +38,11 @@
             opacity: 1;
         }
 
+        .buttons.first {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
         .common-playoffs-wrapper {
             height: 400px;
         }
@@ -74,16 +79,11 @@
         help you implement your own navigation mechanism:
     </p>
     <ul class="nav-functions" style="font-size: 18px; margin-top: 0">
-        <li><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound()</a></li>
-        <li><a href="../lifecycle-methods#moveToNextRound">moveToNextRound()</a></li>
-        <li><a href="../lifecycle-methods#moveToLastRound">moveToLastRound()</a></li>
-        <li><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex( index )</a></li>
-        <li><a href="../lifecycle-methods#getNavigationState">
-                getNavigationState()</a>
-            <span style="color: #959595; font-size: 16px;">
-                => { lastRoundIsFullyVisible, allRoundsAreVisible, baseRoundIndex }
-            </span>
-        </li>
+        <li><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a>()</li>
+        <li><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a>()</li>
+        <li><a href="../lifecycle-methods#moveToLastRound">moveToLastRound</a>()</li>
+        <li><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a>( index )</li>
+        <li><a href="../lifecycle-methods#getNavigationState">getNavigationState</a>()</li>
     </ul>
     <br>
 
@@ -96,7 +96,8 @@
             to adjust some of the navigation-related options:
         </p>
         <ul>
-            <li><a href="../options#navButtonsPosition">navButtonsPosition</a></li> (this one will surely be of use. Set it to "<b>hidden</b>" in case you want to replace the default nav buttons completely)
+            <li><a href="../options#navButtonsPosition">navButtonsPosition</a></li> (Set it to "<b>hidden</b>" in case
+            you want to replace the default nav buttons completely)
             <li><a href="../options#navButtonsTopDistance">navButtonsTopDistance</a></li>
             <li><a href="../options#navButtonArrowSize">navButtonArrowSize</a></li>
             <li><a href="../options#navButtonSvgColor">navButtonSvgColor</a></li>
@@ -124,16 +125,22 @@
         <div class="button-prev">prev</div>
         <div class="button-next">next</div>
     </div>
-    <br>
 
     <div class="common-playoffs-wrapper first"></div>
     <br>
 
     <p>Example above utilizes <b><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></b> and
-        <b><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a></b> methods:
+        <b><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a></b> methods.
+        <br>
+        Built-in navigation buttons are hidden by setting <b>navButtonsPosition</b> option to "hidden":
     </p>
 
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
+
+const options = {
+    navButtonsPosition: 'hidden',
+    verticalScrollMode: 'mixed'
+}
 
 const playoffs = createPlayoffs(
     data,
@@ -236,12 +243,10 @@ document.querySelector('.button-4').addEventListener('click', () => {
     <hr>
     <div class="heading-2" style="margin-top: 0;">3</div>
 
-    <p>Now we can use <b><a
-                href="../lifecycle-methods#getNavigationState">getNavigationState</a></b> to highlight / enable /
+    <p>You can use <b><a href="../lifecycle-methods#getNavigationState">getNavigationState</a></b> to highlight /
+        enable /
         disable the buttons.
         <img>
-        And meanwhile let's hide the default buttons (using an option <code
-            style="background: white">{navButtonsPosition: 'hidden'}</code>) because they are kind of useless now.
     </p>
 
     <div class="buttons third">
