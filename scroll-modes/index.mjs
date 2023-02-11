@@ -9,7 +9,9 @@ const options = {
         return `<div style="background: #f1f1f1;
             padding: 0 5px;
             font-size: 12px;">${p.nationality}</div>`
-    }
+    },
+    navButtonsPosition: 'beforeTitles',
+    displayWholeRounds: true
 }
 
 createPlayoffs(
