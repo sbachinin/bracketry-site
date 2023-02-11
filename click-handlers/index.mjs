@@ -1,6 +1,5 @@
 import { createPlayoffs } from '../easy-playoffs.min.js'
 import data from '../test_data/finished-singles-2021.js'
-import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
 const modal = document.querySelector('.modal')
 modal.addEventListener('click', (e) => {
@@ -38,8 +37,6 @@ const playoffs = createPlayoffs(
     }
 )
 
-adjust_options_on_resize(playoffs)
-
 
 
 const playoffs2 = createPlayoffs(
@@ -59,5 +56,3 @@ const playoffs2 = createPlayoffs(
         ...options
     }
 )
-
-adjust_options_on_resize(playoffs2)
