@@ -8,7 +8,9 @@ createPlayoffs(
     {
         navButtonsPosition: 'gutters',
         getEntryStatusHTML: () => '',
-        navGutterBorderColor: 'orangered'
+        navGutterBorderColor: 'orangered',
+        displayWholeRounds: true,
+        matchMaxWidth: 350
     }
 )
 
@@ -17,7 +19,8 @@ createPlayoffs(
     document.querySelector('.wr2'),
     {
         navButtonsPosition: 'overMatches',
-        getEntryStatusHTML: () => ''
+        getEntryStatusHTML: () => '',
+        displayWholeRounds: true
     }
 )
 
@@ -27,7 +30,8 @@ createPlayoffs(
     {
         navButtonsPosition: 'beforeTitles',
         getEntryStatusHTML: () => '',
-        navGutterBorderColor: 'orangered'
+        navGutterBorderColor: 'orangered',
+        displayWholeRounds: true
     }
 )
 
@@ -36,7 +40,8 @@ createPlayoffs(
     document.querySelector('.wr4'),
     {
         navButtonsPosition: 'overTitles',
-        getEntryStatusHTML: () => ''
+        getEntryStatusHTML: () => '',
+        displayWholeRounds: true
     }
 )
 
@@ -47,7 +52,8 @@ createPlayoffs(
         navButtonsPosition: 'beforeTitles',
         leftNavButtonHTML: '<div style="padding: 5px;">< PREV ROUND</div>',
         rightNavButtonHTML: '<div style="padding: 5px;">NEXT ROUND ></div>',
-        getEntryStatusHTML: () => ''
+        getEntryStatusHTML: () => '',
+        displayWholeRounds: true
     }
 )
 
@@ -77,11 +83,11 @@ createPlayoffs(
     { ...data, rounds: data.rounds.map(r => ({ name: 'Very long round title'})) },
     document.querySelector('.wr6'),
     {
-        displayWholeRounds: true,
         navButtonsPosition: 'overTitles',
         leftNavButtonHTML,
         rightNavButtonHTML,
-        getEntryStatusHTML: () => ''
+        getEntryStatusHTML: () => '',
+        displayWholeRounds: true
     }
 )
 

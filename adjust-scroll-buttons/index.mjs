@@ -9,8 +9,7 @@ createPlayoffs(
         verticalScrollMode: 'buttons',
         buttonScrollAmount: 100,
         getEntryStatusHTML: () => '',
-        scrollGutterBorderColor: 'orangered',
-        displayWholeRounds: true
+        scrollGutterBorderColor: 'orangered'
     }
 )
 
