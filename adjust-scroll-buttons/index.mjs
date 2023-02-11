@@ -9,7 +9,9 @@ createPlayoffs(
         verticalScrollMode: 'buttons',
         buttonScrollAmount: 100,
         getEntryStatusHTML: () => '',
-        scrollGutterBorderColor: 'orangered'
+        scrollGutterBorderColor: 'orangered',
+        displayWholeRounds: true,
+        navButtonsPosition: 'overTitles'
     }
 )
 
@@ -20,7 +22,9 @@ createPlayoffs(
         verticalScrollMode: 'buttons',
         buttonScrollAmount: 100,
         scrollButtonsPosition: 'overMatches',
-        getEntryStatusHTML: () => ''
+        getEntryStatusHTML: () => '',
+        displayWholeRounds: true,
+        navButtonsPosition: 'overTitles'
     }
 )
 
@@ -46,7 +50,9 @@ createPlayoffs(
         scrollDownButtonHTML,
         scrollButtonPadding: '0',
         scrollButtonsPosition: 'overMatches',
-        buttonScrollAmount: 100
+        buttonScrollAmount: 100,
+        displayWholeRounds: true,
+        navButtonsPosition: 'overTitles'
     }
 )
 
