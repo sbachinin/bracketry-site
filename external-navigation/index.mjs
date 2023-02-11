@@ -1,6 +1,5 @@
 import { createPlayoffs } from '../easy-playoffs.min.js'
 import data from '../test_data/finished-singles-2021.js'
-import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
 const playoffs1 = createPlayoffs(
     data,
@@ -8,7 +7,8 @@ const playoffs1 = createPlayoffs(
     {
         rootBgColor: '#fff',
         navButtonsPosition: 'hidden',
-        verticalScrollMode: 'mixed'
+        verticalScrollMode: 'mixed',
+        displayWholeRounds: true
     }
 )
 
@@ -20,7 +20,6 @@ document.querySelector('.buttons.first .button-next').addEventListener('click', 
     playoffs1.moveToNextRound()
 })
 
-adjust_options_on_resize(playoffs1)
 
 
 
@@ -35,7 +34,8 @@ const playoffs2 = createPlayoffs(
     {
         rootBgColor: '#fff',
         navButtonsPosition: 'hidden',
-        verticalScrollMode: 'mixed'
+        verticalScrollMode: 'mixed',
+        displayWholeRounds: true
     }
 )
 
@@ -61,7 +61,6 @@ data.rounds.forEach((r, i) => {
     })
 })
 
-adjust_options_on_resize(playoffs2)
 
 
 
@@ -88,7 +87,8 @@ const playoffs3 = createPlayoffs(
     {
         rootBgColor: '#fff',
         navButtonsPosition: 'hidden',
-        verticalScrollMode: 'mixed'
+        verticalScrollMode: 'mixed',
+        displayWholeRounds: true
     }
 )
 
@@ -164,5 +164,3 @@ data.rounds.forEach((r, i) => {
         update_buttons()
     })
 })
-
-adjust_options_on_resize(playoffs3)
