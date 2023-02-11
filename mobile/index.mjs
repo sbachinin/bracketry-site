@@ -33,6 +33,7 @@ createPlayoffs(
 
 
 const user_options = {
+    verticalScrollMode: 'mixed',
     getEntryStatusHTML: (es) => `<div style="width:24px; font-size: 12px; text-align: center;">${es || ''}</div>`,
     getNationalityHTML: (p) => `<div style="width:24px; font-size: 12px; background: #ddd; text-align: center;">${p.nationality || ''}</div>`
 }

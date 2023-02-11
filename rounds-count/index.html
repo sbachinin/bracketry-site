@@ -12,10 +12,12 @@
         .wr1 {
             width: 600px;
             height: 400px;
+            max-width: 100%;
         }
 
         .wr2 {
             height: 400px;
+            max-width: 100%;
         }
     </style>
 
@@ -57,11 +59,11 @@
     </div>
 
     <p>
-        This option forces playoffs to display N number of rounds independently of actual content width.
+        This option ensures that only N number of rounds will be displayed regardless of actual content width.
         <img>
         Value <b>0</b> (which is a default) means "display as much rounds as possible, without compressing them".
         <img>
-        Setting a reasonable <b>matchMaxWidth</b> may be a good idea in case of a small visibleRoundsCount. Otherwise
+        Setting a reasonable <b>matchMaxWidth</b> may be a good idea in case you set a fairly small visibleRoundsCount. Otherwise
         matches <b>may become too wide</b>.
         <img>
         It's advisable to set visibleRoundsCount to 1 when you address narrow <b><a href="../mobile">mobile
