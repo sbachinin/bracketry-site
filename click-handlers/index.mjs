@@ -18,7 +18,8 @@ const options = {
     getEntryStatusHTML: es => `<div style="
     width: 24px;
     font-size: 14px;
-    text-align: center;">${es || ''}</div>`
+    text-align: center;">${es || ''}</div>`,
+    verticalScrollMode: 'mixed'
 }
 
 const playoffs = createPlayoffs(
