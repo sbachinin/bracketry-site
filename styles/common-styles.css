@@ -101,10 +101,15 @@ header a.github * {
 
 pre code {
     background: #ffffff;
-    padding: 1em;
+    padding: 0.5em;
     border: 1px solid #e3e3e3;
     font-size: 17px;
     font-family: monospace;
+    display: block;
+}
+
+pre code:not(.hljs) { /* before highlight adds a "hljs" style - hide the ugly stuff */
+    visibility: hidden;
 }
 
 .common-playoffs-wrapper {
