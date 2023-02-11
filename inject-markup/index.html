@@ -30,6 +30,7 @@
             max-width: 800px;
             height: 300px;
         }
+
         .heading-3 {
             word-wrap: break-word;
         }
@@ -107,7 +108,9 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         </li>
     </ul>
     <div class="heading-4">Return value</div>
-    &nbsp;&nbsp;&nbsp;&nbsp;HTMLElement that will be inserted into the round titles bar instead of default title
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;HTMLElement that will be inserted into the round titles bar instead of default title
+    </p>
     <img>
     <img>
     <p>
@@ -224,7 +227,8 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
 
     <div class="heading-4">Flags</div>
     <p>
-        getNationalityHTML is where you can inject nationality flags. But it's your job to provide flag images and valid links to them.
+        getNationalityHTML is where you can inject nationality flags. But it's your job to provide flag images and valid
+        links to them.
     </p>
     <pre><code class="language-javascript">{
     getNationalityHTML: player => {
@@ -358,8 +362,10 @@ createPlayoffs(your_data, your_wrapper, options)</code></pre>
         </li>
     </ul>
     <div class="heading-4">Return value</div>
-    &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be injected into the "scores" section of
-    match layout.
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be injected into the "scores" section of
+        match layout.
+    </p>
     <p>
         getScoresHTML is called for each side of a match separately. The output string is used to render scores of a
         <b>single side</b> of a match, not both sides.
