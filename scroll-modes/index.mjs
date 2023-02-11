@@ -10,7 +10,7 @@ const options = {
             padding: 0 5px;
             font-size: 12px;">${p.nationality}</div>`
     },
-    navButtonsPosition: 'beforeTitles',
+    navButtonsPosition: 'overTitles',
     displayWholeRounds: true
 }
 
