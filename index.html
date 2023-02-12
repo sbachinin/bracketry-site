@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script defer type="module" src="./index.js"></script>
-    <title>Playoffs</title>
+    <title>Playoffs - A Javascript library to visualize the "draws" of a knockout tournament</title>
     <link rel="stylesheet" href="./styles/common-styles.css">
     <link rel="stylesheet" href="./styles/atom-one-light.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
@@ -87,7 +87,7 @@
             PLAYOFFS<span class="subtitle">js</span>
         </div>
         <span class="description">Visualize a knockout tournament in the browser</span>
-        
+
         <a class="github" href="https://github.com/sbachinin/playoffs">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="36" height="36">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -96,6 +96,10 @@
             </svg>
         </a>
     </header>
+    <br>
+    <p>
+        Playoffs is a JavaScript library that can visualize the "draws" (or "brackets") in any kind of sport:
+    </p>
 
     <div class="default-playoffs common-playoffs-wrapper"></div>
 
@@ -105,6 +109,19 @@
         </div>
         <div class="options-manager-opener main-button" style="display: inline-block;">manage options</div>
     </div>
+    <br>
+
+    <p>
+        Playoffs requires very little JS code on your side.
+        <br>
+        Its look and behaviour can be easily adjusted by a vast range of <b></b>options.
+        <br>
+        It's mobile-friendly (by default + via options).
+        <br>
+        It's free to use, MIT-licensed.
+        <br>
+        49kb minified, 12 gzipped.
+    </p>
 
 
 
@@ -117,7 +134,7 @@
     <pre><code class="language-javascript">import { createPlayoffs } from 'playoffs'
 
 const wrapper = document.querySelector('#your-wrapper-element')
-const data = { ... } // data of specific shape
+const data = { ... } // data of a specific shape
 
 createPlayoffs(data, wrapper)</code></pre>
 
