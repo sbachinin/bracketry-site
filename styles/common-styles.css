@@ -228,7 +228,7 @@ pre code:not(.hljs) { /* before highlight adds a "hljs" style - hide the ugly st
     width: max-content;
     max-width: 80vw;
     z-index: 100;
-    padding: 4%;
+    padding: 2%;
     overflow: auto;
     font-size: 16px;
     font-family: verdana;
