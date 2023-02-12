@@ -261,13 +261,13 @@ pre code:not(.hljs) { /* before highlight adds a "hljs" style - hide the ugly st
 
 .footer {
     width: 100%;
-    height: 152px;
     margin-top: 50px;
     display: flex;
     align-items: end;
-    padding-bottom: 30px;
+    padding: 30px;
     color: #8f8f8f;
     font-size: 14px;
+    border-top: 1px solid #ccc;
 }
 
 .footer a {
