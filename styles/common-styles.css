@@ -37,7 +37,7 @@ header>* {
 header a.github {
     display: inline-block;
     height: 36px;
-    color: black;
+    color: #448fa0;
     margin-left: 14px;
     vertical-align: middle;
 }
@@ -50,16 +50,14 @@ header a.github * {
     height: 100px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 24px;
+    margin-right: 19px;
     margin-top: 12px;
 }
 
 .title {
     display: inline-block;
     font-size: 45px;
-    letter-spacing: 0.07em;
-    font-weight: bold;
-    line-height: 0.85;
+    letter-spacing: 0.04em;
     word-wrap: break-word;
     vertical-align: middle;
 }
@@ -76,16 +74,19 @@ header a.github * {
 }
 
 .subtitle {
-    color: #ffff40;
-    margin-left: 12px;
-    font-size: 18px;
-    background: #ba3e3e;
-    margin-top: -18px;
+    color: #000000;
+    margin-left: 7px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 16px;
+    background: #e7e74f;
     vertical-align: middle;
-    padding: 1px 1px 3px 5px;
+    padding: 2px 2px 4px 5px;
+    border-radius: 7px;
 }
 
 .description {
+    margin-top: 7px;
     margin-left: 37px;
     font-size: 18px;
     color: #484848;
@@ -97,6 +98,7 @@ header a.github * {
     text-align: left;
     vertical-align: middle;
     max-width: 251px;
+    line-height: 1.2em;
 }
 
 pre code {
