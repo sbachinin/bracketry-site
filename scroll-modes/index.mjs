@@ -1,4 +1,4 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
 
 const options = {
@@ -14,19 +14,19 @@ const options = {
     displayWholeRounds: true
 }
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr1'),
     options
 )
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr2'),
     { ...options, verticalScrollMode: 'buttons'}
 )
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr3'),
     { ...options, verticalScrollMode: 'mixed'}

@@ -1,11 +1,11 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
 import { add_options_manager } from '../options-manager/options-manager.mjs'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper'),
+    document.querySelector('.common-bracket-wrapper'),
     {
         rootBgColor: "#316581",
         mainVerticalPadding: 40,
@@ -38,7 +38,7 @@ const playoffs = createPlayoffs(
 
 const options_manager = add_options_manager(
     document.querySelector('.options-manager-opener'),
-    playoffs
+    bracket
 )
 
-adjust_options_on_resize(playoffs, options_manager)
+adjust_options_on_resize(bracket, options_manager)

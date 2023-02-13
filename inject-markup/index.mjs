@@ -1,4 +1,4 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 import { create_element_from_Html } from '../utils.mjs'
@@ -6,9 +6,9 @@ import { create_element_from_Html } from '../utils.mjs'
 
 const em = ['🤗', '🤢', '🤫', '🥸', '🤐', '🤨', '😐', '😑', '😈', '🥶']
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper'),
+    document.querySelector('.common-bracket-wrapper'),
     {
         getRoundTitleElement: (r, i) => create_element_from_Html(
             `<div>
@@ -27,9 +27,9 @@ const playoffs = createPlayoffs(
     }
 )
 
-const playoffs2 = createPlayoffs(
+const bracket2 = createBracket(
     { rounds: [{}, {}] },
-    document.querySelector('.playoffs-wrapper-getMatchElement'),
+    document.querySelector('.bracket-wrapper-getMatchElement'),
     {
         getMatchElement: (roundIndex, matchOrder) => {
             const el = document.createElement('div')
@@ -44,5 +44,5 @@ const playoffs2 = createPlayoffs(
 
 
 
-adjust_options_on_resize(playoffs)
-adjust_options_on_resize(playoffs2)
+adjust_options_on_resize(bracket)
+adjust_options_on_resize(bracket2)

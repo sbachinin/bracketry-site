@@ -1,4 +1,4 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
 
 const modal = document.querySelector('.modal')
@@ -24,7 +24,7 @@ const options = {
     matchMaxWidth: 400
 }
 
-const playoffs = createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr1'),
     {
@@ -42,7 +42,7 @@ const playoffs = createPlayoffs(
 
 
 
-const playoffs2 = createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr2'),
     {

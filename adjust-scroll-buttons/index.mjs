@@ -1,8 +1,8 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/ucl-finished.js'
 import { escapeHtml } from '../utils.mjs'
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr1'),
     {
@@ -15,7 +15,7 @@ createPlayoffs(
     }
 )
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr2'),
     {
@@ -40,7 +40,7 @@ const scrollDownButtonHTML = `<div style="
         text-align: center;
         font-size: 24px;">⬇️</div>`
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr3'),
     {

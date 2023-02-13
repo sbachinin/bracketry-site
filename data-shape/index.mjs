@@ -1,13 +1,13 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from './data.mjs'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
     document.querySelector('.wr1')
 )
 
-adjust_options_on_resize(playoffs)
+adjust_options_on_resize(bracket)
 
 document.querySelector('.example-data > code').innerHTML = JSON.stringify(data, null, 4).replace(/"([^"]+)":/g, '$1:')
 

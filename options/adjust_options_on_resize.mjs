@@ -1,12 +1,12 @@
 // import { get_default_options } from '../options-manager/options-meta-getter.mjs'
 
-export const adjust_options_on_resize = (playoffs, options_manager) => {
+export const adjust_options_on_resize = (bracket, options_manager) => {
 
     const mediaQuery = window.matchMedia('(max-width: 600px)')
 
     // const adjust = () => {
     if (mediaQuery.matches) {
-        playoffs.applyNewOptions({
+        bracket.applyNewOptions({
             visibleRoundsCount: 1,
             navButtonsPosition: 'overTitles',
             matchFontSize: 14,
@@ -16,8 +16,8 @@ export const adjust_options_on_resize = (playoffs, options_manager) => {
         })
     }/*  else {
             const d_o = get_default_options()
-            const u_o = playoffs.getUserOptions()
-            playoffs.applyNewOptions({
+            const u_o = bracket.getUserOptions()
+            bracket.applyNewOptions({
                 visibleRoundsCount: u_o.visibleRoundsCount || d_o.visibleRoundsCount,
                 navButtonsPosition: u_o.navButtonsPosition || d_o.navButtonsPosition,
                 matchFontSize: u_o.matchFontSize || d_o.matchFontSize,
@@ -26,7 +26,7 @@ export const adjust_options_on_resize = (playoffs, options_manager) => {
                 matchHorMargin: u_o.matchHorMargin || d_o.matchHorMargin
             })
         } */
-    options_manager?.update_inputs(playoffs.getUserOptions())
+    options_manager?.update_inputs(bracket.getUserOptions())
     // }
 
     // adjust()

@@ -1,4 +1,4 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
 const data = {
@@ -64,7 +64,7 @@ const data = {
     }
 }
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr1'),
     {

@@ -112,7 +112,7 @@ pre code:not(.hljs) { /* before highlight adds a "hljs" style - hide the ugly st
     visibility: hidden;
 }
 
-.common-playoffs-wrapper {
+.common-bracket-wrapper {
     height: 600px;
     overflow: auto hidden;
 }

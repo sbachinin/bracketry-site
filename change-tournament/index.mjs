@@ -1,4 +1,4 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 import { create_data_picker } from '../test_data/create_data_picker.mjs'
@@ -25,17 +25,17 @@ const options = {
     verticalScrollMode: 'mixed'
 }
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper'),
+    document.querySelector('.common-bracket-wrapper'),
     options
 )
 
-adjust_options_on_resize(playoffs)
+adjust_options_on_resize(bracket)
 
 create_data_picker(
-    document.querySelector('.default-playoffs-data-picker'),
+    document.querySelector('.default-bracket-data-picker'),
     (new_data) => {
-        playoffs.replaceData(new_data)
+        bracket.replaceData(new_data)
     }
 )

@@ -80,7 +80,7 @@ const create_inputs = (sidebar_el, handle_option_change) => {
 
 export const add_options_manager = (
     opener_el,
-    playoffs
+    bracket
 ) => {
     const sidebar_el = create_element_from_Html(
         `<div class="options-manager-wrapper"></div>`
@@ -88,13 +88,13 @@ export const add_options_manager = (
     insert_styles('', 'options-manager-styles', options_manager_styles)
 
     const handle_option_change = (option_name, option_value) => {
-        playoffs.applyNewOptions({ [option_name]: option_value })
-        update_inputs(playoffs.getUserOptions())
+        bracket.applyNewOptions({ [option_name]: option_value })
+        update_inputs(bracket.getUserOptions())
     }
 
     const update_inputs = create_inputs(sidebar_el, handle_option_change)
 
-    update_inputs(playoffs.getUserOptions())
+    update_inputs(bracket.getUserOptions())
 
     add_options_search(sidebar_el, toggle_group_expand)
 

@@ -1,10 +1,10 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from './data.js'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper'),
+    document.querySelector('.common-bracket-wrapper'),
     {
         matchMaxWidth: 400,
         getEntryStatusHTML: (es) => {
@@ -20,11 +20,11 @@ const playoffs = createPlayoffs(
 
 setInterval(() => {
     data.matches[0].sides[0].currentScore = data.matches[0].sides[0].currentScore === '40' ? 'A' : '40'
-    playoffs.applyMatchesUpdates([data.matches[0]])
+    bracket.applyMatchesUpdates([data.matches[0]])
 }, 3000)
 
 setTimeout(() => {
-    playoffs.applyMatchesUpdates([
+    bracket.applyMatchesUpdates([
         {
             "roundIndex": 1,
             "sides": [
@@ -38,4 +38,4 @@ setTimeout(() => {
     ])
 }, 3000)
 
-adjust_options_on_resize(playoffs)
+adjust_options_on_resize(bracket)

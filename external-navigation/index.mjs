@@ -1,9 +1,9 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
 
-const playoffs1 = createPlayoffs(
+const bracket1 = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper.first'),
+    document.querySelector('.common-bracket-wrapper.first'),
     {
         rootBgColor: '#fff',
         navButtonsPosition: 'hidden',
@@ -13,11 +13,11 @@ const playoffs1 = createPlayoffs(
 )
 
 document.querySelector('.buttons.first .button-prev').addEventListener('click', () => {
-    playoffs1.moveToPreviousRound()
+    bracket1.moveToPreviousRound()
 })
 
 document.querySelector('.buttons.first .button-next').addEventListener('click', () => {
-    playoffs1.moveToNextRound()
+    bracket1.moveToNextRound()
 })
 
 
@@ -28,9 +28,9 @@ document.querySelector('.buttons.first .button-next').addEventListener('click', 
 
 
 
-const playoffs2 = createPlayoffs(
+const bracket2 = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper.second'),
+    document.querySelector('.common-bracket-wrapper.second'),
     {
         rootBgColor: '#fff',
         navButtonsPosition: 'hidden',
@@ -40,24 +40,24 @@ const playoffs2 = createPlayoffs(
 )
 
 document.querySelector('.buttons.second .button-prev').addEventListener('click', () => {
-    playoffs2.moveToPreviousRound()
+    bracket2.moveToPreviousRound()
 })
 
 document.querySelector('.buttons.second .button-next').addEventListener('click', () => {
-    playoffs2.moveToNextRound()
+    bracket2.moveToNextRound()
 })
 
 document.querySelector('.buttons.second .button-first').addEventListener('click', () => {
-    playoffs2.setBaseRoundIndex(0)
+    bracket2.setBaseRoundIndex(0)
 })
 
 document.querySelector('.buttons.second .button-last').addEventListener('click', () => {
-    playoffs2.moveToLastRound()
+    bracket2.moveToLastRound()
 })
 
 data.rounds.forEach((r, i) => {
     document.querySelector(`.buttons.second .button-${i}`).addEventListener('click', () => {
-        playoffs2.setBaseRoundIndex(i)
+        bracket2.setBaseRoundIndex(i)
     })
 })
 
@@ -81,9 +81,9 @@ data.rounds.forEach((r, i) => {
 
 
 
-const playoffs3 = createPlayoffs(
+const bracket3 = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper.third'),
+    document.querySelector('.common-bracket-wrapper.third'),
     {
         rootBgColor: '#fff',
         navButtonsPosition: 'hidden',
@@ -103,7 +103,7 @@ const update_buttons = () => {
         lastRoundIsFullyVisible: lrv,
         allRoundsAreVisible: arv,
         baseRoundIndex: bri
-    } = playoffs3.getNavigationState()
+    } = bracket3.getNavigationState()
 
     num_bs.forEach((b, i) => {
         if (i === bri) {
@@ -139,28 +139,28 @@ const update_buttons = () => {
 update_buttons()
 
 prev_b.addEventListener('click', () => {
-    playoffs3.moveToPreviousRound()
+    bracket3.moveToPreviousRound()
     update_buttons()
 })
 
 next_b.addEventListener('click', () => {
-    playoffs3.moveToNextRound()
+    bracket3.moveToNextRound()
     update_buttons()
 })
 
 first_b.addEventListener('click', () => {
-    playoffs3.setBaseRoundIndex(0)
+    bracket3.setBaseRoundIndex(0)
     update_buttons()
 })
 
 last_b.addEventListener('click', () => {
-    playoffs3.moveToLastRound()
+    bracket3.moveToLastRound()
     update_buttons()
 })
 
 data.rounds.forEach((r, i) => {
     document.querySelector(`.buttons.third .button-${i}`).addEventListener('click', () => {
-        playoffs3.setBaseRoundIndex(i)
+        bracket3.setBaseRoundIndex(i)
         update_buttons()
     })
 })

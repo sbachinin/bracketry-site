@@ -1,4 +1,4 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/unfinished-tennis-doubles.js'
 import { add_options_manager } from '../options-manager/options-manager.mjs'
 import { OPTIONS } from '../options-manager/options_meta.mjs'
@@ -28,15 +28,15 @@ const options = {
     verticalScrollMode: 'mixed'
 }
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
-    document.querySelector('.common-playoffs-wrapper'),
+    document.querySelector('.common-bracket-wrapper'),
     options
 )
 
 const options_manager = add_options_manager(
     document.querySelector('.options-manager-opener'),
-    playoffs
+    bracket
 )
 
 const get_option_type_label = (type) => {
@@ -102,4 +102,4 @@ const options_html = `
 document.querySelector('.list-of-options').innerHTML = options_html
 
 
-adjust_options_on_resize(playoffs, options_manager)
+adjust_options_on_resize(bracket, options_manager)

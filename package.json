@@ -1,5 +1,5 @@
 {
-  "name": "playoffs-site",
+  "name": "bracketry-site",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,17 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sbachinin/playoffs-site.git"
+    "url": "git+https://github.com/sbachinin/bracketry-site.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sbachinin/playoffs-site/issues"
+    "url": "https://github.com/sbachinin/bracketry-site/issues"
   },
-  "homepage": "https://github.com/sbachinin/playoffs-site#readme",
-  "dependencies": {
-    "playoffs": "^0.0.1"
-  },
+  "homepage": "https://github.com/sbachinin/bracketry-site#readme",
   "devDependencies": {
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"

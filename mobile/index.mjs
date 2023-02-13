@@ -1,4 +1,4 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
 import { get_default_options } from '../options-manager/options-meta-getter.mjs'
 
@@ -22,7 +22,7 @@ const mobile_options = {
     getNationalityHTML: (p) => `<div style="width:24px; background: #ddd; text-align: center;">${p.nationality || ''}</div>`
 }
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr1'),
     mobile_options
@@ -38,7 +38,7 @@ const user_options = {
     getNationalityHTML: (p) => `<div style="width:24px; font-size: 12px; background: #ddd; text-align: center;">${p.nationality || ''}</div>`
 }
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
     document.querySelector('.wr2'),
     user_options
@@ -47,9 +47,9 @@ const mediaQuery = window.matchMedia('(max-width: 600px)')
 
 const adjust = () => {
     if (mediaQuery.matches) {
-        playoffs.applyNewOptions(mobile_options)
+        bracket.applyNewOptions(mobile_options)
     } else {
-        playoffs.applyNewOptions({ ...user_options, ...get_default_options() })
+        bracket.applyNewOptions({ ...user_options, ...get_default_options() })
     }
 }
 

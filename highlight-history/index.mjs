@@ -1,8 +1,8 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/unfinished-tennis-doubles.js'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
-const playoffs = createPlayoffs(
+const bracket = createBracket(
     data,
     document.querySelector('.wr1'),
     {
@@ -12,4 +12,4 @@ const playoffs = createPlayoffs(
     }
 )
 
-adjust_options_on_resize(playoffs)
+adjust_options_on_resize(bracket)

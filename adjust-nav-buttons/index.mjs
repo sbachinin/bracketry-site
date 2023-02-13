@@ -1,8 +1,8 @@
-import { createPlayoffs } from '../easy-playoffs.min.js'
+import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/ucl-finished.js'
 import { escapeHtml } from '../utils.mjs'
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr1'),
     {
@@ -14,7 +14,7 @@ createPlayoffs(
     }
 )
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr2'),
     {
@@ -24,7 +24,7 @@ createPlayoffs(
     }
 )
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr3'),
     {
@@ -35,7 +35,7 @@ createPlayoffs(
     }
 )
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr4'),
     {
@@ -45,7 +45,7 @@ createPlayoffs(
     }
 )
 
-createPlayoffs(
+createBracket(
     data,
     document.querySelector('.wr5'),
     {
@@ -79,7 +79,7 @@ const rightNavButtonHTML = `<div style="
         padding-right: 10px;
     ">➡️</div>`
 
-createPlayoffs(
+createBracket(
     { ...data, rounds: data.rounds.map(r => ({ name: 'Very long round title'})) },
     document.querySelector('.wr6'),
     {

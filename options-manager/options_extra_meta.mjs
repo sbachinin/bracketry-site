@@ -79,25 +79,25 @@ This amount is a number of pixels covered by this "synthetic scroll" per one but
 
 
     width: {
-        title: `Playoffs' total width`,
+        title: `Bracket's total width`,
         explanation: ``
     },
 
     height: {
-        title: `Playoffs' total height`,
-        explanation: `This option may help when you want to display fullscreen playoffs (options.fullscreen === true). In such case it's a good idea to set width and height options to something like "90%". It will ensure nice paddings at the edges of viewport.
+        title: `Bracket's total height`,
+        explanation: `This option may help when you want to display fullscreen bracket (options.fullscreen === true). In such case it's a good idea to set width and height options to something like "90%". It will ensure nice paddings at the edges of viewport.
 
-In most other cases a default value of "100%" will be the most adequate choice. But make sure to set explicit width and height on your wrapper element in which you install playoffs. This will prevent height from jumping after playoffs' installation.`,
-        more_link: '../create-playoffs#problem-of-height'
+In most other cases a default value of "100%" will be the most adequate choice. But make sure to set explicit width and height on your wrapper element in which you install bracketry. This will prevent height from jumping after bracketry installation.`,
+        more_link: '../create-bracket#problem-of-height'
     },
 
     fullscreen: {
-        title: `Should playoffs be rendered in a fullscreen popup?`,
-        explanation: `If you set this option to true, it makes sense to render playoffs to the document.body (second argument of createPlayoffs).
+        title: `Should bracket be rendered in a fullscreen popup?`,
+        explanation: `If you set this option to true, it makes sense to render bracket to the document.body (second argument of createBracket).
 
-Setting width and height options will also make sense. Otherwise playoffs may take the entire viewport without nice paddings around.
+Setting width and height options will also make sense. Otherwise bracket may take the entire viewport without nice paddings around.
 
-Use rootBgColor and fullscreenBgColor to get an opaque background for your fullscreen playoffs.
+Use rootBgColor and fullscreenBgColor to get an opaque background for your fullscreen bracket.
         
 "fullscreen" option is not updatable, i.e. it will be ignored when passed to applyNewOptions.`,
         more_link: '../fullscreen',
@@ -124,7 +124,7 @@ So fullscreenBgColor will be either:
     },
 
     wrapperBorderColor: {
-        title: `Border around the main playoffs wrapper`,
+        title: `Border around the main bracket wrapper`,
         explanation: `Basically it's the same as setting border on your wrapper element.
 Default "" (empty string) value means that the "rootBorderColor" option will be used for this border`,
     },
@@ -191,7 +191,7 @@ When this options is set to "" (empty string), "rootBorderColor" option will be 
         title: `How many rounds to display`,
         explanation: `Provide 0 for "automatic" width (but it's a default anyway).
 Automatic means a natural width of a widest match (if not adjusted by "displayWholeRounds" option).
-This options may be useful if you want to make playoffs "responsive", i.e. to respond to changing viewport size. On mobile screen it makes sense to set visibleRoundsCount to 1.
+This options may be useful if you want to make bracket "responsive", i.e. to respond to changing viewport size. On mobile screen it makes sense to set visibleRoundsCount to 1.
 Fractional visibleRoundsCount is possible (but do you need it? 🚽)`,
         more_link: `../rounds-count`
     },
@@ -212,7 +212,7 @@ displayWholeRounds is not applied if "visibleRoundsCount" option is set to somet
 
     useClassicalLayout: {
         title: 'Use classical layout',
-        explanation: `When set to true, it instructs playoffs to preserve the original vertical margins between matches when navigating between rounds.`,
+        explanation: `When set to true, it instructs bracketry to preserve the original vertical margins between matches when navigating between rounds.`,
         more_link: `../options#useClassicalLayout-more`
     },
 
