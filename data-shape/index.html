@@ -95,7 +95,8 @@ export type Match = {
     roundIndex: number, // 0-based
     order: number, // 0-based
     sides?: Side[],
-    matchStatus?: string
+    matchUpperInfo?: string,
+    matchStatus?: string,
     isLive?: boolean
 }
 
@@ -107,7 +108,7 @@ export type Contestant = {
 export type Side = {
     title?: string,
     contestantId?: string,
-    scores?: Score[]
+    scores?: Score[],
     currentScore?: number | string,
     isServing?: boolean,
     isWinner?: boolean
@@ -142,6 +143,7 @@ export type Player = {
     <div class="heading-3">Some clarifications</div>
 
     <img src="./props.jpg">
+    <img src="./matchUpperInfo.png">
 
 
 
