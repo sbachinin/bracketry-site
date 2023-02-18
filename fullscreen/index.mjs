@@ -7,8 +7,9 @@ let pl = null
 document.querySelector('.open-fullscreen-button').addEventListener('click', () => {
     const options = {
         fullscreen: true,
+        fullscreenBgColor: 'rgba(0,0,0,.3)',
         rootBgColor: 'white',
-        width: '90vw',
+        width: '1200px',
         height: '90vh',
         getNationalityHTML: p => `<div style="
         width: 24px;
