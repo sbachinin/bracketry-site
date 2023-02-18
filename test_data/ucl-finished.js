@@ -568,7 +568,7 @@ export default {
             "entryStatus": "none",
             "players": [
                 {
-                    "title": "Bayern Munich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+                    "title": "Bayern Munich",
                     "team_id": "bayern"
                 }
             ]
