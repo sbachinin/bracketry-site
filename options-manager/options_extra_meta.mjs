@@ -2,7 +2,6 @@ const scroll_buttons_are_hidden = options => {
     return (
         options.verticalScrollMode !== 'buttons'
         && options.verticalScrollMode !== 'mixed'
-        && options.fullscreen !== true
     )
 }
 
@@ -16,22 +15,17 @@ export const options_extra_meta = {
     
     - "buttons": two buttons appear before and after the matches. They scroll the content by a number of pixels defined by options.buttonScrollAmount.
     
-    - "mixed": buttons AND mousewheel. BUT NOT other native ways of scrolling like keyboard keys or touchmove.
-
-With options.fullscreen set to true verticalScrollMode will always be "mixed".`,
+    - "mixed": buttons AND mousewheel. BUT NOT other native ways of scrolling like keyboard keys or touchmove.`,
 
         disable_if: options => {
-            if (options.fullscreen === true) {
-                return 'mixed'
-            }
-            return options.verticalScrollMode // if not fullscreen, disable anyway because it's not updatable
+            return options.verticalScrollMode // disable anyway because it's not updatable
         },
         more_link: '../scroll-modes'
     },
 
     scrollButtonsPosition: {
         title: `Vertical scroll buttons position`,
-        explanation: `Applied only when options.verticalScrollMode is "buttons" or "mixed". Or when options.fullscreen is true (because buttons are always there if it's fullscreen).
+        explanation: `Applied only when options.verticalScrollMode is "buttons" or "mixed".
 Possible values:
     - "gutters": above and below the matches, squeezing the matches' container.
     - "overMatches": above and below the matches, not squeezing the matches' container but put on top of it`,
@@ -85,37 +79,8 @@ This amount is a number of pixels covered by this "synthetic scroll" per one but
 
     height: {
         title: `Bracket's total height`,
-        explanation: `This option may help when you want to display fullscreen bracket (options.fullscreen === true). In such case it's a good idea to set width and height options to something like "90%". It will ensure nice paddings at the edges of viewport.
-
-In most other cases a default value of "100%" will be the most adequate choice. But make sure to set explicit width and height on your wrapper element in which you install bracketry. This will prevent height from jumping after bracketry installation.`,
+        explanation: `In most other cases a default value of "100%" will be the most adequate choice. But make sure to set explicit width and height on your wrapper element in which you install bracketry. This will prevent height from jumping after bracket's installation.`,
         more_link: '../create-bracket#problem-of-height'
-    },
-
-    fullscreen: {
-        title: `Should bracket be rendered in a fullscreen popup?`,
-        explanation: `If you set this option to true, it makes sense to render bracket to the document.body (second argument of createBracket).
-
-Setting width and height options will also make sense. Otherwise bracket may take the entire viewport without nice paddings around.
-
-Use rootBgColor and fullscreenBgColor to get an opaque background for your fullscreen bracket.
-        
-"fullscreen" option is not updatable, i.e. it will be ignored when passed to applyNewOptions.`,
-        more_link: '../fullscreen',
-        disable_if: o => o.fullscreen // always disable
-    },
-
-    fullscreenBgColor: {
-        title: `Fullscreen background color`,
-        explanation: `This color will be applied in fullscreen mode, i.e. when "fullscreen" option is set to true.
-"rootBgColor" will be painted on top of it.
-So fullscreenBgColor will be either:
-    a) painted across the entire viewport IF "rootBgColor" is "transparent" OR
-    b) painted only on the edges of the viewport IF "rootBgColor" is opaque`,
-        disable_if: o => {
-            if (o.fullscreen !== true) {
-                return ''
-            }
-        }
     },
 
     rootBorderColor: {
