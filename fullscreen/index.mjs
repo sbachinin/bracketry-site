@@ -30,3 +30,7 @@ document.querySelector('.open-fullscreen-button').addEventListener('click', () =
 
     adjust_options_on_resize(pl)
 })
+
+document.body.prepend('docElement.clientHeight ', document.documentElement.clientHeight)
+document.body.prepend(document.createElement('div'))
+document.body.prepend('docElement.clientWidth ', document.documentElement.clientWidth)

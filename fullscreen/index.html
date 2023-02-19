@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,32 +37,38 @@
     <div class="heading-2" style="margin-top: 30px; margin-bottom: 14px;">Fullscreen mode</div>
 
     <div class="main-button open-fullscreen-button" style="padding: 9px;
-    font-size: 28px;">Open</div>
+        font-size: 28px;">Open</div>
 
     <div class="heading-3">How</div>
     <p>Set <b>fullscreen</b> option to true:</p>
     <pre><code class="language-javascript">import { createBracket } from 'bracketry'
 
-const options = {
-    fullscreen: true,
-    width: '90vw',
-    height: '90vh'
-}
+    const options = {
+        fullscreen: true,
+        width: '90vw',
+        height: '90vh'
+    }
 
-document.querySelector('.your-button').addEventListener('click', () => {
-    createBracket(yourData, document.body, options)
-})</code></pre>
+    document.querySelector('.your-button').addEventListener('click', () => {
+        createBracket(yourData, document.body, options)
+    })</code></pre>
 
     <div class="heading-3">Size</div>
     <p>
         By default bracket content will take the entire viewport.
-        <img> Though you may want to have some nice paddings on the edges of viewport. There is no such option as fullscreen padding but there are good old <a href="../options#width"><b>width</b></a> and <a href="../options#height"><b>height</b></a> options which may be set to some <i>vw</i> or <i>vh</i> value or something with <i>calc</i>.
-        <img> These paddings will be filled with <a href="../options#fullscreenBgColor"><b>fullscreenBgColor</b></a>. Actually this color will fill the entire viewport if no <a href="../options#rootBgColor"><b>rootBgColor</b></a> option is provided.
+        <img> Though you may want to have some nice paddings on the edges of viewport. There is no such option as
+        fullscreen padding but there are good old <a href="../options#width"><b>width</b></a> and <a
+            href="../options#height"><b>height</b></a> options which may be set to some <i>vw</i> or <i>vh</i> value or
+        something with <i>calc</i>.
+        <img> These paddings will be filled with <a href="../options#fullscreenBgColor"><b>fullscreenBgColor</b></a>.
+        Actually this color will fill the entire viewport if no <a href="../options#rootBgColor"><b>rootBgColor</b></a>
+        option is provided.
     </p>
-    
+
     <div class="heading-3">"Mixed" vertical scroll mode will be forced</div>
     <p>
-        <a href="../scroll-modes"><b>verticalScrollMode</b></a> option will be automatically set to "mixed" when "fullscreen" is true.
+        <a href="../scroll-modes"><b>verticalScrollMode</b></a> option will be automatically set to "mixed" when
+        "fullscreen" is true.
         <img> Setting verticalScrollMode to any other value will not work here.
         <img> Vertical scroll buttons will be shown and mousewheel will also scroll the matches.
         <img> On mobile screens only buttons will work; <b>touchmove is disabled</b> in fullscreen mode.
@@ -75,18 +82,22 @@ document.querySelector('.your-button').addEventListener('click', () => {
         <img>
         &nbsp;&nbsp; - press Esc
         <img>
-        &nbsp;&nbsp; - (programmatically) call <a href="../lifecycle-methods#uninstall">uninstall</a> method on a bracket's instance
+        &nbsp;&nbsp; - (programmatically) call <a href="../lifecycle-methods#uninstall">uninstall</a> method on a
+        bracket's instance
     </p>
 
     <div class="heading-3">"fullscreen" option is not updatable</div>
     <p>
-        This option will be <b>ignored</b> when passed to <a href="../options#applyNewOptions"><b>applyNewOptions</b></a>.
+        This option will be <b>ignored</b> when passed to <a
+            href="../options#applyNewOptions"><b>applyNewOptions</b></a>.
         <img>
         It means you can't switch between "fullscreen" and "static" mode within one instance of bracketry.
         <img>
-        If you need "small" bracket which is expandable to fullscreen, then you need 2 instances, one "static" and one "fullscreen" which should be created in response to some ui events (like button click. But you have to make this button yourself. So yeah, it's difficult).
+        If you need "small" bracket which is expandable to fullscreen, then you need 2 instances, one "static" and one
+        "fullscreen" which should be created in response to some ui events (like button click. But you have to make this
+        button yourself. So yeah, it's difficult).
     </p>
-   
+
 
 
     <div class="footer">Made by&nbsp;<a href="https://github.com/sbachinin">sbachinin</a></div>
@@ -98,3 +109,5 @@ document.querySelector('.your-button').addEventListener('click', () => {
 
     <script>hljs.highlightAll()</script>
 </body>
+
+</html>
