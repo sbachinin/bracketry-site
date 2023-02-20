@@ -10,7 +10,7 @@ export const adjust_options_on_resize = (bracket, options_manager) => {
             visibleRoundsCount: 1,
             navButtonsPosition: 'overTitles',
             matchFontSize: 14,
-            matchMinVerticalGap: 20,
+            // matchMinVerticalGap: 20,
             matchAxisMargin: 2,
             matchHorMargin: 8
         })

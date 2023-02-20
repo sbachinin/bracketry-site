@@ -389,6 +389,20 @@ getScoresHTML is called with:
         2) "match" - data of a Match which contains a Side whose score is being rendered`
     },
 
+    getMatchTopHTML: {
+        title: 'Match top HTML getter',
+        explanation: `A string returned from getMatchTopHTML will be rendered above a match`,
+        more_link: '../inject-markup#getMatchTopHTML'
+    },
+
+    getMatchBottomHTML: {
+        title: 'Match bottom HTML getter',
+        explanation: `A string returned from getMatchBottomHTML will be rendered underneath a match`,
+        more_link: '../inject-markup#getMatchBottomHTML'
+    },
+
+
+
     matchMaxWidth: {
         title: 'Maximum match width',
         explanation: `Only pixels here.

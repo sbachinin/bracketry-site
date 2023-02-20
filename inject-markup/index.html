@@ -63,10 +63,6 @@
 
     <div class="common-bracket-wrapper"></div>
 
-    <p><i>^ in this example <b>getRoundTitleElement</b>, <b>getEntryStatusHTML</b>, <b>getNationalityHTML</b> and
-            <b>getPlayerTitleHTML</b> options
-            were used to change the respective parts of the markup</i></p>
-
     <br>
 
     <pre><code class="language-javascript">import { createBracket } from 'bracketry'
@@ -84,6 +80,10 @@ const options = {
     getPlayerTitleHTML: (player, context) => { /* ...return an HTML string for player's title */ },
     
     getScoresHTML: (side, match) => { /* ...return an HTML string for side's scores */ },
+
+    getMatchTopHTML: (match) => { /* ...return an HTML string to be rendered above a match */ },
+
+    getMatchBottomHTML: (match) => { /* ...return an HTML string to be rendered underneath a match */ },
 }
 
 createBracket(your_data, your_wrapper, options)</code></pre>
@@ -358,7 +358,7 @@ createBracket(your_data, your_wrapper, options)</code></pre>
         </li>
         <li>
             <div class="parameter">match</div>
-            Object containing data of a Match which contains a Side whose score is being rendered
+            Data of a match which contains a Side whose score is being rendered
         </li>
     </ul>
     <div class="heading-4">Return value</div>
@@ -373,10 +373,75 @@ createBracket(your_data, your_wrapper, options)</code></pre>
     <br><br>
     <hr>
     <br>
+
+
+
+
+
+
+
+
+    <div class="heading-3" id="getMatchTopHTML">getMatchTopHTML()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">match</div>
+            Object containing data of a given match
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be rendered above a match
+    </p>
+    <p>
+        Make sure that you have enough vertical space between the matches. Use <a href="../options#matchMinVerticalGap">matchMinVerticalGap</a> option for that.
+    </p>
+    <br><br>
+    <hr>
+    <br>
+
+
+
+
+
+
+
+
+    <div class="heading-3" id="getMatchBottomHTML">getMatchBottomHTML()</div>
+    <div class="heading-4">Parameters</div>
+    <ul>
+        <li>
+            <div class="parameter">match</div>
+            Object containing data of a given match
+        </li>
+    </ul>
+    <div class="heading-4">Return value</div>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be rendered underneath a match
+    </p>
+    <p>
+        Make sure that you have enough vertical space between the matches. Use <a href="../options#matchMinVerticalGap">matchMinVerticalGap</a> option for that.
+    </p>
+    <br><br>
+    <hr>
+    <br>
+
+
+
+
+
+
+
     <br>
     <p>All options listed here are <b>not updatable</b>. It means they can only be passed to createBracket but not to
         <a href="/lifecycle-methods#applyNewOptions">applyNewOptions</a> lifecycle method.
     </p>
+
+
+
+
+
+
 
 
 
