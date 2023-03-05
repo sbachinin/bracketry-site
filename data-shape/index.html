@@ -95,9 +95,9 @@ export type Match = {
     roundIndex: number, // 0-based
     order: number, // 0-based
     sides?: Side[],
-    matchUpperInfo?: string,
     matchStatus?: string,
     isLive?: boolean
+    isBronzeMatch?: string,
 }
 
 export type Contestant = {
@@ -143,7 +143,6 @@ export type Player = {
     <div class="heading-3">Some clarifications</div>
 
     <img src="./props.jpg">
-    <img src="./matchUpperInfo.png">
 
 
 
@@ -181,6 +180,13 @@ export type Player = {
         <img>
         <img src="./matchStatus.jpg">
         <br>You may change a background color of matchStatus badge using <b>matchStatusBgColor</b> option
+    </p>
+
+
+    <br>
+    <div class="heading-4">Match.isBronzeMatch</div>
+    <p>
+        Read <a href="../bronze">here</a>
     </p>
 
 
