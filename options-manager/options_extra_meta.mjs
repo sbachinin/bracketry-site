@@ -70,11 +70,10 @@ This amount is a number of pixels covered by this "synthetic scroll" per one but
         disable_if: o => { if (scroll_buttons_are_hidden(o)) return 0 }
     },
 
-
-
     width: {
         title: `Bracket's total width`,
-        explanation: ``
+        explanation: `Default value of "max-content" means that the root Bracketry element will take as much width as necessary for the actual content BUT not more than the width of your wrapper element.
+Example usage: set this to "100%" if you want the content to stretch to the full width of your wrapper element (in case the content is narrow).`
     },
 
     height: {

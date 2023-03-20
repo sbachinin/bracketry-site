@@ -11,7 +11,6 @@ const bracket = createBracket(
     {
         getNationalityHTML: p => ``,
         getEntryStatusHTML: es => ``,
-        width: 'max-content',
         matchFontSize: 12,
         matchHorMargin: 6,
         distanceBetweenScorePairs: 6,
@@ -20,6 +19,8 @@ const bracket = createBracket(
         mainVerticalPadding: 0,
         navButtonsPosition: 'overTitles',
         displayWholeRounds: true,
-        roundTitlesFontSize: 18
+        roundTitlesFontSize: 18,
+        matchMinVerticalGap: 12,
+        matchAxisMargin: 2
     }
 )
