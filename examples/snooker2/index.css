@@ -1,0 +1,15 @@
+
+.bracket-root {
+    letter-spacing: 0.05em;
+}
+
+
+.entry-status .seed {
+    font-size: 10px;
+    width: 16px;
+    text-align: right;
+    color: #aaa;
+}
+.nationality img {
+    width: 16px;
+}

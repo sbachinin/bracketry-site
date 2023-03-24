@@ -1,0 +1,36 @@
+
+.bracket-root {
+    letter-spacing: 0.05em;
+}
+
+
+.entry-status .seed {
+    font-size: 10px;
+    width: 16px;
+    text-align: right;
+    color: #aaa;
+}
+.nationality img {
+    width: 16px;
+}
+.mbottom {
+    text-align: right;
+}
+.mbottom a {
+    background: #dddddd;
+    padding: 1px 4px;
+    display: inline-block;
+    margin: 2px 4px;
+    font-size: 10px;
+    color: #6f6f6f;
+}
+
+.round-title .rtitle {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.round-title .rsubtitle {
+    text-align: center;
+    font-size: 12px;
+    color: #ababab;
+}
