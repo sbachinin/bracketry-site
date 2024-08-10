@@ -145,21 +145,6 @@ export type Player = {
     <img src="./props.jpg">
 
 
-
-    <div class="heading-4">rounds</div>
-    <p>
-        A number of rounds will determine the overall match structure.
-        To get the right structure please provide a FULL number of rounds (even for the rounds which weren't played
-        yet).
-        The most minimal data that can be provided to Bracketry is:</p>
-    <pre><code class="language-javascript">{ rounds: [ {}, {}, {} ] }</code></pre>
-    <p>
-        This data will produce an empty 3-rounds tournament (without matches but with connecting lines).
-        If you omit 'name' property of a round, a sensible default name will be displayed ('Final', 'Semifinal'
-        etc)
-    </p>
-
-
     <br>
     <div class="heading-4">Match.order</div>
     <p>
