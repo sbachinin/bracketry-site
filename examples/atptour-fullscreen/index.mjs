@@ -1,7 +1,24 @@
 import { createBracket } from '../../bracketry.min.js'
 import data from '../../test_data/finished-singles-2021.js'
 
-const bracket = createBracket(
+const mobileOptions = {
+    navButtonsPosition: 'beforeTitles',
+    visibleRoundsCount: 1,
+    matchMaxWidth: 360,
+    leftNavButtonHTML: `<div style="padding: 7px;">< PREV ROUND</div>`,
+    rightNavButtonHTML: `<div style="padding: 7px;">NEXT ROUND ></div>`,
+    roundTitlesFontSize: 26,
+    roundTitlesVerticalPadding: 4,
+    matchFontSize: 14,
+    matchHorMargin: 2,
+    distanceBetweenScorePairs: 10,
+    disableHighlight: true,
+    scrollButtonPadding: '0px'
+}
+
+const isNarrowScreen = window.innerWidth < 600
+
+createBracket(
     data,    
     document.querySelector('.common-bracket-wrapper'),
     {
@@ -20,6 +37,7 @@ const bracket = createBracket(
         matchFontSize: 13,
         rootFontFamily: 'Roboto, sans-serif',
         matchHorMargin: 6,
-        distanceBetweenScorePairs: 10
+        distanceBetweenScorePairs: 10,
+        ...(isNarrowScreen ? mobileOptions : {})
     }
 )
