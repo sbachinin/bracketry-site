@@ -9,7 +9,6 @@ const bracket = createBracket(
             const url = `https://flagcdn.com/16x12/${p.nationality?.toLowerCase()}.png`
             return `<img style="width: 16px; margin-right: 5px;" src="${url}">`
         },
-        // matchStatusBgColor: '#051224',
         getEntryStatusHTML: es => {
             return `<div style="
                 color: #969b9d;
