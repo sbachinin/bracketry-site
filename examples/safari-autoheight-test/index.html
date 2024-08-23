@@ -1,0 +1,449 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="shitmessage" style="
+        position:fixed;
+        top: 0; left: 0; right: 0;
+        background: rgba(0,0,0,.2);
+        "></div>
+
+
+    <div id="t2"></div>
+
+    <script type="module">
+        import { createBracket } from './bracketry0.min.js'
+        var tdata = {
+            rounds: [{
+                name: "Round 0"
+            }, {
+                name: "Round 1"
+            }, {
+                name: "Round 2"
+            }, {
+                name: "Round 3"
+            }, {
+                name: "Round 4"
+            }, {
+                name: 'Round 5'
+            }, {
+                name: 'Round 6'
+            }],
+            matches: [{
+                roundIndex: 0,
+                order: 0,
+                isLive: false,
+                sides: [{
+                    contestantId: "c1",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c2",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 1,
+                isLive: false,
+                sides: [{
+                    contestantId: "c3",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c4",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 2,
+                isLive: false,
+                sides: [{
+                    contestantId: "c5",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c6",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 3,
+                isLive: false,
+                sides: [{
+                    contestantId: "c7",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c8",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 4,
+                isLive: false,
+                sides: [{
+                    contestantId: "c9",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c10",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 5,
+                isLive: false,
+                sides: [{
+                    contestantId: "c11",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c12",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 6,
+                isLive: false,
+                sides: [{
+                    contestantId: "c13",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c14",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 7,
+                isLive: false,
+                sides: [{
+                    contestantId: "c15",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c16",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 8,
+                isLive: false,
+                sides: [{
+                    contestantId: "c17",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c18",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 9,
+                isLive: false,
+                sides: [{
+                    contestantId: "c19",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c20",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 10,
+                isLive: false,
+                sides: [{
+                    contestantId: "c21",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c22",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 11,
+                isLive: false,
+                sides: [{
+                    contestantId: "c23",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c24",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 12,
+                isLive: false,
+                sides: [{
+                    contestantId: "c25",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c26",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 13,
+                isLive: false,
+                sides: [{
+                    contestantId: "c27",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c28",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 14,
+                isLive: false,
+                sides: [{
+                    contestantId: "c29",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c30",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            }, {
+                roundIndex: 0,
+                order: 15,
+                isLive: false,
+                sides: [{
+                    contestantId: "c31",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                }, {
+                    contestantId: "c32",
+                    scores: [{
+                        mainScore: 0
+                    }]
+                },]
+            },],
+            contestants: {
+                "c1": {
+                    players: [{
+                        title: "Player 1"
+                    }]
+                },
+                "c2": {
+                    players: [{
+                        title: "Player 2"
+                    }]
+                },
+                "c3": {
+                    players: [{
+                        title: "Player 3"
+                    }]
+                },
+                "c4": {
+                    players: [{
+                        title: "Player 4"
+                    }]
+                },
+                "c5": {
+                    players: [{
+                        title: "Player 5"
+                    }]
+                },
+                "c6": {
+                    players: [{
+                        title: "Player 6"
+                    }]
+                },
+                "c7": {
+                    players: [{
+                        title: "Player 7"
+                    }]
+                },
+                "c8": {
+                    players: [{
+                        title: "Player 8"
+                    }]
+                },
+                "c9": {
+                    players: [{
+                        title: "Player 9"
+                    }]
+                },
+                "c10": {
+                    players: [{
+                        title: "Player 10"
+                    }]
+                },
+                "c11": {
+                    players: [{
+                        title: "Player 11"
+                    }]
+                },
+                "c12": {
+                    players: [{
+                        title: "Player 12"
+                    }]
+                },
+                "c13": {
+                    players: [{
+                        title: "Player 13"
+                    }]
+                },
+                "c14": {
+                    players: [{
+                        title: "Player 14"
+                    }]
+                },
+                "c15": {
+                    players: [{
+                        title: "Player 15"
+                    }]
+                },
+                "c16": {
+                    players: [{
+                        title: "Player 16"
+                    }]
+                },
+                "c17": {
+                    players: [{
+                        title: "Player 17"
+                    }]
+                },
+                "c18": {
+                    players: [{
+                        title: "Player 18"
+                    }]
+                },
+                "c19": {
+                    players: [{
+                        title: "Player 19"
+                    }]
+                },
+                "c20": {
+                    players: [{
+                        title: "Player 20"
+                    }]
+                },
+                "c21": {
+                    players: [{
+                        title: "Player 21"
+                    }]
+                },
+                "c22": {
+                    players: [{
+                        title: "Player 22"
+                    }]
+                },
+                "c23": {
+                    players: [{
+                        title: "Player 23"
+                    }]
+                },
+                "c24": {
+                    players: [{
+                        title: "Player 24"
+                    }]
+                },
+                "c25": {
+                    players: [{
+                        title: "Player 25"
+                    }]
+                },
+                "c26": {
+                    players: [{
+                        title: "Player 26"
+                    }]
+                },
+                "c27": {
+                    players: [{
+                        title: "Player 27"
+                    }]
+                },
+                "c28": {
+                    players: [{
+                        title: "Player 28"
+                    }]
+                },
+                "c29": {
+                    players: [{
+                        title: "Player 29"
+                    }]
+                },
+                "c30": {
+                    players: [{
+                        title: "Player 30"
+                    }]
+                },
+                "c31": {
+                    players: [{
+                        title: "Player 31"
+                    }]
+                },
+                "c32": {
+                    players: [{
+                        title: "Player 32"
+                    }]
+                },
+            }
+        };
+
+        var bracket2 = createBracket(tdata, document.getElementById('t2'), {
+            // navButtonsPosition: 'beforeTitles',
+            navButtonPadding: '15px'
+        });
+        // bracket2.setBaseRoundIndex(3);
+    </script>
+</body>
+
+</html>
