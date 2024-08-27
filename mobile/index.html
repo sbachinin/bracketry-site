@@ -70,11 +70,10 @@
         </a>
     </header>
 
-    <div class="heading-2">Layout tricks for small screens</div>
+    <div class="heading-2">Layout for small screens</div>
 
     <p>
-        Here's some advice on how you can change the bracketry <a href="../options">options</a> for narrow screens.
-        And how to respond to changing viewport size, providing a decent experience for all users.
+        Here's how you can tweak the Bracketry <a href="../options">options</a> for mobile devices.
     </p>
 
 
@@ -84,7 +83,7 @@
 
     <img>
 
-    <div class="heading-3">Example 1. Mobile layout (not flexible)</div>
+    <div class="heading-3">Example "mobile" options</div>
 
     <br>
 
@@ -148,38 +147,24 @@ createBracket(your_data, your_wrapper_element, options)</code></pre>
 
 
 
-    <div class="heading-3">Example 2. Adjust options according to screen size</div>
+    <div class="heading-3">Adjust options depending on screen size</div>
     <p>
-        You can switch between a mobile and desktop "preset" within one instance of bracketry, thus providing a
-        reasonable layout on all screens.
-        <img>
-        For that use <b><a href="../options/#applyNewOptions">applyNewOptions</a></b> method returned from
-        createBracket.
-        You can call it whenever the screen size changes, setting appropriate options. Mind that some options (mostly functional ones) are "not updatable".
-        <img>
-        To detect such a change let's use <b>window.matchMedia</b>:
+        <big><b>A.</b></big> The most straighforward and practical approach is to initialize Bracketry with
+        different options depending
+        on the screen size:
     </p>
-
-    <pre><code class="language-javascript">...
-const bracket = createBracket(your_data, your_wrapper_element)
-
-const mediaQuery = window.matchMedia('(max-width: 600px)')
-
-const adjust = () => {
-    if (mediaQuery.matches) {
-        bracket.applyNewOptions(some_mobile_options)
-    } else {
-        bracket.applyNewOptions(some_default_options)
-    }
-}
-
-mediaQuery.addEventListener('change', adjust)
-
-adjust()</code></pre>
-
-    <p>Now the layout will change when your browser hits the 600px threshold:</p>
-
-    <div class="wr2"></div>
+    <pre><code class="language-javascript">const isNarrow = window.innerWidth < 700
+const options = isNarrow ? yourMobileOptions : yourDesktopOptions
+const bracket = createBracket(your_data, your_wrapper_element, options)</code></pre>
+    <p>
+        This is of course imperfect; later changes to the viewport size won't change Bracketry layout.
+    </p>
+    <p>
+        <big><b>B.</b></big> If you need more responsiveness, use <b><a
+                href="../lifecycle-methods/#applyNewOptions">applyNewOptions</a></b> method to
+        adjust the options whenever necessary.
+        In this scenario <b><a href="../lifecycle-methods/#getUserOptions">getUserOptions</a></b> can also be useful.
+    </p>
 
 
     <br>

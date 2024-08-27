@@ -27,32 +27,3 @@ createBracket(
     document.querySelector('.wr1'),
     mobile_options
 )
-
-
-
-
-
-const user_options = {
-    verticalScrollMode: 'mixed',
-    getEntryStatusHTML: (es) => `<div style="width:24px; font-size: 12px; text-align: center;">${es || ''}</div>`,
-    getNationalityHTML: (p) => `<div style="width:24px; font-size: 12px; background: #ddd; text-align: center;">${p.nationality || ''}</div>`
-}
-
-const bracket = createBracket(
-    data,
-    document.querySelector('.wr2'),
-    user_options
-)
-const mediaQuery = window.matchMedia('(max-width: 600px)')
-
-const adjust = () => {
-    if (mediaQuery.matches) {
-        bracket.applyNewOptions(mobile_options)
-    } else {
-        bracket.applyNewOptions({ ...user_options, ...get_default_options() })
-    }
-}
-
-mediaQuery.addEventListener('change', adjust)
-
-adjust()

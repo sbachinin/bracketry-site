@@ -87,7 +87,6 @@
         .options-table>div.type-cell {
             font-size: 14px;
         }
-
     </style>
 
 </head>
@@ -118,7 +117,7 @@
     <div class="options-manager-opener main-button" style="margin: 25px auto">manage options</div>
 
 
-    <div class="heading-3">How to set options on installation</div>
+    <div class="heading-3">How to set options in the beginning</div>
 
     <p>Options can be passed to <b><a href="/create-bracket">createBracket</a></b> as a 3rd argument</p>
 
@@ -147,27 +146,25 @@ applyNewOptions({
 })</code></pre>
 
     <p>
-        Options passed to applyNewOptions will not replace the original ones (passed to createBracket) but will be
-        <b>merged</b>.
+        Only the options provided to applyNewOptions will be changed. Other options will hold their prior values.
         <img>
         <b>Some</b> options are <b>not updatable</b> (ignored when passed to applyNewOptions):
-        <br>
+    <p>
         &nbsp;&nbsp;&nbsp; - "verticalScrollMode"
         <br>
-        &nbsp;&nbsp;&nbsp; - function options (such as "getMatchElement")
-        <img>
-        The most likely case for applyNewOptions is <b><a href="../mobile">handling different screen sizes</a></b>. (You
-        may respond to <b>resize</b> by setting more "compact" bracketry layout)
-
-        <br>
-        <br>
-        Use <b><a href="/lifecycle-methods#getUserOptions">getUserOptions</a></b> method to get current options.
+        &nbsp;&nbsp;&nbsp; - functional options (such as "getMatchElement")
+    </p>
+    <img>
+    <p>
+        ApplyNewOptions can be handy if you want to build a truly responsive layout. That is, responsive to the changing
+        space on a webpage.
+        For instance, you can use <a
+            href="https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia">window.matchMedia</a> to keep
+        track of the viewport changes and call applyNewOptions with appropriate values. In such scenario you may also need <a href="/lifecycle-methods#getUserOptions">getUserOptions</a></b> method to get current options.
     </p>
 
 
 
-
-    <br>
     <br>
     <div class="list-of-options"></div>
 
@@ -176,7 +173,8 @@ applyNewOptions({
         useClassicalLayout
         <small><small><small><span class="parameter">(boolean)</span></small></small></small>
     </div>
-    <p>When set to true, it instructs bracketry to preserve the original vertical margins between matches when navigating
+    <p>When set to true, it instructs bracketry to preserve the original vertical margins between matches when
+        navigating
         between rounds.
         <img src="./useClassicalLayout.png">
         <img>
