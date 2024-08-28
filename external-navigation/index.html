@@ -17,7 +17,11 @@
             user-select: none;
         }
 
-        .buttons>div {
+        .number-buttons {
+            display: inline-block;
+        }
+
+        .buttons [class^="button-"] {
             display: inline-block;
             margin: 5px;
             background: rgb(228 182 255);
@@ -28,12 +32,12 @@
             opacity: 0.7;
         }
 
-        .buttons>div.disabled {
+        .buttons [class^="button-"].disabled {
             pointer-events: none;
             opacity: 0.3;
         }
 
-        .buttons>div.selected {
+        .buttons [class^="button-"].selected {
             pointer-events: none;
             opacity: 1;
         }
@@ -181,13 +185,7 @@ document.querySelector('.button-next').addEventListener('click', () => {
     <div class="buttons second">
         <div class="button-first">first</div>
         <div class="button-prev">prev</div>
-        <div class="button-0">0</div>
-        <div class="button-1">1</div>
-        <div class="button-2">2</div>
-        <div class="button-3">3</div>
-        <div class="button-4">4</div>
-        <div class="button-5">5</div>
-        <div class="button-6">6</div>
+        <div class="number-buttons"></div>
         <div class="button-next">next</div>
         <div class="button-last">last</div>
     </div>
@@ -197,7 +195,7 @@ document.querySelector('.button-next').addEventListener('click', () => {
     <br>
 
     <p>Here <b><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></b> and <b><a
-                href="../lifecycle-methods#moveToLastRound">moveToLastRound</a></b> methods are also employed:</p>
+                href="../lifecycle-methods#moveToLastRound">moveToLastRound</a></b> methods are also used:</p>
 
     <pre><code class="language-javascript">...
 
@@ -213,11 +211,24 @@ document.querySelector('.button-2').addEventListener('click', () => {
     bracket.setBaseRoundIndex(2)
 })
 
-document.querySelector('.button-4').addEventListener('click', () => {
-    bracket.setBaseRoundIndex(4)
-})
-
 ...</code></pre>
+    <br />
+    <p>
+        <big><b>A number of buttons</b></big> is a problem to solve:
+    </p>
+    <p>
+        You can't just create as many buttons as you have rounds. (Or, more precisely, you can do it if you have only 1
+        round visible at a time). <br />
+        That's because there is a <i>maximum base round index</i>. (It ensures that horizontal space is used
+        efficiently). And it depends on how many rounds are visible at a time. That is, <i>fully</i> visible.<br />
+        If you have 3 rounds visible, then maximum index is: data.rounds.length - 3. <br />
+        You can get maximum base round index from <a
+            href="../lifecycle-methods#getNavigationState">getNavigationState().maxBaseRoundIndex.</a> <br />
+        The amount of buttons then will be <b>maxBaseRoundIndex + 1</b>. </p>
+    <p>
+        In the example above a number of buttons depends on how many rounds were visible at the moment of page load.
+        (I was lazy to change it on resize but it's very doable).
+    </p>
 
 
 

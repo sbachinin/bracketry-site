@@ -55,10 +55,16 @@ document.querySelector('.buttons.second .button-last').addEventListener('click',
     bracket2.moveToLastRound()
 })
 
-data.rounds.forEach((r, i) => {
-    document.querySelector(`.buttons.second .button-${i}`).addEventListener('click', () => {
+const mbri = bracket2.getNavigationState().maxBaseRoundIndex
+const numbersWrapper = document.querySelector(`.buttons.second .number-buttons`)
+Array.from(Array(mbri+1)).forEach((r, i) => {
+    const buttonEl = document.createElement('div')
+    buttonEl.className = 'button-' + i
+    buttonEl.innerText = i
+    buttonEl.addEventListener('click', () => {
         bracket2.setBaseRoundIndex(i)
     })
+    numbersWrapper.append(buttonEl)
 })
 
 
