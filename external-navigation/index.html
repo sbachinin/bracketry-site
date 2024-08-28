@@ -75,8 +75,7 @@
 
     <div class="heading-2">"External" navigation</div>
 
-    <i>(<b>"Navigation"</b> means switching between rounds in a tournament which is <b>too wide</b> to be fully
-        visible)</i>
+    <i>(<b>"Navigation"</b> means horizontal switching between rounds of a tournament</i>
 
     <p style="margin-bottom: 0">
         The following "lifecycle" methods (those returned from createBracket()) can
@@ -254,22 +253,16 @@ document.querySelector('.button-2').addEventListener('click', () => {
     <hr>
     <div class="heading-2" style="margin-top: 0;">3</div>
 
-    <p>You can use <b><a href="../lifecycle-methods#getNavigationState">getNavigationState</a></b> to highlight /
+    <p>To highlight /
         enable /
-        disable the buttons.
+        disable the buttons you will surely need some properties from <b><a href="../lifecycle-methods#getNavigationState">getNavigationState</a></b>
         <img>
     </p>
 
     <div class="buttons third">
         <div class="button-first">first</div>
         <div class="button-prev">prev</div>
-        <div class="button-0 num-button">0</div>
-        <div class="button-1 num-button">1</div>
-        <div class="button-2 num-button">2</div>
-        <div class="button-3 num-button">3</div>
-        <div class="button-4 num-button">4</div>
-        <div class="button-5 num-button">5</div>
-        <div class="button-6 num-button">6</div>
+        <div class="number-buttons"></div>
         <div class="button-next">next</div>
         <div class="button-last">last</div>
     </div>
@@ -286,28 +279,18 @@ const bracket = createBracket(
     { navButtonsPosition: 'hidden' }
 )
 
+
+if (bracket.getNavigationState().allRoundsAreVisible) {
+    // hide or disable all buttons
+}
+
 ...
 
 buttonNext.addEventListener('click', () => {
     bracket.moveToNextRound()
-    const {
-        lastRoundIsFullyVisible,
-        allRoundsAreVisible,
-        baseRoundIndex
-    } = playffs.getNavigationState()
-
-    if (lastRoundIsFullyVisible) {
+    if (bracket.getNavigationState().lastRoundIsFullyVisible) {
         buttonLast.classList.add('disabled')
     }
-
-    if (baseRoundIndex === 0) {
-        button0.classList.add('disabled', 'selected')
-    }
-
-    if (allRoundsAreVisible) {
-        // perhaps hide the buttons or disable them all
-    }
-
     ...
 })
 

@@ -55,16 +55,16 @@ document.querySelector('.buttons.second .button-last').addEventListener('click',
     bracket2.moveToLastRound()
 })
 
-const mbri = bracket2.getNavigationState().maxBaseRoundIndex
-const numbersWrapper = document.querySelector(`.buttons.second .number-buttons`)
-Array.from(Array(mbri+1)).forEach((r, i) => {
+const mbri2 = bracket2.getNavigationState().maxBaseRoundIndex
+const numbersWrapper2 = document.querySelector(`.buttons.second .number-buttons`)
+Array.from(Array(mbri2 + 1)).forEach((r, i) => {
     const buttonEl = document.createElement('div')
     buttonEl.className = 'button-' + i
     buttonEl.innerText = i
     buttonEl.addEventListener('click', () => {
         bracket2.setBaseRoundIndex(i)
     })
-    numbersWrapper.append(buttonEl)
+    numbersWrapper2.append(buttonEl)
 })
 
 
@@ -98,16 +98,29 @@ const bracket3 = createBracket(
     }
 )
 
+
+const mbri3 = bracket3.getNavigationState().maxBaseRoundIndex
+const numbersWrapper3 = document.querySelector(`.buttons.third .number-buttons`)
+Array.from(Array(mbri3 + 1)).forEach((r, i) => {
+    const buttonEl = document.createElement('div')
+    buttonEl.className = 'button-' + i
+    buttonEl.innerText = i
+    buttonEl.addEventListener('click', () => {
+        bracket3.setBaseRoundIndex(i)
+        update_buttons()
+    })
+    numbersWrapper3.append(buttonEl)
+})
+
 const prev_b = document.querySelector('.buttons.third .button-prev'),
     next_b = document.querySelector('.buttons.third .button-next'),
     first_b = document.querySelector('.buttons.third .button-first'),
     last_b = document.querySelector('.buttons.third .button-last'),
-    num_bs = document.querySelectorAll('.buttons.third > .num-button')
+    num_bs = document.querySelectorAll('.buttons.third > .number-buttons > div')
 
 const update_buttons = () => {
     const {
         lastRoundIsFullyVisible: lrv,
-        allRoundsAreVisible: arv,
         baseRoundIndex: bri
     } = bracket3.getNavigationState()
 
@@ -127,7 +140,7 @@ const update_buttons = () => {
     if (bri === 0) {
         prev_b.classList.add('disabled')
         first_b.classList.add('disabled')
-        
+
     } else {
         prev_b.classList.remove('disabled')
         first_b.classList.remove('disabled')
@@ -162,11 +175,4 @@ first_b.addEventListener('click', () => {
 last_b.addEventListener('click', () => {
     bracket3.moveToLastRound()
     update_buttons()
-})
-
-data.rounds.forEach((r, i) => {
-    document.querySelector(`.buttons.third .button-${i}`).addEventListener('click', () => {
-        bracket3.setBaseRoundIndex(i)
-        update_buttons()
-    })
 })
