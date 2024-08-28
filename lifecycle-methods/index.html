@@ -187,7 +187,9 @@ bracket.setBaseRoundIndex(4)</code></pre>
     <ul style="margin: 10px 0 0 30px;">
         <li>lastRoundIsFullyVisible (boolean)</li>
         <li>allRoundsAreVisible (boolean)</li>
-        <li>baseRoundIndex (number)</li>
+        <li>baseRoundIndex (number) - an index of the leftmost visible round</li>
+        <li>maxBaseRoundIndex (number) - maximum base round to which you can navigate. (It has to do with economy of horizontal space and is equal to <i>data.rounds.length - visibleRoundsCount</i>)</li>
+        <li>visibleRoundsCount (number) - number of <i>fully</i> visible rounds at the moment</li>
     </ul>
     <p>
 
