@@ -80,7 +80,7 @@ const rightNavButtonHTML = `<div style="
     ">➡️</div>`
 
 createBracket(
-    { ...data, rounds: data.rounds.map(r => ({ name: 'Very long round title'})) },
+    { ...data, rounds: data.rounds.map(r => ({ name: 'Very very long round title'})) },
     document.querySelector('.wr6'),
     {
         navButtonsPosition: 'overTitles',
