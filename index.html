@@ -376,15 +376,8 @@ createBracket(data, wrapper)</code></pre>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const floatingMessage = document.getElementById('floating-message');
-            const githubElement = document.querySelector('.github');
-
-            // Position the floating message
-            const rect = githubElement.getBoundingClientRect();
-            // Show the floating message and start animations
             floatingMessage.classList.remove('hidden');
             floatingMessage.classList.add('fade-in', 'bounce');
-
-            // Fade out after 5 seconds
             setTimeout(() => {
                 floatingMessage.classList.remove('bounce');
                 floatingMessage.classList.add('fade-out');
