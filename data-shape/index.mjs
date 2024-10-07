@@ -2,12 +2,12 @@ import { createBracket } from '../bracketry.min.js'
 import data from './data.mjs'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
-const bracket = createBracket(
+const bracket1 = createBracket(
     data,
     document.querySelector('.wr1')
 )
 
-adjust_options_on_resize(bracket)
+adjust_options_on_resize(bracket1)
 
 document.querySelector('.example-data > code').innerHTML = JSON.stringify(data, null, 4).replace(/"([^"]+)":/g, '$1:')
 
@@ -29,3 +29,11 @@ example_data_el.addEventListener('click', (e) => {
         example_data_el.classList.remove('collapsed')
     }
 })
+
+createBracket(
+    {
+        rounds: [{}, {}],
+        skippedLastRoundsCount: 2
+    },
+    document.querySelector('.wr2')
+)

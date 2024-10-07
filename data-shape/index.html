@@ -280,6 +280,25 @@ contestants: {
     </p>
 
 
+
+
+    <br>
+    <div class="heading-4">skippedLastRoundsCount</div>
+
+    <p>
+        This field is useful when you render a tournament that <b>ends at some earlier stage</b> than Final.
+        <br>
+        Example is qualifier events in tennis. They typically terminate at Quarterfinal stage.
+        <br>
+        To avoid rendering nonexistent Semifinal and Final rounds set skippedLastRoundsCount to 2:
+    </p>
+    <pre><code class="language-javascript">const data = {
+    rounds: [ {}, {} ],
+    skippedLastRoundsCount: 2
+}</code></pre>
+    <div class="wr2"></div>
+
+
     <div class="footer">Made by&nbsp;<a href="https://github.com/sbachinin">sbachinin</a></div>
     <script>hljs.highlightAll()</script>
 </body>
