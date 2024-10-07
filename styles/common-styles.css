@@ -109,7 +109,8 @@ pre code {
     display: block;
 }
 
-pre code:not(.hljs) { /* before highlight adds a "hljs" style - hide the ugly stuff */
+pre code:not(.hljs) {
+    /* before highlight adds a "hljs" style - hide the ugly stuff */
     visibility: hidden;
 }
 
@@ -203,6 +204,15 @@ pre code:not(.hljs) { /* before highlight adds a "hljs" style - hide the ugly st
     box-shadow: 6px 2px 20px 0px rgb(0 0 0 / 50%);
 }
 
+@media (max-width: 768px) {
+    .options-manager-wrapper {
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        max-height: 50%;
+    }
+}
+
 .sidebar-close-button {
     font-size: 35px;
     box-sizing: border-box;
@@ -231,18 +241,18 @@ pre code:not(.hljs) { /* before highlight adds a "hljs" style - hide the ugly st
     z-index: 100;
     padding: 2%;
     overflow: auto;
-    font-size: 16px;
+    font-size: 14px;
     font-family: verdana;
-    line-height: 26px;
+    line-height: 22px;
     box-sizing: border-box;
-    box-shadow: 0 0 20px 0px rgb(0 0 0 / 60%);
+    box-shadow: 0 0 0 3000px rgb(0 0 0 / 30%);
 }
 
 #option-input-tooltip img {
     margin: 10px;
 }
 
-#option-input-tooltip > div {
+#option-input-tooltip>div {
     max-width: 950px;
 }
 
