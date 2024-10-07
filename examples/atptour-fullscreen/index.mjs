@@ -22,7 +22,6 @@ createBracket(
     data,    
     document.querySelector('.common-bracket-wrapper'),
     {
-        dropNLastRounds: 2,
         getNationalityHTML: p => {
             const url = `https://flagcdn.com/16x12/${p.nationality?.toLowerCase()}.png`
             return `<img style="width: 16px; margin-right: 5px;" src="${url}">`

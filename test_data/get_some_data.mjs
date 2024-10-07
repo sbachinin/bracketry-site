@@ -39,6 +39,20 @@ export const datas = [
         title: 'Empty (upcoming) 3-round tournament',
         resolver: () => Promise.resolve(emptydata)
     },
+
+    {
+        type: 'empty',
+        title: 'Tournament with 2 last rounds dropped',
+        resolver: () => Promise.resolve(
+            {
+                ...finished_singles_2021,
+                rounds: [{
+                    name: '<div style="font-size: 16px; display: flex; align-items: center;">(2 last rounds are skipped here)</div>'
+                }],
+                skippedLastRoundsCount: 2,
+            }
+        )
+    },
 ]
 
 
