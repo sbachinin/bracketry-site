@@ -45,7 +45,7 @@ export const option_wrapper_el = (name, type, title) => create_element_from_Html
 )
 
 export const grouped_inputs_wrapper = (options_type_name, names_of_expanded_groups) => create_element_from_Html(`
-    <div class='group-of-options ${options_type_name}' style='overflow: hidden; height: ${
+    <div class='group-of-options ${options_type_name}' style='overflow: hidden; border-bottom: 1px solid #ccc; height: ${
         names_of_expanded_groups.includes(options_type_name)
         ? 'auto'
         : 0

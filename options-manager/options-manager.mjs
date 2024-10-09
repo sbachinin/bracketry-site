@@ -29,8 +29,8 @@ const toggle_group_expand = (group_name, should_expand) => {
     }
 }
 
-const create_inputs = (sidebar_el, handle_option_change) => {
-    sidebar_el.innerHTML = ''
+const create_inputs = (options_manager_wrapper, handle_option_change) => {
+    options_manager_wrapper.innerHTML = ''
 
     const onchange = throttle_with_trailing((option_name, option_value) => {
         handle_option_change(option_name, option_value)
@@ -55,19 +55,19 @@ const create_inputs = (sidebar_el, handle_option_change) => {
 
     Object.entries(OPTIONS)
         .forEach(([group_name, options_of_type]) => {
-            sidebar_el.append(get_options_group_heading(
+            options_manager_wrapper.append(get_options_group_heading(
                 group_name,
                 names_of_expanded_groups.includes(group_name),
                 toggle_group_expand
             ))
-            sidebar_el.append(get_inputs_of_type(options_of_type, group_name))
+            options_manager_wrapper.append(get_inputs_of_type(options_of_type, group_name))
         })
 
 
     const {
         user_options_text_el, update_user_options_text
     } = create_user_options_text()
-    sidebar_el.append(user_options_text_el)
+    options_manager_wrapper.append(user_options_text_el)
 
     const update_inputs = (user_options) => {
         const actual_options = { ...get_default_options(), ...user_options }
@@ -82,9 +82,15 @@ export const add_options_manager = (
     opener_el,
     bracket
 ) => {
-    const sidebar_el = create_element_from_Html(
+    const sidebar_outer_el = create_element_from_Html(
+        `<div class="options-manager"></div>`
+    )
+    const options_manager_wrapper = create_element_from_Html(
         `<div class="options-manager-wrapper"></div>`
     )
+
+    sidebar_outer_el.append(options_manager_wrapper)
+
     insert_styles('', 'options-manager-styles', options_manager_styles)
 
     const handle_option_change = (option_name, option_value) => {
@@ -92,24 +98,24 @@ export const add_options_manager = (
         update_inputs(bracket.getUserOptions())
     }
 
-    const update_inputs = create_inputs(sidebar_el, handle_option_change)
+    const update_inputs = create_inputs(options_manager_wrapper, handle_option_change)
 
     update_inputs(bracket.getUserOptions())
 
-    add_options_search(sidebar_el, toggle_group_expand)
+    add_options_search(options_manager_wrapper, toggle_group_expand)
 
-    sidebar_el.prepend(elements.sidebar_close_button())
+    sidebar_outer_el.prepend(elements.sidebar_close_button())
 
-    document.body.prepend(sidebar_el)
+    document.body.prepend(sidebar_outer_el)
 
     opener_el.addEventListener('click', () => {
-        sidebar_el.style.right = parseInt(getComputedStyle(sidebar_el).right) === 0 ? '-1000px' : '0px'
+        sidebar_outer_el.style.right = parseInt(getComputedStyle(sidebar_outer_el).right) === 0 ? '-1000px' : '0px'
     })
 
     elements.create_tooltip()
 
     return {
-        element: sidebar_el,
+        element: sidebar_outer_el,
         update_inputs
     }
 }

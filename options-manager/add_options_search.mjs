@@ -4,7 +4,7 @@ import { insertAfter } from '../utils.mjs'
 import { create_element_from_Html } from '../utils.mjs'
 
 export const add_options_search = (
-    sidebar_el,
+    options_manager_wrapper,
     toggle_group_expand
 ) => {
 
@@ -16,7 +16,7 @@ export const add_options_search = (
     let selected_find_i = -1
     search_input.addEventListener('input', e => {
         selected_find_i = -1
-        sidebar_el.querySelector('.found-names')?.remove()
+        options_manager_wrapper.querySelector('.found-names')?.remove()
         if (e.target.value.length < 3) return
         found_names = get_all_options_names().filter(n => n.toLowerCase().match(e.target.value.toLowerCase()))
         const found_el = create_element_from_Html(
@@ -35,12 +35,12 @@ export const add_options_search = (
                     .includes(option_name)
             })
         toggle_group_expand(group_name, true)
-        sidebar_el.querySelectorAll(`.single-option-wrapper`)
+        options_manager_wrapper.querySelectorAll(`.single-option-wrapper`)
             .forEach(o => {
                 if (o.getAttribute('option-name') === option_name) {
                     o.classList.add('selected')
                     o.scrollIntoView()
-                    sidebar_el.querySelector('.found-names')?.remove()
+                    options_manager_wrapper.querySelector('.found-names')?.remove()
                     search_input.value = ''
                     search_input.blur()
                     o.querySelector('input, textarea, select')?.focus()
@@ -72,7 +72,7 @@ export const add_options_search = (
         if (e.key === 'Enter') {
             go_to_option(found_names[selected_find_i])
         }
-        sidebar_el.querySelectorAll('.found-name').forEach((el, i) => {
+        options_manager_wrapper.querySelectorAll('.found-name').forEach((el, i) => {
             if (i === selected_find_i) {
                 el.classList.add('selected')
             } else {
@@ -81,11 +81,11 @@ export const add_options_search = (
         })
     })
 
-    sidebar_el.addEventListener('click', e => {
+    options_manager_wrapper.addEventListener('click', e => {
         if (e.target.classList.contains('found-name')) {
             go_to_option(e.target.textContent)
         }
     })
 
-    sidebar_el.prepend(search_input)
+    options_manager_wrapper.prepend(search_input)
 }

@@ -30,7 +30,7 @@ export const options_manager_styles = `
     .options-group-heading {
         background: #00eadd1a;
         font-size: 18px;
-        padding: 8px 20px 8px 10px;
+        padding: 10px;
         font-family: monospace;
         cursor: pointer;
         user-select: none;
@@ -40,7 +40,7 @@ export const options_manager_styles = `
         clear: both;
         color: black;
         text-transform: capitalize;
-        margin: 8px;
+        font-weight: bold;
     }
 
     .options-group-heading span {
@@ -74,7 +74,10 @@ export const options_manager_styles = `
     }
 
     .single-option-wrapper:not(:first-child) {
-        border-top: 1px solid #ccc;
+        border-top: 1px solid #dfdfdf;
+    }
+    .single-option-wrapper:last-child {
+        margin-bottom: 20px;
     }
 
     .option-name {
