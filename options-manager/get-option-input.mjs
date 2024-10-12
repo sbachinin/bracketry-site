@@ -38,7 +38,7 @@ export const get_option_input = (name, info, onchange) => {
 
         case 'function_or_null':
             input = create_element_from_Html(
-                `<i style="color: #929292">Sorry, no input</i>`
+                `<i style="color: #929292">No input</i>`
             )
             update_the_value = () => { }
             break

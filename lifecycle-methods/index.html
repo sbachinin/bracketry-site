@@ -2,10 +2,11 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bracketry - "Lifecycle" methods</title>
+    <base href="/">
+<title>Bracketry - "Lifecycle" methods</title>
     <meta name="description" content="Bracketry.js: A list of handy methods returned by createBracket function, ways to enhance navigation, change the data and options at runtime">
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .nav-function {
@@ -33,9 +34,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -51,23 +52,23 @@
 
 
     <h1>Lifecycle methods</h1>
-    <p>These are the members of an object returned from <a href="../create-bracket"><b>createBracket()</b></a>:</p>
+    <p>These are the members of an object returned from <a href="create-bracket"><b>createBracket()</b></a>:</p>
     <ul>
-        <li><a class="nav-function" href="#moveToPreviousRound">moveToPreviousRound</a></li>
-        <li><a class="nav-function" href="#moveToNextRound">moveToNextRound</a></li>
-        <li><a class="nav-function" href="#moveToLastRound">moveToLastRound</a></li>
-        <li><a class="nav-function" href="#setBaseRoundIndex">setBaseRoundIndex</a></li>
-        <li><a class="nav-function" href="#getNavigationState">getNavigationState</a></li>
+        <li><a class="nav-function" href="lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></li>
+        <li><a class="nav-function" href="lifecycle-methods#moveToNextRound">moveToNextRound</a></li>
+        <li><a class="nav-function" href="lifecycle-methods#moveToLastRound">moveToLastRound</a></li>
+        <li><a class="nav-function" href="lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></li>
+        <li><a class="nav-function" href="lifecycle-methods#getNavigationState">getNavigationState</a></li>
         <br>
-        <li><a class="data-function" href="#replaceData">replaceData</a></li>
-        <li><a class="data-function" href="#applyMatchesUpdates">applyMatchesUpdates</a></li>
-        <li><a class="data-function" href="#getAllData">getAllData</a></li>
+        <li><a class="data-function" href="lifecycle-methods#replaceData">replaceData</a></li>
+        <li><a class="data-function" href="lifecycle-methods#applyMatchesUpdates">applyMatchesUpdates</a></li>
+        <li><a class="data-function" href="lifecycle-methods#getAllData">getAllData</a></li>
         <br>
-        <li><a class="options-function" href="#applyNewOptions">applyNewOptions</a></li>
-        <li><a class="options-function" href="#getUserOptions">getUserOptions</a></li>
+        <li><a class="options-function" href="lifecycle-methods#applyNewOptions">applyNewOptions</a></li>
+        <li><a class="options-function" href="lifecycle-methods#getUserOptions">getUserOptions</a></li>
         <br>
-        <li><a href="#highlightContestantHistory">highlightContestantHistory</a></li>
-        <li><a href="#uninstall">uninstall</a></li>
+        <li><a href="lifecycle-methods#highlightContestantHistory">highlightContestantHistory</a></li>
+        <li><a href="lifecycle-methods#uninstall">uninstall</a></li>
     </ul>
 
     <br><br>
@@ -91,7 +92,7 @@ bracket.setBaseRoundIndex(2)</code></pre>
     <p>
         Calling this method will increment the <b>base round index</b>.
         <img>
-        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        You may need it when you implement <a href="external-navigation">your own navigation</a> mechanism instead of
         a default one.
     </p>
     <br><br>
@@ -111,7 +112,7 @@ bracket.setBaseRoundIndex(2)</code></pre>
     <p>
         Calling this method will decrement the <b>base round index</b>.
         <img>
-        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        You may need it when you implement <a href="external-navigation">your own navigation</a> mechanism instead of
         a default one.
     </p>
     <br><br>
@@ -131,7 +132,7 @@ bracket.setBaseRoundIndex(2)</code></pre>
     <p>
         Calling this method will set the <b>base round index</b> to a maximum possible number.
         <img>
-        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        You may need it when you implement <a href="external-navigation">your own navigation</a> mechanism instead of
         a default one.
     </p>
     <br><br>
@@ -158,7 +159,7 @@ bracket.setBaseRoundIndex(2)</code></pre>
         <img>
         This number can be fractional if you like.
         <img>
-        You may need it when you implement <a href="../external-navigation">your own navigation</a> mechanism instead of
+        You may need it when you implement <a href="external-navigation">your own navigation</a> mechanism instead of
         a default one.
         <img>
         You can also use this method to show <b>Nth round</b> at the very beginning (the last contentful round perhaps.
@@ -209,7 +210,7 @@ bracket.setBaseRoundIndex(4)</code></pre>
     <div class="heading-4">Parameters</div>
     <ul>
         <li>
-            <div class="parameter">data</div> - all tournament data of the same <a href="../data-shape">format</a> as
+            <div class="parameter">data</div> - all tournament data of the same <a href="data-shape">format</a> as
             the data passed to createBracket()
         </li>
     </ul>
@@ -219,7 +220,7 @@ bracket.setBaseRoundIndex(4)</code></pre>
         This method replaces the old data entirely. It's NOT a merge of old and new.
         <img>
         If you need to update not the entire tournament but individual matches, then you probably need <a
-            href="#applyMatchesUpdates">applyMatchesUpdates</a> method instead of replaceData.
+            href="lifecycle-methods#applyMatchesUpdates">applyMatchesUpdates</a> method instead of replaceData.
     </p>
     <br><br>
     <hr>
@@ -238,7 +239,7 @@ bracket.setBaseRoundIndex(4)</code></pre>
         </li>
         <p style="margin-top: 0">An array of matches that you want to update.
             <img>
-            Every such match must be a complete <a href="../data-shape">Match</a> object because an old match (that with
+            Every such match must be a complete <a href="data-shape">Match</a> object because an old match (that with
             the same roundIndex and matchOrder) will be <b>replaced</b> by a new match data, i.e. it's NOT a merge of
             old and new.
         </p>
@@ -246,7 +247,7 @@ bracket.setBaseRoundIndex(4)</code></pre>
     <div class="heading-4">Return value</div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;undefined
     <p>
-        See this method in action <a href="../live-updates">here</a>
+        See this method in action <a href="live-updates">here</a>
     </p>
     <br><br>
     <hr>
@@ -262,7 +263,7 @@ bracket.setBaseRoundIndex(4)</code></pre>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No parameters
     <div class="heading-4">Return value</div>
     <p style="margin-top: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An object containing all the tournament <a
-            href="../data-shape">data</a> which was previously provided to createBracket() or replaceData()</p>
+            href="data-shape">data</a> which was previously provided to createBracket() or replaceData()</p>
     <br><br>
     <hr>
 
@@ -366,7 +367,7 @@ bracket.applyNewOptions({ visibleRoundsCount: 1 })</code></pre>
         Calling uninstall() in such cases will help release some precious memory.
         <img>
         Though in most cases the best decision will be NOT to install another bracket into the same wrapper. If you
-        need to switch to another tournament, better use <a href="#replaceData">replaceData()</a>.
+        need to switch to another tournament, better use <a href="lifecycle-methods#replaceData">replaceData()</a>.
     </p>
     <br><br>
 

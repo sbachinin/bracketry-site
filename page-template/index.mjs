@@ -1,6 +1,6 @@
 import { createBracket } from '../bracketry.min.js'
 import data from '../test_data/finished-singles-2021.js'
-import { add_options_manager } from '../options-manager/options-manager.mjs'
+// import { add_options_manager } from '../options-manager/options-manager.mjs'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
 const bracket = createBracket(
@@ -19,9 +19,9 @@ const bracket = createBracket(
     }
 )
 
-const options_manager = add_options_manager(
-    document.querySelector('.options-manager-opener'),
-    bracket
-)
+// const options_manager = add_options_manager(
+//     document.querySelector('.options-manager-opener'),
+//     bracket
+// )
 
-adjust_options_on_resize(bracket, options_manager)
+// adjust_options_on_resize(bracket, options_manager)

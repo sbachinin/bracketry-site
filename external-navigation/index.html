@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry -"External" navigation</title>
     <meta name="description" content="Bracketry.js: How to replace the default navigation with your own buttons that switch between rounds">
 
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="external-navigation/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .nav-functions a {
@@ -58,9 +59,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -83,11 +84,11 @@
         help you implement your own navigation mechanism:
     </p>
     <ul class="nav-functions" style="font-size: 18px; margin-top: 0">
-        <li><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a>()</li>
-        <li><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a>()</li>
-        <li><a href="../lifecycle-methods#moveToLastRound">moveToLastRound</a>()</li>
-        <li><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a>( index )</li>
-        <li><a href="../lifecycle-methods#getNavigationState">getNavigationState</a>()</li>
+        <li><a href="lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a>()</li>
+        <li><a href="lifecycle-methods#moveToNextRound">moveToNextRound</a>()</li>
+        <li><a href="lifecycle-methods#moveToLastRound">moveToLastRound</a>()</li>
+        <li><a href="lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a>( index )</li>
+        <li><a href="lifecycle-methods#getNavigationState">getNavigationState</a>()</li>
     </ul>
     <br>
 
@@ -100,21 +101,21 @@
             to adjust some of the navigation-related options:
         </p>
         <ul>
-            <li><a href="../options#navButtonsPosition">navButtonsPosition</a></li> (Set it to "<b>hidden</b>" in case
+            <li><a href="options#navButtonsPosition">navButtonsPosition</a></li> (Set it to "<b>hidden</b>" in case
             you want to replace the default nav buttons completely)
-            <li><a href="../options#navButtonsTopDistance">navButtonsTopDistance</a></li>
-            <li><a href="../options#navButtonArrowSize">navButtonArrowSize</a></li>
-            <li><a href="../options#navButtonSvgColor">navButtonSvgColor</a></li>
-            <li><a href="../options#leftNavButtonHTML">leftNavButtonHTML</a></li>
-            <li><a href="../options#rightNavButtonHTML">rightNavButtonHTML</a></li>
-            <li><a href="../options#navGutterBorderColor">navGutterBorderColor</a></li>
-            <li><a href="../options#resetScrollOnNavigation">resetScrollOnNavigation</a></li>
+            <li><a href="options#navButtonsTopDistance">navButtonsTopDistance</a></li>
+            <li><a href="options#navButtonArrowSize">navButtonArrowSize</a></li>
+            <li><a href="options#navButtonSvgColor">navButtonSvgColor</a></li>
+            <li><a href="options#leftNavButtonHTML">leftNavButtonHTML</a></li>
+            <li><a href="options#rightNavButtonHTML">rightNavButtonHTML</a></li>
+            <li><a href="options#navGutterBorderColor">navGutterBorderColor</a></li>
+            <li><a href="options#resetScrollOnNavigation">resetScrollOnNavigation</a></li>
         </ul>
         <br>
         You may also want to define how much rounds will be visible at a time using these options:
         <ul>
-            <li><a href="../options#visibleRoundsCount">visibleRoundsCount</a></li>
-            <li><a href="../options#displayWholeRounds">displayWholeRounds</a></li>
+            <li><a href="options#visibleRoundsCount">visibleRoundsCount</a></li>
+            <li><a href="options#displayWholeRounds">displayWholeRounds</a></li>
         </ul>
     </div> <!-- END NOTE -->
 
@@ -133,8 +134,8 @@
     <div class="common-bracket-wrapper first"></div>
     <br>
 
-    <p>Example above utilizes <b><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></b> and
-        <b><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a></b> methods.
+    <p>Example above utilizes <b><a href="lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></b> and
+        <b><a href="lifecycle-methods#moveToNextRound">moveToNextRound</a></b> methods.
         <br>
         Built-in navigation buttons are hidden by setting <b>navButtonsPosition</b> option to "hidden":
     </p>
@@ -194,8 +195,8 @@ document.querySelector('.button-next').addEventListener('click', () => {
     <div class="common-bracket-wrapper second"></div>
     <br>
 
-    <p>Here <b><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></b> and <b><a
-                href="../lifecycle-methods#moveToLastRound">moveToLastRound</a></b> methods are also used:</p>
+    <p>Here <b><a href="lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></b> and <b><a
+                href="lifecycle-methods#moveToLastRound">moveToLastRound</a></b> methods are also used:</p>
 
     <pre><code class="language-javascript">...
 
@@ -223,7 +224,7 @@ document.querySelector('.button-2').addEventListener('click', () => {
         efficiently). And it depends on how many rounds are visible at a time. That is, <i>fully</i> visible.<br />
         If you have 3 rounds visible, then maximum index is: data.rounds.length - 3. <br />
         You can get maximum base round index from <a
-            href="../lifecycle-methods#getNavigationState">getNavigationState().maxBaseRoundIndex.</a> <br />
+            href="lifecycle-methods#getNavigationState">getNavigationState().maxBaseRoundIndex.</a> <br />
         The amount of buttons then will be <b>maxBaseRoundIndex + 1</b>. </p>
     <p>
         In the example above a number of buttons depends on how many rounds were visible at the moment of page load.
@@ -257,7 +258,7 @@ document.querySelector('.button-2').addEventListener('click', () => {
 
     <p>To highlight /
         enable /
-        disable the buttons you will surely need some properties from <b><a href="../lifecycle-methods#getNavigationState">getNavigationState</a></b>
+        disable the buttons you will surely need some properties from <b><a href="lifecycle-methods#getNavigationState">getNavigationState</a></b>
         <img>
     </p>
 

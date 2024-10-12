@@ -75,7 +75,7 @@ const get_options_group = ([options_group_name, options_of_group], i) => {
             <div class="explanation-cell">${
                     escapeHtml(extra?.explanation || '')
                 }${
-                    extra.image === true ? `<img src="./${name}.png">` : ''
+                    extra.image === true ? `<img src="options/${name}.png">` : ''
                 }${
                     extra?.more_link ? `<a class="more-link" href=${extra.more_link}>${
                         extra.more_link_text || 'More'

@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bracketry - Small screens</title>
+    <base href="/">
+<title>Bracketry - Small screens</title>
     <meta name="description" content="Bracketry.js: How to build truly Responsive Tournament Brackets with a layout that adjusts to any screen sizes">
 
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="mobile/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .wr {
@@ -55,9 +56,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -74,7 +75,7 @@
     <h1>Layout for small screens</h1>
 
     <p>
-        Here's how you can tweak the Bracketry <a href="../options">options</a> for mobile devices.
+        Here's how you can tweak the Bracketry <a href="options">options</a> for mobile devices.
     </p>
 
 
@@ -94,20 +95,20 @@
             <ul>
                 <li>
                     navigation buttons are placed "before round titles" to release some width (<a
-                        href="../adjust-nav-buttons">navButtonsPosition</a>)
+                        href="adjust-nav-buttons">navButtonsPosition</a>)
                 </li>
                 <li>
-                    only 1 round is displayed (via <a href="../options#visibleRoundsCount">visibleRoundsCount</a>)
+                    only 1 round is displayed (via <a href="options#visibleRoundsCount">visibleRoundsCount</a>)
                 </li>
                 <li>
-                    scroll with buttons click/tap is enabled (<a href="../scroll-modes">verticalScrollMode</a>)
+                    scroll with buttons click/tap is enabled (<a href="scroll-modes">verticalScrollMode</a>)
                 </li>
                 <li>
-                    entry status column is hidden (<a href="../inject-markup#getEntryStatusHTML">getEntryStatusHTML</a>)
+                    entry status column is hidden (<a href="inject-markup#getEntryStatusHTML">getEntryStatusHTML</a>)
                 </li>
                 <li>
                     contestant's tournament path is not highlighted on click (<a
-                        href="../highlight-history">disableHighlight</a>) (because anyway we see only 1 round)
+                        href="highlight-history">disableHighlight</a>) (because anyway we see only 1 round)
                 </li>
             </ul>
 
@@ -162,9 +163,9 @@ const bracket = createBracket(your_data, your_wrapper_element, options)</code></
     </p>
     <p>
         <big><b>B.</b></big> If you need more responsiveness, use <b><a
-                href="../lifecycle-methods/#applyNewOptions">applyNewOptions</a></b> method to
+                href="lifecycle-methods/#applyNewOptions">applyNewOptions</a></b> method to
         adjust the options whenever necessary.
-        In this scenario <b><a href="../lifecycle-methods/#getUserOptions">getUserOptions</a></b> can also be useful.
+        In this scenario <b><a href="lifecycle-methods/#getUserOptions">getUserOptions</a></b> can also be useful.
     </p>
 
 

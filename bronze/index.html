@@ -2,11 +2,12 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - Third place match</title>
     <meta name="description" content="Bracketry.js: how to display a bronze match - how to add it to your data and adjust its appearance">
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="bronze/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .common-bracket-wrapper {
@@ -21,9 +22,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -91,7 +92,7 @@ createBracket(data, wrapper)</code></pre>
     <p>
         By default a title "3RD PLACE" is added to a "bronze" match to differentiate it from a final match.
         <br>
-        You can <b>override</b> this using <a href="../inject-markup#getMatchTopHTML">getMatchTopHTML</a> option.
+        You can <b>override</b> this using <a href="inject-markup#getMatchTopHTML">getMatchTopHTML</a> option.
         <br>
         If you don't want a title at all, return an empty string from this function.
         <br>

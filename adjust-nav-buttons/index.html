@@ -2,11 +2,12 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - How to adjust navigation buttons</title>
     <meta name="description" content="Bracketry.js: how to adjust the position and the icons of navigation buttons that switch between rounds">
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="adjust-nav-buttons/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .heading-4 {
@@ -31,9 +32,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -68,7 +69,7 @@ createBracket(data, wrapper, options)</code></pre>
         The default one. Stretches the buttons along the left and right edges of the matches area.
         <img>Width of the matches area is reduced by the width of the buttons.
         <img>You can adjust the border-color of the gutters using <a
-            href="../options#navGutterBorderColor">navGutterBorderColor</a> option
+            href="options#navGutterBorderColor">navGutterBorderColor</a> option
     </p>
 
     <div class="wr1"></div>
@@ -83,7 +84,7 @@ createBracket(data, wrapper, options)</code></pre>
         Clickable area of the button in this case is only the small area around the button's icon.
         <img>
         You can adjust a vertical position of this icon using <a
-            href="../options#navButtonsTopDistance"><b>navButtonsTopDistance</b></a> option.
+            href="options#navButtonsTopDistance"><b>navButtonsTopDistance</b></a> option.
     </p>
 
     <div class="wr2"></div>
@@ -95,7 +96,7 @@ createBracket(data, wrapper, options)</code></pre>
     <p>
         Buttons appear at the very top, pushing the round titles down.
         <img>You can adjust the color of the top buttons area using <a
-            href="../options#navGutterBorderColor">navGutterBorderColor</a> option
+            href="options#navGutterBorderColor">navGutterBorderColor</a> option
     </p>
     <div class="wr3"></div>
 
@@ -115,7 +116,7 @@ createBracket(data, wrapper, options)</code></pre>
     <div class="heading-4">e) "hidden"</div>
     <p>
         They are hidden. Makes sense if you want to replace the default buttons with some "<a
-            href="../external-navigation">external</a>" ones. (Otherwise there will be no way to navigate).
+            href="external-navigation">external</a>" ones. (Otherwise there will be no way to navigate).
     </p>
 
 
@@ -165,7 +166,7 @@ createBracket(data, wrapper, options)</code></pre>
 
     <h2>You can replace the built-in buttons with any "external" stuff</h2>
     <p>
-        There are several <big><b><a href="../external-navigation">methods</a></b></big> that allow you to "manually"
+        There are several <big><b><a href="external-navigation">methods</a></b></big> that allow you to "manually"
         navigate between rounds. So you can navigate in response to any events on a page.
         <img>
         I.e. you can render your own buttons anywhere on a page and use them for navigation instead of (or in addition

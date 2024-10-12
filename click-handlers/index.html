@@ -2,11 +2,12 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - Match / Side click handlers</title>
     <meta name="description" content="Bracketry.js: How to set custom behaviour in response to clicks on a Match or one of its sides">
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="click-handlers/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .wr1,
@@ -45,9 +46,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -76,7 +77,7 @@
     <div class="heading-4">Parameters</div>
     <ul>
         <li>
-            <div class="parameter">match</div> - an object containing <a href="../data-shape">data</a> of a match that
+            <div class="parameter">match</div> - an object containing <a href="data-shape">data</a> of a match that
             was clicked
         </li>
     </ul>
@@ -98,12 +99,12 @@ createBracket(data, wrapper_element, options)</code></pre>
         If you provide onMatchClick, a border will be drawn around a match under cursor. Width of this border will be
         determined by <b>connectionLinesWidth</b> option, color of this border - <b>hoveredMatchBorderColor</b>.
         <img>
-        If you provide onMatchClick, it will automatically "<b><a href="../highlight-history">disable
+        If you provide onMatchClick, it will automatically "<b><a href="highlight-history">disable
                 highlight</a></b>": contestant's tournament path will not be highlighted on click (as if
         "disableHighlight" option was set to true).
         <img>
         Another (but surely more laborious) way to get a custom click behaviour is via <b><a
-                href="../inject-markup#getMatchElement">getMatchElement</a></b> option. You can attach whatever handlers
+                href="inject-markup#getMatchElement">getMatchElement</a></b> option. You can attach whatever handlers
         you like to an Element returned from this function.
     </p>
 
@@ -113,7 +114,7 @@ createBracket(data, wrapper_element, options)</code></pre>
     <div class="heading-4">Parameters</div>
     <ul>
         <li>
-            <div class="parameter">match</div> - an object containing <a href="../data-shape">data</a> of a match whose
+            <div class="parameter">match</div> - an object containing <a href="data-shape">data</a> of a match whose
             side was clicked
         </li>
         <li>
@@ -147,11 +148,11 @@ createBracket(data, wrapper_element, options)</code></pre>
 
     <p>
         Though if you only need a link to some URL, <b><a
-                href="../inject-markup#getPlayerTitleHTML">getPlayerTitleHTML</a></b> can be a better option. You can use it for example
+                href="inject-markup#getPlayerTitleHTML">getPlayerTitleHTML</a></b> can be a better option. You can use it for example
         to insert an &lt;a&gt; tag instead of a plain title.
         <img>
 
-        If you provide onMatchSideClick, it will automatically "<b><a href="../highlight-history">disable
+        If you provide onMatchSideClick, it will automatically "<b><a href="highlight-history">disable
                 highlight</a></b>": contestant's tournament path will not be highlighted on click (as if
         "disableHighlight" option was set to true).
         <br><br>

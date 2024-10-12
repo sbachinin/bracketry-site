@@ -20,7 +20,7 @@ export const options_extra_meta = {
         disable_if: options => {
             return options.verticalScrollMode // disable anyway because it's not updatable
         },
-        more_link: '../scroll-modes'
+        more_link: 'scroll-modes'
     },
 
     scrollButtonsPosition: {
@@ -30,7 +30,7 @@ Possible values:
     - "gutters": above and below the matches, squeezing the matches' container.
     - "overMatches": above and below the matches, not squeezing the matches' container but put on top of it`,
         disable_if: o => { if (scroll_buttons_are_hidden(o)) return '' },
-        more_link: '../adjust-scroll-buttons#position'
+        more_link: 'adjust-scroll-buttons#position'
     },
 
     scrollButtonArrowSize: {
@@ -54,13 +54,13 @@ This amount is a number of pixels covered by this "synthetic scroll" per one but
     scrollUpButtonHTML: {
         title: 'Inner HTML of UP scroll button (<svg> / <img> / whatever)',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-scroll-buttons#icons',
+        more_link: 'adjust-scroll-buttons#icons',
         disable_if: o => { if (scroll_buttons_are_hidden(o)) return '' }
     },
     scrollDownButtonHTML: {
         title: 'Inner HTML of DOWN scroll button (<svg> / <img> / whatever)',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-scroll-buttons#icons',
+        more_link: 'adjust-scroll-buttons#icons',
         disable_if: o => { if (scroll_buttons_are_hidden(o)) return '' }
     },
 
@@ -79,7 +79,7 @@ Example usage: set this to "100%" if you want the content to stretch to the full
     height: {
         title: `Bracket's total height`,
         explanation: `In most other cases a default value of "100%" will be the most adequate choice. But make sure to set explicit width and height on your wrapper element in which you install bracketry. This will prevent height from jumping after bracket's installation.`,
-        more_link: '../create-bracket#problem-of-height'
+        more_link: 'create-bracket#problem-of-height'
     },
 
     rootBorderColor: {
@@ -157,7 +157,7 @@ When this options is set to "" (empty string), "rootBorderColor" option will be 
 Automatic means a natural width of a widest match (if not adjusted by "displayWholeRounds" option).
 This options may be useful if you want to make bracket "responsive", i.e. to respond to changing viewport size. On mobile screen it makes sense to set visibleRoundsCount to 1.
 Fractional visibleRoundsCount is possible (but do you need it? 🚽)`,
-        more_link: `../rounds-count`
+        more_link: `rounds-count`
     },
 
     displayWholeRounds: {
@@ -171,13 +171,13 @@ displayWholeRounds is not applied if "visibleRoundsCount" option is set to somet
                 return true
             }
         },
-        more_link: `../rounds-count`
+        more_link: `rounds-count`
     },
 
     useClassicalLayout: {
         title: 'Use classical layout',
         explanation: `When set to true, it instructs bracketry to preserve the original vertical margins between matches when navigating between rounds.`,
-        more_link: `../options#useClassicalLayout-more`
+        more_link: `options#useClassicalLayout-more`
     },
 
     showScrollbar: {
@@ -217,7 +217,7 @@ getRoundTitleElement will be called with:
     2) index of a round which is being rendered (0-based).
 
 Whatever you return from this function will be injected into the round titles bar.`,
-        more_link: '../inject-markup#getRoundTitleElement'
+        more_link: 'inject-markup#getRoundTitleElement'
     },
 
     roundTitlesVerticalPadding: {
@@ -243,7 +243,7 @@ Whatever you return from this function will be injected into the round titles ba
 "beforeTitles": header (before round titles)
 "overTitles": header (on top of round titles)
 "hidden": hidden`,
-        more_link: '../adjust-nav-buttons#position'
+        more_link: 'adjust-nav-buttons#position'
     },
 
     navButtonsTopDistance: {
@@ -280,7 +280,7 @@ Can be specified in any CSS units`,
     leftNavButtonHTML: {
         title: 'Inner HTML of LEFT navigation button',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-nav-buttons#icons',
+        more_link: 'adjust-nav-buttons#icons',
         disable_if: o => {
             if (o.navButtonsPosition === 'hidden') {
                 return ''
@@ -290,7 +290,7 @@ Can be specified in any CSS units`,
     rightNavButtonHTML: {
         title: 'Inner HTML of RIGHT navigation button (<svg> / <img> / whatever)',
         explanation: `This HTML string must be wrapped in a tag (<svg> / <img> / <div> / any).`,
-        more_link: '../adjust-nav-buttons#icons',
+        more_link: 'adjust-nav-buttons#icons',
         disable_if: o => {
             if (o.navButtonsPosition === 'hidden') {
                 return ''
@@ -330,7 +330,7 @@ getMatchElement will be called with 3 args:
     2) match order (index of a match within a round) (0-based)
 
 If you want to prevent a given match from being rendered, return null from getMatchElement()`,
-        more_link: '../inject-markup#getMatchElement'
+        more_link: 'inject-markup#getMatchElement'
     },
 
     getNationalityHTML: {
@@ -344,7 +344,7 @@ getNationalityHTML will be called with:
         - matchOrder
         - contestantId
         - playerIndex`,
-        more_link: '../inject-markup#getNationalityHTML'
+        more_link: 'inject-markup#getNationalityHTML'
 
     },
 
@@ -358,7 +358,7 @@ getEntryStatusHTML will be called with:
             - roundIndex
             - matchOrder
             - contestantId`,
-        more_link: '../inject-markup#getEntryStatusHTML'
+        more_link: 'inject-markup#getEntryStatusHTML'
 
     },
 
@@ -373,7 +373,7 @@ getPlayerTitleHTML will be called with:
             - matchOrder
             - contestantId
             - playerIndex`,
-        more_link: '../inject-markup#getPlayerTitleHTML'
+        more_link: 'inject-markup#getPlayerTitleHTML'
 
     },
 
@@ -391,13 +391,13 @@ getScoresHTML is called with:
     getMatchTopHTML: {
         title: 'Match top HTML getter',
         explanation: `A string returned from getMatchTopHTML will be rendered above a match`,
-        more_link: '../inject-markup#getMatchTopHTML'
+        more_link: 'inject-markup#getMatchTopHTML'
     },
 
     getMatchBottomHTML: {
         title: 'Match bottom HTML getter',
         explanation: `A string returned from getMatchBottomHTML will be rendered underneath a match`,
-        more_link: '../inject-markup#getMatchBottomHTML'
+        more_link: 'inject-markup#getMatchBottomHTML'
     },
 
 
@@ -413,7 +413,7 @@ A reasonable matchMaxWidth may help for example if you use visibleRoundsCount or
         title: 'Minimal vertical distance between matches',
         explanation: `Minimal distance means a distance between matches of the leftmost visible round when the visible height isn't enough to contain all matches of this round`,
         image: true,
-        more_link: '../options#useClassicalLayout-more'
+        more_link: 'options#useClassicalLayout-more'
     },
 
     matchHorMargin: {
@@ -437,7 +437,7 @@ A reasonable matchMaxWidth may help for example if you use visibleRoundsCount or
     liveMatchBgColor: {
         title: 'Live match background color',
         explanation: `Better provide a semi-transparent color because it's painted on top of the connection line. Therefore connection line will disappear behind the live background if the latter is opaque.`,
-        more_link: '../live-match',
+        more_link: 'live-match',
         more_link_text: 'More about live matches'
     },
 
@@ -500,12 +500,12 @@ A reasonable matchMaxWidth may help for example if you use visibleRoundsCount or
     onMatchClick: {
         title: 'What happens when a user clicks a match',
         explanation: `Here you can provide a function that will be called when user clicks on a match.`,
-        more_link: `../click-handlers#onMatchClick`
+        more_link: `click-handlers#onMatchClick`
     },
 
     onMatchSideClick: {
         title: 'What happens when a user clicks a side of a match',
         explanation: `Here you can provide a function that will be called when user clicks on a side of a match.`,
-        more_link: `../click-handlers#onMatchSideClick`
+        more_link: `click-handlers#onMatchSideClick`
     }
 }

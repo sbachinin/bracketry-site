@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - How to replace all data</title>
     <meta name="description" content="How to switch to a different tournament using replaceData method in Bracketry.js">
 
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="change-tournament/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .data-picker {
@@ -42,9 +43,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -72,14 +73,14 @@
 
     <h2>replaceData()</h2>
     <p>
-        It's one of the functions returned from <a href="../create-bracket">createBracket()</a>
+        It's one of the functions returned from <a href="create-bracket">createBracket()</a>
         <img>
         Calling this method is almost identical to installing bracket (calling createBracket) into the same wrapper element.
     </p>
     
     <div class="heading-4">Parameters</div>
         <ul><li>
-            <b>Data</b>: <a href="../data-shape">full data</a> of a tournament
+            <b>Data</b>: <a href="data-shape">full data</a> of a tournament
         </li></ul>
     <div class="heading-4">Return value</div>
         &nbsp;&nbsp;&nbsp;&nbsp;undefined
@@ -99,7 +100,7 @@ bracket.replaceData(someNewData)
 
 <br>
 <p>
-    If you want to update individual matches (e.g., only some scores), replaceData will NOT be the best idea. Use <a href="../live-updates">applyMatchesUpdates</a> instead.
+    If you want to update individual matches (e.g., only some scores), replaceData will NOT be the best idea. Use <a href="live-updates">applyMatchesUpdates</a> instead.
 </p>
 
 

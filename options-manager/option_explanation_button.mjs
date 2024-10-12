@@ -12,7 +12,7 @@ export const option_explanation_button = (option_name) => {
         const tooltip = document.querySelector('#option-input-tooltip')
         tooltip.style.display = 'block'
         tooltip.querySelector('div').innerHTML = escapeHtml(extra.explanation)
-            + (extra.image === true ? `<img src="../options/${option_name}.png">` : '')
+            + (extra.image === true ? `<img src="options/${option_name}.png">` : '')
             + (
                 extra?.more_link
                     ? `<a class="more-link" href=${extra.more_link}>${extra.more_link_text || 'More'}</a>`

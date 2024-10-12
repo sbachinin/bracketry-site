@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - createBracket()</title>
-    <script defer type="module" src="./index.mjs"></script>
+    <script defer type="module" src="create-bracket/index.mjs"></script>
     <meta name="description" content="Bracketry.js: How to call the createBracket method and what's inside the returned object">
     
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
 
@@ -18,9 +19,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -49,7 +50,7 @@ const lifecycle_methods = createBracket(data, wrapper, options)</code></pre>
     <h2>Parameters</h2>
     <ul>
         <li>
-            <b>Data</b> (required): a data of <a href="../data-shape">certain shape</a> that describes rounds and
+            <b>Data</b> (required): a data of <a href="data-shape">certain shape</a> that describes rounds and
             matches
         </li>
         <li>
@@ -57,26 +58,26 @@ const lifecycle_methods = createBracket(data, wrapper, options)</code></pre>
             installed.
         </li>
         <li>
-            <a href="../options"><b>Options</b></a> (optional)
+            <a href="options"><b>Options</b></a> (optional)
         </li>
     </ul>
     <h2>Return value</h2>
     <ul>
         <li>
-            An object containing <a href="../lifecycle-methods">lifecycle methods</a>:
+            An object containing <a href="lifecycle-methods">lifecycle methods</a>:
             <ul>
-                <li><a href="../lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></li>
-                <li><a href="../lifecycle-methods#moveToNextRound">moveToNextRound</a></li>
-                <li><a href="../lifecycle-methods#moveToLastRound">moveToLastRound</a></li>
-                <li><a href="../lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></li>
-                <li><a href="../lifecycle-methods#getNavigationState">getNavigationState</a></li>
-                <li><a href="../lifecycle-methods#applyNewOptions">applyNewOptions</a></li>
-                <li><a href="../lifecycle-methods#getUserOptions">getUserOptions</a></li>
-                <li><a href="../lifecycle-methods#replaceData">replaceData</a></li>
-                <li><a href="../lifecycle-methods#applyMatchesUpdates">applyMatchesUpdates</a></li>
-                <li><a href="../lifecycle-methods#getAllData">getAllData</a></li>
-                <li><a href="../lifecycle-methods#highlightContestantHistory">highlightContestantHistory</a></li>
-                <li><a href="../lifecycle-methods#uninstall">uninstall</a></li>
+                <li><a href="lifecycle-methods#moveToPreviousRound">moveToPreviousRound</a></li>
+                <li><a href="lifecycle-methods#moveToNextRound">moveToNextRound</a></li>
+                <li><a href="lifecycle-methods#moveToLastRound">moveToLastRound</a></li>
+                <li><a href="lifecycle-methods#setBaseRoundIndex">setBaseRoundIndex</a></li>
+                <li><a href="lifecycle-methods#getNavigationState">getNavigationState</a></li>
+                <li><a href="lifecycle-methods#applyNewOptions">applyNewOptions</a></li>
+                <li><a href="lifecycle-methods#getUserOptions">getUserOptions</a></li>
+                <li><a href="lifecycle-methods#replaceData">replaceData</a></li>
+                <li><a href="lifecycle-methods#applyMatchesUpdates">applyMatchesUpdates</a></li>
+                <li><a href="lifecycle-methods#getAllData">getAllData</a></li>
+                <li><a href="lifecycle-methods#highlightContestantHistory">highlightContestantHistory</a></li>
+                <li><a href="lifecycle-methods#uninstall">uninstall</a></li>
             </ul>
         </li>
     </ul>
@@ -87,8 +88,8 @@ const lifecycle_methods = createBracket(data, wrapper, options)</code></pre>
         You may install as much brackets on your page as you like.
         <img> It's also possible to call createBracket() with the same wrapper element twice, in such case a new instance will be
         installed in place of an old one. Though doing so makes little sense. If you need to <a
-            href="../change-tournament">switch to another tournament</a>, better use <a
-            href="../lifecycle-methods#replaceData">replaceData</a> method instead of calling createBracket() again.
+            href="change-tournament">switch to another tournament</a>, better use <a
+            href="lifecycle-methods#replaceData">replaceData</a> method instead of calling createBracket() again.
     </p>
 
 
@@ -104,7 +105,7 @@ const lifecycle_methods = createBracket(data, wrapper, options)</code></pre>
         <img>
         If this is what you need, mind one little problem: "full height" is <b>volatile</b>, i.e. it changes when you navigate to later rounds (it gets <i>twice shorter</i> with every next round in order to use vertical space more efficiently). And it means that all content <i>after</i> bracket will be pushed back and forth.
         <img>
-        So if you really want "full height", make sure to set <b><a href="../options#useClassicalLayout-more">useClassicalLayout</a></b> option to true. It will instruct bracketry not to change height on navigation.
+        So if you really want "full height", make sure to set <b><a href="options#useClassicalLayout-more">useClassicalLayout</a></b> option to true. It will instruct bracketry not to change height on navigation.
     </p>
     <img>
 

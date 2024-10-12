@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - How to fix the number of visible rounds</title>
     <meta name="description" content="Bracketry.js - how to show a specific number of rounds and how to show only whole number of rounds, without a partly visible round protruding on the right">
 
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="rounds-count/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .wr1 {
@@ -27,9 +28,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -67,7 +68,7 @@
         Setting a reasonable <b>matchMaxWidth</b> may be a good idea in case you set a fairly small visibleRoundsCount. Otherwise
         matches <b>may become too wide</b>.
         <img>
-        It's advisable to set visibleRoundsCount to 1 when you address narrow <b><a href="../mobile">mobile
+        It's advisable to set visibleRoundsCount to 1 when you address narrow <b><a href="mobile">mobile
                 screens</a></b>.
     </p>
 
@@ -110,7 +111,7 @@ createBracket(data, wrapper, options)</code></pre>
         disappears.
         <img>
         Setting displayWholeRounds to true is another solution for creating a decent <b><a
-                href="../mobile">mobile</a></b> experience.
+                href="mobile">mobile</a></b> experience.
         <img>
         Setting a reasonable <b>matchMaxWidth</b> may be a good idea to avoid unduly wide matches.
         <img>

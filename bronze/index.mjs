@@ -1,5 +1,4 @@
 import { createBracket } from '../bracketry.min.js'
-import { add_options_manager } from '../options-manager/options-manager.mjs'
 import { adjust_options_on_resize } from '../options/adjust_options_on_resize.mjs'
 
 const data = {

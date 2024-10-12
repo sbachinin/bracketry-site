@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - Vertical scroll modes</title>
     <meta name="description" content="Bracketry.js - how to choose between different scroll modes: native scroll, scroll using buttons and both at once">
 
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="scroll-modes/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .heading-4 {
@@ -29,9 +30,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -78,9 +79,9 @@ createBracket(data, wrapper, options)</code></pre>
         "Up" and "down" buttons appear above and below the matches.
         <img>
         Clicking these buttons will scroll the content by a number of pixels defined by <a
-            href="../options#buttonScrollAmount">buttonScrollAmount</a> option.
+            href="options#buttonScrollAmount">buttonScrollAmount</a> option.
         <img>
-        Buttons will be positioned according to <a href="../options#scrollButtonsPosition">scrollButtonsPosition</a>.
+        Buttons will be positioned according to <a href="options#scrollButtonsPosition">scrollButtonsPosition</a>.
     </p>
     <div class="wr2"></div>
 
@@ -100,7 +101,7 @@ createBracket(data, wrapper, options)</code></pre>
     <br>
 
     <h2>Buttons are flexible</h2>
-    <p>There are <a href="../adjust-scroll-buttons">several options</a> to adjust buttons' position, size etc.</p>
+    <p>There are <a href="adjust-scroll-buttons">several options</a> to adjust buttons' position, size etc.</p>
 
     <h2>verticalScrollMode is not updatable</h2>
     <p>This option can only be set on initialization of bracketry. It will be <i>ignored</i> when passed to applyNewOptions method.</p>

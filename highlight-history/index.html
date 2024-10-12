@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - How to (un)highlight team's history</title>
     <meta name="description" content="Bracketry.js: How to highlight a specific team and its tournament path. How to change highlight styles and how to disable the highlighting">
 
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="highlight-history/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .wr1 {
@@ -20,9 +21,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -50,14 +51,14 @@
         For this set "<b>disableHighlight</b>" option to true.
         <img>
         This may be useful for instance if you want to make the players' titles behave like links to players' profiles.
-        (See <b><a href="../inject-markup#getPlayerTitleHTML">getPlayerTitleHTML</a></b> option).
+        (See <b><a href="inject-markup#getPlayerTitleHTML">getPlayerTitleHTML</a></b> option).
     </p>
 
     <br>
 
     <div class="heading-4">It is auto-disabled when custom match (or side) click handlers is provided</div>
     <p>
-        See <b><a href="../click-handlers">onMatchClick and onMatchSideCLick</a></b>
+        See <b><a href="click-handlers">onMatchClick and onMatchSideCLick</a></b>
     </p>
 
     <br>
@@ -65,7 +66,7 @@
 
     <div class="heading-4">You can highlight programmatically</div>
     <p>
-        <b><a href="../lifecycle-methods#highlightContestantHistory">highlightContestantHistory</a></b> lifecycle method
+        <b><a href="lifecycle-methods#highlightContestantHistory">highlightContestantHistory</a></b> lifecycle method
         is responsible for this.
     </p>
 

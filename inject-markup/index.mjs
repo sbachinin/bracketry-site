@@ -39,7 +39,7 @@ const bracket2 = createBracket(
             el.style.display = "flex"
             el.style.alignItems = "center"
             el.style.fontSize = "50px"
-            el.innerHTML = `${roundIndex} ${matchOrder} &nbsp; <img style="width: 150px" src="./matches.jpg">`
+            el.innerHTML = `${roundIndex} ${matchOrder} &nbsp; <img style="width: 150px" src="inject-markup/matches.jpg">`
             return el
         }
     }

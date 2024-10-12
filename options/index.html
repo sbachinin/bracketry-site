@@ -2,12 +2,14 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
     <title>Bracketry - Options</title>
     <meta name="description" content="Bracketry.js: Full list of options, how to set them after initialization. How to disable layout adjustment on navigation via useClassicalLayout option">
 
-    <script defer type="module" src="./options.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <base href="/">
+    <script defer type="module" src="options/options.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .options-table {
@@ -94,9 +96,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -176,7 +178,7 @@ applyNewOptions({
     <p>When set to true, it instructs bracketry to preserve the original vertical margins between matches when
         navigating
         between rounds.
-        <img src="./useClassicalLayout.png">
+        <img src="options/useClassicalLayout.png">
         <img>
         <img>
         By default bracketry tries to be smart and display matches in a <b>most condensed</b> way. For that it reduces
@@ -192,7 +194,7 @@ applyNewOptions({
         <img>
         useClassicalLayout might be useful if you want to render bracket with <b>'auto' (full) height</b>.
         In such case you should set NO height on your wrapper element and set useClassicalLayout to true. Read more <a
-            href="../create-bracket#problem-of-height">here</a>.
+            href="create-bracket#problem-of-height">here</a>.
     </p>
 
 

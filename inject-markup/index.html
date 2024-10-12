@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bracketry - How to inject custom markup</title>
+    <base href="/">
+<title>Bracketry - How to inject custom markup</title>
     <meta name="description" content="Bracketry.js: How to insert your custom HTML markup into almost anywhere inside the bracket: getMatchElement, getNationalityHTML etc">
 
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="inject-markup/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         .side-info-item.entry-status .estatus {
@@ -42,9 +43,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -92,7 +93,7 @@ createBracket(your_data, your_wrapper, options)</code></pre>
     <br>
     <br>
 
-    <img src="./inject-markup.png">
+    <img src="inject-markup/inject-markup.png">
 
     <br>
     <br>
@@ -102,7 +103,7 @@ createBracket(your_data, your_wrapper, options)</code></pre>
     <div class="heading-4">Parameters</div>
     <ul>
         <li>
-            <div class="parameter">roundData</div> - an object containing <a href="../data-shape">data</a> of a round
+            <div class="parameter">roundData</div> - an object containing <a href="data-shape">data</a> of a round
         </li>
         <li>
             <div class="parameter">roundIndex</div> - 0-based index of a round
@@ -117,7 +118,7 @@ createBracket(your_data, your_wrapper, options)</code></pre>
     <p>
 
         getRoundTitleElement will be called for each round specified in your data (which was passed to <a
-            href="../create-bracket">createBracket</a>).
+            href="create-bracket">createBracket</a>).
         <img>
         getRoundTitleElement will be called with a data of a given round as the first parameter. Although by design a
         Round has only a "name" property, you are not limited to that. All <b>extra properties</b> of a Round object
@@ -395,7 +396,7 @@ createBracket(your_data, your_wrapper, options)</code></pre>
         &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be rendered above a match
     </p>
     <p>
-        Make sure that you have enough vertical space between the matches. Use <a href="../options#matchMinVerticalGap">matchMinVerticalGap</a> option for that.
+        Make sure that you have enough vertical space between the matches. Use <a href="options#matchMinVerticalGap">matchMinVerticalGap</a> option for that.
     </p>
     <br><br>
     <hr>
@@ -421,7 +422,7 @@ createBracket(your_data, your_wrapper, options)</code></pre>
         &nbsp;&nbsp;&nbsp;&nbsp;HTML string or just a string of text which will be rendered underneath a match
     </p>
     <p>
-        Make sure that you have enough vertical space between the matches. Use <a href="../options#matchMinVerticalGap">matchMinVerticalGap</a> option for that.
+        Make sure that you have enough vertical space between the matches. Use <a href="options#matchMinVerticalGap">matchMinVerticalGap</a> option for that.
     </p>
     <br><br>
     <hr>

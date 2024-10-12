@@ -2,12 +2,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bracketry - How to apply live updates</title>
+    <base href="/">
+<title>Bracketry - How to apply live updates</title>
     <meta name="description" content="Bracketry.js: How to use applyMatchesUpdates to update specific matches in realtime">
     
-    <script defer type="module" src="./index.mjs"></script>
-    <link rel="stylesheet" href="../styles/atom-one-light.min.css">
-    <link rel="stylesheet" href="../styles/common-styles.css">
+    <script defer type="module" src="live-updates/index.mjs"></script>
+    <link rel="stylesheet" href="styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="styles/common-styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
     <style>
         
@@ -18,9 +19,9 @@
 <body>
 
     <header>
-        <img class="logo" src="../images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <div class="title">
-            <a href="../">
+            <a href="/">
                 bracketry<span class="subtitle">js</span>
             </a>
         </div>
@@ -42,7 +43,7 @@
 
     <h2>applyMatchesUpdates()</h2>
     <p>
-        It's one of the functions returned from <a href="../create-bracket">createBracket()</a>
+        It's one of the functions returned from <a href="create-bracket">createBracket()</a>
         <img>
         You can call it to add / remove / update any number of matches.
     </p>
@@ -82,7 +83,7 @@ bracket.applyMatchesUpdates([
 
 <br>
 <p>
-    If you want to update not individual matches but the entire data (switch to a different tournament perhaps), then use <a href="../change-tournament">replaceData()</a> method
+    If you want to update not individual matches but the entire data (switch to a different tournament perhaps), then use <a href="change-tournament">replaceData()</a> method
 </p>
 
 
