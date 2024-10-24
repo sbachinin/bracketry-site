@@ -294,9 +294,12 @@ contestants: {
         To avoid rendering nonexistent Semifinal and Final rounds set skippedLastRoundsCount to 2:
     </p>
     <pre><code class="language-javascript">const data = {
-    rounds: [ {}, {} ],
+    rounds: [ {}, {}, {} ],
     skippedLastRoundsCount: 2
 }</code></pre>
+    <p>
+        The above code will result in rendering 3 rounds - 1/16, 1/8, QF
+    </p>
     <div class="wr2" style="height: 410px"></div>
 
 

@@ -32,7 +32,7 @@ example_data_el.addEventListener('click', (e) => {
 
 createBracket(
     {
-        rounds: [{}, {}],
+        rounds: [{}, {}, {}],
         skippedLastRoundsCount: 2
     },
     document.querySelector('.wr2')
